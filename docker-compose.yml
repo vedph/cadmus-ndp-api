@@ -50,8 +50,7 @@ services:
     image: vedph2020/cadmus-ndp-api:0.0.1
     container_name: cadmus-ndp-api
     ports:
-      # TODO: set your port replacing 5052
-      - 5052:8080
+      - 5172:8080
     depends_on:
       - cadmus-ndp-mongo
       - cadmus-ndp-pgsql

@@ -1,28 +1,31 @@
+using Cadmus.Api.Config;
+using Cadmus.Api.Config.Services;
+using Cadmus.Api.Controllers;
 using Cadmus.Api.Services;
 using Cadmus.Api.Services.Seeding;
 using Cadmus.Core;
-using Fusi.Api.Auth.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
-using System.Diagnostics;
 using Cadmus.Core.Config;
 using Cadmus.Seed;
+using CadmusNdpApi.Services;
+using Fusi.Api.Auth.Models;
 using Fusi.Api.Auth.Services;
-using System.Text.Json;
-using Serilog.Events;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.HttpOverrides;
-using Scalar.AspNetCore;
-using Cadmus.Api.Controllers;
-using System;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Configuration;
+using Mufi.Core;
+using Mufi.LiteDB;
+using Scalar.AspNetCore;
+using Serilog;
+using Serilog.Events;
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Cadmus.Api.Config.Services;
-using Cadmus.Api.Config;
-using CadmusNdpApi.Services;
 
 namespace CadmusNdpApi;
 
@@ -59,6 +62,17 @@ public static class Program
 
         // previewer
         services.AddSingleton(p => ServiceConfigurator.GetPreviewer(p, config));
+
+        // MUFI
+        services.AddSingleton<IMufiRepository>(_ =>
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            return new LiteDBMufiRepository(
+                new MufiRepositoryOptions
+                {
+                    Source = Path.Combine(path, "mufi.db")
+                });
+        });
     }
 
     /// <summary>
