@@ -1,0 +1,1091 @@
+{
+  "facets": [
+    {
+      "id": "fragment",
+      "label": "fragment",
+      "description": "The manuscript fragment facet",
+      "colorKey": "86ACEB",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Item's metadata.",
+          "colorKey": "F8C0C0",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.codicology.shelfmarks",
+          "name": "shelfmarks",
+          "description": "Fragment's shelfmark(s).",
+          "isRequired": true,
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Pin-based links.",
+          "colorKey": "A0C0F8",
+          "groupKey": "identity",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "Date/time indications.",
+          "colorKey": "F887C8",
+          "groupKey": "history",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "C898C8",
+          "groupKey": "history",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "hist",
+          "name": "history",
+          "description": "Fragment's history.",
+          "colorKey": "B0A0F8",
+          "groupKey": "history",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "82B0AD",
+          "groupKey": "references",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.ndp.cod-fr-quire-labels",
+          "name": "quire labels",
+          "description": "Quire's labels'.",
+          "colorKey": "82B0AD",
+          "groupKey": "material",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.decorated-counts",
+          "name": "counts",
+          "description": "Various counts.",
+          "colorKey": "B1E0EA",
+          "groupKey": "material",
+          "sortKey": "09"
+        },
+        {
+          "typeId": "it.vedph.physical-measurements",
+          "name": "measurements",
+          "description": "Physical measurements.",
+          "colorKey": "C180EA",
+          "groupKey": "material",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.physical-states",
+          "name": "states",
+          "description": "Physical preservation states.",
+          "colorKey": "C880E4",
+          "groupKey": "material",
+          "sortKey": "11"
+        },
+        {
+          "typeId": "it.vedph.ndp.cod-fr-rulings",
+          "name": "rulings",
+          "description": "Fragment's rulings.",
+          "colorKey": "82B0AD",
+          "groupKey": "material",
+          "sortKey": "12"
+        },
+        {
+          "typeId": "it.vedph.codicology.contents",
+          "name": "contents",
+          "description": "Contents: text.",
+          "colorKey": "508B5E",
+          "groupKey": "content",
+          "sortKey": "13"
+        },
+        {
+          "typeId": "it.vedph.codicology.hands",
+          "name": "hands",
+          "description": "Hands.",
+          "colorKey": "72EAF7",
+          "groupKey": "content",
+          "sortKey": "14"
+        },
+        {
+          "typeId": "it.vedph.codicology.edits",
+          "name": "edits",
+          "description": "Supplementary edits on text.",
+          "colorKey": "E72A8E",
+          "groupKey": "content",
+          "sortKey": "15"
+        },
+        {
+          "typeId": "it.vedph.ndp.cod-fr-quire-labels",
+          "roleId": "sig",
+          "name": "signature labels",
+          "description": "Signature labels'.",
+          "colorKey": "82B0AD",
+          "groupKey": "material",
+          "sortKey": "16"
+        },
+        {
+          "typeId": "it.vedph.ndp.cod-fr-quire-labels",
+          "roleId": "catch",
+          "name": "catchwords",
+          "description": "Catchwords.",
+          "colorKey": "82B0AD",
+          "groupKey": "material",
+          "sortKey": "17"
+        },
+        {
+          "typeId": "it.vedph.codicology.decorations",
+          "name": "decorations",
+          "description": "Decorations.",
+          "colorKey": "F5C2B1",
+          "groupKey": "content",
+          "sortKey": "18"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": 1,
+      "label": "draft",
+      "description": "The item is a draft.",
+      "colorKey": "D4A5A5"
+    },
+    {
+      "id": 2,
+      "label": "complete",
+      "description": "The item is complete.",
+      "colorKey": "F0B880"
+    },
+    {
+      "id": 4,
+      "label": "revised",
+      "description": "The item has been revised.",
+      "colorKey": "60CF60"
+    },
+    {
+      "id": 8,
+      "label": "template",
+      "description": "The item is a template.",
+      "colorKey": "C0C0C0"
+    }
+  ],
+  "index": {
+    "writer": {
+      "id": "item-index-writer.ef-pg"
+    },
+    "reader": {
+      "id": "item-index-reader.ef-pg"
+    }
+  },
+  "graph": {
+    "repository": {
+      "id": "graph-repository.ef-pg"
+    }
+  },
+  "browsers": [
+    {
+      "id": "it.vedph.item-browser.mongo.hierarchy"
+    }
+  ],
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.decorated-counts",
+          "value": "counts"
+        },
+        {
+          "id": "it.vedph.chronotopes",
+          "value": "chronotopes"
+        },
+        {
+          "id": "it.vedph.ext-bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "it.vedph.historical-events",
+          "value": "events"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
+          "id": "it.vedph.note:hist",
+          "value": "history"
+        },
+        {
+          "id": "it.vedph.pin-links",
+          "value": "links"
+        },
+        {
+          "id": "it.vedph.codicology.contents",
+          "value": "contents"
+        },
+        {
+          "id": "it.vedph.codicology.decorations",
+          "value": "decorations"
+        },
+        {
+          "id": "it.vedph.codicology.edits",
+          "value": "edits"
+        },
+        {
+          "id": "it.vedph.codicology.hands",
+          "value": "hands"
+        },
+        {
+          "id": "it.vedph.codicology.shelfmarks",
+          "value": "shelfmarks"
+        },
+        {
+          "id": "it.vedph.ndp.cod-fr-quire-labels",
+          "value": "quire labels"
+        },
+        {
+          "id": "it.vedph.ndp.cod-fr-quire-labels:catch",
+          "value": "catchwords"
+        },
+        {
+          "id": "it.vedph.ndp.cod-fr-quire-labels:sig",
+          "value": "signature labels"
+        },
+        {
+          "id": "it.vedph.ndp.cod-fr-rulings",
+          "value": "rulings"
+        }
+      ]
+    },
+    {
+      "id": "cod-fr-quire-label-positions@en",
+      "entries": [
+        {
+          "id": "margin-bottom",
+          "value": "margine inferiore"
+        },
+        {
+          "id": "margin-top",
+          "value": "margine superiore"
+        },
+        {
+          "id": "middle",
+          "value": "centro"
+        },
+        {
+          "id": "corner-inner",
+          "value": "angolo interno"
+        },
+        {
+          "id": "corner-outer",
+          "value": "angolo esterno"
+        },
+        {
+          "id": "column-a",
+          "value": "colonna A"
+        },
+        {
+          "id": "column-b",
+          "value": "colonna B"
+        }
+      ]
+    },
+    {
+      "id": "cod-fr-quire-label-types@en",
+      "entries": [
+        {
+          "id": "latn",
+          "value": "alfabeto latino"
+        },
+        {
+          "id": "n-arab",
+          "value": "cifre arabe"
+        },
+        {
+          "id": "n-grek",
+          "value": "cifre greche"
+        },
+        {
+          "id": "n-latn",
+          "value": "cifre romane"
+        },
+        {
+          "id": "symbols",
+          "value": "simboli"
+        },
+        {
+          "id": "decorated",
+          "value": "decorato"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-fr-ruling-features@en",
+      "entries": [
+        {
+          "id": "drypoint",
+          "value": "a secco"
+        },
+        {
+          "id": "plummet",
+          "value": "a mina"
+        },
+        {
+          "id": "ink",
+          "value": "a inchiostro"
+        },
+        {
+          "id": "colored",
+          "value": "a colore"
+        },
+        {
+          "id": "folding",
+          "value": "piegatura"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "undetectable",
+          "value": "non individuabile"
+        }
+      ]
+    },
+    {
+      "id": "cod-fr-support-places@en",
+      "entries": [
+        {
+          "id": "envelope",
+          "value": "busta"
+        },
+        {
+          "id": "host-codex",
+          "value": "codice ospite"
+        },
+        {
+          "id": "artificial-codex",
+          "value": "codice fattizio"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-fr-support-reuse-types@en",
+      "entries": [
+        {
+          "id": "cover",
+          "value": "coperta"
+        },
+        {
+          "id": "flyleave",
+          "value": "guardia"
+        },
+        {
+          "id": "pastedown",
+          "value": "controguardia"
+        },
+        {
+          "id": "spine-lining",
+          "value": "indorsatura"
+        },
+        {
+          "id": "reinforcing-strip",
+          "value": "rinforzo alla piega"
+        },
+        {
+          "id": "cod-waste-materials",
+          "value": "materiale da recupero codicologico"
+        },
+        {
+          "id": "palimpsest",
+          "value": "palinsesto"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "event-types@en",
+      "entries": [
+        {
+          "id": "person.birth",
+          "value": "persona: nascita"
+        },
+        {
+          "id": "person.family",
+          "value": "persona: famiglia"
+        },
+        {
+          "id": "person.death",
+          "value": "persona: morte"
+        },
+        {
+          "id": "person.marriage",
+          "value": "persona: matrimonio"
+        },
+        {
+          "id": "person.job",
+          "value": "persona: professione"
+        },
+        {
+          "id": "person.job.pope",
+          "value": "persona: professione: papa"
+        },
+        {
+          "id": "person.job.cardinal",
+          "value": "persona: professione: cardinale"
+        },
+        {
+          "id": "person.job.bishop",
+          "value": "persona: professione: vescovo"
+        },
+        {
+          "id": "person.job.friar",
+          "value": "persona: professione: frate"
+        },
+        {
+          "id": "person.job.prior",
+          "value": "persona: professione: priore"
+        },
+        {
+          "id": "person.job.canon",
+          "value": "persona: professione: canonico"
+        },
+        {
+          "id": "person.job.king",
+          "value": "persona: professione: sovrano"
+        },
+        {
+          "id": "person.job.politician",
+          "value": "persona: professione: uomo politico"
+        },
+        {
+          "id": "person.job.teacher",
+          "value": "persona: professione: maestro"
+        },
+        {
+          "id": "person.job.lecturer",
+          "value": "persona: professione: lettore"
+        },
+        {
+          "id": "person.job.jurist",
+          "value": "persona: professione: giurista"
+        },
+        {
+          "id": "person.job.diplomatic",
+          "value": "persona: professione: diplomatico"
+        },
+        {
+          "id": "person.job.notary",
+          "value": "persona: professione: notaio"
+        },
+        {
+          "id": "person.job.military",
+          "value": "persona: professione: uomo d'armi"
+        },
+        {
+          "id": "person.job.scribe",
+          "value": "persona: professione: copista"
+        },
+        {
+          "id": "person.job.artist",
+          "value": "persona: professione: artista"
+        },
+        {
+          "id": "person.job.musician",
+          "value": "persona: professione: musico"
+        },
+        {
+          "id": "person.job.apprentice",
+          "value": "persona: professione: apprendista"
+        },
+        {
+          "id": "person.job.counsellor",
+          "value": "persona: professione: consigliere"
+        },
+        {
+          "id": "person.job.chancellor",
+          "value": "persona: professione: cancelliere"
+        },
+        {
+          "id": "person.job.secretary",
+          "value": "persona: professione: segretario"
+        },
+        {
+          "id": "person.job.merchant",
+          "value": "persona: professione: mercante"
+        },
+        {
+          "id": "person.job.banker",
+          "value": "persona: professione: banchiere"
+        },
+        {
+          "id": "person.job.artisan",
+          "value": "persona: professione: artigiano"
+        },
+        {
+          "id": "person.job.servant",
+          "value": "persona: professione: servo"
+        },
+        {
+          "id": "person.job.emperor",
+          "value": "persona: professione: imperatore"
+        },
+        {
+          "id": "person.job.physician",
+          "value": "persona: professione: medico"
+        },
+        {
+          "id": "person.job.duke",
+          "value": "persona: professione: duca"
+        },
+        {
+          "id": "person.job.earl",
+          "value": "persona: professione: conte"
+        },
+        {
+          "id": "person.job.prince",
+          "value": "persona: professione: principe"
+        },
+        {
+          "id": "person.teacher-of",
+          "value": "persona: maestro di"
+        },
+        {
+          "id": "person.disciple-of",
+          "value": "persona: allievo di"
+        },
+        {
+          "id": "person.counsellor-of",
+          "value": "persona: consigliere di"
+        },
+        {
+          "id": "person.secretary-of",
+          "value": "persona: segretario di"
+        },
+        {
+          "id": "person.servant",
+          "value": "persona: servo di"
+        },
+        {
+          "id": "person.at-service-of",
+          "value": "persona: a servizio di"
+        },
+        {
+          "id": "person.protector-of",
+          "value": "persona: protettore di"
+        },
+        {
+          "id": "person.officer",
+          "value": "persona: nomina ad un ufficio"
+        },
+        {
+          "id": "person.title",
+          "value": "persona: titolo"
+        },
+        {
+          "id": "person.appointment",
+          "value": "persona: nomina"
+        },
+        {
+          "id": "person.group",
+          "value": "persona: gruppo"
+        },
+        {
+          "id": "person.meeting",
+          "value": "persona: incontro"
+        },
+        {
+          "id": "person.travel",
+          "value": "persona: viaggio"
+        },
+        {
+          "id": "person.participation",
+          "value": "persona: partecipazione"
+        },
+        {
+          "id": "person.documented",
+          "value": "persona: attestazione"
+        },
+        {
+          "id": "person.send",
+          "value": "persona: invio"
+        },
+        {
+          "id": "person.reception",
+          "value": "persona: ricezione"
+        },
+        {
+          "id": "person.exchange",
+          "value": "persona: scambio diretto"
+        },
+        {
+          "id": "person.transcription",
+          "value": "persona: trascrizione"
+        },
+        {
+          "id": "person.collection",
+          "value": "persona: raccolta di testi petrarcheschi"
+        },
+        {
+          "id": "person.annotation",
+          "value": "persona: postilla"
+        },
+        {
+          "id": "person.handwriting",
+          "value": "persona: scrittura"
+        },
+        {
+          "id": "person.commission",
+          "value": "persona: commissione"
+        },
+        {
+          "id": "person.commissioned",
+          "value": "persona: esecuzione su commissione"
+        },
+        {
+          "id": "person.dedication",
+          "value": "persona: dedica"
+        },
+        {
+          "id": "person.dedicated",
+          "value": "persona: ricezione di dedica"
+        },
+        {
+          "id": "person.possession",
+          "value": "persona: possesso"
+        },
+        {
+          "id": "person.borrowing",
+          "value": "persona: prende in prestito"
+        },
+        {
+          "id": "person.lending",
+          "value": "persona: presta"
+        },
+        {
+          "id": "person.returning",
+          "value": "persona: restituisce"
+        },
+        {
+          "id": "person.obtain-restitution",
+          "value": "persona: ottiene restituzione"
+        },
+        {
+          "id": "person.buying",
+          "value": "persona: acquista"
+        },
+        {
+          "id": "person.selling",
+          "value": "persona: vende"
+        }
+      ]
+    },
+    {
+      "id": "event-relations@en",
+      "entries": [
+        {
+          "id": "person:birth:mother",
+          "value": "persona: nascita: madre"
+        },
+        {
+          "id": "person:birth:father",
+          "value": "persona: nascita: padre"
+        },
+        {
+          "id": "person:family:son",
+          "value": "persona: famiglia: figlio"
+        },
+        {
+          "id": "person:family:daughter",
+          "value": "persona: famiglia: figlia"
+        },
+        {
+          "id": "person:family:brother",
+          "value": "persona: famiglia: fratello"
+        },
+        {
+          "id": "person:family:sister",
+          "value": "persona: famiglia: sorella"
+        },
+        {
+          "id": "person:marriage:husband",
+          "value": "persona: matrimonio: marito"
+        },
+        {
+          "id": "person:marriage:wife",
+          "value": "persona: matrimonio: moglie"
+        },
+        {
+          "id": "person:teacher-of:disciple",
+          "value": "persona: maestro di: allievo"
+        },
+        {
+          "id": "person:disciple-of:teacher",
+          "value": "persona: allievo di: maestro"
+        },
+        {
+          "id": "person:counsellor-of:person",
+          "value": "persona: consigliere di: persona"
+        },
+        {
+          "id": "person:secretary-of:person",
+          "value": "persona: segretario di: persona"
+        },
+        {
+          "id": "person:servant:person",
+          "value": "persona: servo di: persona"
+        },
+        {
+          "id": "person:at-the-service-of:person",
+          "value": "persona: a servizio di: protettore"
+        },
+        {
+          "id": "person:protector-of:person",
+          "value": "persona: protettore di: persona"
+        },
+        {
+          "id": "person:officer:office",
+          "value": "persona: nomina ad un ufficio: ufficio"
+        },
+        {
+          "id": "person:group:member-of",
+          "value": "persona: gruppo: membro di"
+        },
+        {
+          "id": "person:meeting:met",
+          "value": "persona: incontro:persona incontrata"
+        },
+        {
+          "id": "person:meeting:spectator",
+          "value": "persona: incontro: spettatore"
+        },
+        {
+          "id": "person:travel:participant",
+          "value": "persona: viaggio: partecipante"
+        },
+        {
+          "id": "person:participation:participant",
+          "value": "persona: partecipazione: partecipante"
+        },
+        {
+          "id": "person:documented:participant",
+          "value": "persona: attestazione: fonte"
+        },
+        {
+          "id": "person:send:sent",
+          "value": "persona: invio: oggetto inviato"
+        },
+        {
+          "id": "person:send:recipient",
+          "value": "persona: invio: destinatario"
+        },
+        {
+          "id": "person:send:carrier",
+          "value": "persona: invio: latore"
+        },
+        {
+          "id": "person:reception:received",
+          "value": "persona: ricezione: oggetto ricevuto"
+        },
+        {
+          "id": "person:reception:sender",
+          "value": "persona: ricezione: mittente"
+        },
+        {
+          "id": "person:reception:carrier",
+          "value": "persona: ricezione: latore"
+        },
+        {
+          "id": "person:exchange:exchanged",
+          "value": "persona: scambio diretto: oggetto scambiato"
+        },
+        {
+          "id": "person:exchange:recipient",
+          "value": "persona: scambio diretto: destinatario"
+        },
+        {
+          "id": "person:transcription:copy",
+          "value": "persona: trascrizione: copia"
+        },
+        {
+          "id": "person:transcription:text",
+          "value": "persona: trascrizione: antigrafo"
+        },
+        {
+          "id": "person:collection:copy",
+          "value": "persona: raccolta di testi petrarcheschi: manoscritto"
+        },
+        {
+          "id": "person:collection:text",
+          "value": "persona: raccolta di testi petrarcheschi: testo raccolto"
+        },
+        {
+          "id": "person:annotation:ms",
+          "value": "persona: postilla: manoscritto postillato"
+        },
+        {
+          "id": "person:annotation:text",
+          "value": "persona: postilla: testo postillato"
+        },
+        {
+          "id": "person:handwriting:hand",
+          "value": "persona: scrittura: mano"
+        },
+        {
+          "id": "person:commission:manuscript",
+          "value": "persona: commissione: manoscritto"
+        },
+        {
+          "id": "person:commission:maker",
+          "value": "persona: commissione: esecutore"
+        },
+        {
+          "id": "person:commissioned:manuscript",
+          "value": "persona: esecuzione su commissione: manoscritto"
+        },
+        {
+          "id": "person:commissioned:client",
+          "value": "persona: esecuzione su commissione: committente"
+        },
+        {
+          "id": "person:dedication:manuscript",
+          "value": "persona: dedica: manoscritto"
+        },
+        {
+          "id": "person:dedication:text",
+          "value": "persona: dedica: testo"
+        },
+        {
+          "id": "person:dedication:recipient",
+          "value": "persona: dedica: dedicatario"
+        },
+        {
+          "id": "person:dedicated:manuscript",
+          "value": "persona: ricezione di dedica: manoscritto"
+        },
+        {
+          "id": "person:dedicated:text",
+          "value": "persona: ricezione di dedica: testo"
+        },
+        {
+          "id": "person:dedicated:maker",
+          "value": "persona: ricezione di dedica: dedicante"
+        },
+        {
+          "id": "person:possession:manuscript",
+          "value": "persona: possesso: manoscritto"
+        },
+        {
+          "id": "person:borrowing:manuscript",
+          "value": "persona: prende in prestito: manoscritto"
+        },
+        {
+          "id": "person:borrowing:lender",
+          "value": "persona: prende in prestito: presta"
+        },
+        {
+          "id": "person:lending:manuscript",
+          "value": "persona: presta: manoscritto"
+        },
+        {
+          "id": "person:lending:borrower",
+          "value": "persona: presta: prende in prestito"
+        },
+        {
+          "id": "person:returning:manuscript",
+          "value": "persona: restituisce: manoscritto"
+        },
+        {
+          "id": "person:returning:obtain-restitution",
+          "value": "persona: restituisce: ottiene restituzione"
+        },
+        {
+          "id": "person:obtain-restitution:manuscript",
+          "value": "persona: ottiene restituzione: manoscritto"
+        },
+        {
+          "id": "person:obtain-restitution:returning",
+          "value": "persona: ottiene restituzione: restituisce"
+        },
+        {
+          "id": "person:buying:manuscript",
+          "value": "persona: acquista: manoscritto"
+        },
+        {
+          "id": "person:buying:seller",
+          "value": "persona: acquista: venditore"
+        },
+        {
+          "id": "person:selling:manuscript",
+          "value": "persona: vende: manoscritto"
+        },
+        {
+          "id": "person:selling:buyer",
+          "value": "persona: vende: acquirente"
+        }
+      ]
+    },
+    {
+      "id": "metadata-types@en",
+      "entries": [
+        {
+          "id": "boolean",
+          "value": "boolean"
+        },
+        {
+          "id": "number",
+          "value": "number"
+        },
+        {
+          "id": "string",
+          "value": "string"
+        }
+      ]
+    },
+    {
+      "id": "metadata-names@en",
+      "entries": [
+        {
+          "id": "eid",
+          "value": "EID"
+        },
+        {
+          "id": "author",
+          "value": "author"
+        },
+        {
+          "id": "revisor",
+          "value": "revisor"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "mm",
+          "value": "mm"
+        },
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mt",
+          "value": "mt"
+        }
+      ]
+    },
+    {
+      "id": "physical-states@en",
+      "entries": [
+        {
+          "id": "q1",
+          "value": "bad"
+        },
+        {
+          "id": "q2",
+          "value": "good"
+        },
+        {
+          "id": "q3",
+          "value": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "physical-state-features@en",
+      "entries": [
+        {
+          "id": "broken",
+          "value": "broken"
+        },
+        {
+          "id": "scratched",
+          "value": "scratched"
+        },
+        {
+          "id": "dirty",
+          "value": "dirty"
+        }
+      ]
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "users": [ "zeus" ],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.chronotopes"
+      },
+      {
+        "id": "seed.it.vedph.decorated-counts"
+      },
+      {
+        "id": "seed.it.vedph.pin-links"
+      },
+      {
+        "id": "seed.it.vedph.historical-events"
+      },
+      {
+        "id": "seed.it.vedph.ext-bibliography"
+      },
+      {
+        "id": "seed.it.vedph.note",
+        "options": {
+          "tags": [
+            "language",
+            "history",
+            "geography"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.physical-measurements"
+      },
+      {
+        "id": "seed.it.vedph.physical-states"
+      }
+    ],
+    "fragmentSeeders": [
+    ]
+  },
+  "settings": {
+  }
+}
