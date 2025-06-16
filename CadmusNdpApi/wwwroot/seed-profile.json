@@ -1,6 +1,102 @@
 {
   "facets": [
     {
+      "id": "manuscript",
+      "label": "manuscript",
+      "description": "Manuscript.",
+      "colorKey": "A4243B",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "F8C0C0",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.codicology.shelfmarks",
+          "name": "shelfmarks",
+          "description": "Current and historical shelfmarks.",
+          "colorKey": "AF6455",
+          "groupKey": "identity",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.codicology.bindings",
+          "name": "bindings",
+          "description": "Current and historical bindings.",
+          "colorKey": "AF6465",
+          "groupKey": "material",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.codicology.sheet-labels",
+          "name": "sheet labels",
+          "description": "Quires and sheets labels.",
+          "colorKey": "DAA520",
+          "groupKey": "material",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.codicology.material-dsc",
+          "name": "material",
+          "description": "Material description.",
+          "colorKey": "C880C4",
+          "groupKey": "material",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.codicology.watermarks",
+          "name": "watermarks",
+          "description": "Watermarks.",
+          "colorKey": "508B5E",
+          "groupKey": "material",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.codicology.contents",
+          "name": "contents",
+          "description": "Contents: text.",
+          "colorKey": "508B5E",
+          "groupKey": "content",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.codicology.layouts",
+          "name": "layouts",
+          "description": "Text layouts.",
+          "colorKey": "4D5EF7",
+          "groupKey": "content",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.codicology.decorations",
+          "name": "decorations",
+          "description": "Decorations.",
+          "colorKey": "F5C2B1",
+          "groupKey": "content",
+          "sortKey": "09"
+        },
+        {
+          "typeId": "it.vedph.codicology.hands",
+          "name": "hands",
+          "description": "Hands.",
+          "colorKey": "72EAF7",
+          "groupKey": "content",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.codicology.edits",
+          "name": "edits",
+          "description": "Supplementary edits on text.",
+          "colorKey": "E72A8E",
+          "groupKey": "content",
+          "sortKey": "11"
+        }
+      ]
+    },
+    {
       "id": "fragment",
       "label": "fragment",
       "description": "The manuscript fragment facet",
@@ -9,7 +105,7 @@
         {
           "typeId": "it.vedph.metadata",
           "name": "metadata",
-          "description": "Item's metadata.",
+          "description": "Generic metadata.",
           "colorKey": "F8C0C0",
           "groupKey": "identity",
           "sortKey": "01"
@@ -19,7 +115,7 @@
           "name": "shelfmarks",
           "description": "Fragment's shelfmark(s).",
           "isRequired": true,
-          "colorKey": "98F8F8",
+          "colorKey": "AF6455",
           "groupKey": "identity",
           "sortKey": "02"
         },
@@ -238,6 +334,10 @@
           "value": "links"
         },
         {
+          "id": "it.vedph.codicology.bindings",
+          "value": "bindings"
+        },
+        {
           "id": "it.vedph.codicology.contents",
           "value": "contents"
         },
@@ -254,8 +354,24 @@
           "value": "hands"
         },
         {
+          "id": "it.vedph.codicology.layouts",
+          "value": "layouts"
+        },
+        {
+          "id": "it.vedph.codicology.material-dsc",
+          "value": "material"
+        },
+        {
           "id": "it.vedph.codicology.shelfmarks",
           "value": "shelfmarks"
+        },
+        {
+          "id": "it.vedph.codicology.sheet-labels",
+          "value": "sheet labels"
+        },
+        {
+          "id": "it.vedph.codicology.watermarks",
+          "value": "watermarks"
         },
         {
           "id": "it.vedph.ndp.cod-fr-quire-labels",
@@ -272,6 +388,809 @@
         {
           "id": "it.vedph.ndp.cod-fr-rulings",
           "value": "rulings"
+        }
+      ]
+    },
+    {
+      "id": "cod-binding-board-materials@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "wood",
+          "value": "legno"
+        },
+        {
+          "id": "card",
+          "value": "cartone"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-binding-cover-materials@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "skin",
+          "value": "pelle"
+        },
+        {
+          "id": "tanned-skin",
+          "value": "cuoio"
+        },
+        {
+          "id": "parchment",
+          "value": "membrana"
+        },
+        {
+          "id": "velvet",
+          "value": "velluto"
+        },
+        {
+          "id": "textile",
+          "value": "tessuto"
+        },
+        {
+          "id": "paper",
+          "value": "carta"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-binding-tags@en",
+      "entries": [
+        {
+          "id": "current",
+          "value": "attuale"
+        },
+        {
+          "id": "preceding",
+          "value": "precedente"
+        },
+        {
+          "id": "none",
+          "value": "assente"
+        }
+      ]
+    },
+    {
+      "id": "cod-catchwords-positions@en",
+      "entries": [
+        {
+          "id": "mie",
+          "value": "marg.inf.est."
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mii",
+          "value": "marg.inf.int"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-content-annotation-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "rubric",
+          "value": "rubrica"
+        },
+        {
+          "id": "preface",
+          "value": "prefazione"
+        },
+        {
+          "id": "dedication",
+          "value": "dedica"
+        },
+        {
+          "id": "chapter",
+          "value": "capitolo"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-content-states@en",
+      "entries": [
+        {
+          "id": "headless",
+          "value": "acefalo"
+        },
+        {
+          "id": "crippled",
+          "value": "mutilo"
+        },
+        {
+          "id": "gaps",
+          "value": "lacunoso"
+        },
+        {
+          "id": "excerpts",
+          "value": "estratti"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-artist-types@en",
+      "entries": [
+        {
+          "id": "illuminator",
+          "value": "miniatore"
+        },
+        {
+          "id": "workshop",
+          "value": "bottega"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-colors@en",
+      "entries": [
+        {
+          "id": "blue",
+          "value": "blu"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "green",
+          "value": "verde"
+        },
+        {
+          "id": "yellow",
+          "value": "giallo"
+        },
+        {
+          "id": "white",
+          "value": "bianco"
+        },
+        {
+          "id": "purple",
+          "value": "viola"
+        },
+        {
+          "id": "lightblue",
+          "value": "turchese"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-flags@en",
+      "entries": [
+        {
+          "id": "pag-inc.blank",
+          "value": "spazi bianchi"
+        },
+        {
+          "id": "pag-inc.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "pag-inc.ill",
+          "value": "illustrazione"
+        },
+        {
+          "id": "pag-inc.orn",
+          "value": "ornamentazione"
+        },
+        {
+          "id": "pag-inc.ini",
+          "value": "iniziali"
+        },
+        {
+          "id": "ill.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ill.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "orn.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "orn.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "ini-pla.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-pla.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "ini-pla.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-wat.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-wat.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "ini-wat.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-orn.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-orn.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "ini-orn.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-fig.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-fig.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "ini-fig.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "par.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "par.sketch",
+          "value": "bozza"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-gildings@en",
+      "entries": [
+        {
+          "id": "leaf",
+          "value": "foglia"
+        },
+        {
+          "id": "powder",
+          "value": "polvere"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-positions@en",
+      "entries": [
+        {
+          "id": "ill.full-page",
+          "value": "a piena pagina"
+        },
+        {
+          "id": "ill.interpol",
+          "value": "intercalata"
+        },
+        {
+          "id": "ill.intercol",
+          "value": "intercolumnio"
+        },
+        {
+          "id": "ill.margin-e",
+          "value": "margine est."
+        },
+        {
+          "id": "ill.margin-i",
+          "value": "margine int."
+        },
+        {
+          "id": "ill.margin-t",
+          "value": "margine sup."
+        },
+        {
+          "id": "ill.foot",
+          "value": "margine inf."
+        },
+        {
+          "id": "ill.other",
+          "value": "altro"
+        },
+        {
+          "id": "ini-pla.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-pla.inside",
+          "value": "annegata"
+        },
+        {
+          "id": "ini-pla.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-wat.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-wat.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-wat.inside",
+          "value": "annegata"
+        },
+        {
+          "id": "ini-orn.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-orn.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-orn.inside",
+          "value": "annegata"
+        },
+        {
+          "id": "ini-fig.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-fig.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-fig.inside",
+          "value": "annegata"
+        },
+        {
+          "id": "orn.-",
+          "value": ""
+        },
+        {
+          "id": "par.-",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-techniques@en",
+      "entries": [
+        {
+          "id": "watercolor",
+          "value": "acquerello"
+        },
+        {
+          "id": "gouache",
+          "value": "tempera"
+        },
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-tools@en",
+      "entries": [
+        {
+          "id": "pen",
+          "value": "penna"
+        },
+        {
+          "id": "brush",
+          "value": "pennello"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-types@en",
+      "entries": [
+        {
+          "id": "pag-inc",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ill",
+          "value": "illustrazione"
+        },
+        {
+          "id": "orn",
+          "value": "ornamentazione"
+        },
+        {
+          "id": "ini-pla",
+          "value": "iniziali - semplici"
+        },
+        {
+          "id": "ini-wat",
+          "value": "iniziali - filigranate"
+        },
+        {
+          "id": "ini-orn",
+          "value": "iniziali - ornate"
+        },
+        {
+          "id": "ini-fig",
+          "value": "iniziali istoriate"
+        },
+        {
+          "id": "par",
+          "value": "paragrafematici"
+        },
+        {
+          "id": "wsp",
+          "value": "spazi bianchi"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-element-typologies@en",
+      "entries": [
+        {
+          "id": "ill.miniature",
+          "value": "miniatura"
+        },
+        {
+          "id": "ill.drawing",
+          "value": "disegno"
+        },
+        {
+          "id": "ill.tabular",
+          "value": "tabellare"
+        },
+        {
+          "id": "ill.papyrus",
+          "value": "papyrus style"
+        },
+        {
+          "id": "orn.frieze-fig",
+          "value": "fregio con figura"
+        },
+        {
+          "id": "orn.frieze-orn",
+          "value": "fregio ornato"
+        },
+        {
+          "id": "orn.coat",
+          "value": "stemma"
+        },
+        {
+          "id": "orn.tab",
+          "value": "tabula ansata"
+        },
+        {
+          "id": "orn.other",
+          "value": "altro"
+        },
+        {
+          "id": "ini-orn.zoomrp",
+          "value": "zoomorfa"
+        },
+        {
+          "id": "ini-orn.phytomrp",
+          "value": "fitomorfa"
+        },
+        {
+          "id": "ini-orn.anthropomrp",
+          "value": "antropomorfa"
+        },
+        {
+          "id": "ini-orn.prism",
+          "value": "prismatica"
+        },
+        {
+          "id": "ini-orn.tendrils",
+          "value": "bianchi girari"
+        },
+        {
+          "id": "ini-orn.kaleidoscopic",
+          "value": "caleidoscopica"
+        },
+        {
+          "id": "ini-orn.geometric",
+          "value": "geometrica"
+        },
+        {
+          "id": "ini-orn.other",
+          "value": "altro"
+        },
+        {
+          "id": "par.run-heads",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "par.rubrication",
+          "value": "rubricatura"
+        },
+        {
+          "id": "par.paragraph",
+          "value": "segni di paragrafo"
+        },
+        {
+          "id": "par.cartulation",
+          "value": "cartulazione"
+        },
+        {
+          "id": "par.other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-flags@en",
+      "entries": [
+        {
+          "id": "not-original",
+          "value": "non originale"
+        },
+        {
+          "id": "incomplete",
+          "value": "incompleta"
+        }
+      ]
+    },
+    {
+      "id": "cod-decoration-type-hidden@en",
+      "entries": [
+        {
+          "id": "pag-inc",
+          "value": "typologies positions lineHeight"
+        },
+        {
+          "id": "ill",
+          "value": "lineHeight"
+        },
+        {
+          "id": "orn",
+          "value": "subject textRelation lineHeight"
+        },
+        {
+          "id": "ini-pla",
+          "value": "typologies subject textRelation"
+        },
+        {
+          "id": "ini-wat",
+          "value": "typologies subject textRelation"
+        },
+        {
+          "id": "ini-orn",
+          "value": "textRelation"
+        },
+        {
+          "id": "ini-fig",
+          "value": "typologies"
+        },
+        {
+          "id": "par",
+          "value": "subject textRelation lineHeight"
+        },
+        {
+          "id": "wsp",
+          "value": "colors gildings typologies techniques subject textRelation tools lineHeight"
+        }
+      ]
+    },
+    {
+      "id": "cod-edit-colors@en",
+      "entries": [
+        {
+          "id": "dark-brown",
+          "value": "bruno scuro"
+        },
+        {
+          "id": "lite-brown",
+          "value": "bruno chiaro"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "blue",
+          "value": "blu"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-edit-languages@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "eng",
+          "value": "inglese"
+        },
+        {
+          "id": "fre",
+          "value": "francese"
+        },
+        {
+          "id": "deu",
+          "value": "tedesco"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "gre",
+          "value": "neogreco"
+        },
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "lat-vlg",
+          "value": "latino+volgare"
+        },
+        {
+          "id": "spa",
+          "value": "spagnolo"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-edit-techniques@en",
+      "entries": [
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "lapis",
+          "value": "lapis"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-edit-types@en",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo avventizio"
+        },
+        {
+          "id": "notes",
+          "value": "postille/annotazioni"
+        },
+        {
+          "id": "comment",
+          "value": "commento"
+        },
+        {
+          "id": "correction",
+          "value": "correzioni"
+        },
+        {
+          "id": "integration",
+          "value": "integrazione"
+        },
+        {
+          "id": "rubric",
+          "value": "rubriche"
+        },
+        {
+          "id": "para",
+          "value": "segni paragrafematici"
+        },
+        {
+          "id": "title",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "attention",
+          "value": "segni di attenzione"
+        },
+        {
+          "id": "ownership",
+          "value": "nota di possesso"
+        },
+        {
+          "id": "index",
+          "value": "indici"
+        },
+        {
+          "id": "drawing",
+          "value": "disegno"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-endleaf-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "membr."
+        },
+        {
+          "id": "paper",
+          "value": "cart."
+        }
+      ]
+    },
+    {
+      "id": "cod-endleaf-types@en",
+      "entries": [
+        {
+          "id": "front",
+          "value": "ant."
+        },
+        {
+          "id": "back",
+          "value": "post."
         }
       ]
     },
@@ -429,6 +1348,458 @@
         {
           "id": "other",
           "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-colors@en",
+      "entries": [
+        {
+          "id": "dark-brown",
+          "value": "bruno scuro"
+        },
+        {
+          "id": "lite-brown",
+          "value": "bruno chiaro"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "blue",
+          "value": "blu"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-scripts@en",
+      "entries": [
+        {
+          "id": "got",
+          "value": "gotica"
+        },
+        {
+          "id": "sgt",
+          "value": "semigotica"
+        },
+        {
+          "id": "mic",
+          "value": "minuscola canc."
+        },
+        {
+          "id": "mea",
+          "value": "mercantesca a."
+        },
+        {
+          "id": "crh",
+          "value": "corsiva um."
+        },
+        {
+          "id": "ant",
+          "value": "antiqua"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-sign-types@en",
+      "entries": [
+        {
+          "id": "letter",
+          "value": "lettera"
+        },
+        {
+          "id": "punct",
+          "value": "interpunzione"
+        },
+        {
+          "id": "abbr",
+          "value": "abbreviazione"
+        },
+        {
+          "id": "nex",
+          "value": "nesso"
+        },
+        {
+          "id": "ligature",
+          "value": "legamento"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-subscription-languages@en",
+      "entries": [
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "lat-vlg",
+          "value": "latino+volgare"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-typologies@en",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo"
+        },
+        {
+          "id": "note",
+          "value": "postille"
+        },
+        {
+          "id": "comment",
+          "value": "commento"
+        },
+        {
+          "id": "correction",
+          "value": "correzioni"
+        },
+        {
+          "id": "integration",
+          "value": "integrazione"
+        },
+        {
+          "id": "rubric",
+          "value": "rubriche"
+        },
+        {
+          "id": "para",
+          "value": "segni paragrafematici"
+        },
+        {
+          "id": "title",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "attention",
+          "value": "segni di attenzione"
+        },
+        {
+          "id": "index",
+          "value": "indici"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-layout-ruling-techniques@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "dry",
+          "value": "a secco"
+        },
+        {
+          "id": "color",
+          "value": "a colore"
+        },
+        {
+          "id": "mine",
+          "value": "a mina di piombo"
+        },
+        {
+          "id": "ink",
+          "value": "a inchiostro"
+        },
+        {
+          "id": "fold",
+          "value": "per piegatura"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-colors@en",
+      "entries": [
+        {
+          "id": "dark-brown",
+          "value": "bruno scuro"
+        },
+        {
+          "id": "lite-brown",
+          "value": "bruno chiaro"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-positions@en",
+      "entries": [
+        {
+          "id": "mse",
+          "value": "marg.sup.est."
+        },
+        {
+          "id": "msc",
+          "value": "marg.sup.cen."
+        },
+        {
+          "id": "msi",
+          "value": "marg.sup.int."
+        },
+        {
+          "id": "mie",
+          "value": "marg.inf.est."
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mii",
+          "value": "marg.inf.int."
+        },
+        {
+          "id": "is",
+          "value": "intercol.sup."
+        },
+        {
+          "id": "ii",
+          "value": "intercol.inf."
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-systems@en",
+      "entries": [
+        {
+          "id": "arabic",
+          "value": "arabo"
+        },
+        {
+          "id": "roman",
+          "value": "romano"
+        },
+        {
+          "id": "roman-arabic",
+          "value": "romano+arabo"
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-techniques@en",
+      "entries": [
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "lapis",
+          "value": "lapis"
+        },
+        {
+          "id": "mechanic",
+          "value": "n. meccanico"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-quiresig-positions@en",
+      "entries": [
+        {
+          "id": "mse",
+          "value": "marg.sup.est."
+        },
+        {
+          "id": "msc",
+          "value": "marg.sup.cen."
+        },
+        {
+          "id": "msi",
+          "value": "marg.sup.int."
+        },
+        {
+          "id": "mie",
+          "value": "marg.inf.est."
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mii",
+          "value": "marg.inf.int."
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-quiresig-systems@en",
+      "entries": [
+        {
+          "id": "arabic",
+          "value": "arabo"
+        },
+        {
+          "id": "roman",
+          "value": "romano"
+        },
+        {
+          "id": "alpha",
+          "value": "alfabetico"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-shelfmark-tags@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "previous",
+          "value": "prec."
+        }
+      ]
+    },
+    {
+      "id": "cod-unit-formats@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "infolio",
+          "value": "in-folio"
+        },
+        {
+          "id": "in4",
+          "value": "in-4°"
+        },
+        {
+          "id": "in8",
+          "value": "in-8°"
+        },
+        {
+          "id": "in16",
+          "value": "in-16°"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-unit-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "membr."
+        },
+        {
+          "id": "paper",
+          "value": "cart."
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "cod-unit-states@en",
+      "entries": [
+        {
+          "id": "s1",
+          "value": "ottimo"
+        },
+        {
+          "id": "s2",
+          "value": "buono"
+        },
+        {
+          "id": "s3",
+          "value": "discreto"
+        },
+        {
+          "id": "s4",
+          "value": "precario"
+        },
+        {
+          "id": "s5",
+          "value": "pessimo"
         }
       ]
     },
@@ -955,6 +2326,56 @@
       ]
     },
     {
+      "id": "ext-biblio-author-roles@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "curatore"
+        },
+        {
+          "id": "tr",
+          "value": "traduttore"
+        },
+        {
+          "id": "coll",
+          "value": "collaboratore"
+        },
+        {
+          "id": "dir",
+          "value": "direttore"
+        },
+        {
+          "id": "org",
+          "value": "organizzazione"
+        },
+        {
+          "id": "with",
+          "value": "con"
+        }
+      ]
+    },
+    {
+      "id": "ext-biblio-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "ext-biblio-work-tags@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "ed",
+          "value": "edizioni"
+        },
+        {
+          "id": "study",
+          "value": "studi"
+        }
+      ]
+    },
+    {
       "id": "metadata-types@en",
       "entries": [
         {
@@ -1053,6 +2474,33 @@
       },
       {
         "id": "seed.it.vedph.chronotopes"
+      },
+      {
+        "id": "seed.it.vedph.codicology.contents"
+      },
+      {
+        "id": "seed.it.vedph.codicology.decorations"
+      },
+      {
+        "id": "seed.it.vedph.codicology.edits"
+      },
+      {
+        "id": "seed.it.vedph.codicology.hands"
+      },
+      {
+        "id": "seed.it.vedph.codicology.layouts"
+      },
+      {
+        "id": "seed.it.vedph.codicology.material-dsc"
+      },
+      {
+        "id": "seed.it.vedph.codicology.sheet-labels"
+      },
+      {
+        "id": "seed.it.vedph.codicology.shelfmarks"
+      },
+      {
+        "id": "seed.it.vedph.codicology.watermarks"
       },
       {
         "id": "seed.it.vedph.decorated-counts"
