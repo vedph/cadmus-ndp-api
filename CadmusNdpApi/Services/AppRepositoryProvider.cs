@@ -7,6 +7,7 @@ using Cadmus.Core.Storage;
 using Cadmus.Epigraphy.Parts;
 using Cadmus.General.Parts;
 using Cadmus.Mongo;
+using Cadmus.NdpFrac.Parts;
 using Cadmus.Philology.Parts;
 
 namespace CadmusNdpApi.Services;
@@ -34,7 +35,6 @@ public sealed class AppRepositoryProvider : IRepositoryProvider
         TagAttributeToTypeMap _map = new();
         _map.Add(
         [
-            // TODO: add/remove assemblies as required for your app
             // Cadmus.General.Parts
             typeof(NotePart).GetTypeInfo().Assembly,
             // Cadmus.Philology.Parts
@@ -43,6 +43,8 @@ public sealed class AppRepositoryProvider : IRepositoryProvider
             typeof(CodShelfmarksPart).GetTypeInfo().Assembly,
             // Cadmus.Epigraphy.Parts
             typeof(EpiScriptsPart).GetTypeInfo().Assembly,
+            // Cadmus.NdpFrac.Parts
+            typeof(CodFrQuireLabelsPart).GetTypeInfo().Assembly,
         ]);
 
         _partTypeProvider = new StandardPartTypeProvider(_map);
