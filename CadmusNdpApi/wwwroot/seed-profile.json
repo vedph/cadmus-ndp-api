@@ -330,6 +330,14 @@
           "value": "history"
         },
         {
+          "id": "it.vedph.physical-measurements",
+          "value": "measurements"
+        },
+        {
+          "id": "it.vedph.physical-states",
+          "value": "state"
+        },
+        {
           "id": "it.vedph.pin-links",
           "value": "links"
         },
