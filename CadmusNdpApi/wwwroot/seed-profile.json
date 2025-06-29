@@ -186,20 +186,12 @@
           "sortKey": "06"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "82B0AD",
-          "groupKey": "references",
-          "sortKey": "07"
-        },
-        {
-          "typeId": "it.vedph.ndp.cod-fr-quire-labels",
-          "name": "quire labels",
-          "description": "Quire's labels'.",
+          "typeId": "it.vedph.ndp.cod-fr-support",
+          "name": "support",
+          "description": "Fragment's support.",
           "colorKey": "82B0AD",
           "groupKey": "material",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.decorated-counts",
@@ -207,7 +199,7 @@
           "description": "Various counts.",
           "colorKey": "B1E0EA",
           "groupKey": "material",
-          "sortKey": "09"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.physical-measurements",
@@ -215,7 +207,7 @@
           "description": "Physical measurements.",
           "colorKey": "C180EA",
           "groupKey": "material",
-          "sortKey": "10"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.physical-states",
@@ -223,14 +215,30 @@
           "description": "Physical preservation states.",
           "colorKey": "C880E4",
           "groupKey": "material",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.codicology.contents",
+          "name": "contents",
+          "description": "Contents: text.",
+          "colorKey": "508B5E",
+          "groupKey": "content",
           "sortKey": "11"
         },
         {
-          "typeId": "it.vedph.ndp.cod-fr-support",
-          "name": "support",
-          "description": "Fragment's support.",
-          "colorKey": "82B0AD",
-          "groupKey": "material",
+          "typeId": "it.vedph.codicology.hands",
+          "name": "hands",
+          "description": "Hands.",
+          "colorKey": "72EAF7",
+          "groupKey": "content",
+          "sortKey": "12"
+        },
+        {
+          "typeId": "it.vedph.codicology.edits",
+          "name": "edits",
+          "description": "Supplementary edits on text.",
+          "colorKey": "E72A8E",
+          "groupKey": "content",
           "sortKey": "13"
         },
         {
@@ -242,37 +250,21 @@
           "sortKey": "14"
         },
         {
-          "typeId": "it.vedph.codicology.contents",
-          "name": "contents",
-          "description": "Contents: text.",
-          "colorKey": "508B5E",
-          "groupKey": "content",
-          "sortKey": "15"
-        },
-        {
-          "typeId": "it.vedph.codicology.hands",
-          "name": "hands",
-          "description": "Hands.",
-          "colorKey": "72EAF7",
-          "groupKey": "content",
-          "sortKey": "16"
-        },
-        {
-          "typeId": "it.vedph.codicology.edits",
-          "name": "edits",
-          "description": "Supplementary edits on text.",
-          "colorKey": "E72A8E",
-          "groupKey": "content",
-          "sortKey": "17"
-        },
-        {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
           "roleId": "sig",
           "name": "signature labels",
           "description": "Signature labels'.",
           "colorKey": "82B0AD",
           "groupKey": "content",
-          "sortKey": "18"
+          "sortKey": "15"
+        },
+        {
+          "typeId": "it.vedph.ndp.cod-fr-quire-labels",
+          "name": "quire labels",
+          "description": "Quire's labels'.",
+          "colorKey": "82B0AD",
+          "groupKey": "material",
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -281,7 +273,7 @@
           "description": "Catchwords.",
           "colorKey": "82B0AD",
           "groupKey": "content",
-          "sortKey": "19"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -289,7 +281,15 @@
           "description": "Decorations.",
           "colorKey": "F5C2B1",
           "groupKey": "content",
-          "sortKey": "20"
+          "sortKey": "18"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "82B0AD",
+          "groupKey": "references",
+          "sortKey": "19"
         }
       ]
     }
