@@ -10,7 +10,7 @@
           "typeId": "it.vedph.metadata",
           "name": "metadata",
           "description": "Generic metadata.",
-          "colorKey": "F8C0C0",
+          "colorKey": "B3D9FF",
           "groupKey": "identity",
           "sortKey": "01"
         },
@@ -18,7 +18,7 @@
           "typeId": "it.vedph.codicology.shelfmarks",
           "name": "shelfmarks",
           "description": "Current and historical shelfmarks.",
-          "colorKey": "AF6455",
+          "colorKey": "85C1FF",
           "groupKey": "identity",
           "sortKey": "02"
         },
@@ -26,7 +26,7 @@
           "typeId": "it.vedph.chronotopes",
           "name": "chronotopes",
           "description": "Date/time indications.",
-          "colorKey": "F887C8",
+          "colorKey": "D4B3FF",
           "groupKey": "history",
           "sortKey": "03"
         },
@@ -34,7 +34,7 @@
           "typeId": "it.vedph.historical-events",
           "name": "events",
           "description": "Historical events.",
-          "colorKey": "C898C8",
+          "colorKey": "BE85FF",
           "groupKey": "history",
           "sortKey": "04"
         },
@@ -43,7 +43,7 @@
           "roleId": "hist",
           "name": "history",
           "description": "Fragment's history.",
-          "colorKey": "B0A0F8",
+          "colorKey": "A856FF",
           "groupKey": "history",
           "sortKey": "05"
         },
@@ -51,7 +51,7 @@
           "typeId": "it.vedph.codicology.bindings",
           "name": "bindings",
           "description": "Current and historical bindings.",
-          "colorKey": "AF6465",
+          "colorKey": "E6D4A3",
           "groupKey": "material",
           "sortKey": "06"
         },
@@ -59,7 +59,7 @@
           "typeId": "it.vedph.codicology.sheet-labels",
           "name": "sheet labels",
           "description": "Quires and sheets labels.",
-          "colorKey": "DAA520",
+          "colorKey": "DBC785",
           "groupKey": "material",
           "sortKey": "07"
         },
@@ -67,7 +67,7 @@
           "typeId": "it.vedph.codicology.material-dsc",
           "name": "material",
           "description": "Material description.",
-          "colorKey": "C880C4",
+          "colorKey": "CDB86B",
           "groupKey": "material",
           "sortKey": "08"
         },
@@ -75,7 +75,7 @@
           "typeId": "it.vedph.codicology.watermarks",
           "name": "watermarks",
           "description": "Watermarks.",
-          "colorKey": "508B5E",
+          "colorKey": "8FD18F",
           "groupKey": "material",
           "sortKey": "09"
         },
@@ -83,7 +83,7 @@
           "typeId": "it.vedph.codicology.contents",
           "name": "contents",
           "description": "Contents: text.",
-          "colorKey": "508B5E",
+          "colorKey": "9CE69C",
           "groupKey": "content",
           "sortKey": "10"
         },
@@ -91,7 +91,7 @@
           "typeId": "it.vedph.codicology.layouts",
           "name": "layouts",
           "description": "Text layouts.",
-          "colorKey": "4D5EF7",
+          "colorKey": "7DD17D",
           "groupKey": "content",
           "sortKey": "11"
         },
@@ -99,7 +99,7 @@
           "typeId": "it.vedph.codicology.decorations",
           "name": "decorations",
           "description": "Decorations.",
-          "colorKey": "F5C2B1",
+          "colorKey": "FFB366",
           "groupKey": "content",
           "sortKey": "12"
         },
@@ -107,7 +107,7 @@
           "typeId": "it.vedph.codicology.hands",
           "name": "hands",
           "description": "Hands.",
-          "colorKey": "72EAF7",
+          "colorKey": "66CC66",
           "groupKey": "content",
           "sortKey": "13"
         },
@@ -115,7 +115,7 @@
           "typeId": "it.vedph.codicology.edits",
           "name": "edits",
           "description": "Supplementary edits on text.",
-          "colorKey": "E72A8E",
+          "colorKey": "4DB84D",
           "groupKey": "content",
           "sortKey": "14"
         },
@@ -123,7 +123,7 @@
           "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "External bibliography.",
-          "colorKey": "82B0AD",
+          "colorKey": "CCCCCC",
           "groupKey": "references",
           "sortKey": "15"
         }
@@ -139,7 +139,7 @@
           "typeId": "it.vedph.metadata",
           "name": "metadata",
           "description": "Generic metadata.",
-          "colorKey": "F8C0C0",
+          "colorKey": "B3D9FF",
           "groupKey": "identity",
           "sortKey": "01"
         },
@@ -148,7 +148,7 @@
           "name": "shelfmarks",
           "description": "Fragment's shelfmark(s).",
           "isRequired": true,
-          "colorKey": "AF6455",
+          "colorKey": "85C1FF",
           "groupKey": "identity",
           "sortKey": "02"
         },
@@ -156,7 +156,7 @@
           "typeId": "it.vedph.pin-links",
           "name": "links",
           "description": "Pin-based links.",
-          "colorKey": "A0C0F8",
+          "colorKey": "5CA8FF",
           "groupKey": "identity",
           "sortKey": "03"
         },
@@ -164,7 +164,7 @@
           "typeId": "it.vedph.chronotopes",
           "name": "chronotopes",
           "description": "Date/time indications.",
-          "colorKey": "F887C8",
+          "colorKey": "D4B3FF",
           "groupKey": "history",
           "sortKey": "04"
         },
@@ -172,7 +172,7 @@
           "typeId": "it.vedph.historical-events",
           "name": "events",
           "description": "Historical events.",
-          "colorKey": "C898C8",
+          "colorKey": "BE85FF",
           "groupKey": "history",
           "sortKey": "05"
         },
@@ -181,7 +181,7 @@
           "roleId": "hist",
           "name": "history",
           "description": "Fragment's history.",
-          "colorKey": "B0A0F8",
+          "colorKey": "A856FF",
           "groupKey": "history",
           "sortKey": "06"
         },
@@ -189,7 +189,7 @@
           "typeId": "it.vedph.ndp.cod-fr-support",
           "name": "support",
           "description": "Fragment's support.",
-          "colorKey": "82B0AD",
+          "colorKey": "E6D4A3",
           "groupKey": "material",
           "sortKey": "07"
         },
@@ -197,7 +197,7 @@
           "typeId": "it.vedph.decorated-counts",
           "name": "counts",
           "description": "Various counts.",
-          "colorKey": "B1E0EA",
+          "colorKey": "FFB366",
           "groupKey": "material",
           "sortKey": "08"
         },
@@ -205,7 +205,7 @@
           "typeId": "it.vedph.physical-measurements",
           "name": "measurements",
           "description": "Physical measurements.",
-          "colorKey": "C180EA",
+          "colorKey": "FF9933",
           "groupKey": "material",
           "sortKey": "09"
         },
@@ -213,7 +213,7 @@
           "typeId": "it.vedph.physical-states",
           "name": "states",
           "description": "Physical preservation states.",
-          "colorKey": "C880E4",
+          "colorKey": "DBC785",
           "groupKey": "material",
           "sortKey": "10"
         },
@@ -221,7 +221,7 @@
           "typeId": "it.vedph.codicology.contents",
           "name": "contents",
           "description": "Contents: text.",
-          "colorKey": "508B5E",
+          "colorKey": "9CE69C",
           "groupKey": "content",
           "sortKey": "11"
         },
@@ -229,7 +229,7 @@
           "typeId": "it.vedph.codicology.hands",
           "name": "hands",
           "description": "Hands.",
-          "colorKey": "72EAF7",
+          "colorKey": "66CC66",
           "groupKey": "content",
           "sortKey": "12"
         },
@@ -237,7 +237,7 @@
           "typeId": "it.vedph.codicology.edits",
           "name": "edits",
           "description": "Supplementary edits on text.",
-          "colorKey": "E72A8E",
+          "colorKey": "4DB84D",
           "groupKey": "content",
           "sortKey": "13"
         },
@@ -245,7 +245,7 @@
           "typeId": "it.vedph.ndp.cod-fr-rulings",
           "name": "rulings",
           "description": "Fragment's rulings.",
-          "colorKey": "82B0AD",
+          "colorKey": "CDB86B",
           "groupKey": "material",
           "sortKey": "14"
         },
@@ -254,7 +254,7 @@
           "roleId": "sig",
           "name": "signature labels",
           "description": "Signature labels'.",
-          "colorKey": "82B0AD",
+          "colorKey": "7DD17D",
           "groupKey": "content",
           "sortKey": "15"
         },
@@ -262,7 +262,7 @@
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
           "name": "quire labels",
           "description": "Quire's labels'.",
-          "colorKey": "82B0AD",
+          "colorKey": "B3A875",
           "groupKey": "material",
           "sortKey": "16"
         },
@@ -271,7 +271,7 @@
           "roleId": "catch",
           "name": "catchwords",
           "description": "Catchwords.",
-          "colorKey": "82B0AD",
+          "colorKey": "B3E6B3",
           "groupKey": "content",
           "sortKey": "17"
         },
@@ -279,7 +279,7 @@
           "typeId": "it.vedph.codicology.decorations",
           "name": "decorations",
           "description": "Decorations.",
-          "colorKey": "F5C2B1",
+          "colorKey": "FFB366",
           "groupKey": "content",
           "sortKey": "18"
         },
@@ -287,7 +287,7 @@
           "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "External bibliography.",
-          "colorKey": "82B0AD",
+          "colorKey": "CCCCCC",
           "groupKey": "references",
           "sortKey": "19"
         }
