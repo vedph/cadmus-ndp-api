@@ -4,7 +4,7 @@
       "id": "manuscript",
       "label": "manuscript",
       "description": "Manuscript.",
-      "colorKey": "A4243B",
+      "colorKey": "D8C9AA",
       "partDefinitions": [
         {
           "typeId": "it.vedph.metadata",
@@ -133,7 +133,7 @@
       "id": "fragment",
       "label": "fragment",
       "description": "The manuscript fragment facet",
-      "colorKey": "86ACEB",
+      "colorKey": "EBADAD",
       "partDefinitions": [
         {
           "typeId": "it.vedph.metadata",
