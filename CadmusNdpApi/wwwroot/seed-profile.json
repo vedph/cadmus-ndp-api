@@ -218,12 +218,20 @@
           "sortKey": "10"
         },
         {
+          "typeId": "it.vedph.ndp.cod-fr-layout",
+          "name": "layout",
+          "description": "Contents: layout.",
+          "colorKey": "9CD68C",
+          "groupKey": "content",
+          "sortKey": "11"
+        },
+        {
           "typeId": "it.vedph.codicology.contents",
           "name": "contents",
           "description": "Contents: text.",
           "colorKey": "9CE69C",
           "groupKey": "content",
-          "sortKey": "11"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.codicology.hands",
@@ -231,7 +239,7 @@
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "12"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -239,7 +247,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "13"
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-rulings",
@@ -247,7 +255,7 @@
           "description": "Fragment's rulings.",
           "colorKey": "CDB86B",
           "groupKey": "material",
-          "sortKey": "14"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -256,7 +264,7 @@
           "description": "Signature labels'.",
           "colorKey": "7DD17D",
           "groupKey": "content",
-          "sortKey": "15"
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -264,7 +272,7 @@
           "description": "Quire's labels'.",
           "colorKey": "B3A875",
           "groupKey": "material",
-          "sortKey": "16"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -273,7 +281,7 @@
           "description": "Catchwords.",
           "colorKey": "B3E6B3",
           "groupKey": "content",
-          "sortKey": "17"
+          "sortKey": "18"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -281,7 +289,7 @@
           "description": "Decorations.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "18"
+          "sortKey": "19"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -289,7 +297,7 @@
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
           "groupKey": "references",
-          "sortKey": "19"
+          "sortKey": "20"
         }
       ]
     }
@@ -421,6 +429,10 @@
         {
           "id": "it.vedph.codicology.watermarks",
           "value": "watermarks"
+        },
+        {
+          "id": "it.vedph.ndp.cod-fr-layout",
+          "value": "layout"
         },
         {
           "id": "it.vedph.ndp.cod-fr-quire-labels",
@@ -1244,6 +1256,31 @@
         {
           "id": "back",
           "value": "post."
+        }
+      ]
+    },
+    {
+      "id": "cod-fr-layout-prickings@en",
+      "entries": [
+        {
+          "id": "none",
+          "value": "nessuno"
+        },
+        {
+          "id": "perforated",
+          "value": "perforato"
+        },
+        {
+          "id": "drypoint",
+          "value": "a secco"
+        },
+        {
+          "id": "plummet",
+          "value": "a mina"
+        },
+        {
+          "id": "other",
+          "value": "altro"
         }
       ]
     },
@@ -2531,6 +2568,9 @@
       },
       {
         "id": "seed.it.vedph.chronotopes"
+      },
+      {
+        "id": "seed.it.vedph.ndp.cod-fr-layout"
       },
       {
         "id": "seed.it.vedph.ndp.cod-fr-quire-labels"
