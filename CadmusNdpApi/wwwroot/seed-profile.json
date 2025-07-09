@@ -1238,11 +1238,11 @@
       "entries": [
         {
           "id": "parchment",
-          "value": "membr."
+          "value": "membranaceo"
         },
         {
           "id": "paper",
-          "value": "cart."
+          "value": "cartaceo"
         }
       ]
     },
@@ -1860,11 +1860,11 @@
       "entries": [
         {
           "id": "parchment",
-          "value": "membr."
+          "value": "membranaceo"
         },
         {
           "id": "paper",
-          "value": "cart."
+          "value": "cartaceo"
         },
         {
           "id": "mix",
