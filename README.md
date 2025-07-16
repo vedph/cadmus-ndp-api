@@ -2,7 +2,7 @@
 
 🐋 Quick Docker image build:
 
-  docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:0.0.1 -t vedph2020/cadmus-ndp-api:latest --push
+  docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.1 -t vedph2020/cadmus-ndp-api:latest --push
 
 (replace with the current version).
 
@@ -11,3 +11,9 @@ This is a Cadmus API layer customized for Cadmus NDP (Naples Dante Project). Mos
 - [Cadmus NDP Frac](https://github.com/vedph/cadmus-ndp-frac)
 - [Cadmus NDP Books](https://github.com/vedph/cadmus-ndp-books)
 - [Cadmus NDP Drawings](https://github.com/vedph/cadmus-ndp-drawings)
+
+## History
+
+### 1.0.1
+
+- 2025-07-16: updated packages.
