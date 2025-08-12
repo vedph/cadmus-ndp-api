@@ -3,6 +3,7 @@ using Cadmus.Seed;
 using Cadmus.Seed.Codicology.Parts;
 using Cadmus.Seed.Epigraphy.Parts;
 using Cadmus.Seed.General.Parts;
+using Cadmus.Seed.NdpBooks.Parts;
 using Cadmus.Seed.NdpFrac.Parts;
 using Cadmus.Seed.Philology.Parts;
 using Fusi.Microsoft.Extensions.Configuration.InMemoryJson;
@@ -34,6 +35,8 @@ public sealed class AppPartSeederFactoryProvider : IPartSeederFactoryProvider
             typeof(EpiScriptsPartSeeder).GetTypeInfo().Assembly,
             // Cadmus.Seed.NdpFrac.Parts
             typeof(CodFrQuireLabelsPartSeeder).Assembly,
+            // Cadmus.Seed.NdpBooks.Parts
+            typeof(PrintFontsPartSeeder).Assembly,
         ];
         TagAttributeToTypeMap map = new();
         map.Add(seedAssemblies);

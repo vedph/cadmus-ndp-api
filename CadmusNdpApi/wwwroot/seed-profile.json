@@ -300,6 +300,30 @@
           "sortKey": "20"
         }
       ]
+    },
+    {
+      "id": "edition",
+      "label": "edition",
+      "description": "The print edition facet",
+      "colorKey": "ADACAD",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "B3D9FF",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.print-fonts",
+          "name": "fonts",
+          "description": "Print fonts.",
+          "colorKey": "85C1FF",
+          "groupKey": "content",
+          "sortKey": "02"
+        }
+      ]
     }
   ],
   "flags": [
@@ -351,46 +375,6 @@
       "id": "model-types@en",
       "entries": [
         {
-          "id": "it.vedph.metadata",
-          "value": "metadata"
-        },
-        {
-          "id": "it.vedph.decorated-counts",
-          "value": "counts"
-        },
-        {
-          "id": "it.vedph.chronotopes",
-          "value": "chronotopes"
-        },
-        {
-          "id": "it.vedph.ext-bibliography",
-          "value": "bibliography"
-        },
-        {
-          "id": "it.vedph.historical-events",
-          "value": "events"
-        },
-        {
-          "id": "it.vedph.note",
-          "value": "note"
-        },
-        {
-          "id": "it.vedph.note:hist",
-          "value": "history"
-        },
-        {
-          "id": "it.vedph.physical-measurements",
-          "value": "measurements"
-        },
-        {
-          "id": "it.vedph.physical-states",
-          "value": "state"
-        },
-        {
-          "id": "it.vedph.pin-links",
-          "value": "links"
-        },
-        {
           "id": "it.vedph.codicology.bindings",
           "value": "bindings"
         },
@@ -431,6 +415,46 @@
           "value": "watermarks"
         },
         {
+          "id": "it.vedph.decorated-counts",
+          "value": "counts"
+        },
+        {
+          "id": "it.vedph.chronotopes",
+          "value": "chronotopes"
+        },
+        {
+          "id": "it.vedph.ext-bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "it.vedph.historical-events",
+          "value": "events"
+        },
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
+          "id": "it.vedph.note:hist",
+          "value": "history"
+        },
+        {
+          "id": "it.vedph.physical-measurements",
+          "value": "measurements"
+        },
+        {
+          "id": "it.vedph.physical-states",
+          "value": "state"
+        },
+        {
+          "id": "it.vedph.ndp.print-fonts",
+          "value": "fonts"
+        },
+        {
           "id": "it.vedph.ndp.cod-fr-layout",
           "value": "layout"
         },
@@ -453,6 +477,10 @@
         {
           "id": "it.vedph.ndp.cod-fr-support",
           "value": "support"
+        },
+        {
+          "id": "it.vedph.pin-links",
+          "value": "links"
         }
       ]
     },
@@ -2553,6 +2581,65 @@
           "value": "dirty"
         }
       ]
+    },
+    {
+      "id": "print-font-families@en",
+      "entries": [
+        {
+          "id": "r2",
+          "value": "R2"
+        },
+        {
+          "id": "r3",
+          "value": "R3"
+        },
+        {
+          "id": "r4",
+          "value": "R4"
+        },
+        {
+          "id": "r5",
+          "value": "R5"
+        }
+      ]
+    },
+    {
+      "id": "print-layout-sections@en",
+      "entries": [
+        {
+          "id": "title",
+          "value": "title"
+        },
+        {
+          "id": "body",
+          "value": "body"
+        },
+        {
+          "id": "comment",
+          "value": "comment"
+        },
+        {
+          "id": "proem",
+          "value": "proem"
+        },
+        {
+          "id": "other",
+          "value": "other"
+        }
+      ]
+    },
+    {
+      "id": "print-font-features@en",
+      "entries": [
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        }
+      ]
     }
   ],
   "seed": {
@@ -2568,18 +2655,6 @@
       },
       {
         "id": "seed.it.vedph.chronotopes"
-      },
-      {
-        "id": "seed.it.vedph.ndp.cod-fr-layout"
-      },
-      {
-        "id": "seed.it.vedph.ndp.cod-fr-quire-labels"
-      },
-      {
-        "id": "seed.it.vedph.ndp.cod-fr-rulings"
-      },
-      {
-        "id": "seed.it.vedph.ndp.cod-fr-support"
       },
       {
         "id": "seed.it.vedph.codicology.bindings"
@@ -2615,13 +2690,28 @@
         "id": "seed.it.vedph.decorated-counts"
       },
       {
-        "id": "seed.it.vedph.pin-links"
+        "id": "seed.it.vedph.ext-bibliography"
       },
       {
         "id": "seed.it.vedph.historical-events"
       },
       {
-        "id": "seed.it.vedph.ext-bibliography"
+        "id": "seed.it.vedph.ndp.cod-fr-layout"
+      },
+      {
+        "id": "seed.it.vedph.ndp.cod-fr-quire-labels"
+      },
+      {
+        "id": "seed.it.vedph.ndp.cod-fr-rulings"
+      },
+      {
+        "id": "seed.it.vedph.ndp.cod-fr-support"
+      },
+      {
+        "id": "seed.it.vedph.ndp.print-fonts"
+      },
+      {
+        "id": "seed.it.vedph.pin-links"
       },
       {
         "id": "seed.it.vedph.note",

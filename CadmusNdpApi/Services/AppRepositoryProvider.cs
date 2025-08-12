@@ -7,6 +7,7 @@ using Cadmus.Core.Storage;
 using Cadmus.Epigraphy.Parts;
 using Cadmus.General.Parts;
 using Cadmus.Mongo;
+using Cadmus.NdpBooks.Parts;
 using Cadmus.NdpFrac.Parts;
 using Cadmus.Philology.Parts;
 
@@ -27,7 +28,8 @@ public sealed class AppRepositoryProvider : IRepositoryProvider
     public string ConnectionString { get; set; } = "";
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="AppRepositoryProvider"/> class.
+    /// Initializes a new instance of the <see cref="AppRepositoryProvider"/>
+    /// class.
     /// </summary>
     /// <exception cref="ArgumentNullException">configuration</exception>
     public AppRepositoryProvider()
@@ -45,6 +47,8 @@ public sealed class AppRepositoryProvider : IRepositoryProvider
             typeof(EpiScriptsPart).GetTypeInfo().Assembly,
             // Cadmus.NdpFrac.Parts
             typeof(CodFrQuireLabelsPart).GetTypeInfo().Assembly,
+            // Cadmus.NdpBooks.Parts
+            typeof(PrintFontsPart).GetTypeInfo().Assembly,
         ]);
 
         _partTypeProvider = new StandardPartTypeProvider(_map);
