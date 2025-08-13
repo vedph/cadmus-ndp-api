@@ -316,12 +316,81 @@
           "sortKey": "01"
         },
         {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "colorKey": "BEE0CA",
+          "groupKey": "identity",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "roleId": "prn",
+          "name": "chronotopes",
+          "description": "Print date/time.",
+          "colorKey": "F887C8",
+          "groupKey": "identity",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "roleId": "pub",
+          "name": "chronotopes",
+          "description": "Publish date/time.",
+          "colorKey": "F887C8",
+          "groupKey": "identity",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "roleId": "auth",
+          "name": "author",
+          "description": "Author(s).",
+          "colorKey": "5CA8FF",
+          "groupKey": "identity",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "roleId": "ed",
+          "name": "editor",
+          "description": "Editor(s).",
+          "colorKey": "5CA8FF",
+          "groupKey": "identity",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "type",
+          "name": "types",
+          "description": "Item's categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "07"
+        },
+        {
           "typeId": "it.vedph.print-fonts",
           "name": "fonts",
           "description": "Print fonts.",
           "colorKey": "85C1FF",
           "groupKey": "content",
-          "sortKey": "02"
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.print-layout",
+          "name": "layout",
+          "description": "Print layout.",
+          "colorKey": "85C1FF",
+          "groupKey": "content",
+          "sortKey": "09"
+        },
+        {
+          "typeId": "it.vedph.codicology.watermarks",
+          "name": "watermarks",
+          "description": "Watermarks.",
+          "colorKey": "8FD18F",
+          "groupKey": "content",
+          "sortKey": "10"
         }
       ]
     }
