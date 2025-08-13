@@ -692,6 +692,10 @@
           "value": "bibliography"
         },
         {
+          "id": "it.vedph.external-ids",
+          "value": "external IDs"
+        },
+        {
           "id": "it.vedph.historical-events",
           "value": "events"
         },
@@ -700,24 +704,16 @@
           "value": "metadata"
         },
         {
-          "id": "it.vedph.note",
-          "value": "note"
-        },
-        {
-          "id": "it.vedph.note:hist",
-          "value": "history"
-        },
-        {
-          "id": "it.vedph.physical-measurements",
-          "value": "measurements"
-        },
-        {
-          "id": "it.vedph.physical-states",
-          "value": "state"
-        },
-        {
           "id": "it.vedph.ndp.print-fonts",
           "value": "fonts"
+        },
+        {
+          "id": "it.vedph.ndp.print-fig-plan",
+          "value": "fig.plan"
+        },
+        {
+          "id": "it.vedph.ndp.print-fig-plan-impl",
+          "value": "fig.plan impl."
         },
         {
           "id": "it.vedph.ndp.cod-fr-layout",
@@ -744,12 +740,28 @@
           "value": "support"
         },
         {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
           "id": "it.vedph.note:col",
           "value": "colophon"
         },
         {
           "id": "it.vedph.note:inc",
           "value": "incipit"
+        },
+        {
+          "id": "it.vedph.note:hist",
+          "value": "history"
+        },
+        {
+          "id": "it.vedph.physical-measurements",
+          "value": "measurements"
+        },
+        {
+          "id": "it.vedph.physical-states",
+          "value": "state"
         },
         {
           "id": "it.vedph.pin-links",
@@ -2932,9 +2944,6 @@
     },
     "partSeeders": [
       {
-        "id": "seed.it.vedph.metadata"
-      },
-      {
         "id": "seed.it.vedph.chronotopes"
       },
       {
@@ -2974,7 +2983,13 @@
         "id": "seed.it.vedph.ext-bibliography"
       },
       {
+        "id": "seed.it.vedph.external-links"
+      },
+      {
         "id": "seed.it.vedph.historical-events"
+      },
+      {
+        "id": "seed.it.vedph.metadata"
       },
       {
         "id": "seed.it.vedph.ndp.cod-fr-layout"
@@ -2995,7 +3010,13 @@
         "id": "seed.it.vedph.ndp.print-fig-plan"
       },
       {
+        "id": "seed.it.vedph.ndp.print-fig-plan-impl"
+      },
+      {
         "id": "seed.it.vedph.ndp.print-fonts"
+      },
+      {
+        "id": "seed.it.vedph.ndp.print-layout"
       },
       {
         "id": "seed.it.vedph.pin-links"
