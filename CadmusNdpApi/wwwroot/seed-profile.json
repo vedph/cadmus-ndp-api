@@ -391,6 +391,48 @@
           "colorKey": "8FD18F",
           "groupKey": "content",
           "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.ndp.print-fig-plan",
+          "name": "fig.plan",
+          "description": "Figurative plan.",
+          "colorKey": "FFB366",
+          "groupKey": "content",
+          "sortKey": "11"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "inc",
+          "name": "incipit",
+          "description": "The incipit's text'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "content",
+          "sortKey": "12"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "col",
+          "name": "colophon",
+          "description": "The colophon's text'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "content",
+          "sortKey": "13"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "14"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "CCCCCC",
+          "groupKey": "references",
+          "sortKey": "15"
         }
       ]
     }
@@ -444,6 +486,14 @@
       "id": "model-types@en",
       "entries": [
         {
+          "id": "it.vedph.categories",
+          "value": "categories"
+        },
+        {
+          "id": "it.vedph.categories:type",
+          "value": "type"
+        },
+        {
           "id": "it.vedph.codicology.bindings",
           "value": "bindings"
         },
@@ -484,12 +534,20 @@
           "value": "watermarks"
         },
         {
-          "id": "it.vedph.decorated-counts",
-          "value": "counts"
-        },
-        {
           "id": "it.vedph.chronotopes",
           "value": "chronotopes"
+        },
+        {
+          "id": "it.vedph.chronotopes:prn",
+          "value": "print date/place"
+        },
+        {
+          "id": "it.vedph.chronotopes:pub",
+          "value": "publication date/place"
+        },
+        {
+          "id": "it.vedph.decorated-counts",
+          "value": "counts"
         },
         {
           "id": "it.vedph.ext-bibliography",
@@ -548,8 +606,24 @@
           "value": "support"
         },
         {
+          "id": "it.vedph.note:col",
+          "value": "colophon"
+        },
+        {
+          "id": "it.vedph.note:inc",
+          "value": "incipit"
+        },
+        {
           "id": "it.vedph.pin-links",
           "value": "links"
+        },
+        {
+          "id": "it.vedph.pin-links:auth",
+          "value": "author"
+        },
+        {
+          "id": "it.vedph.pin-links:ed",
+          "value": "editor"
         }
       ]
     },
@@ -2775,6 +2849,12 @@
       },
       {
         "id": "seed.it.vedph.ndp.cod-fr-support"
+      },
+      {
+        "id": "seed.it.vedph.ndp.print-fonts"
+      },
+      {
+        "id": "seed.it.vedph.ndp.print-fig-plan"
       },
       {
         "id": "seed.it.vedph.ndp.print-fonts"
