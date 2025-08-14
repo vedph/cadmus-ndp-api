@@ -18,6 +18,7 @@ This is a Cadmus API layer customized for Cadmus NDP (Naples Dante Project). Mos
   - added facets in profile.
   - updated packages.
   - added thesaurus `cod-fr-layout-features_prn` for fragment layout features used for printed books.
+  - replaced print layout part with that from FRAC in printed book facets. 
 - 2025-08-12: adding books modules and profile.
 - 2025-08-07: updated packages.
 - 2025-07-17: updated packages.

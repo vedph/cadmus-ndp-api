@@ -377,7 +377,8 @@
           "sortKey": "08"
         },
         {
-          "typeId": "it.vedph.print-layout",
+          "typeId": "it.vedph.ndp.cod-fr-layout",
+          "roleId": "prn",
           "name": "layout",
           "description": "Print layout.",
           "colorKey": "85C1FF",
@@ -499,7 +500,8 @@
           "sortKey": "07"
         },
         {
-          "typeId": "it.vedph.print-layout",
+          "typeId": "it.vedph.ndp.cod-fr-layout",
+          "roleId": "prn",
           "name": "layout",
           "description": "Print layout.",
           "colorKey": "85C1FF",
@@ -3063,9 +3065,6 @@
       },
       {
         "id": "seed.it.vedph.ndp.print-fonts"
-      },
-      {
-        "id": "seed.it.vedph.ndp.print-layout"
       },
       {
         "id": "seed.it.vedph.pin-links"
