@@ -21,7 +21,7 @@
 		<PackageReference Include="Cadmus.Epigraphy.Parts" Version="8.0.0" />
 		<PackageReference Include="Cadmus.Graph.Extras" Version="8.0.9" />
 		<PackageReference Include="Cadmus.NdpBooks.Services" Version="0.0.1" />
-		<PackageReference Include="Cadmus.NdpFrac.Services" Version="0.0.10" />
+		<PackageReference Include="Cadmus.NdpFrac.Services" Version="0.0.11" />
 		<PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="8.0.14" />
 		<PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="8.0.0" />
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="7.0.5" />

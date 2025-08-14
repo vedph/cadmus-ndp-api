@@ -1581,8 +1581,57 @@
       ]
     },
     {
+      "id": "cod-fr-layout-features_prn@en",
+      "entries": [
+        {
+          "id": "f2",
+          "value": "folio"
+        },
+        {
+          "id": "f4",
+          "value": "quarto"
+        },
+        {
+          "id": "f8",
+          "value": "octavo"
+        },
+        {
+          "id": "f12",
+          "value": "duodecimo"
+        },
+        {
+          "id": "f12l",
+          "value": "duodecimo large"
+        },
+        {
+          "id": "f16",
+          "value": "sextodecimo"
+        },
+        {
+          "id": "f18",
+          "value": "octodecimo"
+        },
+        {
+          "id": "f24",
+          "value": "vigesimo-quarto"
+        },
+        {
+          "id": "f32",
+          "value": "trigesimo-secundo"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
       "id": "cod-fr-layout-prickings@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "none",
           "value": "nessuno"
