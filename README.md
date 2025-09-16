@@ -14,6 +14,7 @@ This is a Cadmus API layer customized for Cadmus NDP (Naples Dante Project). Mos
 
 ## History
 
+- 2025-09-16: updated packages.
 - 2025-08-28: updated packages.
 - 2025-08-13:
   - added facets in profile.
