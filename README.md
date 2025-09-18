@@ -199,7 +199,7 @@ Additionally, parts distribution shows cross-project reuse in action:
 - drawings (DRW): 1
 - iconography (ICO): 1
 
-As you can see, almost half of the models come from the generic domain, and 3/4 of them are covered by the sum of generic and Codicology models. Only 1/4 of the models used were specifically created for this project, while still keeping their design as much abstract and reusable as possible. This way, just like now we are using these parts for this specific project, anyone will be able to reuse them for its own.
+As you can see, almost half of the models come from the generic domain, and almost 3/4 of them are covered by the sum of generic and Codicology models. Only slightly more than 1/4 of the models used were specifically created for this project, while still keeping their design as much abstract and reusable as possible. This way, just like now we are using these parts for this specific project, anyone will be able to reuse them for its own.
 
 ![parts distribution](parts.png)
 
