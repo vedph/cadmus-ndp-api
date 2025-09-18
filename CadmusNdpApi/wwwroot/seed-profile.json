@@ -23,29 +23,47 @@
           "sortKey": "02"
         },
         {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
+          "groupKey": "identity",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "txt",
+          "name": "text categories",
+          "description": "Text categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "04"
+        },
+        {
           "typeId": "it.vedph.chronotopes",
           "name": "chronotopes",
           "description": "Date/time indications.",
           "colorKey": "D4B3FF",
           "groupKey": "history",
-          "sortKey": "03"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.historical-events",
+          "roleId": "ms",
           "name": "events",
           "description": "Historical events.",
           "colorKey": "BE85FF",
           "groupKey": "history",
-          "sortKey": "04"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.note",
           "roleId": "hist",
           "name": "history",
-          "description": "Fragment's history.",
+          "description": "Manuscript's history.",
           "colorKey": "A856FF",
           "groupKey": "history",
-          "sortKey": "05"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.codicology.bindings",
@@ -53,7 +71,7 @@
           "description": "Current and historical bindings.",
           "colorKey": "E6D4A3",
           "groupKey": "material",
-          "sortKey": "06"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.codicology.sheet-labels",
@@ -61,7 +79,7 @@
           "description": "Quires and sheets labels.",
           "colorKey": "DBC785",
           "groupKey": "material",
-          "sortKey": "07"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.codicology.material-dsc",
@@ -69,7 +87,7 @@
           "description": "Material description.",
           "colorKey": "CDB86B",
           "groupKey": "material",
-          "sortKey": "08"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.codicology.watermarks",
@@ -77,7 +95,7 @@
           "description": "Watermarks.",
           "colorKey": "8FD18F",
           "groupKey": "material",
-          "sortKey": "09"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.codicology.contents",
@@ -85,7 +103,7 @@
           "description": "Contents: text.",
           "colorKey": "9CE69C",
           "groupKey": "content",
-          "sortKey": "10"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.codicology.layouts",
@@ -93,7 +111,7 @@
           "description": "Text layouts.",
           "colorKey": "7DD17D",
           "groupKey": "content",
-          "sortKey": "11"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -101,7 +119,7 @@
           "description": "Decorations.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "12"
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.codicology.hands",
@@ -109,7 +127,7 @@
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "13"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -117,7 +135,15 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "14"
+          "sortKey": "16"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -125,7 +151,7 @@
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
           "groupKey": "references",
-          "sortKey": "15"
+          "sortKey": "18"
         }
       ]
     },
@@ -155,10 +181,19 @@
         {
           "typeId": "it.vedph.pin-links",
           "name": "links",
-          "description": "Pin-based links.",
+          "description": "Inner/outer links.",
           "colorKey": "5CA8FF",
           "groupKey": "identity",
           "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "txt",
+          "name": "text categories",
+          "description": "Text categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -166,15 +201,16 @@
           "description": "Date/time indications.",
           "colorKey": "D4B3FF",
           "groupKey": "history",
-          "sortKey": "04"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.historical-events",
+          "roleId": "fr",
           "name": "events",
           "description": "Historical events.",
           "colorKey": "BE85FF",
           "groupKey": "history",
-          "sortKey": "05"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.note",
@@ -183,7 +219,7 @@
           "description": "Fragment's history.",
           "colorKey": "A856FF",
           "groupKey": "history",
-          "sortKey": "06"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-support",
@@ -191,63 +227,7 @@
           "description": "Fragment's support.",
           "colorKey": "E6D4A3",
           "groupKey": "material",
-          "sortKey": "07"
-        },
-        {
-          "typeId": "it.vedph.decorated-counts",
-          "name": "counts",
-          "description": "Various counts.",
-          "colorKey": "FFB366",
-          "groupKey": "material",
           "sortKey": "08"
-        },
-        {
-          "typeId": "it.vedph.physical-measurements",
-          "name": "measurements",
-          "description": "Physical measurements.",
-          "colorKey": "FF9933",
-          "groupKey": "material",
-          "sortKey": "09"
-        },
-        {
-          "typeId": "it.vedph.physical-states",
-          "name": "states",
-          "description": "Physical preservation states.",
-          "colorKey": "DBC785",
-          "groupKey": "material",
-          "sortKey": "10"
-        },
-        {
-          "typeId": "it.vedph.ndp.cod-fr-layout",
-          "name": "layout",
-          "description": "Contents: layout.",
-          "colorKey": "9CD68C",
-          "groupKey": "content",
-          "sortKey": "11"
-        },
-        {
-          "typeId": "it.vedph.codicology.contents",
-          "name": "contents",
-          "description": "Contents: text.",
-          "colorKey": "9CE69C",
-          "groupKey": "content",
-          "sortKey": "12"
-        },
-        {
-          "typeId": "it.vedph.codicology.hands",
-          "name": "hands",
-          "description": "Hands.",
-          "colorKey": "66CC66",
-          "groupKey": "content",
-          "sortKey": "13"
-        },
-        {
-          "typeId": "it.vedph.codicology.edits",
-          "name": "edits",
-          "description": "Supplementary edits on text.",
-          "colorKey": "4DB84D",
-          "groupKey": "content",
-          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-rulings",
@@ -255,7 +235,7 @@
           "description": "Fragment's rulings.",
           "colorKey": "CDB86B",
           "groupKey": "material",
-          "sortKey": "15"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -263,8 +243,8 @@
           "name": "signature labels",
           "description": "Signature labels'.",
           "colorKey": "7DD17D",
-          "groupKey": "content",
-          "sortKey": "16"
+          "groupKey": "material",
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -272,7 +252,7 @@
           "description": "Quire's labels'.",
           "colorKey": "B3A875",
           "groupKey": "material",
-          "sortKey": "17"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -280,8 +260,48 @@
           "name": "catchwords",
           "description": "Catchwords.",
           "colorKey": "B3E6B3",
+          "groupKey": "material",
+          "sortKey": "12"
+        },
+        {
+          "typeId": "it.vedph.decorated-counts",
+          "name": "counts",
+          "description": "Various counts.",
+          "colorKey": "FFB366",
+          "groupKey": "material",
+          "sortKey": "13"
+        },
+        {
+          "typeId": "it.vedph.physical-measurements",
+          "name": "measurements",
+          "description": "Physical measurements.",
+          "colorKey": "FF9933",
+          "groupKey": "material",
+          "sortKey": "14"
+        },
+        {
+          "typeId": "it.vedph.physical-states",
+          "name": "states",
+          "description": "Physical preservation states.",
+          "colorKey": "DBC785",
+          "groupKey": "material",
+          "sortKey": "15"
+        },
+        {
+          "typeId": "it.vedph.codicology.contents",
+          "name": "contents",
+          "description": "Contents: text.",
+          "colorKey": "9CE69C",
           "groupKey": "content",
-          "sortKey": "18"
+          "sortKey": "16"
+        },
+        {
+          "typeId": "it.vedph.ndp.cod-fr-layout",
+          "name": "layout",
+          "description": "Contents: layout.",
+          "colorKey": "9CD68C",
+          "groupKey": "content",
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -289,7 +309,31 @@
           "description": "Decorations.",
           "colorKey": "FFB366",
           "groupKey": "content",
+          "sortKey": "18"
+        },
+        {
+          "typeId": "it.vedph.codicology.hands",
+          "name": "hands",
+          "description": "Hands.",
+          "colorKey": "66CC66",
+          "groupKey": "content",
           "sortKey": "19"
+        },
+        {
+          "typeId": "it.vedph.codicology.edits",
+          "name": "edits",
+          "description": "Supplementary edits on text.",
+          "colorKey": "4DB84D",
+          "groupKey": "content",
+          "sortKey": "20"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "21"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -297,13 +341,13 @@
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
           "groupKey": "references",
-          "sortKey": "20"
+          "sortKey": "22"
         }
       ]
     },
     {
-      "id": "edition",
-      "label": "edition",
+      "id": "print-edition",
+      "label": "print edition",
       "description": "Printed book edition.",
       "colorKey": "ADACAD",
       "partDefinitions": [
@@ -316,12 +360,21 @@
           "sortKey": "01"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "external IDs",
-          "description": "External identifiers.",
-          "colorKey": "BEE0CA",
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
           "groupKey": "identity",
           "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "txt",
+          "name": "text categories",
+          "description": "Text categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "03"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -329,8 +382,8 @@
           "name": "chronotopes",
           "description": "Print date/time.",
           "colorKey": "F887C8",
-          "groupKey": "identity",
-          "sortKey": "03"
+          "groupKey": "history",
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -338,35 +391,8 @@
           "name": "chronotopes",
           "description": "Publish date/time.",
           "colorKey": "F887C8",
-          "groupKey": "identity",
-          "sortKey": "04"
-        },
-        {
-          "typeId": "it.vedph.pin-links",
-          "roleId": "auth",
-          "name": "author",
-          "description": "Author(s).",
-          "colorKey": "5CA8FF",
-          "groupKey": "identity",
+          "groupKey": "history",
           "sortKey": "05"
-        },
-        {
-          "typeId": "it.vedph.pin-links",
-          "roleId": "ed",
-          "name": "editor",
-          "description": "Editor(s).",
-          "colorKey": "5CA8FF",
-          "groupKey": "identity",
-          "sortKey": "06"
-        },
-        {
-          "typeId": "it.vedph.categories",
-          "roleId": "type",
-          "name": "types",
-          "description": "Item's categories.",
-          "colorKey": "98F8F8",
-          "groupKey": "identity",
-          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.print-fonts",
@@ -374,16 +400,16 @@
           "description": "Print fonts.",
           "colorKey": "85C1FF",
           "groupKey": "content",
-          "sortKey": "08"
+          "sortKey": "06"
         },
         {
-          "typeId": "it.vedph.ndp.cod-fr-layout",
+          "typeId": "it.vedph.codicology.layouts",
           "roleId": "prn",
           "name": "layout",
           "description": "Print layout.",
           "colorKey": "85C1FF",
           "groupKey": "content",
-          "sortKey": "09"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.codicology.watermarks",
@@ -391,7 +417,7 @@
           "description": "Watermarks.",
           "colorKey": "8FD18F",
           "groupKey": "content",
-          "sortKey": "10"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.ndp.print-fig-plan",
@@ -399,7 +425,7 @@
           "description": "Figurative plan.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "11"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.note",
@@ -408,7 +434,7 @@
           "description": "The incipit's text'.",
           "colorKey": "B0A0F8",
           "groupKey": "content",
-          "sortKey": "12"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.note",
@@ -417,7 +443,7 @@
           "description": "The colophon's text'.",
           "colorKey": "B0A0F8",
           "groupKey": "content",
-          "sortKey": "13"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.note",
@@ -425,7 +451,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "14"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -433,13 +459,13 @@
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
           "groupKey": "references",
-          "sortKey": "15"
+          "sortKey": "13"
         }
       ]
     },
     {
-      "id": "book",
-      "label": "book",
+      "id": "print-instance",
+      "label": "print instance",
       "description": "Printed book instance.",
       "colorKey": "ADBCBD",
       "partDefinitions": [
@@ -452,10 +478,10 @@
           "sortKey": "01"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "external IDs",
-          "description": "External identifiers.",
-          "colorKey": "BEE0CA",
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
           "groupKey": "identity",
           "sortKey": "02"
         },
@@ -466,6 +492,33 @@
           "colorKey": "85C1FF",
           "groupKey": "identity",
           "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "txt",
+          "name": "text categories",
+          "description": "Text categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "roleId": "pri",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "BE85FF",
+          "groupKey": "history",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "hist",
+          "name": "history",
+          "description": "Manuscript's history.",
+          "colorKey": "A856FF",
+          "groupKey": "history",
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.codicology.bindings",
@@ -500,11 +553,10 @@
           "sortKey": "07"
         },
         {
-          "typeId": "it.vedph.ndp.cod-fr-layout",
-          "roleId": "prn",
-          "name": "layout",
-          "description": "Print layout.",
-          "colorKey": "85C1FF",
+          "typeId": "it.vedph.codicology.layouts",
+          "name": "layouts",
+          "description": "Text layouts.",
+          "colorKey": "7DD17D",
           "groupKey": "content",
           "sortKey": "08"
         },
@@ -517,38 +569,21 @@
           "sortKey": "09"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "edits",
-          "name": "edits",
-          "description": "Types of edits on instance.",
-          "colorKey": "98F8F8",
-          "groupKey": "content",
-          "sortKey": "10"
-        },
-        {
           "typeId": "it.vedph.codicology.decorations",
           "name": "decorations",
           "description": "Decorations.",
           "colorKey": "F5C2B1",
           "groupKey": "content",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "edits",
+          "name": "edits",
+          "description": "Types of edits (postille) on instance.",
+          "colorKey": "98F8F8",
+          "groupKey": "content",
           "sortKey": "11"
-        },
-        {
-          "typeId": "it.vedph.historical-events",
-          "name": "events",
-          "description": "Historical events.",
-          "isRequired": false,
-          "colorKey": "C898C8",
-          "groupKey": "history",
-          "sortKey": "12"
-        },
-        {
-          "typeId": "it.vedph.pin-links",
-          "name": "links",
-          "description": "Pin-based links.",
-          "colorKey": "A0C0F8",
-          "groupKey": "history",
-          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -556,7 +591,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "E72A8E",
           "groupKey": "history",
-          "sortKey": "14"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.note",
@@ -564,15 +599,15 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "15"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
-          "groupKey": "editorial",
-          "sortKey": "16"
+          "groupKey": "references",
+          "sortKey": "14"
         }
       ]
     }
