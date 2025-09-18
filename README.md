@@ -123,13 +123,13 @@ The list of facets is given here with their conventional groupings used in the e
 
 The following entities are to be completed:
 
-- **drawing project**
+- **drawings project**
   - _identity_
     - metadata
     - links (also for authors)
     - shelfmarks (COD)
-    - district location
   - _history_
+    - chronotopes
     - historical events:drp
     - note:hist (history)
   - _material_
@@ -147,16 +147,13 @@ The following entities are to be completed:
     - metadata
     - links (also for authors)
     - shelfmarks (COD)
-    - district location
   - _history_
-    - historical events:drw
+    - chronotopes
+    - historical events:dri
     - note:hist (history)
   - _material_
     - watermarks (COD)
     - preservation states
-  - _history_
-    - historical events
-    - note:hist (history)
   - _content_
     - edits (COD)
     - iconography instructions (ICO)
@@ -166,15 +163,14 @@ The following entities are to be completed:
 - **iconography**
   - _identity_
     - metadata
-    - index keywords
   - _relations_
     - links
     - references:cit (textual citations related to this iconography)
     - categories:ico (iconographic subjects tree)
     - categories:ctx (luoghi danteschi)
   - _content_
-    - features (storie prime/seconde etc.)
-    - note:dsc (description)
+    - features:ico (storie prime/seconde etc.)
+    - comment (description)
   - _editorial_
     - note
   - _references_
@@ -182,68 +178,55 @@ The following entities are to be completed:
 
 ❓ Questions:
 
+- should we add preservation states to manuscripts??
 - in the original iconography part, we included a list of transcribed texts. I wonder whether this is redundant given the list of citations.
 - which entities in the above list besides drawing items should get the [iconography instructions part](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md)?
 
 ### Facets Synoptic Table
 
-| group/relations | part                                 | manuscript | fragment | print ed. | print inst. | drawing prj. | drawing itm. | iconography |
-| --------------- | ------------------------------------ | ---------- | -------- | --------- | ----------- | ------------ | ------------ | ----------- |
-| identity        | metadata                             | X          | X        | X         | X           | X            | X            | X           |
-| identity        | shelfmarks (COD)                     | X          | X        |           | X           | X            | X            |             |
-| identity        | links                                | X          | X        | X         | X           | X            | X            | X           |
-| identity        | categories:txt                       | X          | X        | X         | X           |              |              |             |
-| identity        | district location                    |            |          |           |             | X            | X            |             |
-| identity        | index keywords                       |            |          |           |             |              |              | X           |
-| history         | chronotopes                          | X          | X        |           |             |              |              |             |
-| history         | historical events                    | X          | X        |           | X           |              | X            |             |
-| history         | historical events:ms                 | X          |          |           |             |              |              |             |
-| history         | historical events:fra                |            | X        |           |             |              |              |             |
-| history         | historical events:pri                |            |          |           | X           |              |              |             |
-| history         | historical events:drp                |            |          |           |             | X            |              |             |
-| history         | historical events:drw                |            |          |           |             |              | X            |             |
-| history         | note:hist                            | X          | X        |           | X           | X            | X            |             |
-| history         | chronotopes:prn                      |            |          | X         |             |              |              |             |
-| history         | chronotopes:pub                      |            |          | X         |             |              |              |             |
-| material        | bindings (COD)                       | X          |          |           | X           | X            |              |             |
-| material        | sheet labels (COD)                   | X          |          |           | X           |              |              |             |
-| material        | material description (COD)           | X          |          |           |             |              |              |             |
-| material        | watermarks (COD)                     | X          |          | X         |             |              | X            |             |
-| material        | support (FRA)                        |            | X        |           |             |              |              |             |
-| material        | rulings (FRA)                        |            | X        |           |             |              |              |             |
-| material        | labels:sig (FRA)                     |            | X        |           |             |              |              |             |
-| material        | labels (FRA)                         |            | X        |           |             |              |              |             |
-| material        | decorated counts                     |            | X        |           |             |              |              |             |
-| material        | measurements                         |            | X        |           | X           |              |              |             |
-| material        | preservation states                  |            | X        |           | X           | X            | X            |             |
-| content         | contents (COD)                       | X          | X        |           |             |              |              |             |
-| content         | layouts (COD)                        | X          |          | X         | X           |              |              |             |
-| content         | layout (FRA)                         |            | X        |           |             |              |              |             |
-| content         | decorations (COD)                    | X          | X        | X         | X           |              |              |             |
-| content         | hands (COD)                          | X          | X        |           | X           |              |              |             |
-| content         | edits (COD)                          | X          | X        |           | X           |              | X            |             |
-| content         | fonts (BOK)                          |            |          | X         |             |              |              |             |
-| content         | figurative plan (BOK)                |            |          | X         |             |              |              |             |
-| content         | figurative plan implementation (BOK) |            |          |           | X           |              |              |             |
-| content         | note:inc                             |            |          | X         |             |              |              |             |
-| content         | note:col                             |            |          | X         |             |              |              |             |
-| content         | categories:edits                     |            |          |           | X           |              |              |             |
-| content         | drawing set (DRW)                    |            |          |           |             | X            |              |             |
-| content         | comment                              |            |          |           |             | X            |              |             |
-| content         | iconography instructions (ICO)       |            |          |           |             |              | X            |             |
-| content         | features                             |            |          |           |             |              |              | X           |
-| content         | note:dsc                             |            |          |           |             |              |              | X           |
-| relations       | references:cit                       |            |          |           |             |              |              | X           |
-| relations       | categories:ico                       |            |          |           |             |              |              | X           |
-| relations       | categories:ctx                       |            |          |           |             |              |              | X           |
-| editorial       | note                                 | X          | X        | X         | X           | X            | X            | X           |
-| references      | bibliography                         | X          | X        | X         | X           | X            | X            | X           |
+In this feature-matrix like table you find one column per entity. The cell at the intersection between each column and row contains `X` when the part is present, and/or one ore more role identifiers when that part is used with a specific role (indicated with a suffix after colon in the previous list).
+
+| part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography |
+| ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- |
+| bibliography                         | X          | X        | X              | X           | X            | X            | X           |
+| bindings (COD)                       | X          |          |                | X           | X            |              |             |
+| categories                           | txt        | txt      | txt            | txt edits   |              |              | ico ctx     |
+| chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |
+| comment                              |            |          |                |             | X            |              | X           |
+| contents (COD)                       | X          | X        |                |             |              |              |             |
+| decorated counts                     |            | X        |                |             |              |              |             |
+| decorations (COD)                    | X          | X        | X              | X           |              |              |             |
+| drawing set (DRW)                    |            |          |                |             | X            |              |             |
+| edits (COD)                          | X          | X        |                | X           |              | X            |             |
+| features                             |            |          |                |             |              |              | ico         |
+| figurative plan (BOK)                |            |          | X              |             |              |              |             |
+| figurative plan implementation (BOK) |            |          |                | X           |              |              |             |
+| fonts (BOK)                          |            |          | X              |             |              |              |             |
+| hands (COD)                          | X          | X        |                | X           |              |              |             |
+| historical events                    | ms         | fr       |                | pri         | drp          | dri          |             |
+| iconography instructions (ICO)       |            |          |                |             |              | X            |             |
+| labels (FRA)                         |            | X sig    |                |             |              |              |             |
+| layouts (COD)                        | X          |          | X              | X           |              |              |             |
+| layout (FRA)                         |            | X        |                |             |              |              |             |
+| links                                | X          | X        | X              | X           | X            | X            | X           |
+| material description (COD)           | X          |          |                |             |              |              |             |
+| measurements                         |            | X        |                | X           |              |              |             |
+| metadata                             | X          | X        | X              | X           | X            | X            | X           |
+| note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       |
+| preservation states                  |            | X        |                | X           | X            | X            |             |
+| references                           |            |          |                |             |              |              | cit         |
+| rulings (FRA)                        |            | X        |                |             |              |              |             |
+| shelfmarks (COD)                     | X          | X        |                | X           | X            | X            |             |
+| sheet labels (COD)                   | X          |          |                | X           |              |              |             |
+| support (FRA)                        |            | X        |                |             |              |              |             |
+| watermarks (COD)                     | X          |          | X              |             |              | X            |             |
 
 💡 Notes:
 
 - `categories:txt` can be used to include the generic text classification which cross-references all the text-carrier entities.
-- `categories:edits` in print instances is a special classification for "postille". ??I don't know whether this could be included as a subtype in `categories:txt`, or extracted from the edits part if we are going to provide their detailed list (but I suppose this is not the case).
+- `categories:edits` in print instances is a special classification for "postille". Can we include it in `categories:txt`??
 - `note:hist` is the narrative history of the entity. Usually its most relevant events are extracted and formalized into historical events.
+- `note` is a generic note, mostly used for editorial purposes.
 
 ## History
 
