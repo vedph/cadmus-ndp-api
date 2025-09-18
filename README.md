@@ -186,7 +186,21 @@ The following entities are to be completed:
 
 In this feature-matrix like table you find one column per entity. The cell at the intersection between each column and row contains `X` when the part is present, and/or one ore more role identifiers when that part is used with a specific role (indicated with a suffix after colon in the previous list).
 
-This table clearly shows the modular modeling architecture of Cadmus: 32 parts (=reusable self-contained models with higher abstraction levels) are used more than 100 times, across 7 different items, covering very different knowledge domains and corresponding to material and immaterial entities. This modular architecture is mirrored in the editor UI, as each part has its own editor, which greatly speeds up development and training for end users (once you learn how to enter data in a part, you will find it again and again in the editor for other entities).
+This table clearly shows the modular modeling architecture of Cadmus: 32 parts (=reusable self-contained models with higher abstraction levels) are used more than 100 times, across 7 different items, covering very different knowledge domains and corresponding to material and immaterial entities.
+
+This modular architecture is mirrored in the editor UI, as each part has its own editor, which greatly speeds up development and training for end users (once you learn how to enter data in a part, you will find it again and again in the editor for other entities). This means that even within the boundaries of this project two thirds of the models are reused.
+
+Additionally, parts distribution shows cross-project reuse in action:
+
+- generic: 13
+- codicology (COD): 10
+- fragments (FRA): 4
+- books (BOK): 3
+- drawings (DRW): 1
+
+As you can see, almost half of the models come from the generic domain, and 3/4 of them are covered by the sum of generic and Codicology models. Only 1/4 of the models used were specifically created for this project, while still keeping their design as much abstract and reusable as possible. This way, just like now we are using these parts for this specific project, anyone will be able to reuse them for its own.
+
+![parts distribution](parts.png)
 
 | part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography |
 | ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- |
