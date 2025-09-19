@@ -247,6 +247,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
+- 2025-09-19: updated packages.
 - 2025-09-18: refactored profile.
 - 2025-09-16: updated packages.
 - 2025-08-28: updated packages.
