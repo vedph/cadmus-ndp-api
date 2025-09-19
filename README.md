@@ -11,7 +11,7 @@
 ```sh
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.2 -t vedph2020/cadmus-ndp-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.3 -t vedph2020/cadmus-ndp-api:latest --push
 ```
 
 (replace with the current version).
@@ -266,7 +266,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
-### 1.0.2
+### 1.0.3
 
 - 2025-09-19:
   - updated packages.

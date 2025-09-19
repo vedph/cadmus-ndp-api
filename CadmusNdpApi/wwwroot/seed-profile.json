@@ -395,7 +395,7 @@
           "sortKey": "05"
         },
         {
-          "typeId": "it.vedph.print-fonts",
+          "typeId": "it.vedph.ndp.print-fonts",
           "name": "fonts",
           "description": "Print fonts.",
           "colorKey": "85C1FF",
@@ -1112,16 +1112,16 @@
           "value": "names"
         },
         {
-          "id": "it.vedph.print-fonts",
-          "value": "fonts"
-        },
-        {
           "id": "it.vedph.ndp.print-fig-plan",
           "value": "fig.plan"
         },
         {
           "id": "it.vedph.ndp.print-fig-plan-impl",
           "value": "fig.plan impl."
+        },
+        {
+          "id": "it.vedph.ndp.print-fonts",
+          "value": "fonts"
         },
         {
           "id": "it.vedph.ndp.cod-fr-layout",
@@ -3607,7 +3607,7 @@
         "id": "seed.it.vedph.pin-links"
       },
       {
-        "id": "seed.it.vedph.print-fonts"
+        "id": "seed.it.vedph.ndp.print-fonts"
       }
     ],
     "fragmentSeeders": [
