@@ -610,6 +610,361 @@
           "sortKey": "14"
         }
       ]
+    },
+    {
+      "id": "drawing-prj",
+      "label": "drawings project",
+      "description": "Project for a set of drawings.",
+      "colorKey": "CEBCCE",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "B3D9FF",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
+          "groupKey": "identity",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.codicology.shelfmarks",
+          "name": "shelfmarks",
+          "description": "Current and historical shelfmarks.",
+          "colorKey": "85C1FF",
+          "groupKey": "identity",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "Date/time indications.",
+          "colorKey": "D4B3FF",
+          "groupKey": "history",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "roleId": "drp",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "BE85FF",
+          "groupKey": "history",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "hist",
+          "name": "history",
+          "description": "Drawing's history.",
+          "colorKey": "A856FF",
+          "groupKey": "history",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.codicology.bindings",
+          "name": "bindings",
+          "description": "Current and historical bindings.",
+          "colorKey": "E6D4A3",
+          "groupKey": "material",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.physical-states",
+          "name": "states",
+          "description": "Physical preservation states.",
+          "colorKey": "DBC785",
+          "groupKey": "material",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Comment.",
+          "colorKey": "B2E0AA",
+          "groupKey": "content",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "11"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "CCCCCC",
+          "groupKey": "references",
+          "sortKey": "12"
+        }
+      ]
+    },
+    {
+      "id": "drawing-itm",
+      "label": "drawing item",
+      "description": "A single drawing.",
+      "colorKey": "CE8CCE",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "B3D9FF",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
+          "groupKey": "identity",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.codicology.shelfmarks",
+          "name": "shelfmarks",
+          "description": "Current and historical shelfmarks.",
+          "colorKey": "85C1FF",
+          "groupKey": "identity",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "Date/time indications.",
+          "colorKey": "D4B3FF",
+          "groupKey": "history",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "roleId": "dri",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "BE85FF",
+          "groupKey": "history",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "hist",
+          "name": "history",
+          "description": "Drawing's history.",
+          "colorKey": "A856FF",
+          "groupKey": "history",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.codicology.watermarks",
+          "name": "watermarks",
+          "description": "Watermarks.",
+          "colorKey": "8FD18F",
+          "groupKey": "material",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.physical-states",
+          "name": "states",
+          "description": "Physical preservation states.",
+          "colorKey": "DBC785",
+          "groupKey": "material",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.codicology.edits",
+          "name": "edits",
+          "description": "Supplementary edits on text.",
+          "colorKey": "4DB84D",
+          "groupKey": "content",
+          "sortKey": "09"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "CCCCCC",
+          "groupKey": "references",
+          "sortKey": "11"
+        }
+      ]
+    },
+    {
+      "id": "iconography",
+      "label": "iconography",
+      "description": "A single iconography.",
+      "colorKey": "3A4585",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "B3D9FF",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
+          "groupKey": "relations",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "roleId": "cit",
+          "name": "citations",
+          "description": "Citations of text passages related to this iconography.",
+          "colorKey": "BEF0AA",
+          "groupKey": "relations",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "ico",
+          "name": "subjects",
+          "description": "Iconographic subjects.",
+          "colorKey": "98F8F8",
+          "groupKey": "relations",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "ctx",
+          "name": "contexts",
+          "description": "Iconographic contexts in Dante's work.",
+          "colorKey": "98A8F8",
+          "groupKey": "relations",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.flags",
+          "roleId": "ico",
+          "name": "features",
+          "description": "Binary features for this iconography.",
+          "colorKey": "87F0F0",
+          "groupKey": "content",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Description of this iconography.",
+          "colorKey": "B2E0AA",
+          "groupKey": "content",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "CCCCCC",
+          "groupKey": "references",
+          "sortKey": "09"
+        }
+      ]
+    },
+    {
+      "colorKey": "273E47",
+      "description": "Person.",
+      "id": "person",
+      "label": "person",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "B3D9FF",
+          "groupKey": "identity",
+          "sortKey": "01"
+        },
+        {
+          "typeId": "it.vedph.names",
+          "name": "names",
+          "colorKey": "A7E8BD",
+          "description": "Person's name(s).",
+          "groupKey": "identity",
+          "sortKey": "02"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "bio",
+          "name": "categories",
+          "description": "Person's categories.",
+          "colorKey": "98F8F8",
+          "groupKey": "identity",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.pin-links",
+          "name": "links",
+          "description": "Inner/outer links.",
+          "colorKey": "5CA8FF",
+          "groupKey": "identity",
+          "sortKey": "04"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "roleId": "bio",
+          "name": "events",
+          "description": "Historical events.",
+          "colorKey": "BE85FF",
+          "groupKey": "history",
+          "sortKey": "05"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "hist",
+          "name": "biography",
+          "description": "Person's biography.",
+          "colorKey": "A856FF",
+          "groupKey": "history",
+          "sortKey": "06"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A generic text note'.",
+          "colorKey": "B0A0F8",
+          "groupKey": "editorial",
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "External bibliography.",
+          "colorKey": "CCCCCC",
+          "groupKey": "references",
+          "sortKey": "08"
+        }
+      ]
     }
   ],
   "flags": [
@@ -725,12 +1080,24 @@
           "value": "counts"
         },
         {
+          "id": "it.vedph.comment",
+          "value": "comment"
+        },
+        {
+          "id": "it.vedph.doc-references",
+          "value": "references"
+        },
+        {
           "id": "it.vedph.ext-bibliography",
           "value": "bibliography"
         },
         {
           "id": "it.vedph.external-ids",
           "value": "external IDs"
+        },
+        {
+          "id": "it.vedph.flags",
+          "value": "flags"
         },
         {
           "id": "it.vedph.historical-events",
@@ -741,7 +1108,11 @@
           "value": "metadata"
         },
         {
-          "id": "it.vedph.ndp.print-fonts",
+          "id": "it.vedph.names",
+          "value": "names"
+        },
+        {
+          "id": "it.vedph.print-fonts",
           "value": "fonts"
         },
         {
@@ -2305,7 +2676,7 @@
       ]
     },
     {
-      "id": "event-types@en",
+      "id": "event-types_bio@en",
       "entries": [
         {
           "id": "person.birth",
@@ -2582,7 +2953,76 @@
       ]
     },
     {
-      "id": "event-relations@en",
+      "id": "event-types_dri@en",
+      "targetId": "event-types_ms"
+    },
+    {
+      "id": "event-types_drp@en",
+      "targetId": "event-types_ms"
+    },
+    {
+      "id": "event-types_ms@en",
+      "entries": [
+        {
+          "id": "manuscript.handwriting",
+          "value": "manoscritto: scrittura"
+        },
+        {
+          "id": "manuscript.editing",
+          "value": "manoscritto: editing"
+        },
+        {
+          "id": "manuscript.commission",
+          "value": "manoscritto: commissione"
+        },
+        {
+          "id": "manuscript.dedication",
+          "value": "manoscritto: dedica"
+        },
+        {
+          "id": "manuscript.possession",
+          "value": "manoscritto: possesso"
+        },
+        {
+          "id": "manuscript.lend",
+          "value": "manoscritto: prestito"
+        },
+        {
+          "id": "manuscript.return",
+          "value": "manoscritto: restituzione"
+        },
+        {
+          "id": "manuscript.buy",
+          "value": "manoscritto: acquisto"
+        },
+        {
+          "id": "manuscript.send",
+          "value": "manoscritto: invio"
+        },
+        {
+          "id": "manuscript.reception",
+          "value": "manoscritto: ricezione"
+        },
+        {
+          "id": "manuscript.exchange",
+          "value": "manoscritto: scambio diretto"
+        },
+        {
+          "id": "manuscript.restore",
+          "value": "manoscritto: restauro"
+        }
+      ]
+    },
+    {
+      "id": "event-types_fr@en",
+      "targetId": "event-types_ms"
+    },
+    {
+      "id": "event-types_pri@en",
+      "targetId": "event-types_ms"
+    },
+    {
+      "id": "event-relations_bio@en",
       "entries": [
         {
           "id": "person:birth:mother",
@@ -2877,6 +3317,19 @@
       ]
     },
     {
+      "id": "flags_ico@en",
+      "entries": [
+        {
+          "id": "dc1",
+          "value": "storie prime"
+        },
+        {
+          "id": "dc2",
+          "value": "storie seconde"
+        }
+      ]
+    },
+    {
       "id": "metadata-types@en",
       "entries": [
         {
@@ -2907,6 +3360,36 @@
         {
           "id": "revisor",
           "value": "revisor"
+        }
+      ]
+    },
+    {
+      "id": "name-languages@en",
+      "entries": [
+        {
+          "id": "it",
+          "value": "italiano"
+        },
+        {
+          "id": "la",
+          "value": "latino"
+        }
+      ]
+    },
+    {
+      "id": "name-piece-types@en",
+      "entries": [
+        {
+          "id": "name",
+          "value": "nome generico"
+        },
+        {
+          "id": "first",
+          "value": "nome di battesimo"
+        },
+        {
+          "id": "last",
+          "value": "cognome"
         }
       ]
     },
@@ -3063,7 +3546,16 @@
         "id": "seed.it.vedph.codicology.watermarks"
       },
       {
+        "id": "seed.it.vedph.comment",
+        "options": {
+          "languages": [ "en", "it" ]
+        }
+      },
+      {
         "id": "seed.it.vedph.decorated-counts"
+      },
+      {
+        "id": "seed.it.vedph.doc-references"
       },
       {
         "id": "seed.it.vedph.ext-bibliography"
@@ -3090,19 +3582,10 @@
         "id": "seed.it.vedph.ndp.cod-fr-support"
       },
       {
-        "id": "seed.it.vedph.ndp.print-fonts"
-      },
-      {
         "id": "seed.it.vedph.ndp.print-fig-plan"
       },
       {
         "id": "seed.it.vedph.ndp.print-fig-plan-impl"
-      },
-      {
-        "id": "seed.it.vedph.ndp.print-fonts"
-      },
-      {
-        "id": "seed.it.vedph.pin-links"
       },
       {
         "id": "seed.it.vedph.note",
@@ -3119,6 +3602,12 @@
       },
       {
         "id": "seed.it.vedph.physical-states"
+      },
+      {
+        "id": "seed.it.vedph.pin-links"
+      },
+      {
+        "id": "seed.it.vedph.print-fonts"
       }
     ],
     "fragmentSeeders": [

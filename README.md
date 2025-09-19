@@ -9,7 +9,9 @@
 🐋 Quick Docker image build:
 
 ```sh
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.1 -t vedph2020/cadmus-ndp-api:latest --push
+docker buildx create --use
+
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.2 -t vedph2020/cadmus-ndp-api:latest --push
 ```
 
 (replace with the current version).
@@ -157,6 +159,10 @@ The following entities are to be completed:
   - _content_
     - edits (COD)
     - iconography instructions (ICO)
+  - _editorial_
+    - note
+  - _references_
+    - bibliography
 
 > ??I would remove [drawing texts part](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtextspart) as it is superseded by COD edits.
 
@@ -171,6 +177,19 @@ The following entities are to be completed:
   - _content_
     - features:ico (storie prime/seconde etc.)
     - comment (description)
+  - _editorial_
+    - note
+  - _references_
+    - bibliography
+- **person**
+  - _identity_
+    - metadata
+    - names
+    - categories:bio
+    - links
+  - _history_
+    - historical events:bio
+    - note:hist (history)
   - _editorial_
     - note
   - _references_
@@ -247,7 +266,11 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
-- 2025-09-19: updated packages.
+### 1.0.2
+
+- 2025-09-19:
+  - updated packages.
+  - added drawings, iconographies, persons to profile except for those parts which are still missing.
 - 2025-09-18: refactored profile.
 - 2025-09-16: updated packages.
 - 2025-08-28: updated packages.
