@@ -63,18 +63,18 @@ The list of facets is given here with their conventional groupings used in the e
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`fr`
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - support (FRA)
-    - rulings (FRA)
-    - labels:sig (FRA)
-    - labels (FRA)
+    - [support](https://github.com/vedph/cadmus-ndp-frac#codfrsupportpart) (FRA)
+    - [rulings](https://github.com/vedph/cadmus-ndp-frac#codfrrulingspart) (FRA)
+    - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart):`sig` (FRA)
+    - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart) (FRA)
     - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md)
-    - measurements
-    - preservation states
+    - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
+    - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
-    - layout (FRA)
+    - [layout](https://github.com/vedph/cadmus-ndp-frac#codfrlayoutpart) (FRA)
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
-    - hands (COD)
+    - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD)
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
@@ -89,10 +89,10 @@ The list of facets is given here with their conventional groupings used in the e
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`prn` (print date/place)
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`pub` (publication date/place)
   - _content_
-    - fonts (BOK)
+    - [fonts](https://github.com/vedph/cadmus-ndp-books#printfontspart) (BOK)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
-    - figurative plan (BOK)
+    - [figurative plan](https://github.com/vedph/cadmus-ndp-books#figurativeplanpart) (BOK)
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`inc` (incipit)
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`col` (colophon)
   - _editorial_
@@ -109,13 +109,13 @@ The list of facets is given here with their conventional groupings used in the e
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`pri`
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - bindings (COD)
+    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
     - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
-    - measurements
-    - preservation states
+    - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
+    - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
-    - figurative plan implementation (BOK)
+    - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books#figurativeplanimplpart) (BOK)
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`edits` ("postille")??
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
@@ -136,11 +136,11 @@ The following entities are to be completed:
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`drp`
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - bindings (COD)
-    - preservation states
+    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
+    - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [drawing set](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingsetpart) (DRW)
-    - comment
+    - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
@@ -157,14 +157,14 @@ The following entities are to be completed:
   - _material_
     - [drawing tech](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtechpart) (DRW)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
-    - preservation states
+    - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
     - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography]https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 
 > ??I would remove [drawing texts part](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtextspart) as it is superseded by COD edits.
 
@@ -177,8 +177,8 @@ The following entities are to be completed:
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` (iconographic subjects tree)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` (luoghi danteschi)
   - _content_
-    - features:ico (storie prime/seconde etc.)
-    - comment (description)
+    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`ico` (storie prime/seconde etc.)
+    - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md) (description)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
@@ -186,7 +186,7 @@ The following entities are to be completed:
 - **person**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
-    - names
+    - [names](https://github.com/vedph/cadmus-general/blob/master/docs/names.md)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`bio`
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
   - _history_
@@ -237,7 +237,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | drawing set (DRW)                    |            |          |                |             | X            |              |             |
 | drawing tech (DRW)                   |            |          |                |             |              | X            |             |
 | edits (COD)                          | X          | X        |                | X           |              | X            |             |
-| features                             |            |          |                |             |              |              | ico         |
+| flags                                |            |          |                |             |              |              | ico         |
 | figurative plan (BOK)                |            |          | X              |             |              |              |             |
 | figurative plan implementation (BOK) |            |          |                | X           |              |              |             |
 | fonts (BOK)                          |            |          | X              |             |              |              |             |
