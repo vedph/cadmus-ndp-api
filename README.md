@@ -224,41 +224,42 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ![parts distribution](parts.png)
 
-| part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography |
-| ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- |
-| bibliography                         | X          | X        | X              | X           | X            | X            | X           |
-| bindings (COD)                       | X          |          |                | X           | X            |              |             |
-| categories                           | txt        | txt      | txt            | txt edits   |              |              | ico ctx     |
-| chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |
-| comment                              |            |          |                |             | X            |              | X           |
-| contents (COD)                       | X          | X        |                |             |              |              |             |
-| decorated counts                     |            | X        |                |             |              |              |             |
-| decorations (COD)                    | X          | X        | X              | X           |              |              |             |
-| drawing set (DRW)                    |            |          |                |             | X            |              |             |
-| drawing tech (DRW)                   |            |          |                |             |              | X            |             |
-| edits (COD)                          | X          | X        |                | X           |              | X            |             |
-| flags                                |            |          |                |             |              |              | ico         |
-| figurative plan (BOK)                |            |          | X              |             |              |              |             |
-| figurative plan implementation (BOK) |            |          |                | X           |              |              |             |
-| fonts (BOK)                          |            |          | X              |             |              |              |             |
-| hands (COD)                          | X          | X        |                | X           |              |              |             |
-| historical events                    | ms         | fr       |                | pri         | drp          | dri          |             |
-| iconography instructions (ICO)       |            |          |                |             |              | X            |             |
-| labels (FRA)                         |            | X sig    |                |             |              |              |             |
-| layouts (COD)                        | X          |          | X              | X           |              |              |             |
-| layout (FRA)                         |            | X        |                |             |              |              |             |
-| links                                | X          | X        | X              | X           | X            | X            | X           |
-| material description (COD)           | X          |          |                |             |              |              |             |
-| measurements                         |            | X        |                | X           |              |              |             |
-| metadata                             | X          | X        | X              | X           | X            | X            | X           |
-| note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       |
-| preservation states                  |            | X        |                | X           | X            | X            |             |
-| references                           |            |          |                |             |              |              | cit         |
-| rulings (FRA)                        |            | X        |                |             |              |              |             |
-| shelfmarks (COD)                     | X          | X        |                | X           | X            | X            |             |
-| sheet labels (COD)                   | X          |          |                | X           |              |              |             |
-| support (FRA)                        |            | X        |                |             |              |              |             |
-| watermarks (COD)                     | X          |          | X              |             |              | X            |             |
+| part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography | person |
+| ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- | ------ |
+| bibliography                         | X          | X        | X              | X           | X            | X            | X           | X      |
+| bindings (COD)                       | X          |          |                | X           | X            |              |             |        |
+| categories                           | txt        | txt      | txt            | txt edits   |              |              | ico ctx     | bio    |
+| chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |        |
+| comment                              |            |          |                |             | X            |              | X           |        |
+| contents (COD)                       | X          | X        |                |             |              |              |             |        |
+| decorated counts                     |            | X        |                |             |              |              |             |        |
+| decorations (COD)                    | X          | X        | X              | X           |              |              |             |        |
+| drawing set (DRW)                    |            |          |                |             | X            |              |             |        |
+| drawing tech (DRW)                   |            |          |                |             |              | X            |             |        |
+| edits (COD)                          | X          | X        |                | X           |              | X            |             |        |
+| flags                                |            |          |                |             |              |              | ico         |        |
+| figurative plan (BOK)                |            |          | X              |             |              |              |             |        |
+| figurative plan implementation (BOK) |            |          |                | X           |              |              |             |        |
+| fonts (BOK)                          |            |          | X              |             |              |              |             |        |
+| hands (COD)                          | X          | X        |                | X           |              |              |             |        |
+| historical events                    | ms         | fr       |                | pri         | drp          | dri          |             | bio    |
+| iconography instructions (ICO)       |            |          |                |             |              | X            |             |        |
+| labels (FRA)                         |            | X sig    |                |             |              |              |             |        |
+| layouts (COD)                        | X          |          | X              | X           |              |              |             |        |
+| layout (FRA)                         |            | X        |                |             |              |              |             |        |
+| links                                | X          | X        | X              | X           | X            | X            | X           | X      |
+| material description (COD)           | X          |          |                |             |              |              |             |        |
+| measurements                         |            | X        |                | X           |              |              |             |        |
+| metadata                             | X          | X        | X              | X           | X            | X            | X           | X      |
+| names                                |            |          |                |             |              |              |             | X      |
+| note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       | X hist |
+| preservation states                  |            | X        |                | X           | X            | X            |             |        |
+| references                           |            |          |                |             |              |              | cit         |        |
+| rulings (FRA)                        |            | X        |                |             |              |              |             |        |
+| shelfmarks (COD)                     | X          | X        |                | X           | X            | X            |             |        |
+| sheet labels (COD)                   | X          |          |                | X           |              |              |             |        |
+| support (FRA)                        |            | X        |                |             |              |              |             |        |
+| watermarks (COD)                     | X          |          | X              |             |              | X            |             |        |
 
 💡 Notes:
 
