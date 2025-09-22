@@ -173,7 +173,7 @@ The following entities are to be completed:
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
-    - references:cit (textual citations related to this iconography)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md):`cit` (textual citations related to this iconography)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` (iconographic subjects tree)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` (luoghi danteschi)
   - _content_
