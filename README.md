@@ -4,6 +4,7 @@
   - [Facets](#facets)
     - [Facets Synoptic Table](#facets-synoptic-table)
   - [History](#history)
+    - [1.0.3](#103)
     - [1.0.1](#101)
 
 🐋 Quick Docker image build:
@@ -154,6 +155,7 @@ The following entities are to be completed:
     - historical events:dri
     - note:hist (history)
   - _material_
+    - drawing tech (DRW)
     - watermarks (COD)
     - preservation states
   - _content_
