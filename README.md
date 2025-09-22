@@ -29,173 +29,173 @@ The list of facets is given here with their conventional groupings used in the e
 
 - **manuscript**
   - _identity_
-    - metadata
-    - shelfmarks (COD)
-    - links
-    - categories:txt
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
+    - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
-    - chronotopes
-    - historical events:ms
-    - note:hist (history)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`ms`
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - bindings (COD)
-    - sheet labels (COD)
-    - material description (COD)
-    - watermarks (COD)
+    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
+    - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
+    - [material description](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-material-dsc.md) (COD)
+    - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
   - _content_
-    - contents (COD)
-    - layouts (COD)
-    - decorations (COD)
-    - hands (COD)
-    - edits (COD)
+    - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
+    - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
+    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
+    - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD)
+    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 - **fragment**
   - _identity_
-    - metadata
-    - shelfmarks (COD)
-    - links
-    - categories:txt
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
+    - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
-    - chronotopes
-    - historical events:fr
-    - note:hist (history)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`fr`
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
     - support (FRA)
     - rulings (FRA)
     - labels:sig (FRA)
     - labels (FRA)
-    - decorated counts
+    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md)
     - measurements
     - preservation states
   - _content_
-    - contents (COD)
+    - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
     - layout (FRA)
-    - decorations (COD)
+    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
     - hands (COD)
-    - edits (COD)
+    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - references
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 - **print edition**
   - _identity_
-    - metadata
-    - links (this can include also authors and editors)
-    - categories:txt
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
-    - chronotopes:prn (print date/place)
-    - chronotopes:pub (publication date/place)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`prn` (print date/place)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`pub` (publication date/place)
   - _content_
     - fonts (BOK)
-    - layouts (COD)
-    - watermarks (COD)
+    - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
+    - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
     - figurative plan (BOK)
-    - note:inc (incipit)
-    - note:col (colophon)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`inc` (incipit)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`col` (colophon)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 - **print instance**
   - _identity_
-    - metadata
-    - links
-    - shelfmarks
-    - categories:txt
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
+    - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
-    - historical events:pri
-    - note:hist (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`pri`
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
     - bindings (COD)
-    - sheet labels (COD)
+    - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
     - measurements
     - preservation states
   - _content_
-    - layouts (COD)
+    - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - figurative plan implementation (BOK)
-    - decorations (COD)
-    - categories:edits ("postille")
-    - edits (COD)
+    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`edits` ("postille")??
+    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 
 The following entities are to be completed:
 
 - **drawings project**
   - _identity_
-    - metadata
-    - links (also for authors)
-    - shelfmarks (COD)
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors)
+    - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
   - _history_
-    - chronotopes
-    - historical events:drp
-    - note:hist (history)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`drp`
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
     - bindings (COD)
     - preservation states
   - _content_
-    - drawing set (DRW)
+    - [drawing set](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingsetpart) (DRW)
     - comment
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 - **drawing item**
   - _identity_
-    - metadata
-    - links (also for authors)
-    - shelfmarks (COD)
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors)
+    - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
   - _history_
-    - chronotopes
-    - historical events:dri
-    - note:hist (history)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`dri`
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - drawing tech (DRW)
-    - watermarks (COD)
+    - [drawing tech](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtechpart) (DRW)
+    - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
     - preservation states
   - _content_
-    - edits (COD)
-    - iconography instructions (ICO)
+    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
+    - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography]https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md
 
 > ??I would remove [drawing texts part](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtextspart) as it is superseded by COD edits.
 
 - **iconography**
   - _identity_
-    - metadata
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
-    - links
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
     - references:cit (textual citations related to this iconography)
-    - categories:ico (iconographic subjects tree)
-    - categories:ctx (luoghi danteschi)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` (iconographic subjects tree)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` (luoghi danteschi)
   - _content_
     - features:ico (storie prime/seconde etc.)
     - comment (description)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 - **person**
   - _identity_
-    - metadata
+    - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - names
-    - categories:bio
-    - links
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`bio`
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
   - _history_
-    - historical events:bio
-    - note:hist (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`bio`
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _editorial_
-    - note
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - bibliography
+    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 
 ❓ Questions:
 
@@ -217,7 +217,7 @@ Additionally, parts distribution shows cross-project reuse in action:
 - codicology (COD): 10
 - fragments (FRA): 4
 - books (BOK): 3
-- drawings (DRW): 1
+- drawings (DRW): 2
 - iconography (ICO): 1
 
 As you can see, almost half of the models come from the generic domain, and almost 3/4 of them are covered by the sum of generic and Codicology models. Only slightly more than 1/4 of the models used were specifically created for this project, while still keeping their design as much abstract and reusable as possible. This way, just like now we are using these parts for this specific project, anyone will be able to reuse them for its own.
