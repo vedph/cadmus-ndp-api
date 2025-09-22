@@ -235,6 +235,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | decorated counts                     |            | X        |                |             |              |              |             |
 | decorations (COD)                    | X          | X        | X              | X           |              |              |             |
 | drawing set (DRW)                    |            |          |                |             | X            |              |             |
+| drawing tech (DRW)                   |            |          |                |             |              | X            |             |
 | edits (COD)                          | X          | X        |                | X           |              | X            |             |
 | features                             |            |          |                |             |              |              | ico         |
 | figurative plan (BOK)                |            |          | X              |             |              |              |             |
