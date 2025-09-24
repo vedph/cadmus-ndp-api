@@ -265,6 +265,7 @@
         },
         {
           "typeId": "it.vedph.decorated-counts",
+          "roleId": "fr",
           "name": "counts",
           "description": "Various counts.",
           "colorKey": "FFB366",
@@ -669,6 +670,7 @@
         },
         {
           "typeId": "it.vedph.codicology.bindings",
+          "roleId": "drp",
           "name": "bindings",
           "description": "Current and historical bindings.",
           "colorKey": "E6D4A3",
@@ -684,12 +686,30 @@
           "sortKey": "08"
         },
         {
+          "typeId": "it.vedph.decorated-counts",
+          "roleId": "drp",
+          "name": "counts",
+          "description": "Various counts.",
+          "colorKey": "FFB366",
+          "groupKey": "material",
+          "sortKey": "09"
+        },
+        {
+          "typeId": "it.vedph.flags",
+          "roleId": "drp",
+          "name": "features",
+          "description": "Binary features for this project.",
+          "colorKey": "87F0F0",
+          "groupKey": "content",
+          "sortKey": "10"
+        },
+        {
           "typeId": "it.vedph.comment",
           "name": "comment",
           "description": "Comment.",
           "colorKey": "B2E0AA",
           "groupKey": "content",
-          "sortKey": "10"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.note",
@@ -697,7 +717,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "11"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -705,7 +725,7 @@
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
           "groupKey": "references",
-          "sortKey": "12"
+          "sortKey": "13"
         }
       ]
     },

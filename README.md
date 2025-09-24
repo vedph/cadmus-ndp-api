@@ -67,7 +67,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [rulings](https://github.com/vedph/cadmus-ndp-frac#codfrrulingspart) (FRA)
     - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart):`sig` (FRA)
     - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart) (FRA)
-    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md)
+    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`fr`
     - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
@@ -135,8 +135,8 @@ The list of facets is given here with their conventional groupings used in the e
   - _material_
     - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md):`drp` (COD)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
-  - _content_
     - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`drp`
+  - _content_
     - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`drp`
     - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md)
   - _editorial_
