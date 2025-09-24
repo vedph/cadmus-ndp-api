@@ -133,14 +133,16 @@ The list of facets is given here with their conventional groupings used in the e
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`drp`
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
+    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md):`drp` (COD)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
-    - [drawing set](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingsetpart) (DRW)
+    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`drp`
+    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`drp`
     - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md):`cit` for citations targeting passages to be illustrated by the drawings of this project
     - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
 - **drawing item**
   - _identity_
@@ -162,9 +164,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
-
-> ??I would remove [drawing texts part](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtextspart) as it is superseded by COD edits.
-
 - **iconography**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -197,7 +196,6 @@ The list of facets is given here with their conventional groupings used in the e
 ❓ Questions:
 
 - should we add preservation states to manuscripts??
-- in the original iconography part, we included a list of transcribed texts. I wonder whether this is redundant given the list of citations.
 - which entities in the above list besides drawing items should get the [iconography instructions part](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md)?
 
 ### Facets Synoptic Table
@@ -214,7 +212,7 @@ Additionally, parts distribution shows cross-project reuse in action:
 - codicology (COD): 10
 - fragments (FRA): 4
 - books (BOK): 3
-- drawings (DRW): 2
+- drawings (DRW): 1
 - iconography (ICO): 1
 
 As you can see, almost half of the models come from the generic domain, and almost 3/4 of them are covered by the sum of generic and Codicology models. Only slightly more than 1/4 of the models used were specifically created for this project, while still keeping their design as much abstract and reusable as possible. This way, just like now we are using these parts for this specific project, anyone will be able to reuse them for its own.
@@ -224,17 +222,16 @@ As you can see, almost half of the models come from the generic domain, and almo
 | part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography | person |
 | ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- | ------ |
 | bibliography                         | X          | X        | X              | X           | X            | X            | X           | X      |
-| bindings (COD)                       | X          |          |                | X           | X            |              |             |        |
+| bindings (COD)                       | X          |          |                | X           | drp          |              |             |        |
 | categories                           | txt        | txt      | txt            | txt edits   |              |              | ico ctx     | bio    |
 | chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |        |
 | comment                              |            |          |                |             | X            |              | X           |        |
 | contents (COD)                       | X          | X        |                |             |              |              |             |        |
-| decorated counts                     |            | X        |                |             |              |              |             |        |
+| decorated counts                     |            | X        |                |             | drp          |              |             |        |
 | decorations (COD)                    | X          | X        | X              | X           |              |              |             |        |
-| drawing set (DRW)                    |            |          |                |             | X            |              |             |        |
 | drawing tech (DRW)                   |            |          |                |             |              | X            |             |        |
 | edits (COD)                          | X          | X        |                | X           |              | X            |             |        |
-| flags                                |            |          |                |             |              |              | ico         |        |
+| flags                                |            |          |                |             | drp          |              | ico         |        |
 | figurative plan (BOK)                |            |          | X              |             |              |              |             |        |
 | figurative plan implementation (BOK) |            |          |                | X           |              |              |             |        |
 | fonts (BOK)                          |            |          | X              |             |              |              |             |        |
@@ -251,7 +248,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | names                                |            |          |                |             |              |              |             | X      |
 | note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       | X hist |
 | preservation states                  |            | X        |                | X           | X            | X            |             |        |
-| references                           |            |          |                |             |              |              | cit         |        |
+| references                           |            |          |                |             | cit          |              | cit         |        |
 | rulings (FRA)                        |            | X        |                |             |              |              |             |        |
 | shelfmarks (COD)                     | X          | X        |                | X           | X            | X            |             |        |
 | sheet labels (COD)                   | X          |          |                | X           |              |              |             |        |
