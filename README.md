@@ -25,7 +25,7 @@ This is a Cadmus API layer customized for Cadmus NDP (Naples Dante Project). Mos
 
 ## Facets
 
-The list of facets is given here with their conventional groupings used in the editor UI. The 3-letters abbreviation after each part type name refers to Cadmus model spaces different from the generic one. Here we have `COD`=codicology, `FRA`=fragments, `BOK`=books, `DRW`=drawings, `ICO`=iconography.
+The list of facets is given here with their conventional groupings used in the editor UI. The 3-letters abbreviation after each part type name refers to Cadmus model spaces different from the generic one. Here we have `COD`=codicology, `FRA`=fragments, `BOK`=books, `DRW`=drawings, `ICO`=iconography. Also, 🔗 means a potential _internal_ link.
 
 - **manuscript**
   - _identity_
@@ -45,9 +45,9 @@ The list of facets is given here with their conventional groupings used in the e
   - _content_
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
-    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
-    - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD)
-    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
+    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD) 🔗 `iconography`
+    - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
+    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
@@ -56,7 +56,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
-    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `manuscript` (+group)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
@@ -73,9 +73,9 @@ The list of facets is given here with their conventional groupings used in the e
   - _content_
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
     - [layout](https://github.com/vedph/cadmus-ndp-frac#codfrlayoutpart) (FRA)
-    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
-    - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD)
-    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
+    - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD) 🔗 `iconography`
+    - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
+    - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - references
@@ -83,7 +83,7 @@ The list of facets is given here with their conventional groupings used in the e
 - **print edition**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
-    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors) 🔗 `person`
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`prn` (print date/place)
@@ -92,7 +92,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [fonts](https://github.com/vedph/cadmus-ndp-books#printfontspart) (BOK)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
-    - [figurative plan](https://github.com/vedph/cadmus-ndp-books#figurativeplanpart) (BOK)
+    - [figurative plan](https://github.com/vedph/cadmus-ndp-books#figurativeplanpart) (BOK) 🔗 `person`
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`inc` (incipit)
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`col` (colophon)
   - _editorial_
@@ -102,7 +102,7 @@ The list of facets is given here with their conventional groupings used in the e
 - **print instance**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
-    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `print edition` (+group)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
   - _history_
@@ -115,7 +115,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
-    - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books#figurativeplanimplpart) (BOK)
+    - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books#figurativeplanimplpart) (BOK) 🔗 `iconography`
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`edits` ("postille")??
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
@@ -123,13 +123,10 @@ The list of facets is given here with their conventional groupings used in the e
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
-
-The following entities are to be completed:
-
 - **drawings project**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
-    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `person`
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
@@ -148,7 +145,7 @@ The following entities are to be completed:
 - **drawing item**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
-    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `drawings project` (+group) 🔗 `person`
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
@@ -160,7 +157,7 @@ The following entities are to be completed:
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
-    - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO)
+    - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO) 🔗 `iconography`
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
