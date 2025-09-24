@@ -210,7 +210,7 @@ This modular architecture is mirrored in the editor UI, as each part has its own
 
 Additionally, parts distribution shows cross-project reuse in action:
 
-- generic: 13
+- generic: 14
 - codicology (COD): 10
 - fragments (FRA): 4
 - books (BOK): 3
