@@ -786,12 +786,20 @@
           "sortKey": "06"
         },
         {
+          "typeId": "it.vedph.ndp.drawing-tech",
+          "name": "techniques",
+          "description": "Drawing techniques.",
+          "colorKey": "0FD10F",
+          "groupKey": "material",
+          "sortKey": "07"
+        },
+        {
           "typeId": "it.vedph.codicology.watermarks",
           "name": "watermarks",
           "description": "Watermarks.",
           "colorKey": "8FD18F",
           "groupKey": "material",
-          "sortKey": "07"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.physical-states",
@@ -799,7 +807,7 @@
           "description": "Physical preservation states.",
           "colorKey": "DBC785",
           "groupKey": "material",
-          "sortKey": "08"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -807,7 +815,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "09"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.note",
@@ -815,7 +823,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "10"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.ext-bibliography",
@@ -823,7 +831,7 @@
           "description": "External bibliography.",
           "colorKey": "CCCCCC",
           "groupKey": "references",
-          "sortKey": "11"
+          "sortKey": "12"
         }
       ]
     },
@@ -1130,6 +1138,10 @@
         {
           "id": "it.vedph.names",
           "value": "names"
+        },
+        {
+          "id": "it.vedph.ndp.drawing-tech",
+          "value": "techniques"
         },
         {
           "id": "it.vedph.ndp.print-fig-plan",
@@ -3600,6 +3612,9 @@
       },
       {
         "id": "seed.it.vedph.ndp.cod-fr-support"
+      },
+      {
+        "id": "seed.it.vedph.ndp.drawing-tech"
       },
       {
         "id": "seed.it.vedph.ndp.print-fig-plan"
