@@ -2708,6 +2708,87 @@
       ]
     },
     {
+      "id": "drawing-tech-colors@en",
+      "entries": [
+        {
+          "id": "dark-brown",
+          "value": "bruno scuro"
+        },
+        {
+          "id": "lite-brown",
+          "value": "bruno chiaro"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "blue",
+          "value": "blu"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "drawing-tech-features@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        }
+      ]
+    },
+    {
+      "id": "drawing-tech-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "pergamena"
+        },
+        {
+          "id": "paper",
+          "value": "carta"
+        }
+      ]
+    },
+    {
+      "id": "drawing-tech-measure-names@en",
+      "entries": [
+        {
+          "id": "width",
+          "value": "larghezza"
+        },
+        {
+          "id": "height",
+          "value": "altezza"
+        }
+      ]
+    },
+    {
+      "id": "drawing-tech-size-units@en",
+      "targetId": "physical-size-units"
+    },
+    {
+      "id": "drawing-tech-techniques@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        }
+      ]
+    },
+    {
       "id": "event-types_bio@en",
       "entries": [
         {
