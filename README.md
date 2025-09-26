@@ -2,8 +2,9 @@
 
 - [Cadmus NDP API](#cadmus-ndp-api)
   - [Facets](#facets)
-    - [Facets Synoptic Table](#facets-synoptic-table)
+    - [Parts Matrix](#parts-matrix)
   - [History](#history)
+    - [1.0.4](#104)
     - [1.0.3](#103)
     - [1.0.1](#101)
 
@@ -198,9 +199,9 @@ The list of facets is given here with their conventional groupings used in the e
 - should we add preservation states to manuscripts??
 - which entities in the above list besides drawing items should get the [iconography instructions part](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md)?
 
-### Facets Synoptic Table
+### Parts Matrix
 
-In this feature-matrix like table you find one column per entity. The cell at the intersection between each column and row contains `X` when the part is present, and/or one ore more role identifiers when that part is used with a specific role (indicated with a suffix after colon in the previous list).
+In this parts matrix you find one column per entity. The cell at the intersection between each column and row contains `X` when the part is present, and/or one ore more role identifiers when that part is used with a specific role (indicated with a suffix after colon in the previous list).
 
 This table clearly shows the modular modeling architecture of Cadmus: 32 parts (=reusable self-contained models with higher abstraction levels) are used more than 100 times, across 7 different items, covering very different knowledge domains and corresponding to material and immaterial entities.
 
