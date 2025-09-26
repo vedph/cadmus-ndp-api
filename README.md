@@ -43,6 +43,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
     - [material description](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-material-dsc.md) (COD)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
+    - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
@@ -52,7 +53,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **fragment**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -80,7 +81,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - references
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **print edition**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -99,7 +100,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **print instance**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -123,7 +124,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **drawings project**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -143,8 +144,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md):`cit` for citations targeting passages to be illustrated by the drawings of this project
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **drawing item**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -164,13 +164,12 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **iconography**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
-    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md):`cit` (textual citations related to this iconography)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` (iconographic subjects tree)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` (luoghi danteschi)
   - _content_
@@ -179,7 +178,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 - **person**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -192,12 +191,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md)
-
-❓ Questions:
-
-- should we add preservation states to manuscripts??
-- which entities in the above list besides drawing items should get the [iconography instructions part](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md)?
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 ### Parts Matrix
 
@@ -222,7 +216,6 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 | part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography | person |
 | ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- | ------ |
-| bibliography                         | X          | X        | X              | X           | X            | X            | X           | X      |
 | bindings (COD)                       | X          |          |                | X           | drp          |              |             |        |
 | categories                           | txt        | txt      | txt            | txt edits   |              |              | ico ctx     | bio    |
 | chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |        |
@@ -248,8 +241,8 @@ As you can see, almost half of the models come from the generic domain, and almo
 | metadata                             | X          | X        | X              | X           | X            | X            | X           | X      |
 | names                                |            |          |                |             |              |              |             | X      |
 | note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       | X hist |
-| preservation states                  |            | X        |                | X           | X            | X            |             |        |
-| references                           |            |          |                |             | cit          |              | cit         |        |
+| preservation states                  | X          | X        |                | X           | X            | X            |             |        |
+| references                           | X          | X        | X              | X           | X            | X            | X           | X      |
 | rulings (FRA)                        |            | X        |                |             |              |              |             |        |
 | shelfmarks (COD)                     | X          | X        |                | X           | X            | X            |             |        |
 | sheet labels (COD)                   | X          |          |                | X           |              |              |             |        |
@@ -264,6 +257,10 @@ As you can see, almost half of the models come from the generic domain, and almo
 - `note` is a generic note, mostly used for editorial purposes.
 
 ## History
+
+- 2025-09-26:
+  - replaced bibliography with references (will be used via Zotero).
+  - added preservation state to manuscripts.
 
 ### 1.0.4
 

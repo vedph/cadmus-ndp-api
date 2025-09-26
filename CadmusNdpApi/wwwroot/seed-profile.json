@@ -98,12 +98,20 @@
           "sortKey": "11"
         },
         {
+          "typeId": "it.vedph.physical-states",
+          "name": "states",
+          "description": "Physical preservation states.",
+          "colorKey": "DBC785",
+          "groupKey": "material",
+          "sortKey": "12"
+        },
+        {
           "typeId": "it.vedph.codicology.contents",
           "name": "contents",
           "description": "Contents: text.",
           "colorKey": "9CE69C",
           "groupKey": "content",
-          "sortKey": "12"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.codicology.layouts",
@@ -111,7 +119,7 @@
           "description": "Text layouts.",
           "colorKey": "7DD17D",
           "groupKey": "content",
-          "sortKey": "13"
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -119,7 +127,7 @@
           "description": "Decorations.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "14"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.codicology.hands",
@@ -127,7 +135,7 @@
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "15"
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -135,7 +143,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "16"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.note",
@@ -143,15 +151,15 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "17"
+          "sortKey": "18"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "18"
+          "sortKey": "19"
         }
       ]
     },
@@ -337,10 +345,10 @@
           "sortKey": "21"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
           "sortKey": "22"
         }
@@ -455,10 +463,10 @@
           "sortKey": "12"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
           "sortKey": "13"
         }
@@ -603,10 +611,10 @@
           "sortKey": "13"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
           "sortKey": "14"
         }
@@ -720,10 +728,10 @@
           "sortKey": "12"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
           "sortKey": "13"
         }
@@ -826,10 +834,10 @@
           "sortKey": "11"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
           "sortKey": "12"
         }
@@ -858,22 +866,13 @@
           "sortKey": "02"
         },
         {
-          "typeId": "it.vedph.doc-references",
-          "roleId": "cit",
-          "name": "citations",
-          "description": "Citations of text passages related to this iconography.",
-          "colorKey": "BEF0AA",
-          "groupKey": "relations",
-          "sortKey": "03"
-        },
-        {
           "typeId": "it.vedph.categories",
           "roleId": "ico",
           "name": "subjects",
           "description": "Iconographic subjects.",
           "colorKey": "98F8F8",
           "groupKey": "relations",
-          "sortKey": "04"
+          "sortKey": "03"
         },
         {
           "typeId": "it.vedph.categories",
@@ -882,7 +881,7 @@
           "description": "Iconographic contexts in Dante's work.",
           "colorKey": "98A8F8",
           "groupKey": "relations",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.flags",
@@ -891,7 +890,7 @@
           "description": "Binary features for this iconography.",
           "colorKey": "87F0F0",
           "groupKey": "content",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.comment",
@@ -899,7 +898,7 @@
           "description": "Description of this iconography.",
           "colorKey": "B2E0AA",
           "groupKey": "content",
-          "sortKey": "07"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.note",
@@ -907,15 +906,15 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "09"
+          "sortKey": "08"
         }
       ]
     },
@@ -985,10 +984,10 @@
           "sortKey": "07"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "External bibliography.",
-          "colorKey": "CCCCCC",
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "BEF0AA",
           "groupKey": "references",
           "sortKey": "08"
         }
