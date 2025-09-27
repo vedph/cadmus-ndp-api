@@ -130,12 +130,20 @@
           "sortKey": "15"
         },
         {
+          "typeId": "it.vedph.iconography.instructions",
+          "name": "instructions",
+          "description": "Iconography instructions.",
+          "colorKey": "AFB366",
+          "groupKey": "content",
+          "sortKey": "16"
+        },
+        {
           "typeId": "it.vedph.codicology.hands",
           "name": "hands",
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "16"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -143,7 +151,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "17"
+          "sortKey": "18"
         },
         {
           "typeId": "it.vedph.note",
@@ -151,7 +159,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "18"
+          "sortKey": "19"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -159,7 +167,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "19"
+          "sortKey": "20"
         }
       ]
     },
@@ -321,12 +329,20 @@
           "sortKey": "18"
         },
         {
+          "typeId": "it.vedph.iconography.instructions",
+          "name": "instructions",
+          "description": "Iconography instructions.",
+          "colorKey": "AFB366",
+          "groupKey": "content",
+          "sortKey": "19"
+        },
+        {
           "typeId": "it.vedph.codicology.hands",
           "name": "hands",
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "19"
+          "sortKey": "20"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -334,7 +350,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "20"
+          "sortKey": "21"
         },
         {
           "typeId": "it.vedph.note",
@@ -342,7 +358,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "21"
+          "sortKey": "22"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -350,7 +366,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "22"
+          "sortKey": "23"
         }
       ]
     },
@@ -826,12 +842,20 @@
           "sortKey": "10"
         },
         {
+          "typeId": "it.vedph.iconography.instructions",
+          "name": "instructions",
+          "description": "Iconography instructions.",
+          "colorKey": "AFB366",
+          "groupKey": "content",
+          "sortKey": "11"
+        },
+        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "11"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -839,7 +863,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "12"
+          "sortKey": "13"
         }
       ]
     },
@@ -1129,6 +1153,10 @@
         {
           "id": "it.vedph.historical-events",
           "value": "events"
+        },
+        {
+          "id": "it.vedph.iconography.instructions",
+          "value": "instructions"
         },
         {
           "id": "it.vedph.metadata",
@@ -3677,6 +3705,9 @@
       },
       {
         "id": "seed.it.vedph.historical-events"
+      },
+      {
+        "id": "seed.it.vedph.iconography.instructions"
       },
       {
         "id": "seed.it.vedph.metadata"

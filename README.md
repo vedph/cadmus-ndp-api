@@ -48,6 +48,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD) 🔗 `iconography`
+    - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO) 🔗 `iconography`
     - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
   - _editorial_
@@ -76,6 +77,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
     - [layout](https://github.com/vedph/cadmus-ndp-frac#codfrlayoutpart) (FRA)
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD) 🔗 `iconography`
+    - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO) 🔗 `iconography`
     - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
   - _editorial_
@@ -231,7 +233,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | fonts (BOK)                          |            |          | X              |             |              |              |             |        |
 | hands (COD)                          | X          | X        |                | X           |              |              |             |        |
 | historical events                    | ms         | fr       |                | pri         | drp          | dri          |             | bio    |
-| iconography instructions (ICO)       |            |          |                |             |              | X            |             |        |
+| iconography instructions (ICO)       | X          | X        |                |             |              | X            |             |        |
 | labels (FRA)                         |            | X sig    |                |             |              |              |             |        |
 | layouts (COD)                        | X          |          | X              | X           |              |              |             |        |
 | layout (FRA)                         |            | X        |                |             |              |              |             |        |
@@ -258,6 +260,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
+- 2025-09-27: added iconography parts.
 - 2025-09-26:
   - replaced bibliography with references (will be used via Zotero).
   - added preservation state to manuscripts.

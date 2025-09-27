@@ -6,6 +6,7 @@ using Cadmus.Core.Config;
 using Cadmus.Core.Storage;
 using Cadmus.Epigraphy.Parts;
 using Cadmus.General.Parts;
+using Cadmus.Iconography.Parts;
 using Cadmus.Mongo;
 using Cadmus.NdpBooks.Parts;
 using Cadmus.NdpDrawings.Parts;
@@ -51,7 +52,9 @@ public sealed class AppRepositoryProvider : IRepositoryProvider
             // Cadmus.NdpBooks.Parts
             typeof(PrintFontsPart).GetTypeInfo().Assembly,
             // Cadmus.NdpDrawings.Parts
-            typeof(DrawingTechPart).GetTypeInfo().Assembly
+            typeof(DrawingTechPart).GetTypeInfo().Assembly,
+            // Cadmus.Iconography.Parts
+            typeof(IcoInstructionsPart).GetTypeInfo().Assembly
         ]);
 
         _partTypeProvider = new StandardPartTypeProvider(_map);
