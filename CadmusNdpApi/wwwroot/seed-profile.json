@@ -189,7 +189,6 @@
           "typeId": "it.vedph.codicology.shelfmarks",
           "name": "shelfmarks",
           "description": "Fragment's shelfmark(s).",
-          "isRequired": true,
           "colorKey": "85C1FF",
           "groupKey": "identity",
           "sortKey": "02"
