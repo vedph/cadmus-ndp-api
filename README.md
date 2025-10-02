@@ -260,6 +260,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
+- 2025-10-02: updated packages.
 - 2025-09-27: added iconography parts.
 - 2025-09-26:
   - replaced bibliography with references (will be used via Zotero).
