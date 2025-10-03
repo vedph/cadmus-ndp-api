@@ -13,7 +13,7 @@
 ```sh
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.4 -t vedph2020/cadmus-ndp-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.5 -t vedph2020/cadmus-ndp-api:latest --push
 ```
 
 (replace with the current version).
@@ -254,13 +254,15 @@ As you can see, almost half of the models come from the generic domain, and almo
 💡 Notes:
 
 - `categories:txt` can be used to include the generic text classification which cross-references all the text-carrier entities.
-- `categories:edits` in print instances is a special classification for "postille". Can we include it in `categories:txt`?
+- `categories:edits` in print instances is a special classification for "postille". We include it in `categories:txt`.
 - `note:hist` is the narrative history of the entity. Usually its most relevant events are extracted and formalized into historical events.
 - `note` is a generic note, mostly used for editorial purposes.
 
 ## History
 
-- 2025-10-02: updated packages.
+### 1.0.5
+
+- 2025-10-03: updated packages and generated Docker image.
 - 2025-09-27: added iconography parts.
 - 2025-09-26:
   - replaced bibliography with references (will be used via Zotero).
