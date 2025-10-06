@@ -260,6 +260,8 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
+- 2025-10-06: updated packages.
+
 ### 1.0.5
 
 - 2025-10-03: updated packages and generated Docker image.
