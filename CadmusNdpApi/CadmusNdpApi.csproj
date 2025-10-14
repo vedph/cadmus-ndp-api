@@ -24,7 +24,7 @@
 		<PackageReference Include="Cadmus.Iconography.Services" Version="0.0.6" />
 		<PackageReference Include="Cadmus.NdpBooks.Services" Version="1.0.2" />
 		<PackageReference Include="Cadmus.NdpDrawings.Parts" Version="0.0.2" />
-		<PackageReference Include="Cadmus.NdpFrac.Services" Version="0.0.13" />
+		<PackageReference Include="Cadmus.NdpFrac.Services" Version="0.0.14" />
 		<PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="8.0.17" />
 		<PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="8.0.2" />
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="7.0.7" />
