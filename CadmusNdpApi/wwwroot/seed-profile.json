@@ -1061,8 +1061,20 @@
           "value": "categories"
         },
         {
-          "id": "it.vedph.categories:type",
-          "value": "type"
+          "id": "it.vedph.categories:bio",
+          "value": "person categories"
+        },
+        {
+          "id": "it.vedph.categories:ctx",
+          "value": "context categories"
+        },
+        {
+          "id": "it.vedph.categories:ico",
+          "value": "iconographic categories"
+        },
+        {
+          "id": "it.vedph.categories:txt",
+          "value": "text categories"
         },
         {
           "id": "it.vedph.codicology.bindings",
