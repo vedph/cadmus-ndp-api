@@ -96,10 +96,10 @@ The list of facets is given here with their conventional groupings used in the e
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`prn` 🚩 (print date/place)
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`pub` 🚩 (publication date/place)
   - _content_
-    - [fonts](https://github.com/vedph/cadmus-ndp-books#printfontspart) (BOK)
+    - [fonts](https://github.com/vedph/cadmus-ndp-books/blob/master/docs/print-fonts-part.md) (BOK)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
-    - [figurative plan](https://github.com/vedph/cadmus-ndp-books#figurativeplanpart) (BOK) 🔗 `person`
+    - [figurative plan](https://github.com/vedph/cadmus-ndp-books/blob/master/docs/figurative-plan-part.md) (BOK) 🔗 `person`
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`inc` 🚩 (incipit)
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`col` 🚩 (colophon)
   - _editorial_
@@ -122,7 +122,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
-    - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books#figurativeplanimplpart) (BOK) 🔗 `iconography`
+    - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books/blob/master/docs/figurative-plan-impl-part.md) (BOK) 🔗 `iconography`
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
   - _editorial_
@@ -256,7 +256,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 💡 Notes:
 
 - `categories:txt` can be used to include the generic text classification which cross-references all the text-carrier entities.
-- `categories:edits` in print instances is a special classification for "postille". We include it in `categories:txt`.
+- `categories:edits` in print instances is a special classification for "postille". We included it in `categories:txt`.
 - `note:hist` is the narrative history of the entity. Usually its most relevant events are extracted and formalized into historical events.
 - `note` is a generic note, mostly used for editorial purposes.
 
