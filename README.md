@@ -67,10 +67,10 @@ The list of facets is given here with their conventional groupings used in the e
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`fr` 🚩
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
-    - [support](https://github.com/vedph/cadmus-ndp-frac#codfrsupportpart) (FRA)
-    - [rulings](https://github.com/vedph/cadmus-ndp-frac#codfrrulingspart) (FRA)
-    - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart):`sig` (FRA) 🚩
-    - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart) (FRA)
+    - [support](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-support-part.md) (FRA)
+    - [rulings](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-rulings-part.md) (FRA)
+    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md):`sig` (FRA) 🚩
+    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md) (FRA)
     - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`fr` 🚩
     - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
