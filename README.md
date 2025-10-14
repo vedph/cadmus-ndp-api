@@ -24,6 +24,7 @@ This is a Cadmus API layer customized for Cadmus NDP (Naples Dante Project). Mos
 - [Cadmus NDP Frac](https://github.com/vedph/cadmus-ndp-frac)
 - [Cadmus NDP Books](https://github.com/vedph/cadmus-ndp-books)
 - [Cadmus NDP Drawings](https://github.com/vedph/cadmus-ndp-drawings)
+- [Cadmus Iconography](https://github.com/vedph/cadmus-iconography)
 
 ## Facets
 
