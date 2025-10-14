@@ -601,21 +601,12 @@
           "sortKey": "10"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "edits",
-          "name": "edits",
-          "description": "Types of edits (postille) on instance.",
-          "colorKey": "98F8F8",
-          "groupKey": "content",
-          "sortKey": "11"
-        },
-        {
           "typeId": "it.vedph.codicology.edits",
           "name": "edits",
           "description": "Supplementary edits on text.",
           "colorKey": "E72A8E",
           "groupKey": "history",
-          "sortKey": "12"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.note",
@@ -623,7 +614,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "13"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -631,7 +622,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "14"
+          "sortKey": "13"
         }
       ]
     },

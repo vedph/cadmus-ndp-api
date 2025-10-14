@@ -4,6 +4,7 @@
   - [Facets](#facets)
     - [Parts Matrix](#parts-matrix)
   - [History](#history)
+    - [1.0.5](#105)
     - [1.0.4](#104)
     - [1.0.3](#103)
     - [1.0.1](#101)
@@ -33,11 +34,11 @@ The list of facets is given here with their conventional groupings used in the e
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt` 🚩
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
-    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`ms`
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`ms` 🚩
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history) 🚩
   - _material_
     - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
     - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
@@ -60,17 +61,17 @@ The list of facets is given here with their conventional groupings used in the e
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `manuscript` (+group)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt` 🚩
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
-    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`fr`
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`fr` 🚩
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
   - _material_
     - [support](https://github.com/vedph/cadmus-ndp-frac#codfrsupportpart) (FRA)
     - [rulings](https://github.com/vedph/cadmus-ndp-frac#codfrrulingspart) (FRA)
-    - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart):`sig` (FRA)
+    - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart):`sig` (FRA) 🚩
     - [labels](https://github.com/vedph/cadmus-ndp-frac#codfrquirelabelspart) (FRA)
-    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`fr`
+    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`fr` 🚩
     - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
@@ -88,17 +89,17 @@ The list of facets is given here with their conventional groupings used in the e
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors) 🔗 `person`
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt` 🚩
   - _history_
-    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`prn` (print date/place)
-    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`pub` (publication date/place)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`prn` 🚩 (print date/place)
+    - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md):`pub` 🚩 (publication date/place)
   - _content_
     - [fonts](https://github.com/vedph/cadmus-ndp-books#printfontspart) (BOK)
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
     - [figurative plan](https://github.com/vedph/cadmus-ndp-books#figurativeplanpart) (BOK) 🔗 `person`
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`inc` (incipit)
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`col` (colophon)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`inc` 🚩 (incipit)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`col` 🚩 (colophon)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
@@ -108,10 +109,10 @@ The list of facets is given here with their conventional groupings used in the e
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `print edition` (+group)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt`
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt` 🚩
   - _history_
-    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`pri`
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`pri` 🚩
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` 🚩 (history)
   - _material_
     - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
     - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
@@ -121,7 +122,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
     - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books#figurativeplanimplpart) (BOK) 🔗 `iconography`
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`edits` ("postille")??
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
@@ -134,14 +134,14 @@ The list of facets is given here with their conventional groupings used in the e
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
-    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`drp`
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`drp` 🚩
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` 🚩 (history)
   - _material_
-    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md):`drp` (COD)
+    - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md):`drp` 🚩 (COD)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
-    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`drp`
+    - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`drp` 🚩
   - _content_
-    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`drp`
+    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`drp` 🚩
     - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
@@ -154,8 +154,8 @@ The list of facets is given here with their conventional groupings used in the e
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
-    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`dri`
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`dri` 🚩
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` 🚩 (history)
   - _material_
     - [drawing tech](https://github.com/vedph/cadmus-ndp-drawings?tab=readme-ov-file#drawingtechpart) (DRW)
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
@@ -172,10 +172,10 @@ The list of facets is given here with their conventional groupings used in the e
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` (iconographic subjects tree)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` (luoghi danteschi)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` 🚩 (iconographic subjects tree)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` 🚩 (luoghi danteschi)
   - _content_
-    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`ico` (storie prime/seconde etc.)
+    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`ico` 🚩 (storie prime/seconde etc.)
     - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md) (description)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
@@ -185,11 +185,11 @@ The list of facets is given here with their conventional groupings used in the e
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [names](https://github.com/vedph/cadmus-general/blob/master/docs/names.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`bio`
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`bio` 🚩
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
   - _history_
-    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`bio`
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` (history)
+    - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`bio` 🚩
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`hist` 🚩 (history)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
@@ -219,7 +219,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography | person |
 | ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- | ------ |
 | bindings (COD)                       | X          |          |                | X           | drp          |              |             |        |
-| categories                           | txt        | txt      | txt            | txt edits   |              |              | ico ctx     | bio    |
+| categories                           | txt        | txt      | txt            | txt         |              |              | ico ctx     | bio    |
 | chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |        |
 | comment                              |            |          |                |             | X            |              | X           |        |
 | contents (COD)                       | X          | X        |                |             |              |              |             |        |
@@ -260,6 +260,9 @@ As you can see, almost half of the models come from the generic domain, and almo
 
 ## History
 
+- 2025-10-14:
+  - removed `categories:edits` from iconography in profile.
+  - updated packages.
 - 2025-10-08: updated packages.
 - 2025-10-06: updated packages.
 
