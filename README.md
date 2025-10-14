@@ -37,7 +37,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt` 🚩
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`txt` 🚩 (text categories are a cross-reference taxonomy used to define the text type (e.g. comment) from the philological point of view)
   - _history_
     - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md)
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`ms` 🚩
@@ -58,7 +58,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
-    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+    - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md) (mostly used for Zotero bibliography)
 - **fragment**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -188,7 +188,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [names](https://github.com/vedph/cadmus-general/blob/master/docs/names.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`bio` 🚩
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`bio` 🚩 (person categories, like poet, cardinal, jurist, miniaturist, etc.)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
   - _history_
     - [historical events](https://github.com/vedph/cadmus-general/blob/master/docs/historical-events.md):`bio` 🚩
@@ -260,6 +260,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 - `categories:edits` in print instances is a special classification for "postille". We included it in `categories:txt`.
 - `note:hist` is the narrative history of the entity. Usually its most relevant events are extracted and formalized into historical events.
 - `note` is a generic note, mostly used for editorial purposes.
+- bibliography is hosted in `references` via Zotero lookup. In this, the `citation` property of each reference (a string) will hold a combination of the Zotero library ID and item ID, uniquely identifying each bibliographic entry.
 
 ## History
 
