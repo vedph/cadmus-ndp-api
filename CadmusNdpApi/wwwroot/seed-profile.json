@@ -2033,6 +2033,14 @@
         {
           "id": "paper",
           "value": "cartaceo"
+        },
+        {
+          "id": "parchment-reuse",
+          "value": "membranaceo di riuso"
+        },
+        {
+          "id": "paper-reuse",
+          "value": "cartaceo di riuso"
         }
       ]
     },
@@ -2288,12 +2296,16 @@
       "id": "cod-hand-colors@en",
       "entries": [
         {
-          "id": "dark-brown",
-          "value": "bruno scuro"
+          "id": "black",
+          "value": "nero"
         },
         {
-          "id": "lite-brown",
-          "value": "bruno chiaro"
+          "id": "brown",
+          "value": "bruno"
+        },
+        {
+          "id": "gray",
+          "value": "grigio"
         },
         {
           "id": "red",
@@ -2314,11 +2326,11 @@
       "entries": [
         {
           "id": "got",
-          "value": "gotica"
+          "value": "textualis/gotica"
         },
         {
           "id": "sgt",
-          "value": "semigotica"
+          "value": "textualis sempl./semigotica"
         },
         {
           "id": "mic",
@@ -2457,16 +2469,12 @@
           "value": "a secco"
         },
         {
-          "id": "color",
-          "value": "a colore"
-        },
-        {
           "id": "mine",
-          "value": "a mina di piombo"
+          "value": "colore: mina di piombo"
         },
         {
           "id": "ink",
-          "value": "a inchiostro"
+          "value": "colore: inchiostro"
         },
         {
           "id": "fold",
