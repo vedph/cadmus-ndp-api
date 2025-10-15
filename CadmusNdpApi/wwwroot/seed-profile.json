@@ -1877,28 +1877,7 @@
     },
     {
       "id": "cod-edit-colors@en",
-      "entries": [
-        {
-          "id": "dark-brown",
-          "value": "bruno scuro"
-        },
-        {
-          "id": "lite-brown",
-          "value": "bruno chiaro"
-        },
-        {
-          "id": "red",
-          "value": "rosso"
-        },
-        {
-          "id": "blue",
-          "value": "blu"
-        },
-        {
-          "id": "other",
-          "value": "altro"
-        }
-      ]
+      "targetId": "cod-hand-colors"
     },
     {
       "id": "cod-edit-languages@en",
@@ -2501,24 +2480,7 @@
     },
     {
       "id": "cod-numbering-colors@en",
-      "entries": [
-        {
-          "id": "dark-brown",
-          "value": "bruno scuro"
-        },
-        {
-          "id": "lite-brown",
-          "value": "bruno chiaro"
-        },
-        {
-          "id": "red",
-          "value": "rosso"
-        },
-        {
-          "id": "other",
-          "value": "altro"
-        }
-      ]
+      "targetId": "cod-hand-colors"
     },
     {
       "id": "cod-numbering-positions@en",
@@ -2756,24 +2718,32 @@
       "id": "drawing-tech-colors@en",
       "entries": [
         {
-          "id": "dark-brown",
-          "value": "bruno scuro"
+          "id": "beige",
+          "value": "beige"
         },
         {
-          "id": "lite-brown",
-          "value": "bruno chiaro"
-        },
-        {
-          "id": "red",
-          "value": "rosso"
+          "id": "ochre-lite",
+          "value": "giallino"
         },
         {
           "id": "blue",
-          "value": "blu"
+          "value": "azzurro"
         },
         {
-          "id": "other",
-          "value": "altro"
+          "id": "blue-gray",
+          "value": "grigio-azzurro"
+        },
+        {
+          "id": "gray",
+          "value": "grigio"
+        },
+        {
+          "id": "green",
+          "value": "verde"
+        },
+        {
+          "id": "blue-green",
+          "value": "verde azzurro"
         }
       ]
     },
@@ -2781,12 +2751,36 @@
       "id": "drawing-tech-features@en",
       "entries": [
         {
-          "id": "a",
-          "value": "alpha"
+          "id": "back-mount-a-parchment",
+          "value": "passepartout antico in pergamena"
         },
         {
-          "id": "b",
-          "value": "beta"
+          "id": "back-mount-a-paper",
+          "value": "passepartout antico in carta"
+        },
+        {
+          "id": "back-mount-a-panel",
+          "value": "passepartout antico in legno"
+        },
+        {
+          "id": "back-mount-m-canvas",
+          "value": "passepartout moderno  in tela"
+        },
+        {
+          "id": "back-mount-m-parchment",
+          "value": "passepartout moderno in pergamena"
+        },
+        {
+          "id": "back-mount-m-paper",
+          "value": "passepartout moderno in carta"
+        },
+        {
+          "id": "back-mount-m-panel",
+          "value": "passepartout moderno in legno"
+        },
+        {
+          "id": "back-mount-m-canvas",
+          "value": "passepartout moderno in tela"
         }
       ]
     },
@@ -2807,12 +2801,20 @@
       "id": "drawing-tech-measure-names@en",
       "entries": [
         {
-          "id": "width",
-          "value": "larghezza"
+          "id": "drawing-w",
+          "value": "larghezza disegno"
         },
         {
-          "id": "height",
-          "value": "altezza"
+          "id": "drawing-h",
+          "value": "altezza disegno"
+        },
+        {
+          "id": "backmount-w",
+          "value": "larghezza passepartout"
+        },
+        {
+          "id": "backmount-h",
+          "value": "altezza passepartout"
         }
       ]
     },
@@ -2824,12 +2826,60 @@
       "id": "drawing-tech-techniques@en",
       "entries": [
         {
-          "id": "a",
-          "value": "alpha"
+          "id": "metalpoint",
+          "value": "punta d'argento"
         },
         {
-          "id": "b",
-          "value": "beta"
+          "id": "stylus",
+          "value": "stilo"
+        },
+        {
+          "id": "chalk-black",
+          "value": "matita nera"
+        },
+        {
+          "id": "chalk-red",
+          "value": "sanguigna"
+        },
+        {
+          "id": "chalk-brown",
+          "value": "matita seppia"
+        },
+        {
+          "id": "pen-black",
+          "value": "penna nera"
+        },
+        {
+          "id": "pen-brown",
+          "value": "penna bruna"
+        },
+        {
+          "id": "wash-bistre",
+          "value": "acquerellatura bistro"
+        },
+        {
+          "id": "wash-grey",
+          "value": "acquerellatura grigia"
+        },
+        {
+          "id": "wash-blue",
+          "value": "acquerellatura azzurra"
+        },
+        {
+          "id": "wash-bistre",
+          "value": "acquerellatura marrone"
+        },
+        {
+          "id": "heighten-white",
+          "value": "lumeggiatura bianca"
+        },
+        {
+          "id": "underdrawing",
+          "value": "disegno preparatorio"
+        },
+        {
+          "id": "composition-change",
+          "value": "pentimento"
         }
       ]
     },
