@@ -2458,6 +2458,19 @@
       ]
     },
     {
+      "id": "cod-layout-counts@en",
+      "entries": [
+        {
+          "id": "rows",
+          "value": "righe"
+        },
+        {
+          "id": "lines",
+          "value": "linee"
+        }
+      ]
+    },
+    {
       "id": "cod-layout-ruling-techniques@en",
       "entries": [
         {
@@ -2669,7 +2682,7 @@
         },
         {
           "id": "previous",
-          "value": "prec."
+          "value": "precedente"
         }
       ]
     },
@@ -2679,6 +2692,22 @@
         {
           "id": "-",
           "value": "---"
+        },
+        {
+          "id": "sz-lte-32",
+          "value": "piccolo"
+        },
+        {
+          "id": "sz-lte-49",
+          "value": "medio-piccolo"
+        },
+        {
+          "id": "sz-lte-67",
+          "value": "medio-grande"
+        },
+        {
+          "id": "sz-gt67",
+          "value": "grande"
         },
         {
           "id": "infolio",
@@ -2721,28 +2750,7 @@
     },
     {
       "id": "cod-unit-states@en",
-      "entries": [
-        {
-          "id": "s1",
-          "value": "ottimo"
-        },
-        {
-          "id": "s2",
-          "value": "buono"
-        },
-        {
-          "id": "s3",
-          "value": "discreto"
-        },
-        {
-          "id": "s4",
-          "value": "precario"
-        },
-        {
-          "id": "s5",
-          "value": "pessimo"
-        }
-      ]
+      "targetId": "physical-states"
     },
     {
       "id": "drawing-tech-colors@en",
@@ -3480,6 +3488,47 @@
       ]
     },
     {
+      "id": "ico-instruction-positions@en",
+      "entries": [
+        {
+          "id": "top-left",
+          "value": "in alto a sx"
+        },
+        {
+          "id": "top",
+          "value": "in alto"
+        },
+        {
+          "id": "top-right",
+          "value": "in alto a dx"
+        },
+        {
+          "id": "left",
+          "value": "a sx"
+        },
+        {
+          "id": "right",
+          "value": "a dx"
+        },
+        {
+          "id": "bottom-left",
+          "value": "in basso a sx"
+        },
+        {
+          "id": "bottom",
+          "value": "in basso"
+        },
+        {
+          "id": "bottom-right",
+          "value": "in basso a dx"
+        }
+      ]
+    },
+    {
+      "id": "co-instruction-scripts@en",
+      "targetId": "cod-hand-scripts"
+    },
+    {
       "id": "metadata-types@en",
       "entries": [
         {
@@ -3564,16 +3613,24 @@
       "id": "physical-states@en",
       "entries": [
         {
-          "id": "q1",
-          "value": "bad"
+          "id": "s1",
+          "value": "ottimo"
         },
         {
-          "id": "q2",
-          "value": "good"
+          "id": "s2",
+          "value": "buono"
         },
         {
-          "id": "q3",
-          "value": "excellent"
+          "id": "s3",
+          "value": "discreto"
+        },
+        {
+          "id": "s4",
+          "value": "precario"
+        },
+        {
+          "id": "s5",
+          "value": "pessimo"
         }
       ]
     },
@@ -3657,7 +3714,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": [ "zeus" ],
+      "users": ["zeus"],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -3698,7 +3755,7 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "en", "it" ]
+          "languages": ["en", "it"]
         }
       },
       {
@@ -3746,11 +3803,7 @@
       {
         "id": "seed.it.vedph.note",
         "options": {
-          "tags": [
-            "language",
-            "history",
-            "geography"
-          ]
+          "tags": ["language", "history", "geography"]
         }
       },
       {
@@ -3766,9 +3819,7 @@
         "id": "seed.it.vedph.ndp.print-fonts"
       }
     ],
-    "fragmentSeeders": [
-    ]
+    "fragmentSeeders": []
   },
-  "settings": {
-  }
+  "settings": {}
 }
