@@ -262,6 +262,17 @@ As you can see, almost half of the models come from the generic domain, and almo
 - `note` is a generic note, mostly used for editorial purposes.
 - bibliography is hosted in `references` via Zotero lookup. In this, the `citation` property of each reference (a string) will hold a combination of the Zotero library ID and item ID, uniquely identifying each bibliographic entry.
 
+## Authorithies
+
+Reference authority lists:
+
+- generic:
+  - MOL authority list from Excel files to be imported.
+- art:
+  - [The Dictionary of Art](https://www.kubikat.org/discovery/fulldisplay?docid=alma990004394102009152&context=L&vid=49MPG_KUBIKAT:VU1&lang=de&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,the%20dictionary%20of%20art&offset=0)
+  - [Dizionario Biografico degli Italiani](https://www.kubikat.org/discovery/fulldisplay?docid=alma990016857162009152&context=L&vid=49MPG_KUBIKAT:VU1&lang=de&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,dizionario%20biografico%20italiani&offset=0) - [digital](https://www.treccani.it/biografico/)
+  - [Dizionario Biografico dei Miniatori Italiani](https://www.kubikat.org/discovery/fulldisplay?docid=alma990002010052009152&context=L&vid=49MPG_KUBIKAT:VU1&lang=de&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,dizionario%20biografico%20italiani&offset=0)
+
 ## History
 
 - 2025-10-14:
