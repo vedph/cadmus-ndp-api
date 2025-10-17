@@ -2184,20 +2184,20 @@
       "id": "cod-fr-ruling-features@en",
       "entries": [
         {
+          "id": "-",
+          "value": "---"
+        },
+        {
           "id": "drypoint",
           "value": "a secco"
         },
         {
-          "id": "plummet",
-          "value": "a mina"
+          "id": "mine",
+          "value": "colore: mina di piombo"
         },
         {
           "id": "ink",
-          "value": "a inchiostro"
-        },
-        {
-          "id": "colored",
-          "value": "a colore"
+          "value": "colore: inchiostro"
         },
         {
           "id": "folding",
@@ -2210,6 +2210,10 @@
         {
           "id": "undetectable",
           "value": "non individuabile"
+        },
+        {
+          "id": "none",
+          "value": "nessuna"
         }
       ]
     },
@@ -2441,6 +2445,15 @@
       ]
     },
     {
+      "id": "cod-labels-col-q-features@en",
+      "entries": [
+        {
+          "id": "quire-break",
+          "value": "cesura fasc."
+        }
+      ]
+    },
+    {
       "id": "cod-layout-counts@en",
       "entries": [
         {
@@ -2461,7 +2474,7 @@
           "value": "---"
         },
         {
-          "id": "dry",
+          "id": "drypoint",
           "value": "a secco"
         },
         {
@@ -2473,12 +2486,16 @@
           "value": "colore: inchiostro"
         },
         {
-          "id": "fold",
-          "value": "per piegatura"
+          "id": "folding",
+          "value": "piegatura"
         },
         {
           "id": "other",
           "value": "altro"
+        },
+        {
+          "id": "none",
+          "value": "nessuna"
         }
       ]
     },
