@@ -1929,6 +1929,10 @@
       ]
     },
     {
+      "id": "cod-edit-positions@en",
+      "targetId": "ico-instruction-positions"
+    },
+    {
       "id": "cod-edit-techniques@en",
       "entries": [
         {
@@ -3575,7 +3579,7 @@
       ]
     },
     {
-      "id": "co-instruction-scripts@en",
+      "id": "ico-instruction-scripts@en",
       "targetId": "cod-hand-scripts"
     },
     {
