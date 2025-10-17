@@ -3,6 +3,7 @@
 - [Cadmus NDP API](#cadmus-ndp-api)
   - [Facets](#facets)
     - [Parts Matrix](#parts-matrix)
+  - [Authorithies](#authorithies)
   - [History](#history)
     - [1.0.5](#105)
     - [1.0.4](#104)
@@ -30,7 +31,7 @@ This is a Cadmus API layer customized for Cadmus NDP (Naples Dante Project). Mos
 
 The list of facets is given here with their conventional groupings used in the editor UI. The 3-letters abbreviation after each part type name refers to Cadmus model spaces different from the generic one. Here we have `COD`=codicology, `FRA`=fragments, `BOK`=books, `DRW`=drawings, `ICO`=iconography. Also, 🔗 means a potential _internal_ link; where there is a links part without this indication, the usual implication is that it contains _external_ links.
 
->All items have a metadata part where the metadatum named `eid` can be used to provide a human-friendly identifier for the item as a whole, to be used when looking up items in internal linking. This is an opt-in mechanism: like in TEI you add an `xml:id` attribute to those elements you want to reference from another part of the document, here you add an `eid` to those items you want to link from another item's part.
+> All items have a metadata part where the metadatum named `eid` can be used to provide a human-friendly identifier for the item as a whole, to be used when looking up items in internal linking. This is an opt-in mechanism: like in TEI you add an `xml:id` attribute to those elements you want to reference from another part of the document, here you add an `eid` to those items you want to link from another item's part.
 
 - **manuscript**
   - _identity_
@@ -75,7 +76,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md):`sig` (FRA) 🚩
     - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md) (FRA)
     - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`fr` 🚩
-    - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
+    - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md):`fr` 🚩
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [contents](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md) (COD)
@@ -119,7 +120,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _material_
     - [bindings](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-bindings.md) (COD)
     - [sheet labels](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-sheet-labels.md) (COD)
-    - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md)
+    - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md):`pri`
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
     - [layouts](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-layouts.md) (COD)
@@ -242,7 +243,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | layout (FRA)                         |            | X        |                |             |              |              |             |        |
 | links                                | X          | X        | X              | X           | X            | X            | X           | X      |
 | material description (COD)           | X          |          |                |             |              |              |             |        |
-| measurements                         |            | X        |                | X           |              |              |             |        |
+| measurements                         |            | fr       |                | pri         |              |              |             |        |
 | metadata                             | X          | X        | X              | X           | X            | X            | X           | X      |
 | names                                |            |          |                |             |              |              |             | X      |
 | note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       | X hist |

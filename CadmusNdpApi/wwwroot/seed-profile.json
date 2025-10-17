@@ -289,6 +289,7 @@
         },
         {
           "typeId": "it.vedph.physical-measurements",
+          "roleId": "fr",
           "name": "measurements",
           "description": "Physical measurements.",
           "colorKey": "FF9933",
@@ -562,6 +563,7 @@
         },
         {
           "typeId": "it.vedph.physical-measurements",
+          "roleId": "pri",
           "name": "measurements",
           "description": "Physical measurements.",
           "colorKey": "C180EA",
@@ -1225,7 +1227,11 @@
           "value": "history"
         },
         {
-          "id": "it.vedph.physical-measurements",
+          "id": "it.vedph.physical-measurements:fr",
+          "value": "measurements"
+        },
+        {
+          "id": "it.vedph.physical-measurements:pri",
           "value": "measurements"
         },
         {
@@ -2689,7 +2695,7 @@
           "value": "medio-grande"
         },
         {
-          "id": "sz-gt67",
+          "id": "sz-gt-67",
           "value": "grande"
         },
         {
@@ -3662,6 +3668,23 @@
           "value": "cognome"
         }
       ]
+    },
+    {
+      "id": "physical-size-set-names_fr@en",
+      "entries": [
+        {
+          "id": "width",
+          "value": "larghezza"
+        },
+        {
+          "id": "height",
+          "value": "altezza"
+        }
+      ]
+    },   
+    {
+      "id": "physical-size-set-names_pri@en",
+      "targetId": "physical-size-set-names_fr"
     },
     {
       "id": "physical-size-units@en",
