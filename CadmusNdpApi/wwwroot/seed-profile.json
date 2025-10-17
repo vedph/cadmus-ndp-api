@@ -1253,6 +1253,371 @@
       ]
     },
     {
+      "id": "categories_txt@en",
+      "entries": [
+        {
+          "id": "msf",
+          "value": "mss.+frr."
+        },
+        {
+          "id": "msf.punct",
+          "value": "mss.+frr.: punteggiatura"
+        },
+        {
+          "id": "msf.punct.single",
+          "value": "mss.+frr.: punteggiatura: punti singoli"
+        },
+        {
+          "id": "msf.punct.double",
+          "value": "mss.+frr.: punteggiatura: punti doppi"
+        },
+        {
+          "id": "msf.punct.comma",
+          "value": "mss.+frr.: punteggiatura: virgole"
+        },
+        {
+          "id": "msf.punct.semicolon",
+          "value": "mss.+frr.: punteggiatura: punti e virgole"
+        },
+        {
+          "id": "msf.punct.diastole",
+          "value": "mss.+frr.: punteggiatura: diastole (/)"
+        },
+        {
+          "id": "msf.punct.question",
+          "value": "mss.+frr.: punteggiatura: punti interrogativi"
+        },
+        {
+          "id": "msf.punct.exclam",
+          "value": "mss.+frr.: punteggiatura: punti esclamativi"
+        },
+        {
+          "id": "msf.punct.section",
+          "value": "mss.+frr.: punteggiatura: segni di sezione (¶)"
+        },
+        {
+          "id": "msf.att",
+          "value": "mss.+frr.: segni di attenzione"
+        },
+        {
+          "id": "msf.att.underline",
+          "value": "mss.+frr.: segni di attenzione: testo sottolineato"
+        },
+        {
+          "id": "msf.att.manicula",
+          "value": "mss.+frr.: segni di attenzione: presenza di maniculae/nota bene"
+        },
+        {
+          "id": "msf.corr",
+          "value": "mss.+frr.: correzioni"
+        },
+        {
+          "id": "msf.corr.expunged",
+          "value": "mss.+frr.: correzioni: testo espunto"
+        },
+        {
+          "id": "msf.corr.strike",
+          "value": "mss.+frr.: correzioni: testo biffato/barrato"
+        },
+        {
+          "id": "msf.corr.deleted",
+          "value": "mss.+frr.: correzioni: testo cancellato"
+        },
+        {
+          "id": "msf.corr.rasura",
+          "value": "mss.+frr.: correzioni: rasura"
+        },
+        {
+          "id": "msf.corr.inserted",
+          "value": "mss.+frr.: correzioni: testo integrato"
+        },
+        {
+          "id": "msf.corr.inserted.verse",
+          "value": "mss.+frr.: correzioni: testo integrato: sul verso"
+        },
+        {
+          "id": "msf.corr.inserted.interlinear",
+          "value": "mss.+frr.: correzioni: testo integrato: in interlinea"
+        },
+        {
+          "id": "msf.corr.inserted.marginal",
+          "value": "mss.+frr.: correzioni: testo integrato: in margine"
+        },
+        {
+          "id": "msf.var",
+          "value": "mss.+frr.: varianti e lezioni alternative"
+        },
+        {
+          "id": "msf.var.word",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in corrispondenza di parola"
+        },
+        {
+          "id": "msf.var.margin",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in margine"
+        },
+        {
+          "id": "msf.var.hint",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+        },
+        {
+          "id": "msf.var.hint.al",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias / aliter)"
+        },
+        {
+          "id": "msf.var.hint.other",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+        },
+        {
+          "id": "msf.paratxt",
+          "value": "mss.+frr.: paratesto"
+        },
+        {
+          "id": "msf.paratxt.rubr",
+          "value": "mss.+frr.: paratesto: presenza di rubriche"
+        },
+        {
+          "id": "msf.paratxt.rubr.la",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: in latino"
+        },
+        {
+          "id": "msf.paratxt.rubr.it-vulg",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: in volgare"
+        },
+        {
+          "id": "msf.paratxt.rubr.long",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: lunghe"
+        },
+        {
+          "id": "msf.paratxt.rubr.short",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: brevi"
+        },
+        {
+          "id": "msf.paratxt.comment",
+          "value": "mss.+frr.: paratesto: presenza di commento"
+        },
+        {
+          "id": "msf.paratxt.gloss",
+          "value": "mss.+frr.: paratesto: presenza di glosse"
+        },
+        {
+          "id": "msf.paratxt.note",
+          "value": "mss.+frr.: paratesto: presenza di note sporadiche"
+        },
+        {
+          "id": "msf.other",
+          "value": "mss.+frr.: altri segni con valenza testuale"
+        },
+        {
+          "id": "msf.other.caption",
+          "value": "mss.+frr.: altri segni con valenza testuale: didascalie"
+        },
+        {
+          "id": "msf.other.istruction",
+          "value": "mss.+frr.: altri segni con valenza testuale: istruzioni al miniatore"
+        },
+        {
+          "id": "msf.other.link",
+          "value": "mss.+frr.: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+        },
+        {
+          "id": "prn",
+          "value": "edizioni a stampa"
+        },
+        {
+          "id": "prn.ed",
+          "value": "edizioni a stampa: tipo di edizione"
+        },
+        {
+          "id": "prn.ed.text",
+          "value": "edizioni a stampa: tipo di edizione: solo testo"
+        },
+        {
+          "id": "prn.ed.comment",
+          "value": "edizioni a stampa: tipo di edizione: edizione con commento"
+        },
+        {
+          "id": "prn.ed.illustrated",
+          "value": "edizioni a stampa: tipo di edizione: edizione illustrata"
+        },
+        {
+          "id": "prn.ed.annotated",
+          "value": "edizioni a stampa: tipo di edizione: edizione postillata"
+        },
+        {
+          "id": "prn.paratxt",
+          "value": "edizioni a stampa: paratesto"
+        },
+        {
+          "id": "prn.paratxt.rubric",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche"
+        },
+        {
+          "id": "prn.paratxt.rubric.la",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: in latino"
+        },
+        {
+          "id": "prn.paratxt.rubric.it-vulg",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: in volgare"
+        },
+        {
+          "id": "prn.paratxt.rubric.long",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: lunghe"
+        },
+        {
+          "id": "prn.paratxt.rubric.short",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: brevi"
+        },
+        {
+          "id": "prn.paratxt.comment",
+          "value": "edizioni a stampa: paratesto: presenza di commento"
+        },
+        {
+          "id": "prn.paratxt.gloss",
+          "value": "edizioni a stampa: paratesto: presenza di glosse"
+        },
+        {
+          "id": "prn.paratxt.note",
+          "value": "edizioni a stampa: paratesto: presenza di note di carattere generale"
+        },
+        {
+          "id": "prn.punct",
+          "value": "edizioni a stampa: punteggiatura"
+        },
+        {
+          "id": "prn.punct.single",
+          "value": "edizioni a stampa: punteggiatura: punti singoli"
+        },
+        {
+          "id": "prn.punct.double",
+          "value": "edizioni a stampa: punteggiatura: punti doppi"
+        },
+        {
+          "id": "prn.punct.comma",
+          "value": "edizioni a stampa: punteggiatura: virgole"
+        },
+        {
+          "id": "prn.punct.semicolon",
+          "value": "edizioni a stampa: punteggiatura: punti e virgole"
+        },
+        {
+          "id": "prn.punct.diastole",
+          "value": "edizioni a stampa: punteggiatura: diastole (/)"
+        },
+        {
+          "id": "prn.punct.question",
+          "value": "edizioni a stampa: punteggiatura: punti interrogativi"
+        },
+        {
+          "id": "prn.punct.exclam",
+          "value": "edizioni a stampa: punteggiatura: punti esclamativi"
+        },
+        {
+          "id": "prn.punct.section",
+          "value": "edizioni a stampa: punteggiatura: segni di sezione (¶)"
+        },
+        {
+          "id": "prn.annotator",
+          "value": "edizioni a stampa: postillatore"
+        },
+        {
+          "id": "prn.annotator.contemporary",
+          "value": "edizioni a stampa: postillatore: mano coeva"
+        },
+        {
+          "id": "prn.annotator.later",
+          "value": "edizioni a stampa: postillatore: mano successiva"
+        },
+        {
+          "id": "prn.att",
+          "value": "edizioni a stampa: segni di attenzione"
+        },
+        {
+          "id": "prn.att.underline",
+          "value": "edizioni a stampa: segni di attenzione: testo sottolineato"
+        },
+        {
+          "id": "prn.att.manicula",
+          "value": "edizioni a stampa: segni di attenzione: presenza di maniculae/nota bene"
+        },
+        {
+          "id": "prn.corr",
+          "value": "edizioni a stampa: correzioni del postillatore"
+        },
+        {
+          "id": "prn.corr.expunged",
+          "value": "edizioni a stampa: correzioni del postillatore: testo espunto"
+        },
+        {
+          "id": "prn.corr.strike",
+          "value": "edizioni a stampa: correzioni del postillatore: testo biffato/barrato"
+        },
+        {
+          "id": "prn.corr.deleted",
+          "value": "edizioni a stampa: correzioni del postillatore: testo cancellato"
+        },
+        {
+          "id": "prn.corr.rasura",
+          "value": "edizioni a stampa: correzioni del postillatore: rasura"
+        },
+        {
+          "id": "prn.corr.inserted",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato"
+        },
+        {
+          "id": "prn.corr.inserted.verse",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: sul verso"
+        },
+        {
+          "id": "prn.corr.inserted.interlinear",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in interlinea"
+        },
+        {
+          "id": "prn.corr.inserted.marginal",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in margine"
+        },
+        {
+          "id": "prn.var",
+          "value": "edizioni a stampa: varianti e lezioni alternative"
+        },
+        {
+          "id": "prn.var.word",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in corrispondenza del parola"
+        },
+        {
+          "id": "prn.var.margin",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in margine"
+        },
+        {
+          "id": "prn.var.hint",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+        },
+        {
+          "id": "prn.var.hint.al",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias/aliter)"
+        },
+        {
+          "id": "prn.var.hint.other",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+        },
+        {
+          "id": "prn.other",
+          "value": "edizioni a stampa: altri segni con valenza testuale"
+        },
+        {
+          "id": "prn.other.caption",
+          "value": "edizioni a stampa: altri segni con valenza testuale: didascalie"
+        },
+        {
+          "id": "prn.other.instruction",
+          "value": "edizioni a stampa: altri segni con valenza testuale: istruzioni al miniatore"
+        },
+        {
+          "id": "prn.other.link",
+          "value": "edizioni a stampa: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+        }
+      ]
+    },
+    {
       "id": "cod-binding-board-materials@en",
       "entries": [
         {
@@ -3681,7 +4046,7 @@
           "value": "altezza"
         }
       ]
-    },   
+    },
     {
       "id": "physical-size-set-names_pri@en",
       "targetId": "physical-size-set-names_fr"
@@ -3808,7 +4173,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": ["zeus"],
+      "users": [ "zeus" ],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -3849,7 +4214,7 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": ["en", "it"]
+          "languages": [ "en", "it" ]
         }
       },
       {
@@ -3897,7 +4262,7 @@
       {
         "id": "seed.it.vedph.note",
         "options": {
-          "tags": ["language", "history", "geography"]
+          "tags": [ "language", "history", "geography" ]
         }
       },
       {
