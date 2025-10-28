@@ -272,6 +272,8 @@ Reference authority lists:
 
 ## History
 
+- 2025-10-28: updated packages.
+
 ### 1.0.6
 
 - 2025-10-14:
