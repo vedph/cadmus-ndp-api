@@ -154,12 +154,20 @@
           "sortKey": "18"
         },
         {
+          "typeId": "it.vedph.ndp.notable-word-forms",
+          "name": "notable forms",
+          "description": "List of notable word forms.",
+          "colorKey": "5DB94D",
+          "groupKey": "content",
+          "sortKey": "19"
+        },
+        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "19"
+          "sortKey": "20"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -167,7 +175,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "20"
+          "sortKey": "21"
         }
       ]
     },
@@ -353,12 +361,20 @@
           "sortKey": "21"
         },
         {
+          "typeId": "it.vedph.ndp.notable-word-forms",
+          "name": "notable forms",
+          "description": "List of notable word forms.",
+          "colorKey": "5DB94D",
+          "groupKey": "content",
+          "sortKey": "22"
+        },
+        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "22"
+          "sortKey": "23"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -366,7 +382,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "23"
+          "sortKey": "24"
         }
       ]
     },
@@ -611,12 +627,20 @@
           "sortKey": "11"
         },
         {
+          "typeId": "it.vedph.ndp.notable-word-forms",
+          "name": "notable forms",
+          "description": "List of notable word forms.",
+          "colorKey": "5DB94D",
+          "groupKey": "content",
+          "sortKey": "12"
+        },
+        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "12"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -624,7 +648,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "13"
+          "sortKey": "14"
         }
       ]
     },
@@ -1143,10 +1167,6 @@
           "value": "references"
         },
         {
-          "id": "it.vedph.ext-bibliography",
-          "value": "bibliography"
-        },
-        {
           "id": "it.vedph.external-ids",
           "value": "external IDs"
         },
@@ -1173,6 +1193,10 @@
         {
           "id": "it.vedph.ndp.drawing-tech",
           "value": "techniques"
+        },
+        {
+          "id": "it.vedph.ndp.notable-word-forms",
+          "value": "notable forms"
         },
         {
           "id": "it.vedph.ndp.print-fig-plan",
@@ -3867,56 +3891,6 @@
       ]
     },
     {
-      "id": "ext-biblio-author-roles@en",
-      "entries": [
-        {
-          "id": "ed",
-          "value": "curatore"
-        },
-        {
-          "id": "tr",
-          "value": "traduttore"
-        },
-        {
-          "id": "coll",
-          "value": "collaboratore"
-        },
-        {
-          "id": "dir",
-          "value": "direttore"
-        },
-        {
-          "id": "org",
-          "value": "organizzazione"
-        },
-        {
-          "id": "with",
-          "value": "con"
-        }
-      ]
-    },
-    {
-      "id": "ext-biblio-languages@en",
-      "targetId": "languages"
-    },
-    {
-      "id": "ext-biblio-work-tags@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "ed",
-          "value": "edizioni"
-        },
-        {
-          "id": "study",
-          "value": "studi"
-        }
-      ]
-    },
-    {
       "id": "flags_ico@en",
       "entries": [
         {
@@ -4031,6 +4005,43 @@
         {
           "id": "last",
           "value": "cognome"
+        }
+      ]
+    },
+    {
+      "id": "notable-word-forms-languages@en",
+      "targetId": "cod-edit-languages"
+    },
+    {
+      "id": "notable-word-forms-tags@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "a.1",
+          "value": "alpha: one"
+        },
+        {
+          "id": "a.2",
+          "value": "alpha: two"
+        },
+        {
+          "id": "a.3",
+          "value": "alpha: three"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        },
+        {
+          "id": "b.1",
+          "value": "beta: one"
+        },
+        {
+          "id": "b.2",
+          "value": "beta: two"
         }
       ]
     },
@@ -4224,9 +4235,6 @@
         "id": "seed.it.vedph.doc-references"
       },
       {
-        "id": "seed.it.vedph.ext-bibliography"
-      },
-      {
         "id": "seed.it.vedph.external-ids"
       },
       {
@@ -4252,6 +4260,9 @@
       },
       {
         "id": "seed.it.vedph.ndp.drawing-tech"
+      },
+      {
+        "id": "seed.it.vedph.ndp.notable-word-forms"
       },
       {
         "id": "seed.it.vedph.ndp.print-fig-plan"

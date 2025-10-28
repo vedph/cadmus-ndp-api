@@ -272,7 +272,9 @@ Reference authority lists:
 
 ## History
 
-- 2025-10-28: updated packages.
+- 2025-10-28:
+  - updated packages.
+  - added NDP-specific parts (⚠️ TO BE CONFIRMED! Not yet reflected in this documentation).
 
 ### 1.0.6
 

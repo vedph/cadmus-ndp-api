@@ -4,6 +4,7 @@ using Cadmus.Seed.Codicology.Parts;
 using Cadmus.Seed.Epigraphy.Parts;
 using Cadmus.Seed.General.Parts;
 using Cadmus.Seed.Iconography.Parts;
+using Cadmus.Seed.Ndp.Parts;
 using Cadmus.Seed.NdpBooks.Parts;
 using Cadmus.Seed.NdpDrawings.Parts;
 using Cadmus.Seed.NdpFrac.Parts;
@@ -42,7 +43,9 @@ public sealed class AppPartSeederFactoryProvider : IPartSeederFactoryProvider
             // Cadmus.Seed.NdpDrawings.Part
             typeof(DrawingTechPartSeeder).Assembly,
             // Cadmus.Seed.Iconography.Parts
-            typeof(IcoInstructionsPartSeeder).Assembly
+            typeof(IcoInstructionsPartSeeder).Assembly,
+            // Cadmus.Seed.Ndp.Parts
+            typeof(NotableWordFormsPartSeeder).Assembly
         ];
         TagAttributeToTypeMap map = new();
         map.Add(seedAssemblies);

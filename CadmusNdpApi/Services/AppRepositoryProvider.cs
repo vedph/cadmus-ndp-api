@@ -8,6 +8,7 @@ using Cadmus.Epigraphy.Parts;
 using Cadmus.General.Parts;
 using Cadmus.Iconography.Parts;
 using Cadmus.Mongo;
+using Cadmus.Ndp.Parts;
 using Cadmus.NdpBooks.Parts;
 using Cadmus.NdpDrawings.Parts;
 using Cadmus.NdpFrac.Parts;
@@ -54,7 +55,9 @@ public sealed class AppRepositoryProvider : IRepositoryProvider
             // Cadmus.NdpDrawings.Parts
             typeof(DrawingTechPart).GetTypeInfo().Assembly,
             // Cadmus.Iconography.Parts
-            typeof(IcoInstructionsPart).GetTypeInfo().Assembly
+            typeof(IcoInstructionsPart).GetTypeInfo().Assembly,
+            // Cadmus.Ndp.Parts
+            typeof(NotableWordFormsPart).GetTypeInfo().Assembly
         ]);
 
         _partTypeProvider = new StandardPartTypeProvider(_map);
