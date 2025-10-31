@@ -4013,6 +4013,10 @@
       "targetId": "cod-edit-languages"
     },
     {
+      "id": "notable-word-forms-op-tags@en",
+      "targetId": "notable-word-forms-tags"
+    },
+    {
       "id": "notable-word-forms-tags@en",
       "entries": [
         {
