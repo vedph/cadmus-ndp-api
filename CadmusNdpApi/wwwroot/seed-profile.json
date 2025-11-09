@@ -3052,6 +3052,1023 @@
       ]
     },
     {
+      "id": "cod-shelfmark-libraries@en",
+      "entries": [
+        {
+          "id": "biblioteca-comunale-ascoli-piceno",
+          "value": "Biblioteca Comunale (Ascoli Piceno)"
+        },
+        {
+          "id": "biblioteca-di-sfrancesco-nella-biblioteca-comunale",
+          "value": "Biblioteca di S.Francesco nella Biblioteca Comunale (Assisi)"
+        },
+        {
+          "id": "staats-und-stadtbibliothek",
+          "value": "Staats- und Stadtbibliothek (Augusta)"
+        },
+        {
+          "id": "university-of-texas-libraries",
+          "value": "University of Texas Libraries (Austin)"
+        },
+        {
+          "id": "biblioteca-de-catalunya",
+          "value": "Biblioteca de Catalunya (Barcellona)"
+        },
+        {
+          "id": "biblioteca-universitaria-barcellona",
+          "value": "Biblioteca Universitaria (Barcellona)"
+        },
+        {
+          "id": "biblioteca-mordini",
+          "value": "Biblioteca Mordini (Barga)"
+        },
+        {
+          "id": "universitatsbibliothek",
+          "value": "Universitätsbibliothek (Basilea)"
+        },
+        {
+          "id": "biblioteca-del-seminario-belluno",
+          "value": "Biblioteca del Seminario (Belluno)"
+        },
+        {
+          "id": "biblioteca-civica-angelo-mai",
+          "value": "Biblioteca civica Angelo Mai (Bergamo)"
+        },
+        {
+          "id": "koniglichen-archiv-berlino",
+          "value": "Königlichen Archiv (Berlino)"
+        },
+        {
+          "id": "kupferstichkabinett-berlino",
+          "value": "Kupferstichkabinett (Berlino)"
+        },
+        {
+          "id": "staatsbibliothek-prussischer-kulturbesitz-berlino",
+          "value": "Staatsbibliothek-Preußischer Kulturbesitz (Berlino)"
+        },
+        {
+          "id": "archivio-di-stato-bologna",
+          "value": "Archivio di Stato (Bologna)"
+        },
+        {
+          "id": "biblioteca-arcivescovile",
+          "value": "Biblioteca Arcivescovile (Bologna)"
+        },
+        {
+          "id": "biblioteca-comunale-carducci",
+          "value": "Biblioteca Comunale Carducci (Bologna)"
+        },
+        {
+          "id": "biblioteca-comunale-dellarchiginnasio",
+          "value": "Biblioteca Comunale dell'Archiginnasio (Bologna)"
+        },
+        {
+          "id": "biblioteca-di-casa-carducci",
+          "value": "Biblioteca di Casa Carducci (Bologna)"
+        },
+        {
+          "id": "biblioteca-universitaria-bologna",
+          "value": "Biblioteca Universitaria (Bologna)"
+        },
+        {
+          "id": "isabella-stewart-gardner-museum",
+          "value": "Isabella Stewart Gardner Museum (Boston)"
+        },
+        {
+          "id": "biblioteca-civica-queriniana",
+          "value": "Biblioteca civica Queriniana (Brescia)"
+        },
+        {
+          "id": "bibliotheque-royale-de-belgique",
+          "value": "Bibliothèque Royale de Belgique (Bruxelles)"
+        },
+        {
+          "id": "orszagos-szechenyi-konyvtar",
+          "value": "Országos Széchényi Könyvtár (Budapest)"
+        },
+        {
+          "id": "eotvos-lorand-tudomanyegyetem-egyetemi-konyvtar",
+          "value": "Eötvös Loránd Tudományegyetem Egyetemi Könyvtár (Budapest)"
+        },
+        {
+          "id": "archivio-comunale-cagli",
+          "value": "Archivio Comunale (Cagli)"
+        },
+        {
+          "id": "biblioteca-mangaroni-brancuti",
+          "value": "Biblioteca Mangaroni-Brancuti (Cagli)"
+        },
+        {
+          "id": "biblioteca-universitaria-cagliari",
+          "value": "Biblioteca Universitaria (Cagliari)"
+        },
+        {
+          "id": "houghton-library-cambridge-ma",
+          "value": "Houghton Library (Cambridge (MA))"
+        },
+        {
+          "id": "university-library-cambridge",
+          "value": "University Library (Cambridge)"
+        },
+        {
+          "id": "biblioteca-comunale-valentiniana",
+          "value": "Biblioteca Comunale Valentiniana (Camerino)"
+        },
+        {
+          "id": "bibliotheque-municipale-linguibertine",
+          "value": "Bibliothèque municipale L'Inguibertine (Carpentras)"
+        },
+        {
+          "id": "biblioteca-monastero-santa-maria-dei-miracoli",
+          "value": "Biblioteca Monastero Santa Maria dei miracoli (Casalbordino)"
+        },
+        {
+          "id": "archivio-di-stato-catania",
+          "value": "Archivio di Stato (Catania)"
+        },
+        {
+          "id": "biblioteche-riunite-civica-e-a-ursino-recupero",
+          "value": "Biblioteche riunite Civica e A. Ursino Recupero (Catania)"
+        },
+        {
+          "id": "archivo-historico",
+          "value": "Archivo Històrico (Cervera)"
+        },
+        {
+          "id": "biblioteque-du-chateau",
+          "value": "Bibliotèque du château (Chantilly)"
+        },
+        {
+          "id": "archivio-notarile-chiavari",
+          "value": "Archivio Notarile (Chiavari)"
+        },
+        {
+          "id": "banco-di-chiavari-e-della-riviera-ligure",
+          "value": "Banco di Chiavari e della Riviera Ligure (Chiavari)"
+        },
+        {
+          "id": "biblioteca-della-societa-economica",
+          "value": "Biblioteca della Società economica (Chiavari)"
+        },
+        {
+          "id": "the-joseph-regenstein-library",
+          "value": "The Joseph Regenstein Library (Chicago)"
+        },
+        {
+          "id": "national-library-of-south-africa",
+          "value": "National Library of South Africa (Città del Capo)"
+        },
+        {
+          "id": "biblioteca-apostolica-vaticana",
+          "value": "Biblioteca Apostolica Vaticana (Città del Vaticano)"
+        },
+        {
+          "id": "biblioteca-academiei-romane",
+          "value": "Biblioteca Academiei Române (Cluj-Napoca)"
+        },
+        {
+          "id": "collezione-privata-collezione-privata",
+          "value": "Collezione privata (Collezione privata)"
+        },
+        {
+          "id": "fondation-martin-bodmer",
+          "value": "Fondation Martin Bodmer (Cologny)"
+        },
+        {
+          "id": "biblioteca-comunale-corinaldo",
+          "value": "Biblioteca Comunale (Corinaldo)"
+        },
+        {
+          "id": "biblioteca-comunale-e-dellaccademia-etrusca",
+          "value": "Biblioteca Comunale e dell'Accademia Etrusca (Cortona)"
+        },
+        {
+          "id": "biblioteca-comunale-crema",
+          "value": "Biblioteca Comunale (Crema)"
+        },
+        {
+          "id": "archivio-di-stato-cremona",
+          "value": "Archivio di Stato (Cremona)"
+        },
+        {
+          "id": "biblioteca-statale-cremona",
+          "value": "Biblioteca Statale (Cremona)"
+        },
+        {
+          "id": "sachsische-landesbibliothek-staats-und-universitatsbibliothek-dresden",
+          "value": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (Dresda)"
+        },
+        {
+          "id": "foegyhazmegyei-konyvtar",
+          "value": "Foegyházmegyei Könyvtár (Eger)"
+        },
+        {
+          "id": "stiftsbibliothek",
+          "value": "Stiftsbibliothek (Einsiedeln)"
+        },
+        {
+          "id": "real-biblioteca-del-monasterio-de-san-lorenzo",
+          "value": "Real Biblioteca del Monasterio de San Lorenzo (El Escorial)"
+        },
+        {
+          "id": "biblioteca-comunale-fabriano",
+          "value": "Biblioteca Comunale (Fabriano)"
+        },
+        {
+          "id": "biblioteca-civica-romolo-spezioli",
+          "value": "Biblioteca civica Romolo Spezioli (Fermo)"
+        },
+        {
+          "id": "biblioteca-comunale-ariostea",
+          "value": "Biblioteca Comunale Ariostea (Ferrara)"
+        },
+        {
+          "id": "biblioteca-dellaccademia-della-crusca",
+          "value": "Biblioteca dell'Accademia della Crusca (Firenze)"
+        },
+        {
+          "id": "archivio-degli-innocenti",
+          "value": "Archivio degli Innocenti (Firenze)"
+        },
+        {
+          "id": "archivio-di-stato-firenze",
+          "value": "Archivio di Stato (Firenze)"
+        },
+        {
+          "id": "biblioteca-della-societa-dantesca-italiana",
+          "value": "Biblioteca della Società Dantesca Italiana (Firenze)"
+        },
+        {
+          "id": "biblioteca-marucelliana",
+          "value": "Biblioteca Marucelliana (Firenze)"
+        },
+        {
+          "id": "biblioteca-medicea-laurenziana",
+          "value": "Biblioteca Medicea Laurenziana (Firenze)"
+        },
+        {
+          "id": "biblioteca-moreniana",
+          "value": "Biblioteca Moreniana (Firenze)"
+        },
+        {
+          "id": "biblioteca-nazionale-centrale-firenze",
+          "value": "Biblioteca nazionale centrale (Firenze)"
+        },
+        {
+          "id": "biblioteca-ricasoli-firidolfi",
+          "value": "Biblioteca Ricasoli Firidolfi (Firenze)"
+        },
+        {
+          "id": "biblioteca-riccardiana",
+          "value": "Biblioteca Riccardiana (Firenze)"
+        },
+        {
+          "id": "biblioteca-della-fondazione-palazzo-strozzi",
+          "value": "Biblioteca della Fondazione Palazzo Strozzi (Firenze)"
+        },
+        {
+          "id": "collezione-aldo-olschki",
+          "value": "Collezione Aldo Olschki (Firenze)"
+        },
+        {
+          "id": "monastero-carmelitano-di-s-maria-degli-angeli",
+          "value": "Monastero Carmelitano di S. Maria degli Angeli (Firenze)"
+        },
+        {
+          "id": "societa-dantesca-italiana",
+          "value": "Società Dantesca Italiana (Firenze)"
+        },
+        {
+          "id": "gallerie-degli-uffizi-gabinetto-dei-disegni-e-delle-stampe",
+          "value": "Gallerie degli Uffizi-Gabinetto dei Disegni e delle Stampe (Firenze)"
+        },
+        {
+          "id": "museo-della-stampa-jacopo-da-fivizzano",
+          "value": "Museo della stampa Jacopo da Fivizzano (Fivizzano)"
+        },
+        {
+          "id": "biblioteca-boccolini",
+          "value": "Biblioteca Boccolini (Foligno)"
+        },
+        {
+          "id": "biblioteca-pagliarini",
+          "value": "Biblioteca Pagliarini (Foligno)"
+        },
+        {
+          "id": "biblioteca-comunale-aurelio-saffi",
+          "value": "Biblioteca Comunale Aurelio Saffi (Forlì)"
+        },
+        {
+          "id": "archivio-storico-fossato-di-vico",
+          "value": "Archivio Storico (Fossato di Vico)"
+        },
+        {
+          "id": "stadt-und-universitatsbibliothek-francoforte-sul-meno",
+          "value": "Stadt- und Universitätsbibliothek (Francoforte sul Meno)"
+        },
+        {
+          "id": "archivio-capitolare-di-san-lorenzo",
+          "value": "Archivio Capitolare di San Lorenzo (Genova)"
+        },
+        {
+          "id": "archivio-di-stato-genova",
+          "value": "Archivio di Stato (Genova)"
+        },
+        {
+          "id": "biblioteca-civica-berio",
+          "value": "Biblioteca civica Berio (Genova)"
+        },
+        {
+          "id": "biblioteca-durazzo-pallavicini-di-proprieta-della-marchesa-carlotta-cattaneo-adorno-giustiniani",
+          "value": "Biblioteca Durazzo-Pallavicini, di proprietà della Marchesa Carlotta Cattaneo Adorno Giustiniani (Genova)"
+        },
+        {
+          "id": "collezione-privata-scolari-genova",
+          "value": "Collezione privata (Scolari) (Genova)"
+        },
+        {
+          "id": "university-library-gerusalemme",
+          "value": "University Library (Gerusalemme)"
+        },
+        {
+          "id": "bibliotheque-de-luniversite-ginevra",
+          "value": "Bibliothèque de l'Université (Ginevra)"
+        },
+        {
+          "id": "glasgow-university-library",
+          "value": "Glasgow University Library (Glasgow)"
+        },
+        {
+          "id": "bibliotheque-municipale-grenoble",
+          "value": "Bibliothèque Municipale (Grenoble)"
+        },
+        {
+          "id": "universitats-und-landesbibliothek-sachsen-anhalt-halle-saale",
+          "value": "Universitäts- und Landesbibliothek Sachsen-Anhalt (Halle (Saale))"
+        },
+        {
+          "id": "bibliothek-des-christianeum-amburgo",
+          "value": "Bibliothek des Christianeum (Amburgo )"
+        },
+        {
+          "id": "library-of-acton-griscom-high-point-nj-non-aggiornata",
+          "value": "Library of Acton Griscom (High Point (New Jersey) NON AGGIORNATA)"
+        },
+        {
+          "id": "holkham-hall-library-of-the-earl-of-leicester",
+          "value": "Holkham Hall, Library of the Earl of Leicester (Holkham)"
+        },
+        {
+          "id": "biblioteca-comunale-imola",
+          "value": "Biblioteca Comunale (Imola)"
+        },
+        {
+          "id": "archivio-privato-borromeo-isola-bella",
+          "value": "Archivio privato Borromeo (Isola Bella)"
+        },
+        {
+          "id": "cornell-university-library-ithaca-ny",
+          "value": "Cornell University Library (Ithaca (NY))"
+        },
+        {
+          "id": "det-kongelige-bibliotek",
+          "value": "Det Kongelige Bibliotek (Copenaghen)"
+        },
+        {
+          "id": "biblioteka-kornicka-polskiej-akademii-nauk",
+          "value": "Biblioteka Kórnicka Polskiej Akademii Nauk (Kórnik)"
+        },
+        {
+          "id": "biblioteka-ksiazat-czartoryskich-cracovia",
+          "value": "Biblioteka Książąt Czartoryskich (Cracovia)"
+        },
+        {
+          "id": "zamecka-knihovna-lazne-kynzvart",
+          "value": "Zámecká knihovna  (Lázně Kynžvart)"
+        },
+        {
+          "id": "archivio-di-stato-laquila",
+          "value": "Archivio di Stato (L'Aquila)"
+        },
+        {
+          "id": "archivio-notarile-distrettuale-la-spezia",
+          "value": "Archivio Notarile Distrettuale (La Spezia)"
+        },
+        {
+          "id": "collezione-privata-pica-alfieri-laquila",
+          "value": "Collezione privata Pica Alfieri (L'Aquila)"
+        },
+        {
+          "id": "biblioteca-nacional-de-portugal",
+          "value": "Biblioteca Nacional de Portugal (Lisbona)"
+        },
+        {
+          "id": "biblioteca-comunale-laudense",
+          "value": "Biblioteca Comunale Laudense (Lodi)"
+        },
+        {
+          "id": "the-british-library-londra",
+          "value": "The British Library (Londra)"
+        },
+        {
+          "id": "the-library-and-muniment-room-of-westminster-abbey",
+          "value": "The Library and Muniment Room of Westminster Abbey (Londra)"
+        },
+        {
+          "id": "biblioteca-statale-lucca",
+          "value": "Biblioteca Statale (Lucca)"
+        },
+        {
+          "id": "archivio-di-stato-lucca",
+          "value": "Archivio di Stato (Lucca)"
+        },
+        {
+          "id": "biblioteca-dei-canonici-di-s-martino",
+          "value": "Biblioteca dei Canonici di S. Martino (Lucca)"
+        },
+        {
+          "id": "bibliotheque-municipale-lyon",
+          "value": "Bibliothèque municipale  (Lyon)"
+        },
+        {
+          "id": "archivio-di-stato-macerata",
+          "value": "Archivio di Stato (Macerata)"
+        },
+        {
+          "id": "biblioteca-historica-marques-de-valdecilla",
+          "value": "Biblioteca Histórica Marqués de Valdecilla (Madrid)"
+        },
+        {
+          "id": "biblioteca-nacional-de-espana",
+          "value": "Biblioteca Nacional de España (Madrid)"
+        },
+        {
+          "id": "john-rylands-research-institute-and-library",
+          "value": "John Rylands Research Institute and Library (Manchester)"
+        },
+        {
+          "id": "biblioteca-comunale-teresiana",
+          "value": "Biblioteca Comunale Teresiana (Mantova)"
+        },
+        {
+          "id": "biblioteca-dei-conti-castiglioni",
+          "value": "Biblioteca dei Conti Castiglioni (Mantova)"
+        },
+        {
+          "id": "archivio-storico-civico-e-biblioteca-trivulziana",
+          "value": "Archivio Storico Civico e Biblioteca Trivulziana (Milano)"
+        },
+        {
+          "id": "veneranda-biblioteca-ambrosiana",
+          "value": "Veneranda Biblioteca Ambrosiana (Milano)"
+        },
+        {
+          "id": "biblioteca-nazionale-braidense",
+          "value": "Biblioteca Nazionale Braidense (Milano)"
+        },
+        {
+          "id": "collezione-privata-della-famiglia-villa-milano",
+          "value": "Collezione privata della famiglia Villa (Milano)"
+        },
+        {
+          "id": "collezione-privata-milano",
+          "value": "Collezione privata (Milano)"
+        },
+        {
+          "id": "archivio-di-stato-modena",
+          "value": "Archivio di Stato (Modena)"
+        },
+        {
+          "id": "biblioteca-estense-universitaria",
+          "value": "Biblioteca Estense Universitaria (Modena)"
+        },
+        {
+          "id": "archivio-storico-comunale-montalcino",
+          "value": "Archivio Storico Comunale (Montalcino)"
+        },
+        {
+          "id": "biblioteca-statale-del-monumento-nazionale-di-montecassino",
+          "value": "Biblioteca Statale del Monumento Nazionale di Montecassino (Montecassino)"
+        },
+        {
+          "id": "bibliotheque-historique-de-la-faculte-de-medecine-montpellier",
+          "value": "Bibliothèque Historique de la Faculté de Médecine (Montpellier)"
+        },
+        {
+          "id": "the-asiatic-society-mumbai",
+          "value": "The Asiatic Society (Mumbai)"
+        },
+        {
+          "id": "bayerische-staatsbibliothek-munchen",
+          "value": "Bayerische Staatsbibliothek (Monaco di Baviena)"
+        },
+        {
+          "id": "biblioteca-della-societa-napoletana-di-storia-patria",
+          "value": "Biblioteca della Società Napoletana di Storia Patria (Napoli)"
+        },
+        {
+          "id": "biblioteca-nazionale-vittorio-emanuele-iii",
+          "value": "Biblioteca Nazionale Vittorio Emanuele III (Napoli)"
+        },
+        {
+          "id": "biblioteca-dei-girolamini",
+          "value": "Biblioteca dei Girolamini (Napoli)"
+        },
+        {
+          "id": "beinecke-rare-book-and-manuscript-library",
+          "value": "Beinecke Rare Book & Manuscript Library  (New Haven (Connecticut))"
+        },
+        {
+          "id": "collezione-privata-new-york",
+          "value": "Collezione privata (New York)"
+        },
+        {
+          "id": "the-morgan-library-and-museum",
+          "value": "The Morgan Library & Museum (New York)"
+        },
+        {
+          "id": "archivio-storico-comunale-nonantola",
+          "value": "Archivio Storico Comunale (Nonantola)"
+        },
+        {
+          "id": "biblioteca-civica-carlo-negroni",
+          "value": "Biblioteca civica Carlo Negroni (Novara)"
+        },
+        {
+          "id": "bodleian-libraries",
+          "value": "Bodleian Libraries (Oxford)"
+        },
+        {
+          "id": "taylor-institution-library-oxford",
+          "value": "Taylor Institution Library  (Oxford)"
+        },
+        {
+          "id": "biblioteca-antoniana-padova",
+          "value": "Biblioteca Antoniana (Padova)"
+        },
+        {
+          "id": "biblioteca-civica-padova",
+          "value": "Biblioteca civica (Padova)"
+        },
+        {
+          "id": "biblioteca-del-seminario-vescovile-padova",
+          "value": "Biblioteca del Seminario Vescovile (Padova)"
+        },
+        {
+          "id": "biblioteca-universitaria-padova",
+          "value": "Biblioteca Universitaria (Padova)"
+        },
+        {
+          "id": "biblioteca-centrale-della-regione-siciliana",
+          "value": "Biblioteca Centrale della Regione Siciliana (Palermo)"
+        },
+        {
+          "id": "biblioteca-comunale-palermo",
+          "value": "Biblioteca Comunale (Palermo)"
+        },
+        {
+          "id": "bibliotheque-de-larsenal-bnf-parigi",
+          "value": "Bibliothèque de l'Arsenal (BnF) (Parigi)"
+        },
+        {
+          "id": "bibliotheque-la-valliere-parigi",
+          "value": "Bibliothèque La Vallière (Parigi)"
+        },
+        {
+          "id": "bibliotheque-mazarine-parigi",
+          "value": "Bibliothèque Mazarine (Parigi)"
+        },
+        {
+          "id": "bibliotheque-nationale-de-france",
+          "value": "Bibliothèque nationale de France (Parigi)"
+        },
+        {
+          "id": "bibliotheque-sainte-genevieve",
+          "value": "Bibliothèque Sainte-Genevieve (Parigi)"
+        },
+        {
+          "id": "librairie-nepveu",
+          "value": "Librairie Nepveu (Parigi)"
+        },
+        {
+          "id": "biblioteca-palatina-parma",
+          "value": "Biblioteca Palatina (Parma)"
+        },
+        {
+          "id": "archivio-e-biblioteca-dellalmo-collegio-borromeo",
+          "value": "Archivio e Biblioteca dell'Almo Collegio Borromeo (Pavia)"
+        },
+        {
+          "id": "biblioteca-universitaria-pavia",
+          "value": "Biblioteca Universitaria (Pavia)"
+        },
+        {
+          "id": "biblioteca-e-archivio-del-collegio-ghislieri",
+          "value": "Biblioteca e Archivio del Collegio Ghislieri (Pavia)"
+        },
+        {
+          "id": "archivio-di-stato-perugia",
+          "value": "Archivio di Stato (Perugia)"
+        },
+        {
+          "id": "archivio-storico-del-capitolo-di-san-pietro",
+          "value": "Archivio Storico del Capitolo di San Pietro (Perugia)"
+        },
+        {
+          "id": "biblioteca-comunale-augusta-perugia",
+          "value": "Biblioteca Comunale Augusta (Perugia)"
+        },
+        {
+          "id": "biblioteca-oliveriana",
+          "value": "Biblioteca Oliveriana (Pesaro)"
+        },
+        {
+          "id": "biblioteca-passerini-landi",
+          "value": "Biblioteca Passerini-Landi (Piacenza)"
+        },
+        {
+          "id": "biblioteca-della-scuola-normale-superiore-pisa",
+          "value": "Biblioteca della Scuola Normale Superiore (Pisa)"
+        },
+        {
+          "id": "archivio-capitolare-del-duomo-pistoia",
+          "value": "Archivio Capitolare del Duomo (Pistoia)"
+        },
+        {
+          "id": "archivio-di-stato-pistoia",
+          "value": "Archivio di Stato (Pistoia)"
+        },
+        {
+          "id": "biblioteca-forteguerriana",
+          "value": "Biblioteca Forteguerriana (Pistoia)"
+        },
+        {
+          "id": "biblioteca-comunale-rilli-vettori",
+          "value": "Biblioteca Comunale Rilli-Vettori (Poppi)"
+        },
+        {
+          "id": "narodni-knihovna-ceske-republiky",
+          "value": "Národní knihovna České republiky (Praga)"
+        },
+        {
+          "id": "biblioteca-roncioniana",
+          "value": "Biblioteca Roncioniana (Prato)"
+        },
+        {
+          "id": "biblioteca-classense",
+          "value": "Biblioteca Classense (Ravenna)"
+        },
+        {
+          "id": "biblioteca-del-centro-dantesco-dei-frati-minori-conventuali",
+          "value": "Biblioteca del Centro Dantesco dei Frati Minori Conventuali (Ravenna)"
+        },
+        {
+          "id": "archivio-di-stato-reggio-emilia",
+          "value": "Archivio di Stato (Reggio Emilia)"
+        },
+        {
+          "id": "biblioteca-panizzi",
+          "value": "Biblioteca Panizzi (Reggio Emilia)"
+        },
+        {
+          "id": "archivio-di-stato-rieti",
+          "value": "Archivio di Stato  (Rieti)"
+        },
+        {
+          "id": "biblioteca-paroiana",
+          "value": "Biblioteca Paroiana (Rieti)"
+        },
+        {
+          "id": "biblioteca-civica-gambalunga",
+          "value": "Biblioteca civica Gambalunga (Rimini)"
+        },
+        {
+          "id": "archivio-storico-capitolino",
+          "value": "Archivio Storico Capitolino (Roma)"
+        },
+        {
+          "id": "biblioteca-albani-roma",
+          "value": "Biblioteca Albani (Roma)"
+        },
+        {
+          "id": "biblioteca-angelica",
+          "value": "Biblioteca Angelica (Roma)"
+        },
+        {
+          "id": "biblioteca-casanatense",
+          "value": "Biblioteca Casanatense (Roma)"
+        },
+        {
+          "id": "biblioteca-corsiniana-dellaccademia-nazionale-dei-lincei",
+          "value": "Biblioteca Corsiniana dell'Accademia Nazionale dei Lincei (Roma)"
+        },
+        {
+          "id": "biblioteca-dellistituto-biblico-pontificio",
+          "value": "Biblioteca dell'Istituto Biblico Pontificio (Roma)"
+        },
+        {
+          "id": "biblioteca-nazionale-centrale-roma",
+          "value": "Biblioteca Nazionale Centrale (Roma)"
+        },
+        {
+          "id": "biblioteca-slusiana",
+          "value": "Biblioteca Slusiana (Roma)"
+        },
+        {
+          "id": "biblioteca-universitaria-alessandrina",
+          "value": "Biblioteca Universitaria Alessandrina (Roma)"
+        },
+        {
+          "id": "biblioteca-vallicelliana",
+          "value": "Biblioteca Vallicelliana (Roma)"
+        },
+        {
+          "id": "casa-di-dante-in-roma",
+          "value": "Casa di Dante in Roma (Roma)"
+        },
+        {
+          "id": "christies-italy",
+          "value": "Christie's Italy (Roma)"
+        },
+        {
+          "id": "collezione-dei-marchesi-guidi-di-bagno",
+          "value": "Collezione dei marchesi Guidi di Bagno (Roma)"
+        },
+        {
+          "id": "collezione-privata-roma",
+          "value": "Collezione privata (Roma)"
+        },
+        {
+          "id": "fondazione-camillo-caetani",
+          "value": "Fondazione Camillo Caetani (Roma)"
+        },
+        {
+          "id": "libreria-clara-querzola-dott-piero-pellizani",
+          "value": "Libreria Clara Querzola, Dott. Piero Pellizani (Roma)"
+        },
+        {
+          "id": "biblioteca-civica-tartarotti-rovereto",
+          "value": "\"Biblioteca civica \"Tartarotti\" (Rovereto)\""
+        },
+        {
+          "id": "biblioteca-dellaccademia-dei-concordi",
+          "value": "Biblioteca dell’Accademia dei Concordi (Rovigo)"
+        },
+        {
+          "id": "civica-biblioteca-guarneriana",
+          "value": "Civica Biblioteca Guarneriana (San Daniele del Friuli)"
+        },
+        {
+          "id": "comune-di-san-gimignano",
+          "value": "Comune di San Gimignano (San Gimignano)"
+        },
+        {
+          "id": "real-biblioteca-del-monasterio-de-san-lorenzo-el-escorial",
+          "value": "Real Biblioteca del Monasterio de San Lorenzo (San Lorenzo de el Escorial)"
+        },
+        {
+          "id": "archivio-di-stato-della-repubblica-di-san-marino",
+          "value": "Archivio di Stato della Repubblica di San Marino (San Marino)"
+        },
+        {
+          "id": "biblioteka-rossijskoj-akademii-nauk",
+          "value": "Biblioteka Rossijskoj Akademii Nauk (San Pietroburgo)"
+        },
+        {
+          "id": "museo-moesano",
+          "value": "Museo Moesano (San Vittore)"
+        },
+        {
+          "id": "biblioteca-comunale-tommaso-branchini",
+          "value": "Biblioteca Comunale “Tommaso Branchini” (Sant’Agata Bolognese)"
+        },
+        {
+          "id": "archivio-di-stato-savona",
+          "value": "Archivio di Stato (Savona)"
+        },
+        {
+          "id": "biblioteca-civica-anton-giulio-barrili",
+          "value": "Biblioteca civica Anton Giulio Barrili (Savona)"
+        },
+        {
+          "id": "biblioteca-comunale-antonelliana-e-archivio-storico",
+          "value": "Biblioteca Comunale Antonelliana e Archivio Storico (Senigallia)"
+        },
+        {
+          "id": "archivio-di-stato-siena",
+          "value": "Archivio di Stato (Siena)"
+        },
+        {
+          "id": "archivio-notarile-distrettuale-siena",
+          "value": "Archivio Notarile Distrettuale (Siena)"
+        },
+        {
+          "id": "biblioteca-comunale-degli-intronati",
+          "value": "Biblioteca Comunale degli Intronati (Siena)"
+        },
+        {
+          "id": "biblioteca-del-prof-domenico-maffei",
+          "value": "Biblioteca del prof. Domenico Maffei (Siena)"
+        },
+        {
+          "id": "biblioteca-capitular-y-colombina",
+          "value": "Biblioteca Capitular y Colombina (Siviglia)"
+        },
+        {
+          "id": "pfalzische-landesbibliothek",
+          "value": "Pfalzische Landesbibliothek (Speyer)"
+        },
+        {
+          "id": "bibliotheque-nationale-et-universitaire-de-strasbourg",
+          "value": "Bibliothèque nationale et universitaire de Strasbourg (Strasbourg)"
+        },
+        {
+          "id": "wurttembergische-landesbibliothek-stuttgart",
+          "value": "Württembergische Landesbibliothek (Stuttgart (Stoccarda))"
+        },
+        {
+          "id": "biblioteca-del-cabildo-primado-de-toledo",
+          "value": "Biblioteca del Cabildo Primado de Toledo (Toledo)"
+        },
+        {
+          "id": "biblioteca-nazionale-universitaria-di-torino",
+          "value": "Biblioteca Nazionale Universitaria di Torino (Torino)"
+        },
+        {
+          "id": "biblioteca-reale-torino",
+          "value": "Biblioteca Reale (Torino)"
+        },
+        {
+          "id": "collezione-privata-livio-ambrogio-torino",
+          "value": "Collezione privata Livio Ambrogio (Torino)"
+        },
+        {
+          "id": "archivio-di-stato-trapani",
+          "value": "Archivio di Stato (Trapani)"
+        },
+        {
+          "id": "biblioteca-diocesana-vigilianum",
+          "value": "Biblioteca Diocesana Vigilianum (Trento)"
+        },
+        {
+          "id": "biblioteca-comunale-treviso",
+          "value": "Biblioteca Comunale (Treviso)"
+        },
+        {
+          "id": "biblioteca-capitolare-treviso",
+          "value": "Biblioteca Capitolare (Treviso)"
+        },
+        {
+          "id": "stadtbibliothek-treviri",
+          "value": "Stadtbibliothek (Treviri)"
+        },
+        {
+          "id": "biblioteca-civica-attilio-hortis",
+          "value": "Biblioteca civica Attilio Hortis (Trieste)"
+        },
+        {
+          "id": "biblioteca-arcivescovile-e-bartoliniana",
+          "value": "Biblioteca Arcivescovile e Bartoliniana (Udine)"
+        },
+        {
+          "id": "biblioteca-arcivescovile-udine",
+          "value": "Biblioteca Arcivescovile (Udine)"
+        },
+        {
+          "id": "biblioteca-civica-vincenzo-joppi",
+          "value": "Biblioteca civica \"Vincenzo Joppi\" (Udine)"
+        },
+        {
+          "id": "biblioteca-del-conte-gaetano-perusini",
+          "value": "Biblioteca del conte Gaetano Perusini (Udine)"
+        },
+        {
+          "id": "biblioteca-del-seminario-arcivescovile-udine",
+          "value": "Biblioteca del Seminario Arcivescovile (Udine)"
+        },
+        {
+          "id": "biblioteca-florio",
+          "value": "Biblioteca Florio (Udine)"
+        },
+        {
+          "id": "biblioteca-torriani",
+          "value": "Biblioteca Torriani (Udine)"
+        },
+        {
+          "id": "carolina-rediviva-bibliotek",
+          "value": "Carolina Rediviva - Bibliotek (Uppsala)"
+        },
+        {
+          "id": "mediatheque-simone-veil",
+          "value": "Médiathèque Simone Veil (Valenciennes)"
+        },
+        {
+          "id": "biblioteca-historica-de-santa-cruz",
+          "value": "Biblioteca Histórica de Santa Cruz (Valladolid)"
+        },
+        {
+          "id": "archivio-di-stato-venezia",
+          "value": "Archivio di Stato (Venezia)"
+        },
+        {
+          "id": "biblioteca-crasso",
+          "value": "Biblioteca Crasso (Venezia)"
+        },
+        {
+          "id": "biblioteca-del-museo-correr",
+          "value": "Biblioteca del Museo Correr (Venezia)"
+        },
+        {
+          "id": "biblioteca-nazionale-marciana",
+          "value": "Biblioteca Nazionale Marciana (Venezia)"
+        },
+        {
+          "id": "biblioteca-pier-catterino-zeno",
+          "value": "Biblioteca Pier Catterino Zeno (Venezia)"
+        },
+        {
+          "id": "santantonio-venezia",
+          "value": "Sant'Antonio (Venezia)"
+        },
+        {
+          "id": "biblioteca-giovardiana",
+          "value": "Biblioteca Giovardiana (Veroli)"
+        },
+        {
+          "id": "biblioteca-capitolare-verona",
+          "value": "Biblioteca Capitolare (Verona)"
+        },
+        {
+          "id": "biblioteca-civica-verona",
+          "value": "Biblioteca civica (Verona)"
+        },
+        {
+          "id": "biblioteca-della-fondazione-centro-studi-campostrini",
+          "value": "Biblioteca della Fondazione Centro Studi Campostrini (Verona)"
+        },
+        {
+          "id": "biblioteca-del-seminario-vescovile-verona",
+          "value": "Biblioteca del Seminario Vescovile (Verona)"
+        },
+        {
+          "id": "archivio-storico-comunale-verzuolo",
+          "value": "Archivio Storico Comunale (Verzuolo)"
+        },
+        {
+          "id": "biblioteca-privata-v-capialbi",
+          "value": "Biblioteca privata V. Capialbi (Vibo Valentia Marina)"
+        },
+        {
+          "id": "biblioteca-civica-bertoliana",
+          "value": "Biblioteca civica Bertoliana (Vicenza)"
+        },
+        {
+          "id": "osterreichische-nationalbibliothek",
+          "value": "Österreichische Nationalbibliothek (Vienna)"
+        },
+        {
+          "id": "istituto-arti-e-mestieri-roncalli",
+          "value": "Istituto Arti e Mestieri Roncalli (Vigevano)"
+        },
+        {
+          "id": "biblioteca-guarnacci",
+          "value": "Biblioteca Guarnacci (Volterra)"
+        },
+        {
+          "id": "wellesley-college-library-wellesley-ma",
+          "value": "Wellesley College Library (Wellesley (Massachusetts))"
+        },
+        {
+          "id": "zisterzienserabtei-wilhering",
+          "value": "Zisterzienserabtei  (Wilhering)"
+        },
+        {
+          "id": "williams-college-chapin-library-of-rare-books-williamstown-ma",
+          "value": "Williams College – Chapin Library of Rare Books (Williamstown (Massachussetts))"
+        },
+        {
+          "id": "eton-college-library-windsor",
+          "value": "Eton College Library (Windsor)"
+        },
+        {
+          "id": "herzog-august-bibliothek",
+          "value": "Herzog August Bibliothek (Wolfenbuttel)"
+        },
+        {
+          "id": "biblioteka-uniwersytecka-breslavia",
+          "value": "Biblioteka Uniwersytecka (Breslavia)"
+        },
+        {
+          "id": "miejska-biblioteka-publiczna-breslavia",
+          "value": "Miejska Biblioteka Publiczna (Breslavia)"
+        },
+        {
+          "id": "statni-okresni-archiv-znojmo",
+          "value": "Státní okresní archiv (Znojmo)"
+        }
+      ]
+    },
+    {
       "id": "cod-shelfmark-tags@en",
       "entries": [
         {
@@ -4295,5 +5312,9 @@
     ],
     "fragmentSeeders": []
   },
-  "settings": {}
+  "settings": {
+    "it.vedph.codicology.shelfmarks": {
+      "cityFromLibPattern": "\\((.+)\\)$"
+    }
+  }
 }

@@ -277,6 +277,13 @@ Reference authority lists:
 
 ## History
 
+- 2025-11-09:
+  - updated packages.
+  - added settings for shelfmarks part.
+  - added to thesauri a list of libraries from a sample Excel document where A=cityand B=library, adapting it as follows:
+	- save as CSV.
+	- apply this replacement: find `^([^;]+);([^\n\r]+)([\n\r])` and replace with `$2 ($1)$3` (=move city after library name in parentheses).
+	- added a new thesaurus entry `cod-shelfmark-libraries@en` and used this prompt to convert the result into thesauri entries: `Convert the following list of strings into JSON entries for the newly added cod-shelfmark-libraries@en object. Each line must become an entry in entries, having value=string, and id=identifier built from value by lowercasing it, removing the final city in (), removing all non-letter characters, trim, replace inner spaces with dashes, and remove diacritics from letters. If this ID happens to be equal to any of the others, append to it the city name after a dash. Here is the list: ...`.
 - 2025-10-31: updated packages and thesauri.
 - 2025-10-28:
   - updated packages.
