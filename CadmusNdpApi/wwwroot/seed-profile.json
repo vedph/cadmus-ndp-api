@@ -4920,6 +4920,86 @@
       ]
     },
     {
+      "id": "fig-plan-features@en",
+      "entries": [
+        {
+          "id": "burin",
+          "value": "bulino"
+        }
+      ]
+    },
+    {
+      "id": "fig-plan-impl-matrix-types@en",
+      "entries": [
+        {
+          "id": "woodblock",
+          "value": "matrice lignea"
+        },
+        {
+          "id": "metal-plate",
+          "value": "lastra metallica"
+        },
+        {
+          "id": "lithographic-stone",
+          "value": "pietra litografica"
+        }
+      ]
+    },
+    {
+      "id": "fig-plan-impl-positions@en",
+      "entries": [
+        {
+          "id": "in-text",
+          "value": "nel testo"
+        },
+        {
+          "id": "margin-top",
+          "value": "margine sup."
+        },
+        {
+          "id": "margin-bottom",
+          "value": "margine inf."
+        },
+        {
+          "id": "full-page",
+          "value": "pagina intera"
+        },
+        {
+          "id": "anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "frontispiece",
+          "value": "frontespizio"
+        },
+        {
+          "id": "single-sheet",
+          "value": "carta di tavola"
+        }
+      ]
+    },
+    {
+      "id": "fig-plan-techniques@en",
+      "entries": [
+        {
+          "id": "engraving",
+          "value": "incisione"
+        },
+        {
+          "id": "woodcut",
+          "value": "xilografia"
+        },
+        {
+          "id": "lithography",
+          "value": "litografia"
+        },
+        {
+          "id": "etching",
+          "value": "acquaforte"
+        }
+      ]
+    },
+    {
       "id": "flags_ico@en",
       "entries": [
         {
