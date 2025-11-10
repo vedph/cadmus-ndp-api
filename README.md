@@ -35,6 +35,7 @@ The list of facets is given here with their conventional groupings used in the e
 > All items have a metadata part where the metadatum named `eid` can be used to provide a human-friendly identifier for the item as a whole, to be used when looking up items in internal linking. This is an opt-in mechanism: like in TEI you add an `xml:id` attribute to those elements you want to reference from another part of the document, here you add an `eid` to those items you want to link from another item's part.
 
 - **manuscript**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -57,11 +58,14 @@ The list of facets is given here with their conventional groupings used in the e
     - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO) 🔗 `iconography`
     - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
+    - [notable word forms](https://github.com/vedph/cadmus-ndp/blob/master/docs/notable-word-forms.md) (NDP)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md) (mostly used for Zotero bibliography)
+
 - **fragment**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -86,11 +90,14 @@ The list of facets is given here with their conventional groupings used in the e
     - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO) 🔗 `iconography`
     - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
+    - [notable word forms](https://github.com/vedph/cadmus-ndp/blob/master/docs/notable-word-forms.md) (NDP)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - references
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+
 - **print edition**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors) 🔗 `person`
@@ -109,7 +116,9 @@ The list of facets is given here with their conventional groupings used in the e
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+
 - **print instance**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `print edition` (+group)
@@ -128,11 +137,14 @@ The list of facets is given here with their conventional groupings used in the e
     - [figurative plan implementation](https://github.com/vedph/cadmus-ndp-books/blob/master/docs/figurative-plan-impl-part.md) (BOK) 🔗 `iconography`
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD) 🔗 `iconography`, `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
+    - [notable word forms](https://github.com/vedph/cadmus-ndp/blob/master/docs/notable-word-forms.md) (NDP)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+
 - **drawings project**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `person`
@@ -152,7 +164,9 @@ The list of facets is given here with their conventional groupings used in the e
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+
 - **drawing item**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `drawings project` (+group) 🔗 `person`
@@ -172,7 +186,9 @@ The list of facets is given here with their conventional groupings used in the e
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+
 - **iconography**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
@@ -186,6 +202,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
+
 - **person**
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
@@ -247,6 +264,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | measurements                         |            | fr       |                | pri         |              |              |             |        |
 | metadata                             | X          | X        | X              | X           | X            | X            | X           | X      |
 | names                                |            |          |                |             |              |              |             | X      |
+| notable forms                        | X          | X        |                | X           |              |              |             |        |
 | note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       | X hist |
 | preservation states                  | X          | X        |                | X           | X            | X            |             |        |
 | references                           | X          | X        | X              | X           | X            | X            | X           | X      |
@@ -277,17 +295,18 @@ Reference authority lists:
 
 ## History
 
+- 2025-11-10: updated thesauri.
 - 2025-11-09:
   - updated packages.
   - added settings for shelfmarks part.
   - added to thesauri a list of libraries from a sample Excel document where A=cityand B=library, adapting it as follows:
-	- save as CSV.
-	- apply this replacement: find `^([^;]+);([^\n\r]+)([\n\r])` and replace with `$2 ($1)$3` (=move city after library name in parentheses).
-	- added a new thesaurus entry `cod-shelfmark-libraries@en` and used this prompt to convert the result into thesauri entries: `Convert the following list of strings into JSON entries for the newly added cod-shelfmark-libraries@en object. Each line must become an entry in entries, having value=string, and id=identifier built from value by lowercasing it, removing the final city in (), removing all non-letter characters, trim, replace inner spaces with dashes, and remove diacritics from letters. If this ID happens to be equal to any of the others, append to it the city name after a dash. Here is the list: ...`.
+  - save as CSV.
+  - apply this replacement: find `^([^;]+);([^\n\r]+)([\n\r])` and replace with `$2 ($1)$3` (=move city after library name in parentheses).
+  - added a new thesaurus entry `cod-shelfmark-libraries@en` and used this prompt to convert the result into thesauri entries: `Convert the following list of strings into JSON entries for the newly added cod-shelfmark-libraries@en object. Each line must become an entry in entries, having value=string, and id=identifier built from value by lowercasing it, removing the final city in (), removing all non-letter characters, trim, replace inner spaces with dashes, and remove diacritics from letters. If this ID happens to be equal to any of the others, append to it the city name after a dash. Here is the list: ...`.
 - 2025-10-31: updated packages and thesauri.
 - 2025-10-28:
   - updated packages.
-  - added NDP-specific parts (⚠️ TO BE CONFIRMED! Not yet reflected in this documentation).
+  - added NDP-specific parts.
 
 ### 1.0.6
 
