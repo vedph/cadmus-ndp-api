@@ -2282,15 +2282,15 @@
           "value": "---"
         },
         {
-          "id": "eng",
+          "id": "en",
           "value": "inglese"
         },
         {
-          "id": "fre",
+          "id": "fr",
           "value": "francese"
         },
         {
-          "id": "deu",
+          "id": "de",
           "value": "tedesco"
         },
         {
@@ -2298,11 +2298,11 @@
           "value": "greco"
         },
         {
-          "id": "gre",
+          "id": "el",
           "value": "neogreco"
         },
         {
-          "id": "it-vulg",
+          "id": "it-x-vulg",
           "value": "italiano volgare"
         },
         {
@@ -2314,16 +2314,12 @@
           "value": "latino"
         },
         {
-          "id": "la-it-vulg",
+          "id": "la-x-it-vulg",
           "value": "latino+volgare"
         },
         {
           "id": "sp",
           "value": "spagnolo"
-        },
-        {
-          "id": "other",
-          "value": "altro"
         }
       ]
     },
@@ -2779,28 +2775,7 @@
     },
     {
       "id": "cod-hand-subscription-languages@en",
-      "entries": [
-        {
-          "id": "it-vulg",
-          "value": "italiano volgare"
-        },
-        {
-          "id": "la",
-          "value": "latino"
-        },
-        {
-          "id": "grc",
-          "value": "greco"
-        },
-        {
-          "id": "la-it-vulg",
-          "value": "latino+volgare"
-        },
-        {
-          "id": "other",
-          "value": "altro"
-        }
-      ]
+      "targetId": "cod-edit-languages"
     },
     {
       "id": "cod-hand-typologies@en",
@@ -5106,16 +5081,7 @@
     },
     {
       "id": "name-languages@en",
-      "entries": [
-        {
-          "id": "it-vulg",
-          "value": "volgare"
-        },
-        {
-          "id": "la",
-          "value": "latino"
-        }
-      ]
+      "targetId": "cod-edit-languages"
     },
     {
       "id": "name-piece-types@en",
@@ -5405,10 +5371,7 @@
         "id": "seed.it.vedph.ndp.print-fig-plan-impl"
       },
       {
-        "id": "seed.it.vedph.note",
-        "options": {
-          "tags": ["language", "history", "geography"]
-        }
+        "id": "seed.it.vedph.note"
       },
       {
         "id": "seed.it.vedph.physical-measurements"
