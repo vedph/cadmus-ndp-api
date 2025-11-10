@@ -4135,6 +4135,23 @@
       "targetId": "physical-states"
     },
     {
+      "id": "decorated-count-ids_drp@en",
+      "entries": [
+        {
+          "id": "sheets",
+          "value": "fogli"
+        },
+        {
+          "id": "drawings",
+          "value": "disegni"
+        },
+        {
+          "id": "diagrams",
+          "value": "diagrammi"
+        }
+      ]
+    },
+    {
       "id": "drawing-tech-colors@en",
       "entries": [
         {

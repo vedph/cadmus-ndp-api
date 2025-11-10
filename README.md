@@ -35,7 +35,6 @@ The list of facets is given here with their conventional groupings used in the e
 > All items have a metadata part where the metadatum named `eid` can be used to provide a human-friendly identifier for the item as a whole, to be used when looking up items in internal linking. This is an opt-in mechanism: like in TEI you add an `xml:id` attribute to those elements you want to reference from another part of the document, here you add an `eid` to those items you want to link from another item's part.
 
 - **manuscript**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -65,7 +64,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md) (mostly used for Zotero bibliography)
 
 - **fragment**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -97,7 +95,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **print edition**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors) 🔗 `person`
@@ -118,7 +115,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **print instance**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `print edition` (+group)
@@ -144,7 +140,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **drawings project**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `person`
@@ -166,7 +161,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **drawing item**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `drawings project` (+group) 🔗 `person`
@@ -188,7 +182,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **iconography**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
