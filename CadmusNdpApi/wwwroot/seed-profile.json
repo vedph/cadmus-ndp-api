@@ -2302,19 +2302,23 @@
           "value": "neogreco"
         },
         {
-          "id": "ita",
+          "id": "it-vulg",
+          "value": "italiano volgare"
+        },
+        {
+          "id": "it",
           "value": "italiano"
         },
         {
-          "id": "lat",
+          "id": "la",
           "value": "latino"
         },
         {
-          "id": "lat-vlg",
+          "id": "la-it-vulg",
           "value": "latino+volgare"
         },
         {
-          "id": "spa",
+          "id": "sp",
           "value": "spagnolo"
         },
         {
@@ -2723,12 +2727,20 @@
           "value": "mercantesca a."
         },
         {
+          "id": "cur",
+          "value": "corsiva"
+        },
+        {
           "id": "crh",
           "value": "corsiva um."
         },
         {
           "id": "ant",
           "value": "antiqua"
+        },
+        {
+          "id": "cpb",
+          "value": "capitale libraria"
         },
         {
           "id": "other",
@@ -2769,11 +2781,11 @@
       "id": "cod-hand-subscription-languages@en",
       "entries": [
         {
-          "id": "ita",
-          "value": "italiano"
+          "id": "it-vulg",
+          "value": "italiano volgare"
         },
         {
-          "id": "lat",
+          "id": "la",
           "value": "latino"
         },
         {
@@ -2781,7 +2793,7 @@
           "value": "greco"
         },
         {
-          "id": "lat-vlg",
+          "id": "la-it-vulg",
           "value": "latino+volgare"
         },
         {
@@ -4921,6 +4933,10 @@
       ]
     },
     {
+      "id": "ico-instruction-colors@en",
+      "targetId": "cod-hand-colors"
+    },
+    {
       "id": "ico-instruction-positions@en",
       "entries": [
         {
@@ -4962,6 +4978,19 @@
       "targetId": "cod-hand-scripts"
     },
     {
+      "id": "ico-instruction-tools@en",
+      "entries": [
+        {
+          "id": "pencil",
+          "value": "matita"
+        },
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        }
+      ]
+    },
+    {
       "id": "metadata-types@en",
       "entries": [
         {
@@ -4999,8 +5028,8 @@
       "id": "name-languages@en",
       "entries": [
         {
-          "id": "it",
-          "value": "italiano"
+          "id": "it-vulg",
+          "value": "volgare"
         },
         {
           "id": "la",
@@ -5105,23 +5134,15 @@
       "entries": [
         {
           "id": "s1",
-          "value": "ottimo"
-        },
-        {
-          "id": "s2",
           "value": "buono"
         },
         {
-          "id": "s3",
+          "id": "s2",
           "value": "discreto"
         },
         {
-          "id": "s4",
+          "id": "s3",
           "value": "precario"
-        },
-        {
-          "id": "s5",
-          "value": "pessimo"
         }
       ]
     },
