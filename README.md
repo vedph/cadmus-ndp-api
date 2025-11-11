@@ -5,6 +5,7 @@
     - [Parts Matrix](#parts-matrix)
   - [Authorithies](#authorithies)
   - [History](#history)
+    - [1.0.7](#107)
     - [1.0.6](#106)
     - [1.0.5](#105)
     - [1.0.4](#104)
