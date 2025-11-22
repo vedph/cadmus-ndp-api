@@ -5426,11 +5426,19 @@
           "system": ["arabic", "roman", "mix"],
           "techniques": ["ink", "lapis", "mechanic"],
           "positions": ["mse", "msc", "msi", "mie", "mic"],
-          "colors": []
+          "colors": ["black", "brown", "gray", "red"]
         }
       },
       {
-        "id": "seed.it.vedph.codicology.shelfmarks"
+        "id": "seed.it.vedph.codicology.shelfmarks",
+        "options": {
+          "cities": ["Roma"],
+          "libraries": [
+            "biblioteca-apostolica-vaticana",
+            "biblioteca-nazionale-centrale",
+            "biblioteca-universitaria-alessandrina"
+          ]
+        }
       },
       {
         "id": "seed.it.vedph.codicology.watermarks"
