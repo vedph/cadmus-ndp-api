@@ -289,7 +289,9 @@ Reference authority lists:
 
 ## History
 
-- 2025-11-22: added options to codicology seeder profiles.
+- 2025-11-22:
+  - updated packages, still on .NET 9 until NpgSql components for .NET 10 are ready.
+  - added options to codicology seeder profiles.
 
 ### 1.0.7
 
