@@ -1707,7 +1707,7 @@
           "value": "attuale"
         },
         {
-          "id": "preceding",
+          "id": "former",
           "value": "precedente"
         },
         {
@@ -5310,16 +5310,92 @@
         "id": "seed.it.vedph.chronotopes"
       },
       {
-        "id": "seed.it.vedph.codicology.bindings"
+        "id": "seed.it.vedph.codicology.bindings",
+        "options": {
+          "tags": ["current", "former", "none"],
+          "coverMaterials": ["skin", "parchment", "velvet", "paper"],
+          "boardMaterials": ["wood", "card", "other"]
+        }
       },
       {
-        "id": "seed.it.vedph.codicology.contents"
+        "id": "seed.it.vedph.codicology.contents",
+        "options": {
+          "annotationTypes": ["rubric", "preface", "dedication"],
+          "contentStates": ["headless", "crippled", "gaps", "excerpts"]
+        }
       },
       {
-        "id": "seed.it.vedph.codicology.decorations"
+        "id": "seed.it.vedph.codicology.decorations",
+        "options": {
+          "flags": [
+            "pag-inc.blank",
+            "pag-inc.sketch",
+            "ill.blank",
+            "ill.sketch",
+            "orn.blank",
+            "orn.sketch",
+            "ini-pla.blank",
+            "ini-pla.guide",
+            "ini-wat.blank",
+            "ini-wat.guide",
+            "ini-orn.blank",
+            "ini-orn.sketch",
+            "ini-fig.blank",
+            "ini-fig.sketch",
+            "par.blank",
+            "par.sketch"
+          ],
+          "colors": ["blue", "red", "green"],
+          "elementTypes": [
+            "pag-inc",
+            "ill",
+            "orn",
+            "ini-pla",
+            "ini-wat",
+            "ini-orn",
+            "ini-fig",
+            "par",
+            "wsp"
+          ],
+          "elementGildings": ["leaf", "powder"],
+          "elementPositions": [
+            "ill.full-page",
+            "ill.interpol",
+            "ill.foot",
+            "ini-pla.aligned",
+            "ini-pla.inside",
+            "ini-wat.aligned",
+            "ini-wat.inside",
+            "ini-orn.aligned",
+            "ini-orn.hanging",
+            "ini-fig.aligned",
+            "ini-fig.hanging",
+            "orn.-",
+            "par.-"
+          ],
+          "elementTechniques": ["watercolor", "gouache", "ink"],
+          "elementTypologies": [
+            "ill.miniature",
+            "ill.drawing",
+            "orn.frieze-fig",
+            "orn.coat",
+            "ini-orn.zoomrp",
+            "ini-orn.prism",
+            "par.run-heads",
+            "par.rubrication"
+          ],
+          "elementTools": ["pen", "brush"],
+          "artistTypes": ["illuminator", "workshop"]
+        }
       },
       {
-        "id": "seed.it.vedph.codicology.edits"
+        "id": "seed.it.vedph.codicology.edits",
+        "options": {
+          "types": ["text", "notes", "comment", "correction"],
+          "techniques": ["ink", "lapis"],
+          "languages": ["en", "fr", "de", "grc", "la"],
+          "colors": ["black", "brown", "gray", "red"]
+        }
       },
       {
         "id": "seed.it.vedph.codicology.hands"
