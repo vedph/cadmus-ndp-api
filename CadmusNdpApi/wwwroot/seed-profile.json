@@ -5414,10 +5414,20 @@
         }
       },
       {
-        "id": "seed.it.vedph.codicology.material-dsc"
+        "id": "seed.it.vedph.codicology.material-dsc",
+        "options": {
+          "materials": ["parchment", "paper", "mix"],
+          "states": ["s1", "s2", "s3"]
+        }
       },
       {
-        "id": "seed.it.vedph.codicology.sheet-labels"
+        "id": "seed.it.vedph.codicology.sheet-labels",
+        "options": {
+          "system": ["arabic", "roman", "mix"],
+          "techniques": ["ink", "lapis", "mechanic"],
+          "positions": ["mse", "msc", "msi", "mie", "mic"],
+          "colors": []
+        }
       },
       {
         "id": "seed.it.vedph.codicology.shelfmarks"
