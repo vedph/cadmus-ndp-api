@@ -5398,10 +5398,20 @@
         }
       },
       {
-        "id": "seed.it.vedph.codicology.hands"
+        "id": "seed.it.vedph.codicology.hands",
+        "options": {
+          "signTypes": ["letter", "punct", "abbr", "nex", "ligature"],
+          "scripts": ["got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb"],
+          "typologies": ["text", "note", "comment", "correction", "attention"],
+          "colors": ["black", "brown", "gray", "red"],
+          "languages": ["en", "fr", "de", "grc", "la"]
+        }
       },
       {
-        "id": "seed.it.vedph.codicology.layouts"
+        "id": "seed.it.vedph.codicology.layouts",
+        "options": {
+          "rulingTechniques": ["drypoint", "mine", "ink", "folding"]
+        }
       },
       {
         "id": "seed.it.vedph.codicology.material-dsc"

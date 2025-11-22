@@ -289,6 +289,8 @@ Reference authority lists:
 
 ## History
 
+- 2025-11-22: added options to codicology seeder profiles.
+
 ### 1.0.7
 
 - 2025-11-10: updated thesauri.
