@@ -17,7 +17,7 @@
 ```sh
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.7 -t vedph2020/cadmus-ndp-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.8 -t vedph2020/cadmus-ndp-api:latest --push
 ```
 
 (replace with the current version).
@@ -288,6 +288,8 @@ Reference authority lists:
   - [Dizionario Biografico dei Miniatori Italiani](https://www.kubikat.org/discovery/fulldisplay?docid=alma990002010052009152&context=L&vid=49MPG_KUBIKAT:VU1&lang=de&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,dizionario%20biografico%20italiani&offset=0)
 
 ## History
+
+### 1.0.8
 
 - 2025-11-22:
   - updated packages, still on .NET 9 until NpgSql components for .NET 10 are ready.
