@@ -289,6 +289,10 @@ Reference authority lists:
 
 ## History
 
+### 2.0.0
+
+- 2025-11-24: ⚠️ upgraded to NET 10.
+
 ### 1.0.8
 
 - 2025-11-22:
