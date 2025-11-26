@@ -21,8 +21,8 @@
 		<PackageReference Include="Cadmus.Codicology.Parts" Version="9.0.0" />
 		<PackageReference Include="Cadmus.Epigraphy.Parts" Version="9.0.0" />
 		<PackageReference Include="Cadmus.Graph.Extras" Version="10.0.0" />
-		<PackageReference Include="Cadmus.Iconography.Parts" Version="0.0.4" />
-		<PackageReference Include="Cadmus.Iconography.Services" Version="0.0.6" />
+		<PackageReference Include="Cadmus.Iconography.Parts" Version="1.0.0" />
+		<PackageReference Include="Cadmus.Iconography.Services" Version="1.0.0" />
 		<PackageReference Include="Cadmus.Ndp.Parts" Version="1.0.0" />
 		<PackageReference Include="Cadmus.NdpBooks.Services" Version="2.0.0" />
 		<PackageReference Include="Cadmus.NdpDrawings.Parts" Version="1.0.0" />
@@ -30,7 +30,7 @@
 		<PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="9.0.0" />
 		<PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="9.0.0" />
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="8.0.0" />
-		<PackageReference Include="Cadmus.Seed.Iconography.Parts" Version="0.0.4" />
+		<PackageReference Include="Cadmus.Seed.Iconography.Parts" Version="1.0.0" />
 		<PackageReference Include="Cadmus.Seed.Ndp.Parts" Version="1.0.0" />
 		<PackageReference Include="Cadmus.Seed.NdpDrawings.Parts" Version="1.0.0" />
 		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="12.0.0" />

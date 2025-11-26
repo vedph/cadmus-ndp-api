@@ -5,19 +5,13 @@
     - [Parts Matrix](#parts-matrix)
   - [Authorithies](#authorithies)
   - [History](#history)
-    - [1.0.7](#107)
-    - [1.0.6](#106)
-    - [1.0.5](#105)
-    - [1.0.4](#104)
-    - [1.0.3](#103)
-    - [1.0.1](#101)
 
 🐋 Quick Docker image build:
 
 ```sh
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:1.0.8 -t vedph2020/cadmus-ndp-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:2.0.0 -t vedph2020/cadmus-ndp-api:latest --push
 ```
 
 (replace with the current version).
@@ -291,6 +285,7 @@ Reference authority lists:
 
 ### 2.0.0
 
+- 2025-11-26: Docker.
 - 2025-11-24:
   - ⚠️ upgraded to NET 10.
   - enabled graph in settings.
