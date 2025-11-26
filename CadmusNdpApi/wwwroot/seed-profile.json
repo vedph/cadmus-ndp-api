@@ -1277,6 +1277,336 @@
       ]
     },
     {
+      "id": "categories_bio@en",
+      "entries": [
+        {
+          "id": "author",
+          "value": "autore"
+        },
+        {
+          "id": "commentator",
+          "value": "commentatore"
+        },
+        {
+          "id": "commissioner",
+          "value": "committente"
+        },
+        {
+          "id": "composer",
+          "value": "compositore"
+        },
+        {
+          "id": "copyist",
+          "value": "copista"
+        },
+        {
+          "id": "recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "epitomizer",
+          "value": "epitomatore"
+        },
+        {
+          "id": "glossator",
+          "value": "glossatore"
+        },
+        {
+          "id": "illustrator",
+          "value": "illustratore"
+        },
+        {
+          "id": "bookbinder",
+          "value": "legatore"
+        },
+        {
+          "id": "reader",
+          "value": "lettore"
+        },
+        {
+          "id": "bookseller",
+          "value": "libraio"
+        },
+        {
+          "id": "notary",
+          "value": "notaio"
+        },
+        {
+          "id": "collector",
+          "value": "raccoglitore"
+        },
+        {
+          "id": "restorer",
+          "value": "restauratore"
+        },
+        {
+          "id": "translator",
+          "value": "traduttore"
+        },
+        {
+          "id": "transliterator",
+          "value": "translitteratore"
+        },
+        {
+          "id": "vernaculariser",
+          "value": "volgarizzatore"
+        },
+        {
+          "id": "dedicatee",
+          "value": "dedicatario"
+        },
+        {
+          "id": "owner",
+          "value": "possessore"
+        }
+      ]
+    },
+    {
+      "id": "categories_ctx@en",
+      "entries": [
+        {
+          "id": "if.-",
+          "value": "Inferno"
+        },
+        {
+          "id": "if.selva",
+          "value": "Inferno: Selva"
+        },
+        {
+          "id": "if.porta-ignavi",
+          "value": "Inferno: Porta dell'Inferno - Ignavi"
+        },
+        {
+          "id": "if.acheronte",
+          "value": "Inferno: Acheronte"
+        },
+        {
+          "id": "if.c1-limbo",
+          "value": "Inferno: I cerchio - Limbo"
+        },
+        {
+          "id": "if.c2-lussuriosi",
+          "value": "Inferno: Il cerchio - Lussuriosi"
+        },
+        {
+          "id": "if.c3-golosi",
+          "value": "Inferno: III cerchio - Golosi"
+        },
+        {
+          "id": "if.c4-avari-prodighi",
+          "value": "Inferno: IV cerchio - Avari e prodighi"
+        },
+        {
+          "id": "if.c5-iracondi-accidiosi",
+          "value": "Inferno: V cerchio - Iracondi e Accidiosi"
+        },
+        {
+          "id": "if.c6-eretici-epicurei",
+          "value": "Inferno: VI cerchio - Eretici e Epicurei"
+        },
+        {
+          "id": "if.citta-dite-burrato",
+          "value": "Inferno: Città di Dite - burrato"
+        },
+        {
+          "id": "if.c7-violenti.-",
+          "value": "Inferno: VII cerchio - Violenti"
+        },
+        {
+          "id": "if.c7-violenti.g1-violenti-prossimo",
+          "value": "Inferno: VII cerchio - Violenti: I girone - Violenti contro il prossimo"
+        },
+        {
+          "id": "if.c7-violenti.g2-violenti-se",
+          "value": "Inferno: VII cerchio - Violenti: Il girone - Violenti contro se stessi"
+        },
+        {
+          "id": "if.c7-violenti.g3-violenti-dio",
+          "value": "Inferno: VII cerchio - Violenti: III girone - Violenti contro Dio, Natura, Arte"
+        },
+        {
+          "id": "if.c8-fraudolenti.-",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti"
+        },
+        {
+          "id": "if.c8-fraudolenti.b1-ruffiani-seduttori",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: I bolgia - Ruffiani e seduttori"
+        },
+        {
+          "id": "if.c8-fraudolenti.b2-adulatori-lusingatori",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: Il bolgia - Adulatori e lusingatori"
+        },
+        {
+          "id": "if.c8-fraudolenti.b3-simoniaci",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: III bolgia - Simoniaci"
+        },
+        {
+          "id": "if.c8-fraudolenti.b4-maghi-indovini",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: IV bolgia - Maghi e Indovini"
+        },
+        {
+          "id": "if.c8-fraudolenti.b5-barattieri",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: V bolgia - Barattieri"
+        },
+        {
+          "id": "if.c8-fraudolenti.b6-ipocriti",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: VI bolgia - Ipocriti"
+        },
+        {
+          "id": "if.c8-fraudolenti.b7-ladri",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: VII bolgia - Ladri"
+        },
+        {
+          "id": "if.c8-fraudolenti.b8-consiglieri",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: VIII bolgia - Consiglieri fraudolenti"
+        },
+        {
+          "id": "if.c8-fraudolenti.b9-discordia",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: IX bolgia - Seminatori di discordia"
+        },
+        {
+          "id": "if.c8-fraudolenti.b10-falsari",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: X bolgia - Falsari"
+        },
+        {
+          "id": "if.c8-fraudolenti.pozzo-giganti",
+          "value": "Inferno: VIII cerchio (Malebolge) - Fraudolenti: Pozzo dei giganti"
+        },
+        {
+          "id": "if.c9-traditori.-",
+          "value": "Inferno: IX cerchio - Traditori"
+        },
+        {
+          "id": "if.c9-traditori.z1-traditori-parenti",
+          "value": "Inferno: IX cerchio - Traditori: I zona (Caina) - Traditori dei parenti"
+        },
+        {
+          "id": "if.c9-traditori.z2-traditori-patria",
+          "value": "Inferno: IX cerchio - Traditori: II zona (Antenora) - Traditori della patria"
+        },
+        {
+          "id": "if.c9-traditori.z3-traditori-ospiti",
+          "value": "Inferno: IX cerchio - Traditori: III zona (Tolomea) - Traditori degli ospiti"
+        },
+        {
+          "id": "if.c9-traditori.z4-traditori-benefattori",
+          "value": "Inferno: IX cerchio - Traditori: IV zona ((Giudecca) - Traditori dei benefattori"
+        },
+        {
+          "id": "if.c9-traditori.lucifero",
+          "value": "Inferno: IX cerchio - Traditori: Lucifero"
+        },
+        {
+          "id": "if.c9-traditori.burella",
+          "value": "Inferno: IX cerchio - Traditori: Natural burella"
+        },
+        {
+          "id": "pg.-",
+          "value": "Purgatorio"
+        },
+        {
+          "id": "pg.spiaggia",
+          "value": "Purgatorio: Spiaggia purgatoriale"
+        },
+        {
+          "id": "pg.anti-scomunicati-negligenti",
+          "value": "Purgatorio: Antipurgatorio - Scomunicati, Negligenti"
+        },
+        {
+          "id": "pg.anti-valletta-principi",
+          "value": "Purgatorio: Antipurgatorio - Valletta dei principi"
+        },
+        {
+          "id": "pg.porta",
+          "value": "Purgatorio: Porta del Purgatorio"
+        },
+        {
+          "id": "pg.c1-superbi",
+          "value": "Purgatorio: I cornice - Superbi"
+        },
+        {
+          "id": "pg.c2-invidiosi",
+          "value": "Purgatorio: Il cornice - Invidiosi"
+        },
+        {
+          "id": "pg.c3-iracondi",
+          "value": "Purgatorio: III cornice - Iracondi"
+        },
+        {
+          "id": "pg.c4-accidiosi",
+          "value": "Purgatorio: IV cornice - Accidiosi"
+        },
+        {
+          "id": "pg.c5-avari-e-prodighi",
+          "value": "Purgatorio: V cornice - Avari e Prodighi"
+        },
+        {
+          "id": "pg.c6-golosi",
+          "value": "Purgatorio: VI cornice - Golosi"
+        },
+        {
+          "id": "pg.c7-lussuriosi",
+          "value": "Purgatorio: VII cornice - Lussuriosi"
+        },
+        {
+          "id": "pg.muro-fuoco",
+          "value": "Purgatorio: Muro di fuoco"
+        },
+        {
+          "id": "pg.paradiso-passaggio",
+          "value": "Purgatorio: Paradiso terrestre - Passaggio per le anime purgate"
+        },
+        {
+          "id": "pr.-",
+          "value": "Paradiso"
+        },
+        {
+          "id": "pr.eden",
+          "value": "Paradiso: Eden"
+        },
+        {
+          "id": "pr.c1-spiriti-inadempienti",
+          "value": "Paradiso: I cielo (Luna) - Spiriti inadempienti"
+        },
+        {
+          "id": "pr.c2-spiriti-attivi",
+          "value": "Paradiso: Il cielo (Mercurio) - Spiriti attivi"
+        },
+        {
+          "id": "pr.c3-spiriti-amanti",
+          "value": "Paradiso: III cielo (Venere) - Spiriti amanti"
+        },
+        {
+          "id": "pr.c4-spiriti-sapienti",
+          "value": "Paradiso: IV cielo (Sole) - Spiriti sapienti"
+        },
+        {
+          "id": "pr.c5-spiriti-militanti",
+          "value": "Paradiso: V cielo (Marte) - Spiriti militanti"
+        },
+        {
+          "id": "pr.c6-spiriti-giusti",
+          "value": "Paradiso: VI cielo (Giove) - Spiriti giusti"
+        },
+        {
+          "id": "pr.c7-spiriti-contemplativi",
+          "value": "Paradiso: VII cielo (Saturno) - Spiriti contemplativi"
+        },
+        {
+          "id": "pr.c8-spiriti-trionfanti",
+          "value": "Paradiso: VIII cielo (Stelle fisse) - Spiriti trionfanti"
+        },
+        {
+          "id": "pr.c9-cori-angelici",
+          "value": "Paradiso: IX cielo (Primo mobile) - Cori angelici"
+        },
+        {
+          "id": "pr.empireo-rosa",
+          "value": "Paradiso: Empireo - Candida rosa"
+        }
+      ]
+    },
+    {
       "id": "categories_txt@en",
       "entries": [
         {
@@ -5321,7 +5651,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": ["zeus"],
+      "users": [ "zeus" ],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -5332,16 +5662,16 @@
       {
         "id": "seed.it.vedph.codicology.bindings",
         "options": {
-          "tags": ["current", "former", "none"],
-          "coverMaterials": ["skin", "parchment", "velvet", "paper"],
-          "boardMaterials": ["wood", "card", "other"]
+          "tags": [ "current", "former", "none" ],
+          "coverMaterials": [ "skin", "parchment", "velvet", "paper" ],
+          "boardMaterials": [ "wood", "card", "other" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.contents",
         "options": {
-          "annotationTypes": ["rubric", "preface", "dedication"],
-          "contentStates": ["headless", "crippled", "gaps", "excerpts"]
+          "annotationTypes": [ "rubric", "preface", "dedication" ],
+          "contentStates": [ "headless", "crippled", "gaps", "excerpts" ]
         }
       },
       {
@@ -5365,7 +5695,7 @@
             "par.blank",
             "par.sketch"
           ],
-          "colors": ["blue", "red", "green"],
+          "colors": [ "blue", "red", "green" ],
           "elementTypes": [
             "pag-inc",
             "ill",
@@ -5377,7 +5707,7 @@
             "par",
             "wsp"
           ],
-          "elementGildings": ["leaf", "powder"],
+          "elementGildings": [ "leaf", "powder" ],
           "elementPositions": [
             "ill.full-page",
             "ill.interpol",
@@ -5393,7 +5723,7 @@
             "orn.-",
             "par.-"
           ],
-          "elementTechniques": ["watercolor", "gouache", "ink"],
+          "elementTechniques": [ "watercolor", "gouache", "ink" ],
           "elementTypologies": [
             "ill.miniature",
             "ill.drawing",
@@ -5404,55 +5734,55 @@
             "par.run-heads",
             "par.rubrication"
           ],
-          "elementTools": ["pen", "brush"],
-          "artistTypes": ["illuminator", "workshop"]
+          "elementTools": [ "pen", "brush" ],
+          "artistTypes": [ "illuminator", "workshop" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.edits",
         "options": {
-          "types": ["text", "notes", "comment", "correction"],
-          "techniques": ["ink", "lapis"],
-          "languages": ["en", "fr", "de", "grc", "la"],
-          "colors": ["black", "brown", "gray", "red"]
+          "types": [ "text", "notes", "comment", "correction" ],
+          "techniques": [ "ink", "lapis" ],
+          "languages": [ "en", "fr", "de", "grc", "la" ],
+          "colors": [ "black", "brown", "gray", "red" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.hands",
         "options": {
-          "signTypes": ["letter", "punct", "abbr", "nex", "ligature"],
-          "scripts": ["got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb"],
-          "typologies": ["text", "note", "comment", "correction", "attention"],
-          "colors": ["black", "brown", "gray", "red"],
-          "languages": ["en", "fr", "de", "grc", "la"]
+          "signTypes": [ "letter", "punct", "abbr", "nex", "ligature" ],
+          "scripts": [ "got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb" ],
+          "typologies": [ "text", "note", "comment", "correction", "attention" ],
+          "colors": [ "black", "brown", "gray", "red" ],
+          "languages": [ "en", "fr", "de", "grc", "la" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.layouts",
         "options": {
-          "rulingTechniques": ["drypoint", "mine", "ink", "folding"]
+          "rulingTechniques": [ "drypoint", "mine", "ink", "folding" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.material-dsc",
         "options": {
-          "materials": ["parchment", "paper", "mix"],
-          "states": ["s1", "s2", "s3"]
+          "materials": [ "parchment", "paper", "mix" ],
+          "states": [ "s1", "s2", "s3" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.sheet-labels",
         "options": {
-          "system": ["arabic", "roman", "mix"],
-          "techniques": ["ink", "lapis", "mechanic"],
-          "positions": ["mse", "msc", "msi", "mie", "mic"],
-          "colors": ["black", "brown", "gray", "red"]
+          "system": [ "arabic", "roman", "mix" ],
+          "techniques": [ "ink", "lapis", "mechanic" ],
+          "positions": [ "mse", "msc", "msi", "mie", "mic" ],
+          "colors": [ "black", "brown", "gray", "red" ]
         }
       },
       {
         "id": "seed.it.vedph.codicology.shelfmarks",
         "options": {
-          "cities": ["Roma"],
+          "cities": [ "Roma" ],
           "libraries": [
             "biblioteca-apostolica-vaticana",
             "biblioteca-nazionale-centrale",
@@ -5466,7 +5796,7 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": ["en", "it"]
+          "languages": [ "en", "it" ]
         }
       },
       {

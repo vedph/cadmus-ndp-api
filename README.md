@@ -283,6 +283,11 @@ Reference authority lists:
 
 ## History
 
+- 2025-11-26: changed/added thesauri:
+  - `categories_bio`
+  - `categories_ctx`
+  - `cod-shelfmark-libraries`
+
 ### 2.0.0
 
 - 2025-11-26: Docker.
