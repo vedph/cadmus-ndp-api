@@ -1413,15 +1413,15 @@
           "value": "Inferno: VII cerchio - Violenti"
         },
         {
-          "id": "if.c7-violenti.g1-violenti-prossimo",
+          "id": "if.c7-violenti.g1-prossimo",
           "value": "Inferno: VII cerchio - Violenti: I girone - Violenti contro il prossimo"
         },
         {
-          "id": "if.c7-violenti.g2-violenti-se",
+          "id": "if.c7-violenti.g2-se",
           "value": "Inferno: VII cerchio - Violenti: Il girone - Violenti contro se stessi"
         },
         {
-          "id": "if.c7-violenti.g3-violenti-dio",
+          "id": "if.c7-violenti.g3-dio",
           "value": "Inferno: VII cerchio - Violenti: III girone - Violenti contro Dio, Natura, Arte"
         },
         {
@@ -1477,19 +1477,19 @@
           "value": "Inferno: IX cerchio - Traditori"
         },
         {
-          "id": "if.c9-traditori.z1-traditori-parenti",
+          "id": "if.c9-traditori.z1-parenti",
           "value": "Inferno: IX cerchio - Traditori: I zona (Caina) - Traditori dei parenti"
         },
         {
-          "id": "if.c9-traditori.z2-traditori-patria",
+          "id": "if.c9-traditori.z2-patria",
           "value": "Inferno: IX cerchio - Traditori: II zona (Antenora) - Traditori della patria"
         },
         {
-          "id": "if.c9-traditori.z3-traditori-ospiti",
+          "id": "if.c9-traditori.z3-ospiti",
           "value": "Inferno: IX cerchio - Traditori: III zona (Tolomea) - Traditori degli ospiti"
         },
         {
-          "id": "if.c9-traditori.z4-traditori-benefattori",
+          "id": "if.c9-traditori.z4-benefattori",
           "value": "Inferno: IX cerchio - Traditori: IV zona ((Giudecca) - Traditori dei benefattori"
         },
         {
@@ -1537,7 +1537,7 @@
           "value": "Purgatorio: IV cornice - Accidiosi"
         },
         {
-          "id": "pg.c5-avari-e-prodighi",
+          "id": "pg.c5-avari-prodighi",
           "value": "Purgatorio: V cornice - Avari e Prodighi"
         },
         {
@@ -1565,35 +1565,35 @@
           "value": "Paradiso: Eden"
         },
         {
-          "id": "pr.c1-spiriti-inadempienti",
+          "id": "pr.c1-inadempienti",
           "value": "Paradiso: I cielo (Luna) - Spiriti inadempienti"
         },
         {
-          "id": "pr.c2-spiriti-attivi",
+          "id": "pr.c2-attivi",
           "value": "Paradiso: Il cielo (Mercurio) - Spiriti attivi"
         },
         {
-          "id": "pr.c3-spiriti-amanti",
+          "id": "pr.c3-amanti",
           "value": "Paradiso: III cielo (Venere) - Spiriti amanti"
         },
         {
-          "id": "pr.c4-spiriti-sapienti",
+          "id": "pr.c4-sapienti",
           "value": "Paradiso: IV cielo (Sole) - Spiriti sapienti"
         },
         {
-          "id": "pr.c5-spiriti-militanti",
+          "id": "pr.c5-militanti",
           "value": "Paradiso: V cielo (Marte) - Spiriti militanti"
         },
         {
-          "id": "pr.c6-spiriti-giusti",
+          "id": "pr.c6-giusti",
           "value": "Paradiso: VI cielo (Giove) - Spiriti giusti"
         },
         {
-          "id": "pr.c7-spiriti-contemplativi",
+          "id": "pr.c7-contemplativi",
           "value": "Paradiso: VII cielo (Saturno) - Spiriti contemplativi"
         },
         {
-          "id": "pr.c8-spiriti-trionfanti",
+          "id": "pr.c8-trionfanti",
           "value": "Paradiso: VIII cielo (Stelle fisse) - Spiriti trionfanti"
         },
         {
