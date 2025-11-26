@@ -3042,6 +3042,10 @@
       "id": "cod-shelfmark-libraries@en",
       "entries": [
         {
+          "id": "albertina-museum-wien",
+          "value": "Albertina Museum (Wien)"
+        },
+        {
           "id": "archivio-capitolare-del-duomo-pistoia",
           "value": "Archivio Capitolare del Duomo (Pistoia)"
         },
@@ -3770,6 +3774,10 @@
           "value": "Casa di Dante in Roma (Roma)"
         },
         {
+          "id": "christ-church-library-oxford",
+          "value": "Christ Church Library (Oxford)"
+        },
+        {
           "id": "christies-italy",
           "value": "Christie's Italy (Roma)"
         },
@@ -3826,6 +3834,10 @@
           "value": "Cornell University Library (Ithaca (NY))"
         },
         {
+          "id": "copper-hewitt-smithsonian-design-ny",
+          "value": "Cooper Hewitt, Smithsonian Design Museum (New York)"
+        },
+        {
           "id": "det-kongelige-bibliotek",
           "value": "Det Kongelige Bibliotek (Copenaghen)"
         },
@@ -3840,6 +3852,10 @@
         {
           "id": "foegyhazmegyei-konyvtar",
           "value": "Foegyházmegyei Könyvtár (Eger)"
+        },
+        {
+          "id": "fitzwilliam-museum-cambridge",
+          "value": "The Fitzwilliam Museum (Cambridge)"
         },
         {
           "id": "fondation-martin-bodmer",
@@ -3912,6 +3928,10 @@
         {
           "id": "monastero-carmelitano-di-s-maria-degli-angeli",
           "value": "Monastero Carmelitano di S. Maria degli Angeli (Firenze)"
+        },
+        {
+          "id": "musee-du-louvre-arts-graphiques",
+          "value": "Musée du Louvre, Département des Arts graphiques (Paris)"
         },
         {
           "id": "museo-della-stampa-jacopo-da-fivizzano",
