@@ -287,6 +287,7 @@ Reference authority lists:
   - `categories_bio`
   - `categories_ctx`
   - `cod-shelfmark-libraries`
+  - `physical-state-features`
 
 ### 2.0.0
 

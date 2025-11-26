@@ -5575,16 +5575,100 @@
       "id": "physical-state-features@en",
       "entries": [
         {
-          "id": "broken",
-          "value": "broken"
+          "id": "cut",
+          "value": "taglio"
         },
         {
-          "id": "scratched",
-          "value": "scratched"
+          "id": "crease",
+          "value": "piega"
         },
         {
-          "id": "dirty",
-          "value": "dirty"
+          "id": "rip",
+          "value": "strappo"
+        },
+        {
+          "id": "wrinkle",
+          "value": "sgualcito"
+        },
+        {
+          "id": "loss-support",
+          "value": "perdita: carta"
+        },
+        {
+          "id": "loss-color",
+          "value": "perdita: colore"
+        },
+        {
+          "id": "hole",
+          "value": "foro"
+        },
+        {
+          "id": "pinhole",
+          "value": "forellino"
+        },
+        {
+          "id": "fire",
+          "value": "bruciatura"
+        },
+        {
+          "id": "water",
+          "value": "umidità"
+        },
+        {
+          "id": "mould",
+          "value": "muffa"
+        },
+        {
+          "id": "stuck",
+          "value": "fogli attaccati"
+        },
+        {
+          "id": "abrasion-support",
+          "value": "abrasione: carta"
+        },
+        {
+          "id": "abrasion-color",
+          "value": "abrasione: colore"
+        },
+        {
+          "id": "stain-water",
+          "value": "macchia: acqua"
+        },
+        {
+          "id": "stain-ink",
+          "value": "macchia: inchiostro"
+        },
+        {
+          "id": "stain-oil",
+          "value": "macchia: olio"
+        },
+        {
+          "id": "stain-wax",
+          "value": "macchia: cera"
+        },
+        {
+          "id": "ink-oxidation",
+          "value": "ossidazione inchiostro"
+        },
+        {
+          "id": "fade",
+          "value": "scoloritura"
+        },
+        {
+          "id": "erasion",
+          "value": "rasura"
+        },
+        {
+          "id": "drawing-add",
+          "value": "aggiunta in disegno"
+        },
+        {
+          "id": "repair-old",
+          "value": "integrazione antica"
+        },
+        {
+          "id": "repair-modern",
+          "value": "integrazione moderna"
         }
       ]
     },
