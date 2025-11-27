@@ -283,6 +283,7 @@ Reference authority lists:
 
 ## History
 
+- 2025-11-27: added MOL lookup support.
 - 2025-11-26: changed/added thesauri:
   - `categories_bio`
   - `categories_ctx`

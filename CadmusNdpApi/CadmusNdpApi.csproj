@@ -36,6 +36,7 @@
 		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="12.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.0" />
+		<PackageReference Include="Mol.Api.Controllers" Version="0.0.1" />
 		<PackageReference Include="Mufi.Api.Controllers" Version="2.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 		<PackageReference Include="Polly" Version="8.6.5" />

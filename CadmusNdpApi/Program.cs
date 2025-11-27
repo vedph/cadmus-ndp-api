@@ -16,6 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Mol.Api.Controllers;
 using Mufi.Core;
 using Mufi.LiteDB;
 using Scalar.AspNetCore;
@@ -158,9 +159,13 @@ public static class Program
 
             builder.Services.AddOpenApi();
 
+            // add MOL services (repository + auto-initialization)
+            builder.Services.AddMolServices();
+
             // controllers from Cadmus.Api.Controllers
             builder.Services.AddControllers()
                 .AddApplicationPart(typeof(ItemController).Assembly)
+                .AddApplicationPart(typeof(MolController).Assembly)
                 .AddControllersAsServices();
 
             WebApplication app = builder.Build();
