@@ -283,7 +283,9 @@ Reference authority lists:
 
 ## History
 
-- 2025-12-04: updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
+- 2025-12-04:
+  - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
+  - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.
 
 ### 2.0.1
 
