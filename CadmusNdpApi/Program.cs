@@ -160,11 +160,20 @@ public static class Program
             builder.Services.AddOpenApi();
 
             // add MOL services (repository + auto-initialization)
-            builder.Services.AddMolServices();
+            builder.Services.AddMolServices(options =>
+            {
+                options.Provider = MolDatabaseProvider.PostgreSQL;
+                options.ConnectionString = builder.Configuration
+                    .GetConnectionString("Mol");
+                Console.WriteLine("MOL connection string: " +
+                    options.ConnectionString);
+            });
 
-            // controllers from Cadmus.Api.Controllers
+            // controllers from libraries
             builder.Services.AddControllers()
+                // Cadmus.Api.Controllers
                 .AddApplicationPart(typeof(ItemController).Assembly)
+                // Mol.Api.Controllers
                 .AddApplicationPart(typeof(MolController).Assembly)
                 .AddControllersAsServices();
 

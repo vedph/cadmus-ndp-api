@@ -283,6 +283,8 @@ Reference authority lists:
 
 ## History
 
+- 2025-12-04: updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
+
 ### 2.0.1
 
 - 2025-11-28: updated packages.
