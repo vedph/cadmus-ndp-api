@@ -5,6 +5,15 @@
     - [Parts Matrix](#parts-matrix)
   - [Authorithies](#authorithies)
   - [History](#history)
+    - [2.0.1](#201)
+    - [2.0.0](#200)
+    - [1.0.8](#108)
+    - [1.0.7](#107)
+    - [1.0.6](#106)
+    - [1.0.5](#105)
+    - [1.0.4](#104)
+    - [1.0.3](#103)
+    - [1.0.1](#101)
 
 🐋 Quick Docker image build:
 
@@ -283,6 +292,7 @@ Reference authority lists:
 
 ## History
 
+- 2025-12-09: updated thesauri.
 - 2025-12-04:
   - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
   - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.

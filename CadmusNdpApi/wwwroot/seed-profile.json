@@ -5443,6 +5443,14 @@
         {
           "id": "revisor",
           "value": "revisor"
+        },
+        {
+          "id": "author-idp",
+          "value": "IDP author"
+        },
+        {
+          "id": "revisor-idp",
+          "value": "IDP revisor"
         }
       ]
     },
