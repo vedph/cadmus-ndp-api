@@ -2195,12 +2195,8 @@
           "value": "iniziali"
         },
         {
-          "id": "ill.blank",
-          "value": "spazio bianco"
-        },
-        {
           "id": "ill.sketch",
-          "value": "bozza"
+          "value": "disegno preparatorio"
         },
         {
           "id": "orn.blank",
@@ -2272,12 +2268,28 @@
       "id": "cod-decoration-element-gildings@en",
       "entries": [
         {
-          "id": "leaf",
-          "value": "foglia"
+          "id": "leaf-gold",
+          "value": "oro in lamina"
         },
         {
-          "id": "powder",
-          "value": "polvere"
+          "id": "shell-gold",
+          "value": "oro in conchiglia"
+        },
+        {
+          "id": "leaf-silver",
+          "value": "argento in lamina"
+        },
+        {
+          "id": "leaf-metal",
+          "value": "lamina metallica"
+        },
+        {
+          "id": "punchmarks",
+          "value": "punzoni"
+        },
+        {
+          "id": "sgraffito",
+          "value": "incisioni a mano libera"
         }
       ]
     },
@@ -2379,7 +2391,7 @@
       "entries": [
         {
           "id": "watercolor",
-          "value": "acquerello"
+          "value": "acquerellature"
         },
         {
           "id": "gouache",
@@ -2388,6 +2400,10 @@
         {
           "id": "ink",
           "value": "inchiostro"
+        },
+        {
+          "id": "lead",
+          "value": "mina"
         },
         {
           "id": "other",
@@ -2407,6 +2423,10 @@
           "value": "pennello"
         },
         {
+          "id": "stylus",
+          "value": "stilo"
+        },
+        {
           "id": "other",
           "value": "altro"
         }
@@ -2416,16 +2436,20 @@
       "id": "cod-decoration-element-types@en",
       "entries": [
         {
-          "id": "pag-inc",
-          "value": "pagina incipitaria"
-        },
-        {
           "id": "ill",
-          "value": "illustrazione"
+          "value": "miniatura"
         },
         {
           "id": "orn",
           "value": "ornamentazione"
+        },
+        {
+          "id": "ant",
+          "value": "antiporta"
+        },
+        {
+          "id": "dia",
+          "value": "diagramma"
         },
         {
           "id": "ini-pla",
@@ -2445,7 +2469,7 @@
         },
         {
           "id": "par",
-          "value": "paragrafematici"
+          "value": "segni paragrafematici"
         },
         {
           "id": "wsp",
@@ -2457,8 +2481,44 @@
       "id": "cod-decoration-element-typologies@en",
       "entries": [
         {
-          "id": "ill.miniature",
-          "value": "miniatura"
+          "id": "ill.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "orn.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ant.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "dia.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-pla.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-wat.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-orn.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-fig.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "par.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "wsp.incipit",
+          "value": "pagina incipitaria"
         },
         {
           "id": "ill.drawing",
@@ -2470,19 +2530,35 @@
         },
         {
           "id": "ill.papyrus",
-          "value": "papyrus style"
+          "value": "non incorniciata"
         },
         {
-          "id": "orn.frieze-fig",
-          "value": "fregio con figura"
+          "id": "orn.frieze-hist",
+          "value": "fregio istoriato"
+        },
+        {
+          "id": "orn.frieze-char",
+          "value": "fregio abitato"
+        },
+        {
+          "id": "orn.frieze-char-drol",
+          "value": "fregio abitato con drôlerie"
         },
         {
           "id": "orn.frieze-orn",
           "value": "fregio ornato"
         },
         {
+          "id": "orn.frieze-swirls-white",
+          "value": "fregio a bianchi girari"
+        },
+        {
           "id": "orn.coat",
           "value": "stemma"
+        },
+        {
+          "id": "orn.emblem",
+          "value": "emblema"
         },
         {
           "id": "orn.tab",
@@ -2493,16 +2569,28 @@
           "value": "altro"
         },
         {
-          "id": "ini-orn.zoomrp",
-          "value": "zoomorfa"
+          "id": "ini-wat.simple",
+          "value": "semplice"
+        },
+        {
+          "id": "ini-wat.cut-1",
+          "value": "fessa"
+        },
+        {
+          "id": "ini-wat.cut-2",
+          "value": "fessa e rifessa"
+        },
+        {
+          "id": "ini-orn.fig",
+          "value": "figurata"
+        },
+        {
+          "id": "ini-orn.char",
+          "value": "abitata"
         },
         {
           "id": "ini-orn.phytomrp",
           "value": "fitomorfa"
-        },
-        {
-          "id": "ini-orn.anthropomrp",
-          "value": "antropomorfa"
         },
         {
           "id": "ini-orn.prism",
@@ -2521,9 +2609,13 @@
           "value": "geometrica"
         },
         {
+          "id": "ini-orn.noose-twisted",
+          "value": "a cappio intrecciato"
+        },
+        {
           "id": "ini-orn.other",
           "value": "altro"
-        },
+        },       
         {
           "id": "par.run-heads",
           "value": "titoli correnti"
@@ -2543,6 +2635,10 @@
         {
           "id": "par.other",
           "value": "altro"
+        },
+        {
+          "id": "wsp.framed",
+          "value": "incorniciato"
         }
       ]
     },
@@ -2550,8 +2646,12 @@
       "id": "cod-decoration-flags@en",
       "entries": [
         {
-          "id": "not-original",
-          "value": "non originale"
+          "id": "later-additions",
+          "value": "aggiunge seriori"
+        },
+        {
+          "id": "uniform",
+          "value": "unitaria"
         },
         {
           "id": "incomplete",
@@ -2580,7 +2680,7 @@
         },
         {
           "id": "ini-wat",
-          "value": "typologies subject textRelation"
+          "value": "subject textRelation"
         },
         {
           "id": "ini-orn",
@@ -2596,7 +2696,7 @@
         },
         {
           "id": "wsp",
-          "value": "colors gildings typologies techniques subject textRelation tools lineHeight"
+          "value": "colors gildings techniques subject textRelation tools lineHeight"
         }
       ]
     },
