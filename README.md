@@ -5,22 +5,13 @@
     - [Parts Matrix](#parts-matrix)
   - [Authorithies](#authorithies)
   - [History](#history)
-    - [2.0.1](#201)
-    - [2.0.0](#200)
-    - [1.0.8](#108)
-    - [1.0.7](#107)
-    - [1.0.6](#106)
-    - [1.0.5](#105)
-    - [1.0.4](#104)
-    - [1.0.3](#103)
-    - [1.0.1](#101)
 
 🐋 Quick Docker image build:
 
 ```sh
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:2.0.2 -t vedph2020/cadmus-ndp-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64 -t vedph2020/cadmus-ndp-api:2.0.3 -t vedph2020/cadmus-ndp-api:latest --push
 ```
 
 (replace with the current version).
@@ -292,11 +283,16 @@ Reference authority lists:
 
 ## History
 
+### 2.0.3
+
 - 2025-12-12: updated decorations thesauri (`cod-decoration-element-gildings@en`, `cod-decoration-element-techniques@en`, `cod-decoration-element-tools@en`, `cod-decoration-element-types@en`, `cod-decoration-element-typologies@en`, `cod-decoration-flags@en`, `cod-decoration-type-hidden@en`).
 - 2025-12-09: updated thesauri.
-- 2025-12-04:
-  - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
-  - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.
+
+### 2.0.2
+
+  - 2025-12-04:
+    - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
+    - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.
 
 ### 2.0.1
 
