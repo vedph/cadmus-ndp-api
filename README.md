@@ -292,7 +292,7 @@ Reference authority lists:
 
 ## History
 
-- 2025-12-11: updated decorations thesauri (`cod-decoration-element-gildings@en`, `cod-decoration-element-techniques@en`, `cod-decoration-element-tools@en`, `cod-decoration-element-types@en`, `cod-decoration-element-typologies@en`, `cod-decoration-flags@en`, `cod-decoration-type-hidden@en`).
+- 2025-12-12: updated decorations thesauri (`cod-decoration-element-gildings@en`, `cod-decoration-element-techniques@en`, `cod-decoration-element-tools@en`, `cod-decoration-element-types@en`, `cod-decoration-element-typologies@en`, `cod-decoration-flags@en`, `cod-decoration-type-hidden@en`).
 - 2025-12-09: updated thesauri.
 - 2025-12-04:
   - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.

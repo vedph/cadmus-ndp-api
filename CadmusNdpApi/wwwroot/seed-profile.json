@@ -2175,26 +2175,6 @@
       "id": "cod-decoration-element-flags@en",
       "entries": [
         {
-          "id": "pag-inc.blank",
-          "value": "spazi bianchi"
-        },
-        {
-          "id": "pag-inc.sketch",
-          "value": "bozza"
-        },
-        {
-          "id": "pag-inc.ill",
-          "value": "illustrazione"
-        },
-        {
-          "id": "pag-inc.orn",
-          "value": "ornamentazione"
-        },
-        {
-          "id": "pag-inc.ini",
-          "value": "iniziali"
-        },
-        {
           "id": "ill.sketch",
           "value": "disegno preparatorio"
         },
@@ -2205,6 +2185,22 @@
         {
           "id": "orn.sketch",
           "value": "bozza"
+        },
+        {
+          "id": "ant.sketch",
+          "value": "disegno preparatorio"
+        },
+        {
+          "id": "dia.dante-if",
+          "value": "schema di Inferno"
+        },
+        {
+          "id": "dia.dante-purg",
+          "value": "schema di Purgatorio"
+        },
+        {
+          "id": "dia.dante-par",
+          "value": "schema di Paradiso"
         },
         {
           "id": "ini-pla.blank",
@@ -2329,6 +2325,38 @@
           "value": "altro"
         },
         {
+          "id": "dia.full-page",
+          "value": "a piena pagina"
+        },
+        {
+          "id": "dia.interpol",
+          "value": "intercalata"
+        },
+        {
+          "id": "dia.intercol",
+          "value": "intercolumnio"
+        },
+        {
+          "id": "dia.margin-e",
+          "value": "margine est."
+        },
+        {
+          "id": "dia.margin-i",
+          "value": "margine int."
+        },
+        {
+          "id": "dia.margin-t",
+          "value": "margine sup."
+        },
+        {
+          "id": "dia.foot",
+          "value": "margine inf."
+        },
+        {
+          "id": "dia.other",
+          "value": "altro"
+        },
+        {
           "id": "ini-pla.aligned",
           "value": "allineata"
         },
@@ -2383,6 +2411,42 @@
         {
           "id": "par.-",
           "value": ""
+        },
+        {
+          "id": "wsp.full-page",
+          "value": "a piena pagina"
+        },
+        {
+          "id": "wsp.interpol",
+          "value": "intercalata"
+        },
+        {
+          "id": "wsp.intercol",
+          "value": "intercolumnio"
+        },
+        {
+          "id": "wsp.margin-e",
+          "value": "margine est."
+        },
+        {
+          "id": "wsp.margin-i",
+          "value": "margine int."
+        },
+        {
+          "id": "wsp.margin-t",
+          "value": "margine sup."
+        },
+        {
+          "id": "wsp.foot",
+          "value": "margine inf."
+        },
+        {
+          "id": "wsp.initial",
+          "value": "in luogo di iniziale"
+        },
+        {
+          "id": "wsp.other",
+          "value": "altro"
         }
       ]
     },
@@ -2495,6 +2559,18 @@
         {
           "id": "dia.incipit",
           "value": "pagina incipitaria"
+        },
+        {
+          "id": "dia.drawing",
+          "value": "disegno"
+        },
+        {
+          "id": "dia.tabular",
+          "value": "tabellare"
+        },
+        {
+          "id": "dia.papyrus",
+          "value": "non incorniciata"
         },
         {
           "id": "ini-pla.incipit",
@@ -2615,7 +2691,7 @@
         {
           "id": "ini-orn.other",
           "value": "altro"
-        },       
+        },
         {
           "id": "par.run-heads",
           "value": "titoli correnti"
@@ -2663,15 +2739,19 @@
       "id": "cod-decoration-type-hidden@en",
       "entries": [
         {
-          "id": "pag-inc",
-          "value": "typologies positions lineHeight"
-        },
-        {
           "id": "ill",
           "value": "lineHeight"
         },
         {
+          "id": "dia",
+          "value": "lineHeight"
+        },
+        {
           "id": "orn",
+          "value": "subject textRelation lineHeight"
+        },
+        {
+          "id": "ant",
           "value": "subject textRelation lineHeight"
         },
         {
@@ -5843,7 +5923,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": [ "zeus" ],
+      "users": ["zeus"],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -5854,24 +5934,22 @@
       {
         "id": "seed.it.vedph.codicology.bindings",
         "options": {
-          "tags": [ "current", "former", "none" ],
-          "coverMaterials": [ "skin", "parchment", "velvet", "paper" ],
-          "boardMaterials": [ "wood", "card", "other" ]
+          "tags": ["current", "former", "none"],
+          "coverMaterials": ["skin", "parchment", "velvet", "paper"],
+          "boardMaterials": ["wood", "card", "other"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.contents",
         "options": {
-          "annotationTypes": [ "rubric", "preface", "dedication" ],
-          "contentStates": [ "headless", "crippled", "gaps", "excerpts" ]
+          "annotationTypes": ["rubric", "preface", "dedication"],
+          "contentStates": ["headless", "crippled", "gaps", "excerpts"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.decorations",
         "options": {
           "flags": [
-            "pag-inc.blank",
-            "pag-inc.sketch",
             "ill.blank",
             "ill.sketch",
             "orn.blank",
@@ -5887,11 +5965,12 @@
             "par.blank",
             "par.sketch"
           ],
-          "colors": [ "blue", "red", "green" ],
+          "colors": ["blue", "red", "green"],
           "elementTypes": [
-            "pag-inc",
             "ill",
             "orn",
+            "ant",
+            "dia",
             "ini-pla",
             "ini-wat",
             "ini-orn",
@@ -5899,7 +5978,7 @@
             "par",
             "wsp"
           ],
-          "elementGildings": [ "leaf", "powder" ],
+          "elementGildings": ["leaf", "powder"],
           "elementPositions": [
             "ill.full-page",
             "ill.interpol",
@@ -5915,7 +5994,7 @@
             "orn.-",
             "par.-"
           ],
-          "elementTechniques": [ "watercolor", "gouache", "ink" ],
+          "elementTechniques": ["watercolor", "gouache", "ink"],
           "elementTypologies": [
             "ill.miniature",
             "ill.drawing",
@@ -5926,55 +6005,55 @@
             "par.run-heads",
             "par.rubrication"
           ],
-          "elementTools": [ "pen", "brush" ],
-          "artistTypes": [ "illuminator", "workshop" ]
+          "elementTools": ["pen", "brush"],
+          "artistTypes": ["illuminator", "workshop"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.edits",
         "options": {
-          "types": [ "text", "notes", "comment", "correction" ],
-          "techniques": [ "ink", "lapis" ],
-          "languages": [ "en", "fr", "de", "grc", "la" ],
-          "colors": [ "black", "brown", "gray", "red" ]
+          "types": ["text", "notes", "comment", "correction"],
+          "techniques": ["ink", "lapis"],
+          "languages": ["en", "fr", "de", "grc", "la"],
+          "colors": ["black", "brown", "gray", "red"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.hands",
         "options": {
-          "signTypes": [ "letter", "punct", "abbr", "nex", "ligature" ],
-          "scripts": [ "got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb" ],
-          "typologies": [ "text", "note", "comment", "correction", "attention" ],
-          "colors": [ "black", "brown", "gray", "red" ],
-          "languages": [ "en", "fr", "de", "grc", "la" ]
+          "signTypes": ["letter", "punct", "abbr", "nex", "ligature"],
+          "scripts": ["got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb"],
+          "typologies": ["text", "note", "comment", "correction", "attention"],
+          "colors": ["black", "brown", "gray", "red"],
+          "languages": ["en", "fr", "de", "grc", "la"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.layouts",
         "options": {
-          "rulingTechniques": [ "drypoint", "mine", "ink", "folding" ]
+          "rulingTechniques": ["drypoint", "mine", "ink", "folding"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.material-dsc",
         "options": {
-          "materials": [ "parchment", "paper", "mix" ],
-          "states": [ "s1", "s2", "s3" ]
+          "materials": ["parchment", "paper", "mix"],
+          "states": ["s1", "s2", "s3"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.sheet-labels",
         "options": {
-          "system": [ "arabic", "roman", "mix" ],
-          "techniques": [ "ink", "lapis", "mechanic" ],
-          "positions": [ "mse", "msc", "msi", "mie", "mic" ],
-          "colors": [ "black", "brown", "gray", "red" ]
+          "system": ["arabic", "roman", "mix"],
+          "techniques": ["ink", "lapis", "mechanic"],
+          "positions": ["mse", "msc", "msi", "mie", "mic"],
+          "colors": ["black", "brown", "gray", "red"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.shelfmarks",
         "options": {
-          "cities": [ "Roma" ],
+          "cities": ["Roma"],
           "libraries": [
             "biblioteca-apostolica-vaticana",
             "biblioteca-nazionale-centrale",
@@ -5988,7 +6067,7 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "en", "it" ]
+          "languages": ["en", "it"]
         }
       },
       {
