@@ -735,15 +735,6 @@
           "sortKey": "09"
         },
         {
-          "typeId": "it.vedph.flags",
-          "roleId": "drp",
-          "name": "features",
-          "description": "Binary features for this project.",
-          "colorKey": "87F0F0",
-          "groupKey": "content",
-          "sortKey": "10"
-        },
-        {
           "typeId": "it.vedph.comment",
           "name": "comment",
           "description": "Comment.",
@@ -850,12 +841,21 @@
           "sortKey": "09"
         },
         {
+          "typeId": "it.vedph.flags",
+          "roleId": "dri",
+          "name": "features",
+          "description": "Binary features for this drawing.",
+          "colorKey": "87F0F0",
+          "groupKey": "content",
+          "sortKey": "10"
+        },
+        {
           "typeId": "it.vedph.codicology.edits",
           "name": "edits",
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "10"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.iconography.instructions",
@@ -863,7 +863,7 @@
           "description": "Iconography instructions.",
           "colorKey": "AFB366",
           "groupKey": "content",
-          "sortKey": "11"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.note",
@@ -871,7 +871,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "12"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -879,7 +879,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "13"
+          "sortKey": "14"
         }
       ]
     },
@@ -2863,7 +2863,7 @@
         },
         {
           "id": "notes",
-          "value": "postille/annotazioni"
+          "value": "postilla/annotazione"
         },
         {
           "id": "comment",
@@ -2871,7 +2871,7 @@
         },
         {
           "id": "correction",
-          "value": "correzioni"
+          "value": "correzione"
         },
         {
           "id": "integration",
@@ -2879,19 +2879,19 @@
         },
         {
           "id": "rubric",
-          "value": "rubriche"
+          "value": "rubrica"
         },
         {
           "id": "para",
-          "value": "segni paragrafematici"
+          "value": "segno paragrafematico"
         },
         {
           "id": "title",
-          "value": "titoli correnti"
+          "value": "titolo corrente"
         },
         {
           "id": "attention",
-          "value": "segni di attenzione"
+          "value": "segno di attenzione"
         },
         {
           "id": "ownership",
@@ -2899,7 +2899,7 @@
         },
         {
           "id": "index",
-          "value": "indici"
+          "value": "indice"
         },
         {
           "id": "drawing",
@@ -4726,14 +4726,6 @@
           "value": "passepartout antico in carta"
         },
         {
-          "id": "back-mount-a-panel",
-          "value": "passepartout antico in legno"
-        },
-        {
-          "id": "back-mount-m-canvas",
-          "value": "passepartout moderno  in tela"
-        },
-        {
           "id": "back-mount-m-parchment",
           "value": "passepartout moderno in pergamena"
         },
@@ -4742,12 +4734,12 @@
           "value": "passepartout moderno in carta"
         },
         {
-          "id": "back-mount-m-panel",
-          "value": "passepartout moderno in legno"
+          "id": "unfinished",
+          "value": "incompleto"
         },
         {
-          "id": "back-mount-m-canvas",
-          "value": "passepartout moderno in tela"
+          "id": "sketch",
+          "value": "bozzetto"
         }
       ]
     },
@@ -4755,12 +4747,16 @@
       "id": "drawing-tech-materials@en",
       "entries": [
         {
-          "id": "parchment",
-          "value": "pergamena"
+          "id": "paper-white",
+          "value": "carta bianca"
         },
         {
-          "id": "paper",
-          "value": "carta"
+          "id": "paper-tinted",
+          "value": "carta tinta"
+        },
+        {
+          "id": "parchment",
+          "value": "pergamena"
         }
       ]
     },
@@ -4768,12 +4764,12 @@
       "id": "drawing-tech-measure-names@en",
       "entries": [
         {
-          "id": "drawing-w",
-          "value": "larghezza disegno"
+          "id": "support-w",
+          "value": "larghezza supporto"
         },
         {
-          "id": "drawing-h",
-          "value": "altezza disegno"
+          "id": "support-h",
+          "value": "altezza supporto"
         },
         {
           "id": "backmount-w",
@@ -4833,7 +4829,7 @@
           "value": "acquerellatura azzurra"
         },
         {
-          "id": "wash-bistre",
+          "id": "wash-brown",
           "value": "acquerellatura marrone"
         },
         {
@@ -5518,6 +5514,67 @@
         {
           "id": "etching",
           "value": "acquaforte"
+        }
+      ]
+    },
+    {
+      "id": "flags_dri@en",
+      "entries": [
+        {
+          "id": "text-work",
+          "value": "testo opera"
+        },
+        {
+          "id": "text-commentary",
+          "value": "testo commento"
+        },
+        {
+          "id": "text-title",
+          "value": "testo titolo"
+        },
+        {
+          "id": "text-epitaph",
+          "value": "testo epitaffio"
+        },
+        {
+          "id": "text-caption",
+          "value": "testo didascalia"
+        },
+        {
+          "id": "text-initial",
+          "value": "testo iniziale"
+        },
+        {
+          "id": "text-number",
+          "value": "testo numero"
+        },
+        {
+          "id": "text-draftsman-note",
+          "value": "testo nota disegnatore"
+        },
+        {
+          "id": "text-signature",
+          "value": "testo firma"
+        },
+        {
+          "id": "text-monogram",
+          "value": "testo monogramma"
+        },
+        {
+          "id": "position-recto",
+          "value": "recto"
+        },
+        {
+          "id": "position-verso",
+          "value": "verso"
+        },
+        {
+          "id": "position-edge",
+          "value": "bordo"
+        },
+        {
+          "id": "position-inside",
+          "value": "interno"
         }
       ]
     },

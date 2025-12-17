@@ -5,6 +5,17 @@
     - [Parts Matrix](#parts-matrix)
   - [Authorithies](#authorithies)
   - [History](#history)
+    - [2.0.3](#203)
+    - [2.0.2](#202)
+    - [2.0.1](#201)
+    - [2.0.0](#200)
+    - [1.0.8](#108)
+    - [1.0.7](#107)
+    - [1.0.6](#106)
+    - [1.0.5](#105)
+    - [1.0.4](#104)
+    - [1.0.3](#103)
+    - [1.0.1](#101)
 
 🐋 Quick Docker image build:
 
@@ -30,6 +41,7 @@ The list of facets is given here with their conventional groupings used in the e
 > All items have a metadata part where the metadatum named `eid` can be used to provide a human-friendly identifier for the item as a whole, to be used when looking up items in internal linking. This is an opt-in mechanism: like in TEI you add an `xml:id` attribute to those elements you want to reference from another part of the document, here you add an `eid` to those items you want to link from another item's part.
 
 - **manuscript**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -59,6 +71,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md) (mostly used for Zotero bibliography)
 
 - **fragment**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -90,6 +103,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **print edition**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors) 🔗 `person`
@@ -110,6 +124,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **print instance**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `print edition` (+group)
@@ -135,6 +150,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **drawings project**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `person`
@@ -148,7 +164,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
     - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`drp` 🚩
   - _content_
-    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`drp` 🚩
     - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
@@ -156,6 +171,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **drawing item**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `drawings project` (+group) 🔗 `person`
@@ -169,6 +185,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [watermarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-watermarks.md) (COD)
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
   - _content_
+    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`dri` 🚩
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
     - [iconography instructions](https://github.com/vedph/cadmus-iconography/blob/master/docs/ico-instructions.md) (ICO) 🔗 `iconography`
   - _editorial_
@@ -177,6 +194,7 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **iconography**
+
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
@@ -237,7 +255,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | decorations (COD)                    | X          | X        | X              | X           |              |              |             |        |
 | drawing tech (DRW)                   |            |          |                |             |              | X            |             |        |
 | edits (COD)                          | X          | X        |                | X           |              | X            |             |        |
-| flags                                |            |          |                |             | drp          |              | ico         |        |
+| flags                                |            |          |                |             |              | dri          | ico         |        |
 | figurative plan (BOK)                |            |          | X              |             |              |              |             |        |
 | figurative plan implementation (BOK) |            |          |                | X           |              |              |             |        |
 | fonts (BOK)                          |            |          | X              |             |              |              |             |        |
@@ -283,6 +301,11 @@ Reference authority lists:
 
 ## History
 
+- 2025-12-17:
+  - added thesaurus `it.vedph.flags_dri`.
+  - changes to some entries of existing thesauri.
+  - moved the `flags` part from drawings projects to drawing items. Items require this detail, while for projects they can be collected from their items.
+
 ### 2.0.3
 
 - 2025-12-12: updated decorations thesauri (`cod-decoration-element-gildings@en`, `cod-decoration-element-techniques@en`, `cod-decoration-element-tools@en`, `cod-decoration-element-types@en`, `cod-decoration-element-typologies@en`, `cod-decoration-flags@en`, `cod-decoration-type-hidden@en`).
@@ -290,9 +313,9 @@ Reference authority lists:
 
 ### 2.0.2
 
-  - 2025-12-04:
-    - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
-    - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.
+- 2025-12-04:
+  - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
+  - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.
 
 ### 2.0.1
 
