@@ -907,12 +907,21 @@
         },
         {
           "typeId": "it.vedph.categories",
-          "roleId": "ico",
+          "roleId": "ict",
+          "name": "topics",
+          "description": "Iconographic topics.",
+          "colorKey": "0CC8F7",
+          "groupKey": "relations",
+          "sortKey": "03"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "roleId": "ics",
           "name": "subjects",
           "description": "Iconographic subjects.",
           "colorKey": "98F8F8",
           "groupKey": "relations",
-          "sortKey": "03"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.categories",
@@ -921,7 +930,7 @@
           "description": "Iconographic contexts in Dante's work.",
           "colorKey": "98A8F8",
           "groupKey": "relations",
-          "sortKey": "04"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.flags",
@@ -930,7 +939,7 @@
           "description": "Binary features for this iconography.",
           "colorKey": "87F0F0",
           "groupKey": "content",
-          "sortKey": "05"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.comment",
@@ -938,7 +947,25 @@
           "description": "Description of this iconography.",
           "colorKey": "B2E0AA",
           "groupKey": "content",
-          "sortKey": "06"
+          "sortKey": "07"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "ptx",
+          "name": "paratext",
+          "description": "Paratext.",
+          "colorKey": "8565F7",
+          "groupKey": "content",
+          "sortKey": "08"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "roleId": "exe",
+          "name": "exegesis",
+          "description": "Exegesis.",
+          "colorKey": "6B6BF4",
+          "groupKey": "content",
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.note",
@@ -946,7 +973,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "07"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -954,7 +981,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "08"
+          "sortKey": "11"
         }
       ]
     },
@@ -1092,11 +1119,15 @@
         },
         {
           "id": "it.vedph.categories:ctx",
-          "value": "context categories"
+          "value": "contexts"
         },
         {
-          "id": "it.vedph.categories:ico",
-          "value": "iconographic categories"
+          "id": "it.vedph.categories:ics",
+          "value": "subjects"
+        },
+        {
+          "id": "it.vedph.categories:ict",
+          "value": "topics"
         },
         {
           "id": "it.vedph.categories:txt",
@@ -1243,12 +1274,20 @@
           "value": "colophon"
         },
         {
-          "id": "it.vedph.note:inc",
-          "value": "incipit"
+          "id": "it.vedph.note:exe",
+          "value": "exegesis"
         },
         {
           "id": "it.vedph.note:hist",
           "value": "history"
+        },
+        {
+          "id": "it.vedph.note:inc",
+          "value": "incipit"
+        },
+        {
+          "id": "it.vedph.note:ptx",
+          "value": "paratext"
         },
         {
           "id": "it.vedph.physical-measurements:fr",
@@ -1364,6 +1403,10 @@
     {
       "id": "categories_ctx@en",
       "entries": [
+        {
+          "id": "if",
+          "value": "Inferno"
+        },
         {
           "id": "if.-",
           "value": "Inferno"
@@ -1501,6 +1544,10 @@
           "value": "Inferno: IX cerchio - Traditori: Natural burella"
         },
         {
+          "id": "pg",
+          "value": "Purgatorio"
+        },
+        {
           "id": "pg.-",
           "value": "Purgatorio"
         },
@@ -1557,6 +1604,10 @@
           "value": "Purgatorio: Paradiso terrestre - Passaggio per le anime purgate"
         },
         {
+          "id": "pr",
+          "value": "Paradiso"
+        },
+        {
           "id": "pr.-",
           "value": "Paradiso"
         },
@@ -1603,6 +1654,32 @@
         {
           "id": "pr.empireo-rosa",
           "value": "Paradiso: Empireo - Candida rosa"
+        }
+      ]
+    },
+    {
+      "id": "categories_ics@en",
+      "entries": [
+        {
+          "id": "angel-musician",
+          "value": "angelo musicante"
+        },
+        {
+          "id": "soul-praying",
+          "value": "anima orante"
+        }
+      ]
+    },
+    {
+      "id": "categories_ict@en",
+      "entries": [
+        {
+          "id": "fortune-teller",
+          "value": "indovino"
+        },
+        {
+          "id": "minotaur",
+          "value": "Minotauro"
         }
       ]
     },
@@ -5582,12 +5659,12 @@
       "id": "flags_ico@en",
       "entries": [
         {
-          "id": "dc1",
-          "value": "storie prime"
-        },
-        {
           "id": "dc2",
           "value": "storie seconde"
+        },
+        {
+          "id": "other",
+          "value": "altro"
         }
       ]
     },

@@ -198,12 +198,15 @@ The list of facets is given here with their conventional groupings used in the e
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
-    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md)
-    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ico` 🚩 (iconographic subjects tree)
+    - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `iconography`
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ict` 🚩 (iconographic topics = IDP categorie)
+    - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ics` 🚩 (iconographic subjects = IDP soggetti)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` 🚩 (luoghi danteschi)
   - _content_
-    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`ico` 🚩 (storie prime/seconde etc.)
-    - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md) (description)
+    - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`ico` 🚩 (storie seconde, altro)
+    - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md) (description, including keywords)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`ptx` (paratext)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`exe` (exegesis)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
@@ -247,7 +250,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm. | iconography | person |
 | ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------ | ----------- | ------ |
 | bindings (COD)                       | X          |          |                | X           | drp          |              |             |        |
-| categories                           | txt        | txt      | txt            | txt         |              |              | ico ctx     | bio    |
+| categories                           | txt        | txt      | txt            | txt         |              |              | ict ics ctx | bio    |
 | chronotopes                          | X          | X        | prn pub        |             | X            | X            |             |        |
 | comment                              |            |          |                |             | X            |              | X           |        |
 | contents (COD)                       | X          | X        |                |             |              |              |             |        |
@@ -271,7 +274,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | metadata                             | X          | X        | X              | X           | X            | X            | X           | X      |
 | names                                |            |          |                |             |              |              |             | X      |
 | notable forms                        | X          | X        |                | X           |              |              |             |        |
-| note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X dsc       | X hist |
+| note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist       | X exe ptx   | X hist |
 | preservation states                  | X          | X        |                | X           | X            | X            |             |        |
 | references                           | X          | X        | X              | X           | X            | X            | X           | X      |
 | rulings (FRA)                        |            | X        |                |             |              |              |             |        |
@@ -301,6 +304,10 @@ Reference authority lists:
 
 ## History
 
+- 2025-12-19:
+  - updated thesauri.
+  - added 2 note parts to iconography item with roles `exe` and `ptx`.
+  - replaced the categories part with role `ico` in iconography with 2 categories with roles `ict` and `ics`.
 - 2025-12-17:
   - added thesaurus `it.vedph.flags_dri`.
   - changes to some entries of existing thesauri.
