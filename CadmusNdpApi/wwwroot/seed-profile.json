@@ -5777,6 +5777,14 @@
         {
           "id": "revisor-idp",
           "value": "IDP revisor"
+        },
+        {
+          "id": "author-mol",
+          "value": "MOL author"
+        },
+        {
+          "id": "revisor-mol",
+          "value": "MOL revisor"
         }
       ]
     },
