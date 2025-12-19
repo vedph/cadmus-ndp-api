@@ -2613,6 +2613,10 @@
           "value": "segni paragrafematici"
         },
         {
+          "id": "lbl",
+          "value": "epigrafi"
+        },
+        {
           "id": "wsp",
           "value": "spazi bianchi"
         }
@@ -2667,6 +2671,10 @@
         },
         {
           "id": "par.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "lbl.incipit",
           "value": "pagina incipitaria"
         },
         {
@@ -2850,6 +2858,10 @@
         {
           "id": "par",
           "value": "subject textRelation lineHeight"
+        },
+        {
+          "id": "lbl",
+          "value": "subject textRelation"
         },
         {
           "id": "wsp",
