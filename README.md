@@ -304,6 +304,7 @@ Reference authority lists:
 
 ## History
 
+- 2025-12-28: thesauri.
 - 2025-12-19:
   - updated thesauri.
   - added 2 note parts to iconography item with roles `exe` and `ptx`.

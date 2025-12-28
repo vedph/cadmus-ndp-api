@@ -1323,6 +1323,10 @@
           "value": "autore"
         },
         {
+          "id": "librarian",
+          "value": "bibliotecario"
+        },
+        {
           "id": "commentator",
           "value": "commentatore"
         },
@@ -2256,15 +2260,7 @@
           "value": "disegno preparatorio"
         },
         {
-          "id": "orn.blank",
-          "value": "spazio bianco"
-        },
-        {
           "id": "orn.sketch",
-          "value": "bozza"
-        },
-        {
-          "id": "ant.sketch",
           "value": "disegno preparatorio"
         },
         {
@@ -2280,60 +2276,44 @@
           "value": "schema di Paradiso"
         },
         {
-          "id": "ini-pla.blank",
-          "value": "spazio bianco"
+          "id": "dia.other",
+          "value": "altro"
         },
         {
           "id": "ini-pla.sketch",
-          "value": "bozza"
+          "value": "disegno preparatorio"
         },
         {
           "id": "ini-pla.guide",
           "value": "lettere guida"
         },
         {
-          "id": "ini-wat.blank",
-          "value": "spazio bianco"
-        },
-        {
           "id": "ini-wat.sketch",
-          "value": "bozza"
+          "value": "disegno preparatorio"
         },
         {
           "id": "ini-wat.guide",
           "value": "lettere guida"
         },
         {
-          "id": "ini-orn.blank",
-          "value": "spazio bianco"
-        },
-        {
           "id": "ini-orn.sketch",
-          "value": "bozza"
+          "value": "disegno preparatorio"
         },
         {
           "id": "ini-orn.guide",
           "value": "lettere guida"
         },
         {
-          "id": "ini-fig.blank",
-          "value": "spazio bianco"
-        },
-        {
           "id": "ini-fig.sketch",
-          "value": "bozza"
+          "value": "disegno preparatorio"
         },
         {
           "id": "ini-fig.guide",
           "value": "lettere guida"
         },
         {
-          "id": "par.blank",
-          "value": "spazio bianco"
-        },
-        {
           "id": "par.sketch",
-          "value": "bozza"
+          "value": "disegno preparatorio"
         }
       ]
     },
@@ -2522,6 +2502,10 @@
           "value": "in luogo di iniziale"
         },
         {
+          "id": "wsp.para",
+          "value": "in luogo di segno paragrafematico"
+        },
+        {
           "id": "wsp.other",
           "value": "altro"
         }
@@ -2585,10 +2569,6 @@
           "value": "ornamentazione"
         },
         {
-          "id": "ant",
-          "value": "antiporta"
-        },
-        {
           "id": "dia",
           "value": "diagramma"
         },
@@ -2626,20 +2606,12 @@
       "id": "cod-decoration-element-typologies@en",
       "entries": [
         {
-          "id": "ill.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "orn.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "ant.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
           "id": "dia.incipit",
           "value": "pagina incipitaria"
+        },
+        {
+          "id": "dia.anteport",
+          "value": "antiporta"
         },
         {
           "id": "dia.drawing",
@@ -2654,32 +2626,12 @@
           "value": "non incorniciata"
         },
         {
-          "id": "ini-pla.incipit",
+          "id": "ill.incipit",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ini-wat.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "ini-orn.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "ini-fig.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "par.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "lbl.incipit",
-          "value": "pagina incipitaria"
-        },
-        {
-          "id": "wsp.incipit",
-          "value": "pagina incipitaria"
+          "id": "ill.anteport",
+          "value": "antiporta"
         },
         {
           "id": "ill.drawing",
@@ -2692,6 +2644,74 @@
         {
           "id": "ill.papyrus",
           "value": "non incorniciata"
+        },
+        {
+          "id": "ini-pla.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-pla.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "ini-wat.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-wat.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "ini-orn.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-orn.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "ini-fig.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "ini-fig.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "ini-fig.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "par.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "par.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "lbl.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "lbl.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "wsp.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "wsp.anteport",
+          "value": "antiporta"
+        },
+        {
+          "id": "orn.incipit",
+          "value": "pagina incipitaria"
+        },
+        {
+          "id": "orn.anteport",
+          "value": "antiporta"
         },
         {
           "id": "orn.frieze-hist",
@@ -2739,7 +2759,7 @@
         },
         {
           "id": "ini-wat.cut-2",
-          "value": "fessa e rifessa"
+          "value": "rifessa"
         },
         {
           "id": "ini-orn.fig",
@@ -4782,6 +4802,10 @@
           "value": "giallino"
         },
         {
+          "id": "brown",
+          "value": "marrone"
+        },
+        {
           "id": "blue",
           "value": "azzurro"
         },
@@ -4853,20 +4877,20 @@
       "id": "drawing-tech-measure-names@en",
       "entries": [
         {
-          "id": "support-w",
-          "value": "larghezza supporto"
-        },
-        {
           "id": "support-h",
           "value": "altezza supporto"
         },
         {
-          "id": "backmount-w",
-          "value": "larghezza passepartout"
+          "id": "support-w",
+          "value": "larghezza supporto"
         },
         {
           "id": "backmount-h",
           "value": "altezza passepartout"
+        },
+        {
+          "id": "backmount-w",
+          "value": "larghezza passepartout"
         }
       ]
     },
@@ -4879,11 +4903,15 @@
       "entries": [
         {
           "id": "metalpoint",
-          "value": "punta d'argento"
+          "value": "punta metallica"
         },
         {
           "id": "stylus",
           "value": "stilo"
+        },
+        {
+          "id": "charcoal",
+          "value": "carboncino"
         },
         {
           "id": "chalk-black",
@@ -5866,12 +5894,12 @@
       "id": "physical-size-set-names_fr@en",
       "entries": [
         {
-          "id": "width",
-          "value": "larghezza"
-        },
-        {
           "id": "height",
           "value": "altezza"
+        },
+        {
+          "id": "width",
+          "value": "larghezza"
         }
       ]
     },
@@ -5945,10 +5973,6 @@
           "value": "foro"
         },
         {
-          "id": "pinhole",
-          "value": "forellino"
-        },
-        {
           "id": "fire",
           "value": "bruciatura"
         },
@@ -5999,10 +6023,6 @@
         {
           "id": "erasion",
           "value": "rasura"
-        },
-        {
-          "id": "drawing-add",
-          "value": "aggiunta in disegno"
         },
         {
           "id": "repair-old",
