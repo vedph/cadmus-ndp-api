@@ -4,7 +4,6 @@
   - [Facets](#facets)
     - [Parts Matrix](#parts-matrix)
   - [Authorithies](#authorithies)
-  - [History](CHANGELOG.md)
 
 🐋 Quick Docker image build:
 
@@ -189,6 +188,7 @@ The list of facets is given here with their conventional groupings used in the e
   - _relations_
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `iconography`
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ict` 🚩 (iconographic topics = IDP categorie)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`isd` 🚩 (subject details = IDP rapporti con la tradizione dantesca)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ics` 🚩 (iconographic subjects = IDP soggetti)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` 🚩 (luoghi danteschi)
   - _content_
@@ -196,6 +196,8 @@ The list of facets is given here with their conventional groupings used in the e
     - [comment](https://github.com/vedph/cadmus-general/blob/master/docs/comment.md) (description, including keywords)
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`ptx` (paratext)
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`exe` (exegesis)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`ift` 🚩 (figurative theme = IDP rapporti extradanteschi)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`msc` 🚩 (miscellaneous = IDP note)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
