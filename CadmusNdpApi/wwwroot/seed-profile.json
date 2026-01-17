@@ -2769,27 +2769,27 @@
           "value": "antiporta"
         },
         {
-          "id": "orn.frieze-hist",
+          "id": "orn.border-history",
           "value": "fregio istoriato"
         },
         {
-          "id": "orn.frieze-char",
+          "id": "orn.border-inhabited",
           "value": "fregio abitato"
         },
         {
-          "id": "orn.frieze-char-drol",
+          "id": "orn.border-drolerie",
           "value": "fregio abitato con drôlerie"
         },
         {
-          "id": "orn.frieze-orn",
+          "id": "orn.border-decorated",
           "value": "fregio ornato"
         },
         {
-          "id": "orn.frieze-swirls-white",
+          "id": "orn.border-white-vine",
           "value": "fregio a bianchi girari"
         },
         {
-          "id": "orn.coat",
+          "id": "orn.coat-of-arms",
           "value": "stemma"
         },
         {
@@ -2797,7 +2797,7 @@
           "value": "emblema"
         },
         {
-          "id": "orn.tab",
+          "id": "orn.tabula-ansata",
           "value": "tabula ansata"
         },
         {
@@ -6240,7 +6240,7 @@
           "elementTypologies": [
             "ill.miniature",
             "ill.drawing",
-            "orn.frieze-fig",
+            "orn.border-fig",
             "orn.coat",
             "ini-orn.zoomrp",
             "ini-orn.prism",
