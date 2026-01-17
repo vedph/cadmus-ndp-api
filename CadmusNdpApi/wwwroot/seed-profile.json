@@ -2392,8 +2392,12 @@
           "value": "punzoni"
         },
         {
-          "id": "sgraffito",
-          "value": "incisioni a mano libera"
+          "id": "freehand-indentation",
+          "value": "incisioni"
+        },
+        {
+          "id": "other",
+          "value": "altro"
         }
       ]
     },
@@ -2570,7 +2574,7 @@
           "value": "acquerellature"
         },
         {
-          "id": "gouache",
+          "id": "tempera",
           "value": "tempera"
         },
         {
@@ -2657,11 +2661,11 @@
       "id": "cod-decoration-element-typologies@en",
       "entries": [
         {
-          "id": "dia.incipit",
+          "id": "dia.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "dia.anteport",
+          "id": "dia.antiporta",
           "value": "antiporta"
         },
         {
@@ -2669,19 +2673,19 @@
           "value": "disegno"
         },
         {
-          "id": "dia.tabular",
+          "id": "dia.vignette",
           "value": "tabellare"
         },
         {
-          "id": "dia.papyrus",
+          "id": "dia.unframed",
           "value": "non incorniciata"
         },
         {
-          "id": "ill.incipit",
+          "id": "ill.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ill.anteport",
+          "id": "ill.antiporta",
           "value": "antiporta"
         },
         {
@@ -2689,79 +2693,79 @@
           "value": "disegno"
         },
         {
-          "id": "ill.tabular",
+          "id": "ill.vignette",
           "value": "tabellare"
         },
         {
-          "id": "ill.papyrus",
+          "id": "ill.unframed",
           "value": "non incorniciata"
         },
         {
-          "id": "ini-pla.incipit",
+          "id": "ini-pla.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ini-pla.anteport",
+          "id": "ini-pla.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "ini-wat.incipit",
+          "id": "ini-wat.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ini-wat.anteport",
+          "id": "ini-wat.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "ini-orn.incipit",
+          "id": "ini-orn.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ini-orn.anteport",
+          "id": "ini-orn.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "ini-fig.anteport",
+          "id": "ini-fig.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "ini-fig.incipit",
+          "id": "ini-fig.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ini-fig.anteport",
+          "id": "ini-fig.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "par.incipit",
+          "id": "par.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "par.anteport",
+          "id": "par.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "lbl.incipit",
+          "id": "lbl.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "lbl.anteport",
+          "id": "lbl.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "wsp.incipit",
+          "id": "wsp.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "wsp.anteport",
+          "id": "wsp.antiporta",
           "value": "antiporta"
         },
         {
-          "id": "orn.incipit",
+          "id": "orn.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "orn.anteport",
+          "id": "orn.antiporta",
           "value": "antiporta"
         },
         {
@@ -2882,11 +2886,11 @@
           "value": "aggiunge seriori"
         },
         {
-          "id": "uniform",
+          "id": "unitary",
           "value": "unitaria"
         },
         {
-          "id": "incomplete",
+          "id": "unfinished",
           "value": "incompleta"
         }
       ]
