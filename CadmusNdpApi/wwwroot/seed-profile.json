@@ -3386,23 +3386,27 @@
         },
         {
           "id": "sgt",
-          "value": "textualis sempl./semigotica"
+          "value": "textualis semplificata/semigotica"
         },
         {
           "id": "mic",
-          "value": "minuscola canc."
+          "value": "minuscola cancelleresca"
+        },
+        {
+          "id": "mic-100",
+          "value": "minuscola cancelleresca tipo 100"
         },
         {
           "id": "mea",
-          "value": "mercantesca a."
+          "value": "mercantesca"
         },
         {
           "id": "cur",
-          "value": "corsiva"
+          "value": "corsiva minuscola"
         },
         {
           "id": "crh",
-          "value": "corsiva um."
+          "value": "corsiva umanistica"
         },
         {
           "id": "ant",
@@ -3410,7 +3414,7 @@
         },
         {
           "id": "cpb",
-          "value": "capitale libraria"
+          "value": "capitale"
         },
         {
           "id": "other",
@@ -3737,7 +3741,7 @@
         },
         {
           "id": "archivio-di-stato-rieti",
-          "value": "Archivio di Stato  (Rieti)"
+          "value": "Archivio di Stato (Rieti)"
         },
         {
           "id": "archivio-di-stato-bologna",
@@ -3869,7 +3873,7 @@
         },
         {
           "id": "beinecke-rare-book-and-manuscript-library",
-          "value": "Beinecke Rare Book & Manuscript Library  (New Haven (Connecticut))"
+          "value": "Beinecke Rare Book & Manuscript Library (New Haven (Connecticut))"
         },
         {
           "id": "biblioteca-academiei-romane",
@@ -4409,7 +4413,7 @@
         },
         {
           "id": "bibliotheque-municipale-lyon",
-          "value": "Bibliothèque municipale  (Lyon)"
+          "value": "Bibliothèque municipale (Lyon)"
         },
         {
           "id": "bibliotheque-municipale-grenoble",
@@ -4681,7 +4685,7 @@
         },
         {
           "id": "taylor-institution-library-oxford",
-          "value": "Taylor Institution Library  (Oxford)"
+          "value": "Taylor Institution Library (Oxford)"
         },
         {
           "id": "the-asiatic-society-mumbai",
