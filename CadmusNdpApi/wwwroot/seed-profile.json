@@ -3717,7 +3717,7 @@
       "entries": [
         {
           "id": "albertina-museum-wien",
-          "value": "Albertina Museum (Wien)"
+          "value": "Albertina Museum (Vienna)"
         },
         {
           "id": "archivio-capitolare-del-duomo-pistoia",
@@ -4385,7 +4385,7 @@
         },
         {
           "id": "bibliothek-des-christianeum-amburgo",
-          "value": "Bibliothek des Christianeum (Amburgo )"
+          "value": "Bibliothek des Christianeum (Amburgo)"
         },
         {
           "id": "bibliotheque-de-larsenal-bnf-parigi",
@@ -4741,11 +4741,11 @@
         },
         {
           "id": "zamecka-knihovna-lazne-kynzvart",
-          "value": "Zámecká knihovna  (Lázně Kynžvart)"
+          "value": "Zámecká knihovna (Lázně Kynžvart)"
         },
         {
           "id": "zisterzienserabtei-wilhering",
-          "value": "Zisterzienserabtei  (Wilhering)"
+          "value": "Zisterzienserabtei (Wilhering)"
         }
       ]
     },
