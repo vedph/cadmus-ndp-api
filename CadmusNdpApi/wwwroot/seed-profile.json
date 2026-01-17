@@ -2316,26 +2316,26 @@
         },
         {
           "id": "dia.dante-if",
-          "value": "schema di Inferno"
+          "value": "Inferno"
         },
         {
           "id": "dia.dante-purg",
-          "value": "schema di Purgatorio"
+          "value": "Purgatorio"
         },
         {
           "id": "dia.dante-par",
-          "value": "schema di Paradiso"
+          "value": "Paradiso"
         },
         {
           "id": "dia.other",
           "value": "altro"
         },
         {
-          "id": "ini-pla.sketch",
+          "id": "ini.sketch",
           "value": "disegno preparatorio"
         },
         {
-          "id": "ini-pla.guide",
+          "id": "ini.guideletter",
           "value": "lettere guida"
         },
         {
@@ -2343,7 +2343,7 @@
           "value": "disegno preparatorio"
         },
         {
-          "id": "ini-wat.guide",
+          "id": "ini-wat.guideletter",
           "value": "lettere guida"
         },
         {
@@ -2351,7 +2351,7 @@
           "value": "disegno preparatorio"
         },
         {
-          "id": "ini-orn.guide",
+          "id": "ini-orn.guideletter",
           "value": "lettere guida"
         },
         {
@@ -2359,7 +2359,7 @@
           "value": "disegno preparatorio"
         },
         {
-          "id": "ini-fig.guide",
+          "id": "ini-fig.guideletter",
           "value": "lettere guida"
         },
         {
@@ -2417,7 +2417,7 @@
           "value": "intercolumnio"
         },
         {
-          "id": "ill.margin-e",
+          "id": "ill.margin-o",
           "value": "margine est."
         },
         {
@@ -2429,7 +2429,7 @@
           "value": "margine sup."
         },
         {
-          "id": "ill.foot",
+          "id": "ill.margin-b",
           "value": "margine inf."
         },
         {
@@ -2449,7 +2449,7 @@
           "value": "intercolumnio"
         },
         {
-          "id": "dia.margin-e",
+          "id": "dia.margin-o",
           "value": "margine est."
         },
         {
@@ -2461,7 +2461,7 @@
           "value": "margine sup."
         },
         {
-          "id": "dia.foot",
+          "id": "dia.margin-b",
           "value": "margine inf."
         },
         {
@@ -2469,15 +2469,15 @@
           "value": "altro"
         },
         {
-          "id": "ini-pla.aligned",
+          "id": "ini.aligned",
           "value": "allineata"
         },
         {
-          "id": "ini-pla.inside",
+          "id": "ini.secondary",
           "value": "annegata"
         },
         {
-          "id": "ini-pla.hanging",
+          "id": "ini.protruding",
           "value": "sporgente"
         },
         {
@@ -2485,11 +2485,11 @@
           "value": "allineata"
         },
         {
-          "id": "ini-wat.hanging",
+          "id": "ini-wat.protruding",
           "value": "sporgente"
         },
         {
-          "id": "ini-wat.inside",
+          "id": "ini-wat.secondary",
           "value": "annegata"
         },
         {
@@ -2497,11 +2497,11 @@
           "value": "allineata"
         },
         {
-          "id": "ini-orn.hanging",
+          "id": "ini-orn.protruding",
           "value": "sporgente"
         },
         {
-          "id": "ini-orn.inside",
+          "id": "ini-orn.secondary",
           "value": "annegata"
         },
         {
@@ -2509,11 +2509,11 @@
           "value": "allineata"
         },
         {
-          "id": "ini-fig.hanging",
+          "id": "ini-fig.protruding",
           "value": "sporgente"
         },
         {
-          "id": "ini-fig.inside",
+          "id": "ini-fig.secondary",
           "value": "annegata"
         },
         {
@@ -2537,7 +2537,7 @@
           "value": "intercolumnio"
         },
         {
-          "id": "wsp.margin-e",
+          "id": "wsp.margin-o",
           "value": "margine est."
         },
         {
@@ -2549,7 +2549,7 @@
           "value": "margine sup."
         },
         {
-          "id": "wsp.foot",
+          "id": "wsp.margin-b",
           "value": "margine inf."
         },
         {
@@ -2628,16 +2628,16 @@
           "value": "diagramma"
         },
         {
-          "id": "ini-pla",
-          "value": "iniziali - semplici"
+          "id": "ini",
+          "value": "iniziali semplici"
         },
         {
           "id": "ini-wat",
-          "value": "iniziali - filigranate"
+          "value": "iniziali filigranate"
         },
         {
           "id": "ini-orn",
-          "value": "iniziali - ornate"
+          "value": "iniziali ornate"
         },
         {
           "id": "ini-fig",
@@ -2701,11 +2701,11 @@
           "value": "non incorniciata"
         },
         {
-          "id": "ini-pla.frontpage",
+          "id": "ini.frontpage",
           "value": "pagina incipitaria"
         },
         {
-          "id": "ini-pla.antiporta",
+          "id": "ini.antiporta",
           "value": "antiporta"
         },
         {
@@ -2781,12 +2781,16 @@
           "value": "fregio abitato con drôlerie"
         },
         {
-          "id": "orn.border-decorated",
-          "value": "fregio ornato"
+          "id": "orn.border-foliated",
+          "value": "fregio foliato"
         },
         {
           "id": "orn.border-white-vine",
           "value": "fregio a bianchi girari"
+        },
+        {
+          "id": "orn.border-other",
+          "value": "fregio (altro)"
         },
         {
           "id": "orn.coat-of-arms",
@@ -2809,11 +2813,11 @@
           "value": "semplice"
         },
         {
-          "id": "ini-wat.cut-1",
+          "id": "ini-wat.cutline",
           "value": "fessa"
         },
         {
-          "id": "ini-wat.cut-2",
+          "id": "ini-wat.puzzle",
           "value": "rifessa"
         },
         {
@@ -2915,7 +2919,7 @@
           "value": "subject textRelation lineHeight"
         },
         {
-          "id": "ini-pla",
+          "id": "ini",
           "value": "typologies subject textRelation"
         },
         {
@@ -6196,10 +6200,10 @@
             "ill.sketch",
             "orn.blank",
             "orn.sketch",
-            "ini-pla.blank",
-            "ini-pla.guide",
+            "ini.blank",
+            "ini.guideletter",
             "ini-wat.blank",
-            "ini-wat.guide",
+            "ini-wat.guideletter",
             "ini-orn.blank",
             "ini-orn.sketch",
             "ini-fig.blank",
@@ -6213,7 +6217,7 @@
             "orn",
             "ant",
             "dia",
-            "ini-pla",
+            "ini",
             "ini-wat",
             "ini-orn",
             "ini-fig",
@@ -6225,14 +6229,14 @@
             "ill.full-page",
             "ill.interpol",
             "ill.foot",
-            "ini-pla.aligned",
-            "ini-pla.inside",
+            "ini.aligned",
+            "ini.secondary",
             "ini-wat.aligned",
-            "ini-wat.inside",
+            "ini-wat.secondary",
             "ini-orn.aligned",
-            "ini-orn.hanging",
+            "ini-orn.protruding",
             "ini-fig.aligned",
-            "ini-fig.hanging",
+            "ini-fig.protruding",
             "orn.-",
             "par.-"
           ],
