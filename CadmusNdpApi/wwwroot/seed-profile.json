@@ -2769,7 +2769,7 @@
           "value": "antiporta"
         },
         {
-          "id": "orn.border-history",
+          "id": "orn.border-fig",
           "value": "fregio istoriato"
         },
         {
@@ -2829,27 +2829,19 @@
           "value": "abitata"
         },
         {
-          "id": "ini-orn.phytomorphic",
-          "value": "fitomorfa"
+          "id": "ini-orn.foliated",
+          "value": "foliata"
         },
         {
-          "id": "ini-orn.prism",
-          "value": "prismatica"
-        },
-        {
-          "id": "ini-orn.tendrils",
+          "id": "ini-orn.white-vine",
           "value": "bianchi girari"
-        },
-        {
-          "id": "ini-orn.kaleidoscopic",
-          "value": "caleidoscopica"
         },
         {
           "id": "ini-orn.geometric",
           "value": "geometrica"
         },
         {
-          "id": "ini-orn.noose-twisted",
+          "id": "ini-orn.interlace-knotwork",
           "value": "a cappio intrecciato"
         },
         {
@@ -2857,16 +2849,20 @@
           "value": "altro"
         },
         {
-          "id": "par.run-heads",
+          "id": "par.running-heads",
           "value": "titoli correnti"
         },
         {
           "id": "par.rubrication",
-          "value": "rubricatura"
+          "value": "rubriche"
         },
         {
-          "id": "par.paragraph",
+          "id": "par.pilcrow",
           "value": "segni di paragrafo"
+        },
+        {
+          "id": "par.decorated-catchword",
+          "value": "richiami figurati"
         },
         {
           "id": "par.cartulation",
