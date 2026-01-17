@@ -1,5 +1,6 @@
 ﻿## Change Log
 
+- 2026-01-17: updated thesauri.
 - 2026-01-07:
   - added thesaurus for comment keyword languages.
   - fixed thesaurus of Commedia contexts.
