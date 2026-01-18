@@ -3381,39 +3381,35 @@
       "id": "cod-hand-scripts@en",
       "entries": [
         {
-          "id": "got",
-          "value": "textualis/gotica"
+          "id": "textualis",
+          "value": "textualis"
         },
         {
-          "id": "sgt",
-          "value": "textualis semplificata/semigotica"
+          "id": "textualis-simplified",
+          "value": "textualis semplificata"
         },
         {
-          "id": "mic",
+          "id": "cancelleresca",
           "value": "minuscola cancelleresca"
         },
         {
-          "id": "mic-100",
-          "value": "minuscola cancelleresca tipo 100"
-        },
-        {
-          "id": "mea",
+          "id": "mercantesca",
           "value": "mercantesca"
         },
         {
-          "id": "cur",
-          "value": "corsiva minuscola"
+          "id": "cursiva",
+          "value": "minuscola corsiva"
         },
         {
-          "id": "crh",
+          "id": "cursive-humanistic",
           "value": "corsiva umanistica"
         },
         {
-          "id": "ant",
+          "id": "antiqua",
           "value": "antiqua"
         },
         {
-          "id": "cpb",
+          "id": "capital",
           "value": "capitale"
         },
         {
