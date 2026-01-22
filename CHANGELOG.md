@@ -1,5 +1,8 @@
 ﻿## Change Log
 
+### 2.0.5
+
+- 2026-01-22: updated packages.
 - 2026-01-17:
   - updated thesauri.
   - updated packages, incorporating the additions to the asserted composite ID model (added `features` and `note`, both optional - features can be drawn from hierarchical thesaurus `asserted-id-features`).
