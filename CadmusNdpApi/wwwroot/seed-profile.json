@@ -1225,10 +1225,6 @@
           "value": "references"
         },
         {
-          "id": "it.vedph.external-ids",
-          "value": "external IDs"
-        },
-        {
           "id": "it.vedph.flags",
           "value": "flags"
         },
@@ -6171,6 +6167,31 @@
     },
     "partSeeders": [
       {
+        "id": "seed.it.vedph.categories:bio",
+        "options": {
+          "maxCategoriesPerItem": 1,
+          "categories": ["author", "librarian", "commentator"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.categories:ctx",
+        "options": {
+          "maxCategoriesPerItem": 1,
+          "categories": ["if.selva", "if.porta-ignavi", "if.acheronte"]
+        }
+      },
+      {
+        "id": "seed.it.vedph.categories:txt",
+        "options": {
+          "maxCategoriesPerItem": 1,
+          "categories": [
+            "msf.punct.single",
+            "msf.punct.double",
+            "msf.punct.comma"
+          ]
+        }
+      },
+      {
         "id": "seed.it.vedph.chronotopes"
       },
       {
@@ -6317,9 +6338,6 @@
       },
       {
         "id": "seed.it.vedph.doc-references"
-      },
-      {
-        "id": "seed.it.vedph.external-ids"
       },
       {
         "id": "seed.it.vedph.historical-events"

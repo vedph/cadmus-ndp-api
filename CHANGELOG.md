@@ -1,5 +1,9 @@
 ﻿## Change Log
 
+- 2026-02-01:
+  - updated packages.
+  - per-role seed in categories.
+
 ### 2.0.5
 
 - 2026-01-22: updated packages.
