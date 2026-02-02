@@ -5925,32 +5925,132 @@
       "id": "notable-word-forms-tags@en",
       "entries": [
         {
-          "id": "a",
-          "value": "alpha"
+          "id": "gr",
+          "value": "grafia"
         },
         {
-          "id": "a.1",
-          "value": "alpha: one"
+          "id": "gr.c-ced-for-z",
+          "value": "grafia: ç per [z] (viço=viso, uço=uso)"
         },
         {
-          "id": "a.2",
-          "value": "alpha: two"
+          "id": "gr.cc-for-dz",
+          "value": "grafia: cc per [dz] o [ts] scempio o doppio (sencia=senza, puccio=puzzo)"
         },
         {
-          "id": "a.3",
-          "value": "alpha: three"
+          "id": "gr.cz-for-ts",
+          "value": "grafia: cz per [ts] (es. altecza, sperancza)"
         },
         {
-          "id": "b",
-          "value": "beta"
+          "id": "gr.gg-for-dz",
+          "value": "grafia: gg per [dz] o [ts] scempio o doppio (meggio=mezzo)"
         },
         {
-          "id": "b.1",
-          "value": "beta: one"
+          "id": "gr.li-for-turned-y",
+          "value": "grafia: -(l)li- per -ʎ- (vo(l)lia=voglia, mellio=meglio)"
         },
         {
-          "id": "b.2",
-          "value": "beta: two"
+          "id": "gr.m-for-n",
+          "value": "grafia: m finale per [n] in forme tronche (gram=gran, stam=stan)"
+        },
+        {
+          "id": "gr.x-for-z",
+          "value": "grafia: x per [z] (prexi=presi, paxe=pace)"
+        },
+        {
+          "id": "gr.x-for-ezh",
+          "value": "grafia: x per [ʒ] (staxone=stagione)"
+        },
+        {
+          "id": "gr.ih-for-ts",
+          "value": "grafia: ih, zh/çh per affricata prepalatale sorda < (-)CL- (ihave o çhave=chiave)"
+        },
+        {
+          "id": "ph",
+          "value": "fonologia"
+        },
+        {
+          "id": "ph.v",
+          "value": "fonologia: vocalismo"
+        },
+        {
+          "id": "ph.v.diph",
+          "value": "fonologia: vocalismo: dittongamento"
+        },
+        {
+          "id": "ph.v.diph.tuscan",
+          "value": "fonologia: vocalismo: dittongamento: 'toscano' delle toniche /ɛ/ /ɔ/ in sillaba libera > /jɛ/ e /wɔ/ (piede, buono)"
+        },
+        {
+          "id": "ph.v.diph.priego",
+          "value": "fonologia: vocalismo: dittongamento: toniche /ɛ/ /ɔ/ in sillaba libera dopo Cr > /jɛ/ e /wɔ/ (priego, pruova)"
+        },
+        {
+          "id": "ph.v.diph.sienese",
+          "value": "fonologia: vocalismo: dittongamento: 'senese' (nuove, nove [9], liei=lei, uopere, piecora)"
+        },
+        {
+          "id": "ph.v.diph.parienti",
+          "value": "fonologia: vocalismo: dittongamento: metafonetico delle aperte toniche /ɛ/ /ɔ/ con -i/-o fin. > ie/uo (parienti, tiempo, suonno)"
+        },
+        {
+          "id": "ph.v.diph.marcheise",
+          "value": "fonologia: vocalismo: dittongamento: discendente della tonica /e/ > ei in sillaba libera (marcheise=marchese, corteise=cortese)"
+        },
+        {
+          "id": "ph.v.diph.otoubre",
+          "value": "fonologia: vocalismo: dittongamento: discendente di /o/ tonica > ou (otoubre=ottobre)"
+        },
+        {
+          "id": "ph.v.diph.hyper",
+          "value": "fonologia: vocalismo: dittongamento: iperdittongazione (rispuondi, muoto)"
+        },
+        {
+          "id": "ph.v.diph.pino",
+          "value": "fonologia: vocalismo: dittongamento: riduzione del 'toscano' (specie ie) al I elemento (pino=pieno)"
+        },
+        {
+          "id": "ph.v.meta",
+          "value": "fonologia: vocalismo: metafonesi"
+        },
+        {
+          "id": "ph.v.meta.e-to-i-on-i",
+          "value": "fonologia: vocalismo: metafonesi: /e/ > i con -i finale (quilli ma quello)"
+        },
+        {
+          "id": "ph.v.meta.e-to-i-on-io",
+          "value": "fonologia: vocalismo: metafonesi: /e/ > i con -i/o finali (quilli e quillo)"
+        },
+        {
+          "id": "ph.v.u-to-o",
+          "value": "fonologia: vocalismo: apertura ú > ó (Cimaboe, core=cure, reçevote=ricevute)"
+        },
+        {
+          "id": "ph.v.ana",
+          "value": "fonologia: vocalismo: anafonesi"
+        },
+        {
+          "id": "ph.v.ana.missing",
+          "value": "fonologia: vocalismo: anafonesi: assenza (gionto, lengua)"
+        },
+        {
+          "id": "ph.v.e-preserved",
+          "value": "fonologia: vocalismo: conservazione di /e/ in protonia sintattica (me=mi, te=ti, se=si)"
+        },
+        {
+          "id": "ph.v.au-preserved",
+          "value": "fonologia: vocalismo: conservazione di /au/ specie +l (paraula=parola)"
+        },
+        {
+          "id": "ph.v.au-to-o",
+          "value": "fonologia: vocalismo: au iniziale > o (ogosto=agosto)"
+        },
+        {
+          "id": "ph.v.assimilation",
+          "value": "fonologia: vocalismo: assimilazione di atona a tonica (salvatico, Salamone)"
+        },
+        {
+          "id": "ph.c",
+          "value": "fonologia: consonantismo"
         }
       ]
     },
