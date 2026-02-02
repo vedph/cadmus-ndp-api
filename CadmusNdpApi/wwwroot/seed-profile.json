@@ -6137,28 +6137,200 @@
           "value": "fonologia: consonantismo: velarizzazione: -gl- palatale > occl. sonora (famigghia=famiglia)"
         },
         {
+          "id": "ph.c.rhotacization",
+          "value": "fonologia: consonantismo: rotacizzazione"
+        },
+        {
           "id": "ph.c.rhotacization.angioro",
-          "value": "fonologia: consonantismo: rotacizzazione di -l- nel suff.-olo (angioro=angiolo)"
+          "value": "fonologia: consonantismo: rotacizzazione: -l- nel suff.-olo (angioro=angiolo)"
         },
         {
           "id": "ph.c.assimilation",
           "value": "fonologia: consonantismo: assimilazione"
         },
         {
+          "id": "ph.c.assimilation.quanno",
+          "value": "fonologia: consonantismo: assimilazione: mb/nd > nn (quanno) e ipercorrettismi (penda=penna)"
+        },
+        {
+          "id": "ph.c.assimilation.nosso",
+          "value": "fonologia: consonantismo: assimilazione: -str- in pron.poss. (nosso=nostro) e forme verbali (mossare=mostrare)"
+        },
+        {
+          "id": "ph.c.assimilation.ello",
+          "value": "fonologia: consonantismo: assimilazione: n-l > l-l in prep.art. con en (en lo > e llo) [aret.-cort.]"
+        },
+        {
           "id": "ph.c.spirantization",
           "value": "fonologia: consonantismo: spirantizzazione"
+        },
+        {
+          "id": "ph.c.spirantization.asceto",
+          "value": "fonologia: consonantismo: spirantizzazione: affricate palatali interv. (asceto=aceto) [tosc.]"
         },
         {
           "id": "ph.c.voicing",
           "value": "fonologia: consonantismo: sonorizzazione"
         },
         {
-          "id": "ph.c.",
-          "value": "fonologia: consonantismo: "
+          "id": "ph.c.voicing.pogo",
+          "value": "fonologia: consonantismo: sonorizzazione: occl. intervoc. (pogo=poco)"
         },
         {
-          "id": "ph.c.",
-          "value": "fonologia: consonantismo: "
+          "id": "ph.c.misc",
+          "value": "fonologia: consonantismo: miscellanea"
+        },
+        {
+          "id": "ph.c.misc.danari",
+          "value": "fonologia: consonantismo: miscellanea: iniziale en protonico > an (danari)"
+        },
+        {
+          "id": "ph.c.misc.sensa",
+          "value": "fonologia: consonantismo: miscellanea: ts > sibilante (sensa=senza)"
+        },
+        {
+          "id": "ph.c.misc.povaro",
+          "value": "fonologia: consonantismo: miscellanea: er intertonico/postonico > ar (povaro=povero, mettare=mettere)"
+        },
+        {
+          "id": "ph.c.doubling",
+          "value": "fonologia: consonantismo: miscellanea: radoppiamento"
+        },
+        {
+          "id": "ph.c.doubling.syn",
+          "value": "fonologia: consonantismo: miscellanea: radoppiamento: fonosint. dopo da (da llato)"
+        },
+        {
+          "id": "mr",
+          "value": "morfologia"
+        },
+        {
+          "id": "mr.verb",
+          "value": "morfologia: verbi"
+        },
+        {
+          "id": "mr.verb.ending",
+          "value": "morfologia: verbi: desinenze"
+        },
+        {
+          "id": "mr.verb.ending.ee",
+          "value": "morfologia: verbi: desinenze: essere 3sg=ee"
+        },
+        {
+          "id": "mr.verb.ending.feci",
+          "value": "morfologia: verbi: desinenze: 3sg -i (feci=fece)"
+        },
+        {
+          "id": "mr.verb.ending.teneti",
+          "value": "morfologia: verbi: desinenze: 2pl -ati/-eti/-iti (andati=andate, teneti=tenete, veniti=venite)"
+        },
+        {
+          "id": "mr.verb.tense",
+          "value": "morfologia: verbi: tempi"
+        },
+        {
+          "id": "mr.verb.tense.fo",
+          "value": "morfologia: verbi: tempi: pf. essere fo=fu"
+        },
+        {
+          "id": "mr.verb.tense.feciono",
+          "value": "morfologia: verbi: tempi: pf.forte + cond./cong. impf. in -ero > -ono/-oro (feciono/fecioro=fecero, facessono/facessoro=facessero)"
+        },
+        {
+          "id": "mr.verb.mood",
+          "value": "morfologia: verbi: modi"
+        },
+        {
+          "id": "mr.verb.mood.semo",
+          "value": "morfologia: verbi: modi: ind.pres.-emo I classe (semo)"
+        },
+        {
+          "id": "mr.verb.mood.voria",
+          "value": "morfologia: verbi: modi: cond. -ia/-ave (voria/vorave=vorrebbe)"
+        },
+        {
+          "id": "mr.verb.mood.bevando",
+          "value": "morfologia: verbi: modi: ger. indifferenziato -ando (bevando=bevendo)"
+        },
+        {
+          "id": "mr.noun",
+          "value": "morfologia: nomi"
+        },
+        {
+          "id": "mr.noun.porti",
+          "value": "morfologia: nomi: fem.pl.I decl. -i (le porti=le porte)"
+        },
+        {
+          "id": "mr.noun.mistieri",
+          "value": "morfologia: nomi: suff.sost. -ieri per -iere (mistieri)"
+        },
+        {
+          "id": "mr.pron",
+          "value": "morfologia: pronomi"
+        },
+        {
+          "id": "mr.pron.tou",
+          "value": "morfologia: pronomi: poss.m. tou=tuo, sou=suo"
+        },
+        {
+          "id": "mr.pron.toa",
+          "value": "morfologia: pronomi: poss.f. toa=toa, soa=sua"
+        },
+        {
+          "id": "mr.pron.a-mi",
+          "value": "morfologia: pronomi: pers.non-sogg. a mi, a ti"
+        },
+        {
+          "id": "mr.art",
+          "value": "morfologia: articoli"
+        },
+        {
+          "id": "mr.art.lu",
+          "value": "morfologia: articoli: m. lu"
+        },
+        {
+          "id": "mr.prep",
+          "value": "morfologia: preposizioni"
+        },
+        {
+          "id": "mr.prep.in-del",
+          "value": "morfologia: preposizioni: art. in del / in nel"
+        },
+        {
+          "id": "mr.prep.dil",
+          "value": "morfologia: preposizioni: art. dil / di la"
+        },
+        {
+          "id": "mr.adv",
+          "value": "morfologia: avverbi"
+        },
+        {
+          "id": "mr.adv.mentre",
+          "value": "morfologia: avverbi: -mentre"
+        },
+        {
+          "id": "mr.adv.di-po",
+          "value": "morfologia: avverbi: tempo di po / de po = dop(p)o"
+        },
+        {
+          "id": "mr.adv.pio",
+          "value": "morfologia: avverbi: piò per più"
+        },
+        {
+          "id": "mr.epenthesis",
+          "value": "morfologia: epitesi"
+        },
+        {
+          "id": "mr.epenthesis.fue",
+          "value": "morfologia: epitesi: -e (fue=fu, piùe=più)"
+        },
+        {
+          "id": "mr.epenthesis.mei",
+          "value": "morfologia: epitesi: -i (mei=me)"
+        },
+        {
+          "id": "mr.epenthesis.none",
+          "value": "morfologia: epitesi: -ne (none=no, ène=è)"
         }
       ]
     },
