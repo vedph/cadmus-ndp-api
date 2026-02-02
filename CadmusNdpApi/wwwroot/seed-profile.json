@@ -6051,6 +6051,114 @@
         {
           "id": "ph.c",
           "value": "fonologia: consonantismo"
+        },
+        {
+          "id": "ph.c.degemination",
+          "value": "fonologia: consonantismo: scempiamento"
+        },
+        {
+          "id": "ph.c.degemination.cc",
+          "value": "fonologia: consonantismo: scempiamento: cc"
+        },
+        {
+          "id": "ph.c.degemination.pp",
+          "value": "fonologia: consonantismo: scempiamento: pp"
+        },
+        {
+          "id": "ph.c.degemination.tt",
+          "value": "fonologia: consonantismo: scempiamento: tt"
+        },
+        {
+          "id": "ph.c.degemination.hyper",
+          "value": "fonologia: consonantismo: scempiamento: ipercorrettismi (pocco, doppo)"
+        },
+        {
+          "id": "ph.c.outcome-sibilant",
+          "value": "fonologia: consonantismo: esito assibilato"
+        },
+        {
+          "id": "ph.c.outcome-sibilant.co",
+          "value": "fonologia: consonantismo: esito assibilato: per tosc. /tʃ/ (ço=ciò)"
+        },
+        {
+          "id": "ph.c.outcome-sibilant.cente",
+          "value": "fonologia: consonantismo: esito assibilato: per tosc. /dʒ/ (çogo=gioco, çente=gente)"
+        },
+        {
+          "id": "ph.c.outcome-sibilant.siender",
+          "value": "fonologia: consonantismo: esito assibilato: per tosc. /ʃ/ /ʒ/ (siender=scender, spresiare=spregiare)"
+        },
+        {
+          "id": "ph.c.outcome-approximant",
+          "value": "fonologia: consonantismo: esito approssimante"
+        },
+        {
+          "id": "ph.c.outcome-approximant.ioco",
+          "value": "fonologia: consonantismo: esito approssimante: per tosc. /dʒ/ (ioco=gioco)"
+        },
+        {
+          "id": "ph.c.outcome-approximant.fornaio",
+          "value": "fonologia: consonantismo: esito approssimante: -i-<-RJ- (fornaio, danaio)"
+        },
+        {
+          "id": "ph.c.palatalization",
+          "value": "fonologia: consonantismo: palatalizzazione"
+        },
+        {
+          "id": "ph.c.palatalization.sci",
+          "value": "fonologia: consonantismo: palatalizzazione: 'emiliana' di s+V_ant.(scì=sì, scença=senza)"
+        },
+        {
+          "id": "ph.c.palatalization.animagli",
+          "value": "fonologia: consonantismo: palatalizzazione: -li->-gl- (animagli=animali, capegli=capelli)"
+        },
+        {
+          "id": "ph.c.palatalization.rispiender",
+          "value": "fonologia: consonantismo: palatalizzazione: -pl->-pi- (rispiender=risplender, spiendor=splendor)"
+        },
+        {
+          "id": "ph.c.atro",
+          "value": "fonologia: consonantismo: alteru(m) > atro=altro"
+        },
+        {
+          "id": "ph.c.velarization",
+          "value": "fonologia: consonantismo: velarizzazione"
+        },
+        {
+          "id": "ph.c.velarization.autro",
+          "value": "fonologia: consonantismo: velarizzazione: l (autro=altro) [pis., lucch.]"
+        },
+        {
+          "id": "ph.c.velarization.penna",
+          "value": "fonologia: consonantismo: velarizzazione: 'n faucale' (graficam. penna=pena, fontanna=fontana)"
+        },
+        {
+          "id": "ph.c.velarization.famigghia",
+          "value": "fonologia: consonantismo: velarizzazione: -gl- palatale > occl. sonora (famigghia=famiglia)"
+        },
+        {
+          "id": "ph.c.rhotacization.angioro",
+          "value": "fonologia: consonantismo: rotacizzazione di -l- nel suff.-olo (angioro=angiolo)"
+        },
+        {
+          "id": "ph.c.assimilation",
+          "value": "fonologia: consonantismo: assimilazione"
+        },
+        {
+          "id": "ph.c.spirantization",
+          "value": "fonologia: consonantismo: spirantizzazione"
+        },
+        {
+          "id": "ph.c.voicing",
+          "value": "fonologia: consonantismo: sonorizzazione"
+        },
+        {
+          "id": "ph.c.",
+          "value": "fonologia: consonantismo: "
+        },
+        {
+          "id": "ph.c.",
+          "value": "fonologia: consonantismo: "
         }
       ]
     },
