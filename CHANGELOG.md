@@ -1,5 +1,11 @@
 ﻿## Change Log
 
+### 2.0.6
+
+- 2026-02-03:
+  - added thesaurus for notable word forms (`notable-word-forms-tags`).
+  - added thesauri for gaps in codicological content (`cod-content-gap-tags`, `cod-content-gap-types`).
+  - updated packages, incorporating change in codicology for gaps in codicological units (see <https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-contents.md> for `CodContentGap`).
 - 2026-02-01:
   - updated packages.
   - per-role seed in categories.

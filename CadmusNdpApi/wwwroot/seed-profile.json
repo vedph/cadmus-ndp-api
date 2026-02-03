@@ -2225,6 +2225,68 @@
       ]
     },
     {
+      "id": "cod-content-gap-tags@en",
+      "entries": [
+        {
+          "id": "complete",
+          "value": "completa"
+        },
+        {
+          "id": "partial",
+          "value": "parziale"
+        }
+      ]
+    },
+    {
+      "id": "cod-content-gap-types@en",
+      "entries": [
+        {
+          "id": "mat-cutting",
+          "value": "materiale: taglio"
+        },
+        {
+          "id": "mat-burning",
+          "value": "materiale: bruciatura"
+        },
+        {
+          "id": "mat-erasure",
+          "value": "materiale: rasura"
+        },
+        {
+          "id": "mat-loss",
+          "value": "materiale: caduta"
+        },
+        {
+          "id": "mat-trimming",
+          "value": "materiale: rifilatura"
+        },
+        {
+          "id": "mat-worming",
+          "value": "materiale: tarlatura"
+        },
+        {
+          "id": "tx-blank",
+          "value": "trasmissione: spazio"
+        },
+        {
+          "id": "tx-supplied",
+          "value": "trasmissione: supplita"
+        },
+        {
+          "id": "tx-vacat",
+          "value": "trasmissione: vacat/riempitivo"
+        },
+        {
+          "id": "tx-unnotified",
+          "value": "trasmissione: non notificata"
+        },
+        {
+          "id": "tx-notified",
+          "value": "trasmissione: notificata"
+        }
+      ]
+    },
+    {
       "id": "cod-content-states@en",
       "entries": [
         {
@@ -6193,11 +6255,11 @@
           "value": "fonologia: consonantismo: miscellanea: er intertonico/postonico > ar (povaro=povero, mettare=mettere)"
         },
         {
-          "id": "ph.c.doubling",
+          "id": "ph.c.misc.doubling",
           "value": "fonologia: consonantismo: miscellanea: radoppiamento"
         },
         {
-          "id": "ph.c.doubling.syn",
+          "id": "ph.c.misc.doubling.syn",
           "value": "fonologia: consonantismo: miscellanea: radoppiamento: fonosint. dopo da (da llato)"
         },
         {
