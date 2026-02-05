@@ -1,5 +1,9 @@
 ﻿## Change Log
 
+- 2026-02-05:
+  - updated packages.
+  - added settings for pin links and Biblissima provider scopes.
+
 ### 2.0.6
 
 - 2026-02-03:
