@@ -1,10 +1,12 @@
-﻿## Change Log
+﻿# Change Log
+
+## 2.0.7
 
 - 2026-02-05:
   - updated packages.
   - added settings for pin links and Biblissima provider scopes.
 
-### 2.0.6
+## 2.0.6
 
 - 2026-02-03:
   - added thesaurus for notable word forms (`notable-word-forms-tags`).
@@ -14,7 +16,7 @@
   - updated packages.
   - per-role seed in categories.
 
-### 2.0.5
+## 2.0.5
 
 - 2026-01-22: updated packages.
 - 2026-01-17:
@@ -25,7 +27,7 @@
   - fixed thesaurus of Commedia contexts.
   - added 3 new note parts to iconography item to preserve legacy data from IDP `immagini`, with roles `isd` (=subject details, corresponding to IDP rapporti con la tradizione dantesca), `ift` (=figurative theme, corresponding to IDP rapporti extradanteschi), and `msc` (=miscellaneous, corresponding to IDP note).
 
-### 2.0.4
+## 2.0.4
 
 - 2025-12-29: updated packages.
 - 2025-12-28: thesauri.
@@ -38,18 +40,18 @@
   - changes to some entries of existing thesauri.
   - moved the `flags` part from drawings projects to drawing items. Items require this detail, while for projects they can be collected from their items.
 
-### 2.0.3
+## 2.0.3
 
 - 2025-12-12: updated decorations thesauri (`cod-decoration-element-gildings@en`, `cod-decoration-element-techniques@en`, `cod-decoration-element-tools@en`, `cod-decoration-element-types@en`, `cod-decoration-element-typologies@en`, `cod-decoration-flags@en`, `cod-decoration-type-hidden@en`).
 - 2025-12-09: updated thesauri.
 
-### 2.0.2
+## 2.0.2
 
 - 2025-12-04:
   - updated packages and refactored MOL configuration to use PostgreSQL instead of LiteDB.
   - added `- CONNECTIONSTRINGS__MOL=Server=cadmus-ndp-pgsql;port=5432;Database=mol;User Id=postgres;Password=postgres;Include Error Detail=True` to Docker compose script.
 
-### 2.0.1
+## 2.0.1
 
 - 2025-11-28: updated packages.
 - 2025-11-27: added MOL lookup support.
@@ -59,20 +61,20 @@
   - `cod-shelfmark-libraries`
   - `physical-state-features`
 
-### 2.0.0
+## 2.0.0
 
 - 2025-11-26: Docker.
 - 2025-11-24:
   - ⚠️ upgraded to NET 10.
   - enabled graph in settings.
 
-### 1.0.8
+## 1.0.8
 
 - 2025-11-22:
   - updated packages, still on .NET 9 until NpgSql components for .NET 10 are ready.
   - added options to codicology seeder profiles.
 
-### 1.0.7
+## 1.0.7
 
 - 2025-11-10: updated thesauri.
 - 2025-11-09:
@@ -87,7 +89,7 @@
   - updated packages.
   - added NDP-specific parts.
 
-### 1.0.6
+## 1.0.6
 
 - 2025-10-14:
   - removed `categories:edits` from iconography in profile.
@@ -95,7 +97,7 @@
 - 2025-10-08: updated packages.
 - 2025-10-06: updated packages.
 
-### 1.0.5
+## 1.0.5
 
 - 2025-10-03: updated packages and generated Docker image.
 - 2025-09-27: added iconography parts.
@@ -103,13 +105,13 @@
   - replaced bibliography with references (will be used via Zotero).
   - added preservation state to manuscripts.
 
-### 1.0.4
+## 1.0.4
 
 - 2025-09-24:
   - refactored profile.
   - added drawing packages.
 
-### 1.0.3
+## 1.0.3
 
 - 2025-09-19:
   - updated packages.
@@ -126,6 +128,6 @@
 - 2025-08-07: updated packages.
 - 2025-07-17: updated packages.
 
-### 1.0.1
+## 1.0.1
 
 - 2025-07-16: updated packages.
