@@ -6833,6 +6833,19 @@
     "fragmentSeeders": []
   },
   "settings": {
+    "it.vedph.chronotopes": {
+      "placeLookupServiceId": "biblissima",
+      "lookupProviderOptions": {
+        "biblissima": {
+          "q26719": {
+            "label": "place",
+            "options": {
+              "type": "Q26719"
+            }
+          }
+        }
+      }
+    },
     "it.vedph.codicology.shelfmarks": {
       "cityFromLibPattern": "\\((.+)\\)$"
     },
