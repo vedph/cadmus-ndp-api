@@ -1,5 +1,6 @@
 ﻿# Change Log
 
+- 2026-02-17: updated packages.
 - 2026-02-08:
   - added settings for chronotopes so that place is looked up via Biblissima.
   - updated packages.
