@@ -1,5 +1,6 @@
 ﻿# Change Log
 
+- 2026-03-04: added thesauri aliases `cod-fr-quire-label-positions_sig@en` and `cod-fr-quire-label-types_sig@en`. Wherever a thesaurus is related to a part or fragment with role, we need to have thesauri for that specific role.
 - 2026-03-02: updated packages.
 - 2026-03-01: updated packages.
 

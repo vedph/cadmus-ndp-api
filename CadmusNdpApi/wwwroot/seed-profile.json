@@ -3287,6 +3287,10 @@
       ]
     },
     {
+      "id": "cod-fr-quire-label-positions_sig@en",
+      "targetId": "cod-fr-quire-label-positions"
+    },
+    {
       "id": "cod-fr-quire-label-types@en",
       "entries": [
         {
@@ -3318,6 +3322,10 @@
           "value": "altro"
         }
       ]
+    },
+    {
+      "id": "cod-fr-quire-label-types_sig@en",
+      "targetId": "cod-fr-quire-label-types"
     },
     {
       "id": "cod-fr-ruling-features@en",
@@ -6619,7 +6627,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": ["zeus"],
+      "users": [ "zeus" ],
       "partRoles": [],
       "fragmentRoles": []
     },
