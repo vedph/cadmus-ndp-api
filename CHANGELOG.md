@@ -1,5 +1,18 @@
 ﻿# Change Log
 
+- 2026-03-05:
+  - replaced `categories:txt` part with `text-passage-features` part, which is more specific and includes also the location of each listed phenomenon. This affected facets `manuscript`, `fragment`, `print-edition` and `print-instance`.
+  - moved entries from `categories_txt` thesaurus (then removed) to `text-passage-features thesaurus`.
+
+Migration procedure for existing DB:
+
+1. update the editor frontend app.
+2. let operators copy `categories:txt` entries if any, then delete them.
+3. import new facets from profile.
+4. import `text-passage-features` thesaurus from profile.
+5. delete `categories_txt` thesaurus.
+6. let operators add the new `text-passage-features` entries wherever they had `categories:txt`.
+
 - 2026-03-04: added thesauri aliases `cod-fr-quire-label-positions_sig@en` and `cod-fr-quire-label-types_sig@en`. Wherever a thesaurus is related to a part or fragment with role, we need to have thesauri for that specific role.
 - 2026-03-02: updated packages.
 - 2026-03-01: updated packages.

@@ -31,21 +31,12 @@
           "sortKey": "03"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "txt",
-          "name": "text categories",
-          "description": "Text categories.",
-          "colorKey": "98F8F8",
-          "groupKey": "identity",
-          "sortKey": "04"
-        },
-        {
           "typeId": "it.vedph.chronotopes",
           "name": "chronotopes",
           "description": "Date/time indications.",
           "colorKey": "D4B3FF",
           "groupKey": "history",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.historical-events",
@@ -54,7 +45,7 @@
           "description": "Historical events.",
           "colorKey": "BE85FF",
           "groupKey": "history",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.note",
@@ -63,7 +54,7 @@
           "description": "Manuscript's history.",
           "colorKey": "A856FF",
           "groupKey": "history",
-          "sortKey": "07"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.codicology.bindings",
@@ -71,7 +62,7 @@
           "description": "Current and historical bindings.",
           "colorKey": "E6D4A3",
           "groupKey": "material",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.codicology.sheet-labels",
@@ -79,7 +70,7 @@
           "description": "Quires and sheets labels.",
           "colorKey": "DBC785",
           "groupKey": "material",
-          "sortKey": "09"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.codicology.material-dsc",
@@ -87,7 +78,7 @@
           "description": "Material description.",
           "colorKey": "CDB86B",
           "groupKey": "material",
-          "sortKey": "10"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.codicology.watermarks",
@@ -95,7 +86,7 @@
           "description": "Watermarks.",
           "colorKey": "8FD18F",
           "groupKey": "material",
-          "sortKey": "11"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.physical-states",
@@ -103,7 +94,7 @@
           "description": "Physical preservation states.",
           "colorKey": "DBC785",
           "groupKey": "material",
-          "sortKey": "12"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.codicology.contents",
@@ -111,7 +102,7 @@
           "description": "Contents: text.",
           "colorKey": "9CE69C",
           "groupKey": "content",
-          "sortKey": "13"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.codicology.layouts",
@@ -119,7 +110,7 @@
           "description": "Text layouts.",
           "colorKey": "7DD17D",
           "groupKey": "content",
-          "sortKey": "14"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -127,7 +118,7 @@
           "description": "Decorations.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "15"
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.iconography.instructions",
@@ -135,7 +126,7 @@
           "description": "Iconography instructions.",
           "colorKey": "AFB366",
           "groupKey": "content",
-          "sortKey": "16"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.codicology.hands",
@@ -143,7 +134,7 @@
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "17"
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -151,7 +142,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
           "groupKey": "content",
-          "sortKey": "18"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.ndp.text-passages",
@@ -159,7 +150,7 @@
           "description": "List of notable text passages.",
           "colorKey": "5DF94D",
           "groupKey": "content",
-          "sortKey": "19"
+          "sortKey": "18"
         },
         {
           "typeId": "it.vedph.ndp.notable-word-forms",
@@ -167,7 +158,7 @@
           "description": "List of notable word forms.",
           "colorKey": "5DB94D",
           "groupKey": "content",
-          "sortKey": "20"
+          "sortKey": "19"
         },
         {
           "typeId": "it.vedph.note",
@@ -175,7 +166,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "21"
+          "sortKey": "20"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -183,7 +174,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "22"
+          "sortKey": "21"
         }
       ]
     },
@@ -218,21 +209,12 @@
           "sortKey": "03"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "txt",
-          "name": "text categories",
-          "description": "Text categories.",
-          "colorKey": "98F8F8",
-          "groupKey": "identity",
-          "sortKey": "04"
-        },
-        {
           "typeId": "it.vedph.chronotopes",
           "name": "chronotopes",
           "description": "Date/time indications.",
           "colorKey": "D4B3FF",
           "groupKey": "history",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.historical-events",
@@ -241,7 +223,7 @@
           "description": "Historical events.",
           "colorKey": "BE85FF",
           "groupKey": "history",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.note",
@@ -250,7 +232,7 @@
           "description": "Fragment's history.",
           "colorKey": "A856FF",
           "groupKey": "history",
-          "sortKey": "07"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-support",
@@ -258,7 +240,7 @@
           "description": "Fragment's support.",
           "colorKey": "E6D4A3",
           "groupKey": "material",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-rulings",
@@ -266,7 +248,7 @@
           "description": "Fragment's rulings.",
           "colorKey": "CDB86B",
           "groupKey": "material",
-          "sortKey": "09"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -275,7 +257,7 @@
           "description": "Signature labels'.",
           "colorKey": "7DD17D",
           "groupKey": "material",
-          "sortKey": "10"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -283,7 +265,7 @@
           "description": "Quire's labels'.",
           "colorKey": "B3A875",
           "groupKey": "material",
-          "sortKey": "11"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-quire-labels",
@@ -292,7 +274,7 @@
           "description": "Catchwords.",
           "colorKey": "B3E6B3",
           "groupKey": "material",
-          "sortKey": "12"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.decorated-counts",
@@ -301,7 +283,7 @@
           "description": "Various counts.",
           "colorKey": "FFB366",
           "groupKey": "material",
-          "sortKey": "13"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.physical-measurements",
@@ -310,7 +292,7 @@
           "description": "Physical measurements.",
           "colorKey": "FF9933",
           "groupKey": "material",
-          "sortKey": "14"
+          "sortKey": "13"
         },
         {
           "typeId": "it.vedph.physical-states",
@@ -318,7 +300,7 @@
           "description": "Physical preservation states.",
           "colorKey": "DBC785",
           "groupKey": "material",
-          "sortKey": "15"
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.codicology.contents",
@@ -326,7 +308,7 @@
           "description": "Contents: text.",
           "colorKey": "9CE69C",
           "groupKey": "content",
-          "sortKey": "16"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.ndp.cod-fr-layout",
@@ -334,7 +316,7 @@
           "description": "Contents: layout.",
           "colorKey": "9CD68C",
           "groupKey": "content",
-          "sortKey": "17"
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -342,7 +324,7 @@
           "description": "Decorations.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "18"
+          "sortKey": "17"
         },
         {
           "typeId": "it.vedph.iconography.instructions",
@@ -350,7 +332,7 @@
           "description": "Iconography instructions.",
           "colorKey": "AFB366",
           "groupKey": "content",
-          "sortKey": "19"
+          "sortKey": "18"
         },
         {
           "typeId": "it.vedph.codicology.hands",
@@ -358,13 +340,21 @@
           "description": "Hands.",
           "colorKey": "66CC66",
           "groupKey": "content",
-          "sortKey": "20"
+          "sortKey": "19"
         },
         {
           "typeId": "it.vedph.codicology.edits",
           "name": "edits",
           "description": "Supplementary edits on text.",
           "colorKey": "4DB84D",
+          "groupKey": "content",
+          "sortKey": "20"
+        },
+        {
+          "typeId": "it.vedph.ndp.text-passages",
+          "name": "text passages",
+          "description": "List of notable text passages.",
+          "colorKey": "5DF94D",
           "groupKey": "content",
           "sortKey": "21"
         },
@@ -417,22 +407,13 @@
           "sortKey": "02"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "txt",
-          "name": "text categories",
-          "description": "Text categories.",
-          "colorKey": "98F8F8",
-          "groupKey": "identity",
-          "sortKey": "03"
-        },
-        {
           "typeId": "it.vedph.chronotopes",
           "roleId": "prn",
           "name": "chronotopes",
           "description": "Print date/time.",
           "colorKey": "F887C8",
           "groupKey": "history",
-          "sortKey": "04"
+          "sortKey": "03"
         },
         {
           "typeId": "it.vedph.chronotopes",
@@ -441,7 +422,7 @@
           "description": "Publish date/time.",
           "colorKey": "F887C8",
           "groupKey": "history",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.ndp.print-fonts",
@@ -449,7 +430,7 @@
           "description": "Print fonts.",
           "colorKey": "85C1FF",
           "groupKey": "content",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.codicology.layouts",
@@ -458,7 +439,7 @@
           "description": "Print layout.",
           "colorKey": "85C1FF",
           "groupKey": "content",
-          "sortKey": "07"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.codicology.watermarks",
@@ -466,7 +447,7 @@
           "description": "Watermarks.",
           "colorKey": "8FD18F",
           "groupKey": "content",
-          "sortKey": "08"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.ndp.print-fig-plan",
@@ -474,7 +455,7 @@
           "description": "Figurative plan.",
           "colorKey": "FFB366",
           "groupKey": "content",
-          "sortKey": "09"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.note",
@@ -483,7 +464,7 @@
           "description": "The incipit's text'.",
           "colorKey": "B0A0F8",
           "groupKey": "content",
-          "sortKey": "10"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.note",
@@ -491,6 +472,14 @@
           "name": "colophon",
           "description": "The colophon's text'.",
           "colorKey": "B0A0F8",
+          "groupKey": "content",
+          "sortKey": "10"
+        },
+        {
+          "typeId": "it.vedph.ndp.text-passages",
+          "name": "text passages",
+          "description": "List of notable text passages.",
+          "colorKey": "5DF94D",
           "groupKey": "content",
           "sortKey": "11"
         },
@@ -543,22 +532,13 @@
           "sortKey": "03"
         },
         {
-          "typeId": "it.vedph.categories",
-          "roleId": "txt",
-          "name": "text categories",
-          "description": "Text categories.",
-          "colorKey": "98F8F8",
-          "groupKey": "identity",
-          "sortKey": "04"
-        },
-        {
           "typeId": "it.vedph.historical-events",
           "roleId": "pri",
           "name": "events",
           "description": "Historical events.",
           "colorKey": "BE85FF",
           "groupKey": "history",
-          "sortKey": "05"
+          "sortKey": "04"
         },
         {
           "typeId": "it.vedph.note",
@@ -567,7 +547,7 @@
           "description": "Manuscript's history.",
           "colorKey": "A856FF",
           "groupKey": "history",
-          "sortKey": "06"
+          "sortKey": "05"
         },
         {
           "typeId": "it.vedph.codicology.bindings",
@@ -575,7 +555,7 @@
           "description": "Current and historical bindings.",
           "colorKey": "AF6465",
           "groupKey": "material",
-          "sortKey": "04"
+          "sortKey": "06"
         },
         {
           "typeId": "it.vedph.codicology.sheet-labels",
@@ -583,7 +563,7 @@
           "description": "Quires and sheets labels.",
           "colorKey": "DAA520",
           "groupKey": "material",
-          "sortKey": "05"
+          "sortKey": "07"
         },
         {
           "typeId": "it.vedph.physical-measurements",
@@ -592,7 +572,7 @@
           "description": "Physical measurements.",
           "colorKey": "C180EA",
           "groupKey": "material",
-          "sortKey": "06"
+          "sortKey": "08"
         },
         {
           "typeId": "it.vedph.physical-states",
@@ -600,7 +580,7 @@
           "description": "Physical preservation states.",
           "colorKey": "C880E4",
           "groupKey": "material",
-          "sortKey": "07"
+          "sortKey": "09"
         },
         {
           "typeId": "it.vedph.codicology.layouts",
@@ -608,7 +588,7 @@
           "description": "Text layouts.",
           "colorKey": "7DD17D",
           "groupKey": "content",
-          "sortKey": "08"
+          "sortKey": "10"
         },
         {
           "typeId": "it.vedph.ndp.print-fig-plan-impl",
@@ -616,7 +596,7 @@
           "description": "Implementation of figurative plan.",
           "colorKey": "FEB346",
           "groupKey": "content",
-          "sortKey": "09"
+          "sortKey": "11"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -624,7 +604,7 @@
           "description": "Decorations.",
           "colorKey": "F5C2B1",
           "groupKey": "content",
-          "sortKey": "10"
+          "sortKey": "12"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -632,7 +612,15 @@
           "description": "Supplementary edits on text.",
           "colorKey": "E72A8E",
           "groupKey": "history",
-          "sortKey": "11"
+          "sortKey": "13"
+        },
+        {
+          "typeId": "it.vedph.ndp.text-passages",
+          "name": "text passages",
+          "description": "List of notable text passages.",
+          "colorKey": "5DF94D",
+          "groupKey": "content",
+          "sortKey": "14"
         },
         {
           "typeId": "it.vedph.ndp.notable-word-forms",
@@ -640,7 +628,7 @@
           "description": "List of notable word forms.",
           "colorKey": "5DB94D",
           "groupKey": "content",
-          "sortKey": "12"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.note",
@@ -648,7 +636,7 @@
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "13"
+          "sortKey": "16"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -656,7 +644,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "14"
+          "sortKey": "17"
         }
       ]
     },
@@ -1743,371 +1731,6 @@
         {
           "id": "minotaur",
           "value": "Minotauro"
-        }
-      ]
-    },
-    {
-      "id": "categories_txt@en",
-      "entries": [
-        {
-          "id": "msf",
-          "value": "mss.+frr."
-        },
-        {
-          "id": "msf.punct",
-          "value": "mss.+frr.: punteggiatura"
-        },
-        {
-          "id": "msf.punct.single",
-          "value": "mss.+frr.: punteggiatura: punti singoli"
-        },
-        {
-          "id": "msf.punct.double",
-          "value": "mss.+frr.: punteggiatura: punti doppi"
-        },
-        {
-          "id": "msf.punct.comma",
-          "value": "mss.+frr.: punteggiatura: virgole"
-        },
-        {
-          "id": "msf.punct.semicolon",
-          "value": "mss.+frr.: punteggiatura: punti e virgole"
-        },
-        {
-          "id": "msf.punct.diastole",
-          "value": "mss.+frr.: punteggiatura: diastole (/)"
-        },
-        {
-          "id": "msf.punct.question",
-          "value": "mss.+frr.: punteggiatura: punti interrogativi"
-        },
-        {
-          "id": "msf.punct.exclam",
-          "value": "mss.+frr.: punteggiatura: punti esclamativi"
-        },
-        {
-          "id": "msf.punct.section",
-          "value": "mss.+frr.: punteggiatura: segni di sezione (¶)"
-        },
-        {
-          "id": "msf.att",
-          "value": "mss.+frr.: segni di attenzione"
-        },
-        {
-          "id": "msf.att.underline",
-          "value": "mss.+frr.: segni di attenzione: testo sottolineato"
-        },
-        {
-          "id": "msf.att.manicula",
-          "value": "mss.+frr.: segni di attenzione: presenza di maniculae/nota bene"
-        },
-        {
-          "id": "msf.corr",
-          "value": "mss.+frr.: correzioni"
-        },
-        {
-          "id": "msf.corr.expunged",
-          "value": "mss.+frr.: correzioni: testo espunto"
-        },
-        {
-          "id": "msf.corr.strike",
-          "value": "mss.+frr.: correzioni: testo biffato/barrato"
-        },
-        {
-          "id": "msf.corr.deleted",
-          "value": "mss.+frr.: correzioni: testo cancellato"
-        },
-        {
-          "id": "msf.corr.rasura",
-          "value": "mss.+frr.: correzioni: rasura"
-        },
-        {
-          "id": "msf.corr.inserted",
-          "value": "mss.+frr.: correzioni: testo integrato"
-        },
-        {
-          "id": "msf.corr.inserted.verse",
-          "value": "mss.+frr.: correzioni: testo integrato: sul verso"
-        },
-        {
-          "id": "msf.corr.inserted.interlinear",
-          "value": "mss.+frr.: correzioni: testo integrato: in interlinea"
-        },
-        {
-          "id": "msf.corr.inserted.marginal",
-          "value": "mss.+frr.: correzioni: testo integrato: in margine"
-        },
-        {
-          "id": "msf.var",
-          "value": "mss.+frr.: varianti e lezioni alternative"
-        },
-        {
-          "id": "msf.var.word",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in corrispondenza di parola"
-        },
-        {
-          "id": "msf.var.margin",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in margine"
-        },
-        {
-          "id": "msf.var.hint",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
-        },
-        {
-          "id": "msf.var.hint.al",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias / aliter)"
-        },
-        {
-          "id": "msf.var.hint.other",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
-        },
-        {
-          "id": "msf.paratxt",
-          "value": "mss.+frr.: paratesto"
-        },
-        {
-          "id": "msf.paratxt.rubr",
-          "value": "mss.+frr.: paratesto: presenza di rubriche"
-        },
-        {
-          "id": "msf.paratxt.rubr.la",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: in latino"
-        },
-        {
-          "id": "msf.paratxt.rubr.it-vulg",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: in volgare"
-        },
-        {
-          "id": "msf.paratxt.rubr.long",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: lunghe"
-        },
-        {
-          "id": "msf.paratxt.rubr.short",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: brevi"
-        },
-        {
-          "id": "msf.paratxt.comment",
-          "value": "mss.+frr.: paratesto: presenza di commento"
-        },
-        {
-          "id": "msf.paratxt.gloss",
-          "value": "mss.+frr.: paratesto: presenza di glosse"
-        },
-        {
-          "id": "msf.paratxt.note",
-          "value": "mss.+frr.: paratesto: presenza di note sporadiche"
-        },
-        {
-          "id": "msf.other",
-          "value": "mss.+frr.: altri segni con valenza testuale"
-        },
-        {
-          "id": "msf.other.caption",
-          "value": "mss.+frr.: altri segni con valenza testuale: didascalie"
-        },
-        {
-          "id": "msf.other.istruction",
-          "value": "mss.+frr.: altri segni con valenza testuale: istruzioni al miniatore"
-        },
-        {
-          "id": "msf.other.link",
-          "value": "mss.+frr.: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
-        },
-        {
-          "id": "prn",
-          "value": "edizioni a stampa"
-        },
-        {
-          "id": "prn.ed",
-          "value": "edizioni a stampa: tipo di edizione"
-        },
-        {
-          "id": "prn.ed.text",
-          "value": "edizioni a stampa: tipo di edizione: solo testo"
-        },
-        {
-          "id": "prn.ed.comment",
-          "value": "edizioni a stampa: tipo di edizione: edizione con commento"
-        },
-        {
-          "id": "prn.ed.illustrated",
-          "value": "edizioni a stampa: tipo di edizione: edizione illustrata"
-        },
-        {
-          "id": "prn.ed.annotated",
-          "value": "edizioni a stampa: tipo di edizione: edizione postillata"
-        },
-        {
-          "id": "prn.paratxt",
-          "value": "edizioni a stampa: paratesto"
-        },
-        {
-          "id": "prn.paratxt.rubric",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche"
-        },
-        {
-          "id": "prn.paratxt.rubric.la",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: in latino"
-        },
-        {
-          "id": "prn.paratxt.rubric.it-vulg",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: in volgare"
-        },
-        {
-          "id": "prn.paratxt.rubric.long",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: lunghe"
-        },
-        {
-          "id": "prn.paratxt.rubric.short",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: brevi"
-        },
-        {
-          "id": "prn.paratxt.comment",
-          "value": "edizioni a stampa: paratesto: presenza di commento"
-        },
-        {
-          "id": "prn.paratxt.gloss",
-          "value": "edizioni a stampa: paratesto: presenza di glosse"
-        },
-        {
-          "id": "prn.paratxt.note",
-          "value": "edizioni a stampa: paratesto: presenza di note di carattere generale"
-        },
-        {
-          "id": "prn.punct",
-          "value": "edizioni a stampa: punteggiatura"
-        },
-        {
-          "id": "prn.punct.single",
-          "value": "edizioni a stampa: punteggiatura: punti singoli"
-        },
-        {
-          "id": "prn.punct.double",
-          "value": "edizioni a stampa: punteggiatura: punti doppi"
-        },
-        {
-          "id": "prn.punct.comma",
-          "value": "edizioni a stampa: punteggiatura: virgole"
-        },
-        {
-          "id": "prn.punct.semicolon",
-          "value": "edizioni a stampa: punteggiatura: punti e virgole"
-        },
-        {
-          "id": "prn.punct.diastole",
-          "value": "edizioni a stampa: punteggiatura: diastole (/)"
-        },
-        {
-          "id": "prn.punct.question",
-          "value": "edizioni a stampa: punteggiatura: punti interrogativi"
-        },
-        {
-          "id": "prn.punct.exclam",
-          "value": "edizioni a stampa: punteggiatura: punti esclamativi"
-        },
-        {
-          "id": "prn.punct.section",
-          "value": "edizioni a stampa: punteggiatura: segni di sezione (¶)"
-        },
-        {
-          "id": "prn.annotator",
-          "value": "edizioni a stampa: postillatore"
-        },
-        {
-          "id": "prn.annotator.contemporary",
-          "value": "edizioni a stampa: postillatore: mano coeva"
-        },
-        {
-          "id": "prn.annotator.later",
-          "value": "edizioni a stampa: postillatore: mano successiva"
-        },
-        {
-          "id": "prn.att",
-          "value": "edizioni a stampa: segni di attenzione"
-        },
-        {
-          "id": "prn.att.underline",
-          "value": "edizioni a stampa: segni di attenzione: testo sottolineato"
-        },
-        {
-          "id": "prn.att.manicula",
-          "value": "edizioni a stampa: segni di attenzione: presenza di maniculae/nota bene"
-        },
-        {
-          "id": "prn.corr",
-          "value": "edizioni a stampa: correzioni del postillatore"
-        },
-        {
-          "id": "prn.corr.expunged",
-          "value": "edizioni a stampa: correzioni del postillatore: testo espunto"
-        },
-        {
-          "id": "prn.corr.strike",
-          "value": "edizioni a stampa: correzioni del postillatore: testo biffato/barrato"
-        },
-        {
-          "id": "prn.corr.deleted",
-          "value": "edizioni a stampa: correzioni del postillatore: testo cancellato"
-        },
-        {
-          "id": "prn.corr.rasura",
-          "value": "edizioni a stampa: correzioni del postillatore: rasura"
-        },
-        {
-          "id": "prn.corr.inserted",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato"
-        },
-        {
-          "id": "prn.corr.inserted.verse",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: sul verso"
-        },
-        {
-          "id": "prn.corr.inserted.interlinear",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in interlinea"
-        },
-        {
-          "id": "prn.corr.inserted.marginal",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in margine"
-        },
-        {
-          "id": "prn.var",
-          "value": "edizioni a stampa: varianti e lezioni alternative"
-        },
-        {
-          "id": "prn.var.word",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in corrispondenza del parola"
-        },
-        {
-          "id": "prn.var.margin",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in margine"
-        },
-        {
-          "id": "prn.var.hint",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
-        },
-        {
-          "id": "prn.var.hint.al",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias/aliter)"
-        },
-        {
-          "id": "prn.var.hint.other",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
-        },
-        {
-          "id": "prn.other",
-          "value": "edizioni a stampa: altri segni con valenza testuale"
-        },
-        {
-          "id": "prn.other.caption",
-          "value": "edizioni a stampa: altri segni con valenza testuale: didascalie"
-        },
-        {
-          "id": "prn.other.instruction",
-          "value": "edizioni a stampa: altri segni con valenza testuale: istruzioni al miniatore"
-        },
-        {
-          "id": "prn.other.link",
-          "value": "edizioni a stampa: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
         }
       ]
     },
@@ -6621,7 +6244,372 @@
     },
     {
       "id": "text-passage-features@en",
-      "targetId": "categories_txt"
+      "entries": [
+        {
+          "id": "msf",
+          "value": "mss.+frr."
+        },
+        {
+          "id": "msf.punct",
+          "value": "mss.+frr.: punteggiatura"
+        },
+        {
+          "id": "msf.punct.single",
+          "value": "mss.+frr.: punteggiatura: punti singoli"
+        },
+        {
+          "id": "msf.punct.double",
+          "value": "mss.+frr.: punteggiatura: punti doppi"
+        },
+        {
+          "id": "msf.punct.comma",
+          "value": "mss.+frr.: punteggiatura: virgole"
+        },
+        {
+          "id": "msf.punct.semicolon",
+          "value": "mss.+frr.: punteggiatura: punti e virgole"
+        },
+        {
+          "id": "msf.punct.diastole",
+          "value": "mss.+frr.: punteggiatura: diastole (/)"
+        },
+        {
+          "id": "msf.punct.question",
+          "value": "mss.+frr.: punteggiatura: punti interrogativi"
+        },
+        {
+          "id": "msf.punct.exclam",
+          "value": "mss.+frr.: punteggiatura: punti esclamativi"
+        },
+        {
+          "id": "msf.punct.section",
+          "value": "mss.+frr.: punteggiatura: segni di sezione (¶)"
+        },
+        {
+          "id": "msf.att",
+          "value": "mss.+frr.: segni di attenzione"
+        },
+        {
+          "id": "msf.att.underline",
+          "value": "mss.+frr.: segni di attenzione: testo sottolineato"
+        },
+        {
+          "id": "msf.att.manicula",
+          "value": "mss.+frr.: segni di attenzione: presenza di maniculae/nota bene"
+        },
+        {
+          "id": "msf.corr",
+          "value": "mss.+frr.: correzioni"
+        },
+        {
+          "id": "msf.corr.expunged",
+          "value": "mss.+frr.: correzioni: testo espunto"
+        },
+        {
+          "id": "msf.corr.strike",
+          "value": "mss.+frr.: correzioni: testo biffato/barrato"
+        },
+        {
+          "id": "msf.corr.deleted",
+          "value": "mss.+frr.: correzioni: testo cancellato"
+        },
+        {
+          "id": "msf.corr.rasura",
+          "value": "mss.+frr.: correzioni: rasura"
+        },
+        {
+          "id": "msf.corr.replaced",
+          "value": "mss.+frr.: correzioni: testo sostituito"
+        },
+        {
+          "id": "msf.corr.inserted",
+          "value": "mss.+frr.: correzioni: testo integrato"
+        },
+        {
+          "id": "msf.corr.inserted.verse",
+          "value": "mss.+frr.: correzioni: testo integrato: sul verso"
+        },
+        {
+          "id": "msf.corr.inserted.interlinear",
+          "value": "mss.+frr.: correzioni: testo integrato: in interlinea"
+        },
+        {
+          "id": "msf.corr.inserted.marginal",
+          "value": "mss.+frr.: correzioni: testo integrato: in margine"
+        },
+        {
+          "id": "msf.var",
+          "value": "mss.+frr.: varianti e lezioni alternative"
+        },
+        {
+          "id": "msf.var.word",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in corrispondenza di parola"
+        },
+        {
+          "id": "msf.var.margin",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in margine"
+        },
+        {
+          "id": "msf.var.hint",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+        },
+        {
+          "id": "msf.var.hint.al",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias / aliter)"
+        },
+        {
+          "id": "msf.var.hint.other",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+        },
+        {
+          "id": "msf.paratxt",
+          "value": "mss.+frr.: paratesto"
+        },
+        {
+          "id": "msf.paratxt.rubr",
+          "value": "mss.+frr.: paratesto: presenza di rubriche"
+        },
+        {
+          "id": "msf.paratxt.rubr.la",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: in latino"
+        },
+        {
+          "id": "msf.paratxt.rubr.it-vulg",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: in volgare"
+        },
+        {
+          "id": "msf.paratxt.rubr.long",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: lunghe"
+        },
+        {
+          "id": "msf.paratxt.rubr.short",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: brevi"
+        },
+        {
+          "id": "msf.paratxt.comment",
+          "value": "mss.+frr.: paratesto: presenza di commento"
+        },
+        {
+          "id": "msf.paratxt.gloss",
+          "value": "mss.+frr.: paratesto: presenza di glosse"
+        },
+        {
+          "id": "msf.paratxt.note",
+          "value": "mss.+frr.: paratesto: presenza di note sporadiche"
+        },
+        {
+          "id": "msf.other",
+          "value": "mss.+frr.: altri segni con valenza testuale"
+        },
+        {
+          "id": "msf.other.caption",
+          "value": "mss.+frr.: altri segni con valenza testuale: didascalie"
+        },
+        {
+          "id": "msf.other.istruction",
+          "value": "mss.+frr.: altri segni con valenza testuale: istruzioni al miniatore"
+        },
+        {
+          "id": "msf.other.link",
+          "value": "mss.+frr.: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+        },
+        {
+          "id": "prn",
+          "value": "edizioni a stampa"
+        },
+        {
+          "id": "prn.ed",
+          "value": "edizioni a stampa: tipo di edizione"
+        },
+        {
+          "id": "prn.ed.text",
+          "value": "edizioni a stampa: tipo di edizione: solo testo"
+        },
+        {
+          "id": "prn.ed.comment",
+          "value": "edizioni a stampa: tipo di edizione: edizione con commento"
+        },
+        {
+          "id": "prn.ed.illustrated",
+          "value": "edizioni a stampa: tipo di edizione: edizione illustrata"
+        },
+        {
+          "id": "prn.ed.annotated",
+          "value": "edizioni a stampa: tipo di edizione: edizione postillata"
+        },
+        {
+          "id": "prn.paratxt",
+          "value": "edizioni a stampa: paratesto"
+        },
+        {
+          "id": "prn.paratxt.rubric",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche"
+        },
+        {
+          "id": "prn.paratxt.rubric.la",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: in latino"
+        },
+        {
+          "id": "prn.paratxt.rubric.it-vulg",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: in volgare"
+        },
+        {
+          "id": "prn.paratxt.rubric.long",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: lunghe"
+        },
+        {
+          "id": "prn.paratxt.rubric.short",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: brevi"
+        },
+        {
+          "id": "prn.paratxt.comment",
+          "value": "edizioni a stampa: paratesto: presenza di commento"
+        },
+        {
+          "id": "prn.paratxt.gloss",
+          "value": "edizioni a stampa: paratesto: presenza di glosse"
+        },
+        {
+          "id": "prn.paratxt.note",
+          "value": "edizioni a stampa: paratesto: presenza di note di carattere generale"
+        },
+        {
+          "id": "prn.punct",
+          "value": "edizioni a stampa: punteggiatura"
+        },
+        {
+          "id": "prn.punct.single",
+          "value": "edizioni a stampa: punteggiatura: punti singoli"
+        },
+        {
+          "id": "prn.punct.double",
+          "value": "edizioni a stampa: punteggiatura: punti doppi"
+        },
+        {
+          "id": "prn.punct.comma",
+          "value": "edizioni a stampa: punteggiatura: virgole"
+        },
+        {
+          "id": "prn.punct.semicolon",
+          "value": "edizioni a stampa: punteggiatura: punti e virgole"
+        },
+        {
+          "id": "prn.punct.diastole",
+          "value": "edizioni a stampa: punteggiatura: diastole (/)"
+        },
+        {
+          "id": "prn.punct.question",
+          "value": "edizioni a stampa: punteggiatura: punti interrogativi"
+        },
+        {
+          "id": "prn.punct.exclam",
+          "value": "edizioni a stampa: punteggiatura: punti esclamativi"
+        },
+        {
+          "id": "prn.punct.section",
+          "value": "edizioni a stampa: punteggiatura: segni di sezione (¶)"
+        },
+        {
+          "id": "prn.annotator",
+          "value": "edizioni a stampa: postillatore"
+        },
+        {
+          "id": "prn.annotator.contemporary",
+          "value": "edizioni a stampa: postillatore: mano coeva"
+        },
+        {
+          "id": "prn.annotator.later",
+          "value": "edizioni a stampa: postillatore: mano successiva"
+        },
+        {
+          "id": "prn.att",
+          "value": "edizioni a stampa: segni di attenzione"
+        },
+        {
+          "id": "prn.att.underline",
+          "value": "edizioni a stampa: segni di attenzione: testo sottolineato"
+        },
+        {
+          "id": "prn.att.manicula",
+          "value": "edizioni a stampa: segni di attenzione: presenza di maniculae/nota bene"
+        },
+        {
+          "id": "prn.corr",
+          "value": "edizioni a stampa: correzioni del postillatore"
+        },
+        {
+          "id": "prn.corr.expunged",
+          "value": "edizioni a stampa: correzioni del postillatore: testo espunto"
+        },
+        {
+          "id": "prn.corr.strike",
+          "value": "edizioni a stampa: correzioni del postillatore: testo biffato/barrato"
+        },
+        {
+          "id": "prn.corr.deleted",
+          "value": "edizioni a stampa: correzioni del postillatore: testo cancellato"
+        },
+        {
+          "id": "prn.corr.rasura",
+          "value": "edizioni a stampa: correzioni del postillatore: rasura"
+        },
+        {
+          "id": "prn.corr.inserted",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato"
+        },
+        {
+          "id": "prn.corr.inserted.verse",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: sul verso"
+        },
+        {
+          "id": "prn.corr.inserted.interlinear",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in interlinea"
+        },
+        {
+          "id": "prn.corr.inserted.marginal",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in margine"
+        },
+        {
+          "id": "prn.var",
+          "value": "edizioni a stampa: varianti e lezioni alternative"
+        },
+        {
+          "id": "prn.var.word",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in corrispondenza del parola"
+        },
+        {
+          "id": "prn.var.margin",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in margine"
+        },
+        {
+          "id": "prn.var.hint",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+        },
+        {
+          "id": "prn.var.hint.al",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias/aliter)"
+        },
+        {
+          "id": "prn.var.hint.other",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+        },
+        {
+          "id": "prn.other",
+          "value": "edizioni a stampa: altri segni con valenza testuale"
+        },
+        {
+          "id": "prn.other.caption",
+          "value": "edizioni a stampa: altri segni con valenza testuale: didascalie"
+        },
+        {
+          "id": "prn.other.instruction",
+          "value": "edizioni a stampa: altri segni con valenza testuale: istruzioni al miniatore"
+        },
+        {
+          "id": "prn.other.link",
+          "value": "edizioni a stampa: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+        }
+      ]
     }
   ],
   "seed": {
