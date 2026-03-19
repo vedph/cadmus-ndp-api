@@ -1,5 +1,8 @@
 ﻿# Change Log
 
+## 2.0.9
+
+- 2026-03-19: updated packages.
 - 2026-03-05:
   - replaced `categories:txt` part with `text-passage-features` part, which is more specific and includes also the location of each listed phenomenon. This affected facets `manuscript`, `fragment`, `print-edition` and `print-instance`.
   - moved entries from `categories_txt` thesaurus (then removed) to `text-passage-features thesaurus`.
