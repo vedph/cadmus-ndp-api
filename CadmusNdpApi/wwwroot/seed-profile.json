@@ -584,6 +584,7 @@
         },
         {
           "typeId": "it.vedph.codicology.layouts",
+          "roleId": "prn",
           "name": "layouts",
           "description": "Text layouts.",
           "colorKey": "7DD17D",

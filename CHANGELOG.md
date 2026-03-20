@@ -1,5 +1,7 @@
 ﻿# Change Log
 
+- 2026-03-20: added missing role ID to print instance facet.
+
 ## 2.0.9
 
 - 2026-03-19: updated packages.
