@@ -6913,7 +6913,6 @@
         "it.vedph.doc-references": {
           "thesauriIds": [ "doc-reference-types", "doc-reference-tags" ]
         },
-        "it.vedph.ext-bibliography": {},
         "it.vedph.external-ids": {
           "thesauriIds": [
             "external-id-tags",
@@ -6988,9 +6987,6 @@
             "pin-link-docref-types",
             "pin-link-docref-tags"
           ]
-        },
-        "it.vedph.tiled-text-layer": {
-          "baseText": true
         },
         "it.vedph.token-text-layer": {
           "baseText": true
