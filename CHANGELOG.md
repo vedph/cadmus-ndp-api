@@ -1,5 +1,6 @@
 ﻿# Change Log
 
+- 2026-03-22: updated packages (new endpoints for facet editor).
 - 2026-03-20: added missing role ID to print instance facet.
 
 ## 2.0.9
