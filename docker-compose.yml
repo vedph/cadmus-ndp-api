@@ -25,30 +25,10 @@ services:
     networks:
       - cadmus-ndp-network
 
-  # Biblio API
-  # cadmus-biblio-api:
-  #   image: vedph2020/cadmus-biblio-api:8.0.3
-  #   container_name: cadmus-biblio-api
-  #   ports:
-  #     - 60058:8080
-  #   depends_on:
-  #     - cadmus-ndp-mongo
-  #     - cadmus-ndp-pgsql
-  #   environment:
-  #     - ASPNETCORE_URLS=http://+:8080
-  #     - CONNECTIONSTRINGS__DEFAULT=mongodb://cadmus-ndp-mongo:27017/{0}
-  #     - CONNECTIONSTRINGS__AUTH=Server=cadmus-ndp-pgsql;port=5432;Database={0};User Id=postgres;Password=postgres;Include Error Detail=True
-  #     - CONNECTIONSTRINGS__BIBLIO=Server=cadmus-ndp-pgsql;port=5432;Database={0};User Id=postgres;Password=postgres;Include Error Detail=True
-  #     - SEED__BIBLIODELAY=50
-  #     - SERILOG__CONNECTIONSTRING=mongodb://cadmus-ndp-mongo:27017/{0}-log
-  #     - STOCKUSERS__0__PASSWORD=P4ss-W0rd!
-  #   networks:
-  #     - cadmus-ndp-network
-
   # Mongo Express, optional web-based MongoDB admin interface
   mongo-express:
     image: mongo-express
-    container_name: mongo-express
+    container_name: ndp-mongo-express
     restart: unless-stopped
     ports:
       - 8082:8081
@@ -63,7 +43,7 @@ services:
 
   # Cadmus ndp API
   cadmus-ndp-api:
-    image: vedph2020/cadmus-ndp-api:2.0.9
+    image: vedph2020/cadmus-ndp-api:2.0.10
     container_name: cadmus-ndp-api
     ports:
       - 5172:8080

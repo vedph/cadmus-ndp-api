@@ -1,5 +1,7 @@
 ﻿# Change Log
 
+## 2.0.10
+
 - 2026-03-22:
   - updated packages (new endpoints for facet editor).
   - added `models` to profile `settings` for facet editor.
