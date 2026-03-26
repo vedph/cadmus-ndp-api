@@ -1,5 +1,7 @@
 ﻿# Change Log
 
+- 2026-03-26: updated model-types thesaurus.
+
 ## 2.0.10
 
 - 2026-03-22:
