@@ -7255,7 +7255,7 @@
           ]
         },
         "it.vedph.categories": {
-          "thesauriIds": ["categories"]
+          "thesauriIds": [ "categories" ]
         },
         "it.vedph.chronotopes": {
           "thesauriIds": [
@@ -7279,7 +7279,7 @@
           ]
         },
         "it.vedph.decorated-counts": {
-          "thesauriIds": ["decorated-count-ids", "decorated-count-tags"]
+          "thesauriIds": [ "decorated-count-ids", "decorated-count-tags" ]
         },
         "it.vedph.district-location": {
           "thesauriIds": [
@@ -7288,7 +7288,7 @@
           ]
         },
         "it.vedph.doc-references": {
-          "thesauriIds": ["doc-reference-types", "doc-reference-tags"]
+          "thesauriIds": [ "doc-reference-types", "doc-reference-tags" ]
         },
         "it.vedph.external-ids": {
           "thesauriIds": [
@@ -7300,10 +7300,10 @@
           ]
         },
         "it.vedph.flags": {
-          "thesauriIds": ["flags"]
+          "thesauriIds": [ "flags" ]
         },
         "it.vedph.historical-date": {
-          "thesauriIds": ["doc-reference-types", "doc-reference-tags"]
+          "thesauriIds": [ "doc-reference-types", "doc-reference-tags" ]
         },
         "it.vedph.historical-events": {
           "thesauriIds": [
@@ -7320,13 +7320,13 @@
           ]
         },
         "it.vedph.index-keywords": {
-          "thesauriIds": ["languages", "keyword-indexes", "keyword-tags"]
+          "thesauriIds": [ "languages", "keyword-indexes", "keyword-tags" ]
         },
         "it.vedph.keywords": {
-          "thesauriIds": ["languages"]
+          "thesauriIds": [ "languages" ]
         },
         "it.vedph.metadata": {
-          "thesauriIds": ["metadata-names", "metadata-types"]
+          "thesauriIds": [ "metadata-names", "metadata-types" ]
         },
         "it.vedph.names": {
           "thesauriIds": [
@@ -7339,7 +7339,7 @@
           ]
         },
         "it.vedph.note": {
-          "thesauriIds": ["note-tags"]
+          "thesauriIds": [ "note-tags" ]
         },
         "it.vedph.physical-measurements": {
           "thesauriIds": [
@@ -7522,7 +7522,7 @@
           ]
         },
         "it.vedph.ndp.text-passages": {
-          "thesauriIds": ["text-passage-tags", "text-passage-features"]
+          "thesauriIds": [ "text-passage-tags", "text-passage-features" ]
         },
         "it.vedph.ndp.notable-word-forms": {
           "thesauriIds": [
@@ -7641,6 +7641,9 @@
     },
     "it.vedph.codicology.shelfmarks": {
       "cityFromLibPattern": "\\((.+)\\)$"
+    },
+    "it.vedph.metadata": {
+      "noType": true
     },
     "it.vedph.pin-links": {
       "lookupProviderOptions": {
