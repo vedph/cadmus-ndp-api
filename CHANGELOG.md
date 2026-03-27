@@ -1,6 +1,7 @@
 ﻿# Change Log
 
 - 2026-03-27: removed legacy notable word forms from profile (now we use notable text passages).
+- 2026-03-26: updated model-types thesaurus.
 
 ## 2.0.10
 

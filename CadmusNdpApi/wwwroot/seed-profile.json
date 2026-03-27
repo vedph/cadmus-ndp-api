@@ -1708,6 +1708,375 @@
       ]
     },
     {
+      "id": "categories_txt@en",
+      "entries": [
+        {
+          "id": "msf",
+          "value": "mss.+frr."
+        },
+        {
+          "id": "msf.punct",
+          "value": "mss.+frr.: punteggiatura"
+        },
+        {
+          "id": "msf.punct.single",
+          "value": "mss.+frr.: punteggiatura: punti singoli"
+        },
+        {
+          "id": "msf.punct.double",
+          "value": "mss.+frr.: punteggiatura: punti doppi"
+        },
+        {
+          "id": "msf.punct.comma",
+          "value": "mss.+frr.: punteggiatura: virgole"
+        },
+        {
+          "id": "msf.punct.semicolon",
+          "value": "mss.+frr.: punteggiatura: punti e virgole"
+        },
+        {
+          "id": "msf.punct.diastole",
+          "value": "mss.+frr.: punteggiatura: diastole (/)"
+        },
+        {
+          "id": "msf.punct.question",
+          "value": "mss.+frr.: punteggiatura: punti interrogativi"
+        },
+        {
+          "id": "msf.punct.exclam",
+          "value": "mss.+frr.: punteggiatura: punti esclamativi"
+        },
+        {
+          "id": "msf.punct.section",
+          "value": "mss.+frr.: punteggiatura: segni di sezione (¶)"
+        },
+        {
+          "id": "msf.att",
+          "value": "mss.+frr.: segni di attenzione"
+        },
+        {
+          "id": "msf.att.underline",
+          "value": "mss.+frr.: segni di attenzione: testo sottolineato"
+        },
+        {
+          "id": "msf.att.manicula",
+          "value": "mss.+frr.: segni di attenzione: presenza di maniculae/nota bene"
+        },
+        {
+          "id": "msf.corr",
+          "value": "mss.+frr.: correzioni"
+        },
+        {
+          "id": "msf.corr.expunged",
+          "value": "mss.+frr.: correzioni: testo espunto"
+        },
+        {
+          "id": "msf.corr.strike",
+          "value": "mss.+frr.: correzioni: testo biffato/barrato"
+        },
+        {
+          "id": "msf.corr.deleted",
+          "value": "mss.+frr.: correzioni: testo cancellato"
+        },
+        {
+          "id": "msf.corr.rasura",
+          "value": "mss.+frr.: correzioni: rasura"
+        },
+        {
+          "id": "msf.corr.replaced",
+          "value": "mss.+frr.: correzioni: testo sostituito"
+        },
+        {
+          "id": "msf.corr.inserted",
+          "value": "mss.+frr.: correzioni: testo integrato"
+        },
+        {
+          "id": "msf.corr.inserted.verse",
+          "value": "mss.+frr.: correzioni: testo integrato: sul verso"
+        },
+        {
+          "id": "msf.corr.inserted.interlinear",
+          "value": "mss.+frr.: correzioni: testo integrato: in interlinea"
+        },
+        {
+          "id": "msf.corr.inserted.marginal",
+          "value": "mss.+frr.: correzioni: testo integrato: in margine"
+        },
+        {
+          "id": "msf.var",
+          "value": "mss.+frr.: varianti e lezioni alternative"
+        },
+        {
+          "id": "msf.var.word",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in corrispondenza di parola"
+        },
+        {
+          "id": "msf.var.margin",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in margine"
+        },
+        {
+          "id": "msf.var.hint",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+        },
+        {
+          "id": "msf.var.hint.al",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias / aliter)"
+        },
+        {
+          "id": "msf.var.hint.other",
+          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+        },
+        {
+          "id": "msf.paratxt",
+          "value": "mss.+frr.: paratesto"
+        },
+        {
+          "id": "msf.paratxt.rubr",
+          "value": "mss.+frr.: paratesto: presenza di rubriche"
+        },
+        {
+          "id": "msf.paratxt.rubr.la",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: in latino"
+        },
+        {
+          "id": "msf.paratxt.rubr.it-vulg",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: in volgare"
+        },
+        {
+          "id": "msf.paratxt.rubr.long",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: lunghe"
+        },
+        {
+          "id": "msf.paratxt.rubr.short",
+          "value": "mss.+frr.: paratesto: presenza di rubriche: brevi"
+        },
+        {
+          "id": "msf.paratxt.comment",
+          "value": "mss.+frr.: paratesto: presenza di commento"
+        },
+        {
+          "id": "msf.paratxt.gloss",
+          "value": "mss.+frr.: paratesto: presenza di glosse"
+        },
+        {
+          "id": "msf.paratxt.note",
+          "value": "mss.+frr.: paratesto: presenza di note sporadiche"
+        },
+        {
+          "id": "msf.other",
+          "value": "mss.+frr.: altri segni con valenza testuale"
+        },
+        {
+          "id": "msf.other.caption",
+          "value": "mss.+frr.: altri segni con valenza testuale: didascalie"
+        },
+        {
+          "id": "msf.other.istruction",
+          "value": "mss.+frr.: altri segni con valenza testuale: istruzioni al miniatore"
+        },
+        {
+          "id": "msf.other.link",
+          "value": "mss.+frr.: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+        },
+        {
+          "id": "prn",
+          "value": "edizioni a stampa"
+        },
+        {
+          "id": "prn.ed",
+          "value": "edizioni a stampa: tipo di edizione"
+        },
+        {
+          "id": "prn.ed.text",
+          "value": "edizioni a stampa: tipo di edizione: solo testo"
+        },
+        {
+          "id": "prn.ed.comment",
+          "value": "edizioni a stampa: tipo di edizione: edizione con commento"
+        },
+        {
+          "id": "prn.ed.illustrated",
+          "value": "edizioni a stampa: tipo di edizione: edizione illustrata"
+        },
+        {
+          "id": "prn.ed.annotated",
+          "value": "edizioni a stampa: tipo di edizione: edizione postillata"
+        },
+        {
+          "id": "prn.paratxt",
+          "value": "edizioni a stampa: paratesto"
+        },
+        {
+          "id": "prn.paratxt.rubric",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche"
+        },
+        {
+          "id": "prn.paratxt.rubric.la",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: in latino"
+        },
+        {
+          "id": "prn.paratxt.rubric.it-vulg",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: in volgare"
+        },
+        {
+          "id": "prn.paratxt.rubric.long",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: lunghe"
+        },
+        {
+          "id": "prn.paratxt.rubric.short",
+          "value": "edizioni a stampa: paratesto: presenza di rubriche: brevi"
+        },
+        {
+          "id": "prn.paratxt.comment",
+          "value": "edizioni a stampa: paratesto: presenza di commento"
+        },
+        {
+          "id": "prn.paratxt.gloss",
+          "value": "edizioni a stampa: paratesto: presenza di glosse"
+        },
+        {
+          "id": "prn.paratxt.note",
+          "value": "edizioni a stampa: paratesto: presenza di note di carattere generale"
+        },
+        {
+          "id": "prn.punct",
+          "value": "edizioni a stampa: punteggiatura"
+        },
+        {
+          "id": "prn.punct.single",
+          "value": "edizioni a stampa: punteggiatura: punti singoli"
+        },
+        {
+          "id": "prn.punct.double",
+          "value": "edizioni a stampa: punteggiatura: punti doppi"
+        },
+        {
+          "id": "prn.punct.comma",
+          "value": "edizioni a stampa: punteggiatura: virgole"
+        },
+        {
+          "id": "prn.punct.semicolon",
+          "value": "edizioni a stampa: punteggiatura: punti e virgole"
+        },
+        {
+          "id": "prn.punct.diastole",
+          "value": "edizioni a stampa: punteggiatura: diastole (/)"
+        },
+        {
+          "id": "prn.punct.question",
+          "value": "edizioni a stampa: punteggiatura: punti interrogativi"
+        },
+        {
+          "id": "prn.punct.exclam",
+          "value": "edizioni a stampa: punteggiatura: punti esclamativi"
+        },
+        {
+          "id": "prn.punct.section",
+          "value": "edizioni a stampa: punteggiatura: segni di sezione (¶)"
+        },
+        {
+          "id": "prn.annotator",
+          "value": "edizioni a stampa: postillatore"
+        },
+        {
+          "id": "prn.annotator.contemporary",
+          "value": "edizioni a stampa: postillatore: mano coeva"
+        },
+        {
+          "id": "prn.annotator.later",
+          "value": "edizioni a stampa: postillatore: mano successiva"
+        },
+        {
+          "id": "prn.att",
+          "value": "edizioni a stampa: segni di attenzione"
+        },
+        {
+          "id": "prn.att.underline",
+          "value": "edizioni a stampa: segni di attenzione: testo sottolineato"
+        },
+        {
+          "id": "prn.att.manicula",
+          "value": "edizioni a stampa: segni di attenzione: presenza di maniculae/nota bene"
+        },
+        {
+          "id": "prn.corr",
+          "value": "edizioni a stampa: correzioni del postillatore"
+        },
+        {
+          "id": "prn.corr.expunged",
+          "value": "edizioni a stampa: correzioni del postillatore: testo espunto"
+        },
+        {
+          "id": "prn.corr.strike",
+          "value": "edizioni a stampa: correzioni del postillatore: testo biffato/barrato"
+        },
+        {
+          "id": "prn.corr.deleted",
+          "value": "edizioni a stampa: correzioni del postillatore: testo cancellato"
+        },
+        {
+          "id": "prn.corr.rasura",
+          "value": "edizioni a stampa: correzioni del postillatore: rasura"
+        },
+        {
+          "id": "prn.corr.inserted",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato"
+        },
+        {
+          "id": "prn.corr.inserted.verse",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: sul verso"
+        },
+        {
+          "id": "prn.corr.inserted.interlinear",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in interlinea"
+        },
+        {
+          "id": "prn.corr.inserted.marginal",
+          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in margine"
+        },
+        {
+          "id": "prn.var",
+          "value": "edizioni a stampa: varianti e lezioni alternative"
+        },
+        {
+          "id": "prn.var.word",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in corrispondenza del parola"
+        },
+        {
+          "id": "prn.var.margin",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in margine"
+        },
+        {
+          "id": "prn.var.hint",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+        },
+        {
+          "id": "prn.var.hint.al",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias/aliter)"
+        },
+        {
+          "id": "prn.var.hint.other",
+          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+        },
+        {
+          "id": "prn.other",
+          "value": "edizioni a stampa: altri segni con valenza testuale"
+        },
+        {
+          "id": "prn.other.caption",
+          "value": "edizioni a stampa: altri segni con valenza testuale: didascalie"
+        },
+        {
+          "id": "prn.other.instruction",
+          "value": "edizioni a stampa: altri segni con valenza testuale: istruzioni al miniatore"
+        },
+        {
+          "id": "prn.other.link",
+          "value": "edizioni a stampa: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+        }
+      ]
+    },
+    {
       "id": "cod-binding-board-materials@en",
       "entries": [
         {
@@ -6215,368 +6584,412 @@
       "id": "text-passage-features@en",
       "entries": [
         {
-          "id": "msf",
-          "value": "mss.+frr."
+          "id": "gr",
+          "value": "grafia"
         },
         {
-          "id": "msf.punct",
-          "value": "mss.+frr.: punteggiatura"
+          "id": "gr.c-ced-for-z",
+          "value": "grafia: ç per [z] (viço=viso, uço=uso)"
         },
         {
-          "id": "msf.punct.single",
-          "value": "mss.+frr.: punteggiatura: punti singoli"
+          "id": "gr.cc-for-dz",
+          "value": "grafia: cc per [dz] o [ts] scempio o doppio (sencia=senza, puccio=puzzo)"
         },
         {
-          "id": "msf.punct.double",
-          "value": "mss.+frr.: punteggiatura: punti doppi"
+          "id": "gr.cz-for-ts",
+          "value": "grafia: cz per [ts] (es. altecza, sperancza)"
         },
         {
-          "id": "msf.punct.comma",
-          "value": "mss.+frr.: punteggiatura: virgole"
+          "id": "gr.gg-for-dz",
+          "value": "grafia: gg per [dz] o [ts] scempio o doppio (meggio=mezzo)"
         },
         {
-          "id": "msf.punct.semicolon",
-          "value": "mss.+frr.: punteggiatura: punti e virgole"
+          "id": "gr.li-for-turned-y",
+          "value": "grafia: -(l)li- per -ʎ- (vo(l)lia=voglia, mellio=meglio)"
         },
         {
-          "id": "msf.punct.diastole",
-          "value": "mss.+frr.: punteggiatura: diastole (/)"
+          "id": "gr.m-for-n",
+          "value": "grafia: m finale per [n] in forme tronche (gram=gran, stam=stan)"
         },
         {
-          "id": "msf.punct.question",
-          "value": "mss.+frr.: punteggiatura: punti interrogativi"
+          "id": "gr.x-for-z",
+          "value": "grafia: x per [z] (prexi=presi, paxe=pace)"
         },
         {
-          "id": "msf.punct.exclam",
-          "value": "mss.+frr.: punteggiatura: punti esclamativi"
+          "id": "gr.x-for-ezh",
+          "value": "grafia: x per [ʒ] (staxone=stagione)"
         },
         {
-          "id": "msf.punct.section",
-          "value": "mss.+frr.: punteggiatura: segni di sezione (¶)"
+          "id": "gr.ih-for-ts",
+          "value": "grafia: ih, zh/çh per affricata prepalatale sorda < (-)CL- (ihave o çhave=chiave)"
         },
         {
-          "id": "msf.att",
-          "value": "mss.+frr.: segni di attenzione"
+          "id": "ph",
+          "value": "fonologia"
         },
         {
-          "id": "msf.att.underline",
-          "value": "mss.+frr.: segni di attenzione: testo sottolineato"
+          "id": "ph.v",
+          "value": "fonologia: vocalismo"
         },
         {
-          "id": "msf.att.manicula",
-          "value": "mss.+frr.: segni di attenzione: presenza di maniculae/nota bene"
+          "id": "ph.v.diph",
+          "value": "fonologia: vocalismo: dittongamento"
         },
         {
-          "id": "msf.corr",
-          "value": "mss.+frr.: correzioni"
+          "id": "ph.v.diph.tuscan",
+          "value": "fonologia: vocalismo: dittongamento: 'toscano' delle toniche /ɛ/ /ɔ/ in sillaba libera > /jɛ/ e /wɔ/ (piede, buono)"
         },
         {
-          "id": "msf.corr.expunged",
-          "value": "mss.+frr.: correzioni: testo espunto"
+          "id": "ph.v.diph.priego",
+          "value": "fonologia: vocalismo: dittongamento: toniche /ɛ/ /ɔ/ in sillaba libera dopo Cr > /jɛ/ e /wɔ/ (priego, pruova)"
         },
         {
-          "id": "msf.corr.strike",
-          "value": "mss.+frr.: correzioni: testo biffato/barrato"
+          "id": "ph.v.diph.sienese",
+          "value": "fonologia: vocalismo: dittongamento: 'senese' (nuove, nove [9], liei=lei, uopere, piecora)"
         },
         {
-          "id": "msf.corr.deleted",
-          "value": "mss.+frr.: correzioni: testo cancellato"
+          "id": "ph.v.diph.parienti",
+          "value": "fonologia: vocalismo: dittongamento: metafonetico delle aperte toniche /ɛ/ /ɔ/ con -i/-o fin. > ie/uo (parienti, tiempo, suonno)"
         },
         {
-          "id": "msf.corr.rasura",
-          "value": "mss.+frr.: correzioni: rasura"
+          "id": "ph.v.diph.marcheise",
+          "value": "fonologia: vocalismo: dittongamento: discendente della tonica /e/ > ei in sillaba libera (marcheise=marchese, corteise=cortese)"
         },
         {
-          "id": "msf.corr.replaced",
-          "value": "mss.+frr.: correzioni: testo sostituito"
+          "id": "ph.v.diph.otoubre",
+          "value": "fonologia: vocalismo: dittongamento: discendente di /o/ tonica > ou (otoubre=ottobre)"
         },
         {
-          "id": "msf.corr.inserted",
-          "value": "mss.+frr.: correzioni: testo integrato"
+          "id": "ph.v.diph.hyper",
+          "value": "fonologia: vocalismo: dittongamento: iperdittongazione (rispuondi, muoto)"
         },
         {
-          "id": "msf.corr.inserted.verse",
-          "value": "mss.+frr.: correzioni: testo integrato: sul verso"
+          "id": "ph.v.diph.pino",
+          "value": "fonologia: vocalismo: dittongamento: riduzione del 'toscano' (specie ie) al I elemento (pino=pieno)"
         },
         {
-          "id": "msf.corr.inserted.interlinear",
-          "value": "mss.+frr.: correzioni: testo integrato: in interlinea"
+          "id": "ph.v.meta",
+          "value": "fonologia: vocalismo: metafonesi"
         },
         {
-          "id": "msf.corr.inserted.marginal",
-          "value": "mss.+frr.: correzioni: testo integrato: in margine"
+          "id": "ph.v.meta.e-to-i-on-i",
+          "value": "fonologia: vocalismo: metafonesi: /e/ > i con -i finale (quilli ma quello)"
         },
         {
-          "id": "msf.var",
-          "value": "mss.+frr.: varianti e lezioni alternative"
+          "id": "ph.v.meta.e-to-i-on-io",
+          "value": "fonologia: vocalismo: metafonesi: /e/ > i con -i/o finali (quilli e quillo)"
         },
         {
-          "id": "msf.var.word",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in corrispondenza di parola"
+          "id": "ph.v.u-to-o",
+          "value": "fonologia: vocalismo: apertura ú > ó (Cimaboe, core=cure, reçevote=ricevute)"
         },
         {
-          "id": "msf.var.margin",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di varianti in margine"
+          "id": "ph.v.ana",
+          "value": "fonologia: vocalismo: anafonesi"
         },
         {
-          "id": "msf.var.hint",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+          "id": "ph.v.ana.missing",
+          "value": "fonologia: vocalismo: anafonesi: assenza (gionto, lengua)"
         },
         {
-          "id": "msf.var.hint.al",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias / aliter)"
+          "id": "ph.v.e-preserved",
+          "value": "fonologia: vocalismo: conservazione di /e/ in protonia sintattica (me=mi, te=ti, se=si)"
         },
         {
-          "id": "msf.var.hint.other",
-          "value": "mss.+frr.: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+          "id": "ph.v.au-preserved",
+          "value": "fonologia: vocalismo: conservazione di /au/ specie +l (paraula=parola)"
         },
         {
-          "id": "msf.paratxt",
-          "value": "mss.+frr.: paratesto"
+          "id": "ph.v.au-to-o",
+          "value": "fonologia: vocalismo: au iniziale > o (ogosto=agosto)"
         },
         {
-          "id": "msf.paratxt.rubr",
-          "value": "mss.+frr.: paratesto: presenza di rubriche"
+          "id": "ph.v.assimilation",
+          "value": "fonologia: vocalismo: assimilazione di atona a tonica (salvatico, Salamone)"
         },
         {
-          "id": "msf.paratxt.rubr.la",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: in latino"
+          "id": "ph.c",
+          "value": "fonologia: consonantismo"
         },
         {
-          "id": "msf.paratxt.rubr.it-vulg",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: in volgare"
+          "id": "ph.c.degemination",
+          "value": "fonologia: consonantismo: scempiamento"
         },
         {
-          "id": "msf.paratxt.rubr.long",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: lunghe"
+          "id": "ph.c.degemination.cc",
+          "value": "fonologia: consonantismo: scempiamento: cc"
         },
         {
-          "id": "msf.paratxt.rubr.short",
-          "value": "mss.+frr.: paratesto: presenza di rubriche: brevi"
+          "id": "ph.c.degemination.pp",
+          "value": "fonologia: consonantismo: scempiamento: pp"
         },
         {
-          "id": "msf.paratxt.comment",
-          "value": "mss.+frr.: paratesto: presenza di commento"
+          "id": "ph.c.degemination.tt",
+          "value": "fonologia: consonantismo: scempiamento: tt"
         },
         {
-          "id": "msf.paratxt.gloss",
-          "value": "mss.+frr.: paratesto: presenza di glosse"
+          "id": "ph.c.degemination.hyper",
+          "value": "fonologia: consonantismo: scempiamento: ipercorrettismi (pocco, doppo)"
         },
         {
-          "id": "msf.paratxt.note",
-          "value": "mss.+frr.: paratesto: presenza di note sporadiche"
+          "id": "ph.c.outcome-sibilant",
+          "value": "fonologia: consonantismo: esito assibilato"
         },
         {
-          "id": "msf.other",
-          "value": "mss.+frr.: altri segni con valenza testuale"
+          "id": "ph.c.outcome-sibilant.co",
+          "value": "fonologia: consonantismo: esito assibilato: per tosc. /tʃ/ (ço=ciò)"
         },
         {
-          "id": "msf.other.caption",
-          "value": "mss.+frr.: altri segni con valenza testuale: didascalie"
+          "id": "ph.c.outcome-sibilant.cente",
+          "value": "fonologia: consonantismo: esito assibilato: per tosc. /dʒ/ (çogo=gioco, çente=gente)"
         },
         {
-          "id": "msf.other.istruction",
-          "value": "mss.+frr.: altri segni con valenza testuale: istruzioni al miniatore"
+          "id": "ph.c.outcome-sibilant.siender",
+          "value": "fonologia: consonantismo: esito assibilato: per tosc. /ʃ/ /ʒ/ (siender=scender, spresiare=spregiare)"
         },
         {
-          "id": "msf.other.link",
-          "value": "mss.+frr.: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+          "id": "ph.c.outcome-approximant",
+          "value": "fonologia: consonantismo: esito approssimante"
         },
         {
-          "id": "prn",
-          "value": "edizioni a stampa"
+          "id": "ph.c.outcome-approximant.ioco",
+          "value": "fonologia: consonantismo: esito approssimante: per tosc. /dʒ/ (ioco=gioco)"
         },
         {
-          "id": "prn.ed",
-          "value": "edizioni a stampa: tipo di edizione"
+          "id": "ph.c.outcome-approximant.fornaio",
+          "value": "fonologia: consonantismo: esito approssimante: -i-<-RJ- (fornaio, danaio)"
         },
         {
-          "id": "prn.ed.text",
-          "value": "edizioni a stampa: tipo di edizione: solo testo"
+          "id": "ph.c.palatalization",
+          "value": "fonologia: consonantismo: palatalizzazione"
         },
         {
-          "id": "prn.ed.comment",
-          "value": "edizioni a stampa: tipo di edizione: edizione con commento"
+          "id": "ph.c.palatalization.sci",
+          "value": "fonologia: consonantismo: palatalizzazione: 'emiliana' di s+V_ant.(scì=sì, scença=senza)"
         },
         {
-          "id": "prn.ed.illustrated",
-          "value": "edizioni a stampa: tipo di edizione: edizione illustrata"
+          "id": "ph.c.palatalization.animagli",
+          "value": "fonologia: consonantismo: palatalizzazione: -li->-gl- (animagli=animali, capegli=capelli)"
         },
         {
-          "id": "prn.ed.annotated",
-          "value": "edizioni a stampa: tipo di edizione: edizione postillata"
+          "id": "ph.c.palatalization.rispiender",
+          "value": "fonologia: consonantismo: palatalizzazione: -pl->-pi- (rispiender=risplender, spiendor=splendor)"
         },
         {
-          "id": "prn.paratxt",
-          "value": "edizioni a stampa: paratesto"
+          "id": "ph.c.atro",
+          "value": "fonologia: consonantismo: alteru(m) > atro=altro"
         },
         {
-          "id": "prn.paratxt.rubric",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche"
+          "id": "ph.c.velarization",
+          "value": "fonologia: consonantismo: velarizzazione"
         },
         {
-          "id": "prn.paratxt.rubric.la",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: in latino"
+          "id": "ph.c.velarization.autro",
+          "value": "fonologia: consonantismo: velarizzazione: l (autro=altro) [pis., lucch.]"
         },
         {
-          "id": "prn.paratxt.rubric.it-vulg",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: in volgare"
+          "id": "ph.c.velarization.penna",
+          "value": "fonologia: consonantismo: velarizzazione: 'n faucale' (graficam. penna=pena, fontanna=fontana)"
         },
         {
-          "id": "prn.paratxt.rubric.long",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: lunghe"
+          "id": "ph.c.velarization.famigghia",
+          "value": "fonologia: consonantismo: velarizzazione: -gl- palatale > occl. sonora (famigghia=famiglia)"
         },
         {
-          "id": "prn.paratxt.rubric.short",
-          "value": "edizioni a stampa: paratesto: presenza di rubriche: brevi"
+          "id": "ph.c.rhotacization",
+          "value": "fonologia: consonantismo: rotacizzazione"
         },
         {
-          "id": "prn.paratxt.comment",
-          "value": "edizioni a stampa: paratesto: presenza di commento"
+          "id": "ph.c.rhotacization.angioro",
+          "value": "fonologia: consonantismo: rotacizzazione: -l- nel suff.-olo (angioro=angiolo)"
         },
         {
-          "id": "prn.paratxt.gloss",
-          "value": "edizioni a stampa: paratesto: presenza di glosse"
+          "id": "ph.c.assimilation",
+          "value": "fonologia: consonantismo: assimilazione"
         },
         {
-          "id": "prn.paratxt.note",
-          "value": "edizioni a stampa: paratesto: presenza di note di carattere generale"
+          "id": "ph.c.assimilation.quanno",
+          "value": "fonologia: consonantismo: assimilazione: mb/nd > nn (quanno) e ipercorrettismi (penda=penna)"
         },
         {
-          "id": "prn.punct",
-          "value": "edizioni a stampa: punteggiatura"
+          "id": "ph.c.assimilation.nosso",
+          "value": "fonologia: consonantismo: assimilazione: -str- in pron.poss. (nosso=nostro) e forme verbali (mossare=mostrare)"
         },
         {
-          "id": "prn.punct.single",
-          "value": "edizioni a stampa: punteggiatura: punti singoli"
+          "id": "ph.c.assimilation.ello",
+          "value": "fonologia: consonantismo: assimilazione: n-l > l-l in prep.art. con en (en lo > e llo) [aret.-cort.]"
         },
         {
-          "id": "prn.punct.double",
-          "value": "edizioni a stampa: punteggiatura: punti doppi"
+          "id": "ph.c.spirantization",
+          "value": "fonologia: consonantismo: spirantizzazione"
         },
         {
-          "id": "prn.punct.comma",
-          "value": "edizioni a stampa: punteggiatura: virgole"
+          "id": "ph.c.spirantization.asceto",
+          "value": "fonologia: consonantismo: spirantizzazione: affricate palatali interv. (asceto=aceto) [tosc.]"
         },
         {
-          "id": "prn.punct.semicolon",
-          "value": "edizioni a stampa: punteggiatura: punti e virgole"
+          "id": "ph.c.voicing",
+          "value": "fonologia: consonantismo: sonorizzazione"
         },
         {
-          "id": "prn.punct.diastole",
-          "value": "edizioni a stampa: punteggiatura: diastole (/)"
+          "id": "ph.c.voicing.pogo",
+          "value": "fonologia: consonantismo: sonorizzazione: occl. intervoc. (pogo=poco)"
         },
         {
-          "id": "prn.punct.question",
-          "value": "edizioni a stampa: punteggiatura: punti interrogativi"
+          "id": "ph.c.misc",
+          "value": "fonologia: consonantismo: miscellanea"
         },
         {
-          "id": "prn.punct.exclam",
-          "value": "edizioni a stampa: punteggiatura: punti esclamativi"
+          "id": "ph.c.misc.danari",
+          "value": "fonologia: consonantismo: miscellanea: iniziale en protonico > an (danari)"
         },
         {
-          "id": "prn.punct.section",
-          "value": "edizioni a stampa: punteggiatura: segni di sezione (¶)"
+          "id": "ph.c.misc.sensa",
+          "value": "fonologia: consonantismo: miscellanea: ts > sibilante (sensa=senza)"
         },
         {
-          "id": "prn.annotator",
-          "value": "edizioni a stampa: postillatore"
+          "id": "ph.c.misc.povaro",
+          "value": "fonologia: consonantismo: miscellanea: er intertonico/postonico > ar (povaro=povero, mettare=mettere)"
         },
         {
-          "id": "prn.annotator.contemporary",
-          "value": "edizioni a stampa: postillatore: mano coeva"
+          "id": "ph.c.misc.doubling",
+          "value": "fonologia: consonantismo: miscellanea: radoppiamento"
         },
         {
-          "id": "prn.annotator.later",
-          "value": "edizioni a stampa: postillatore: mano successiva"
+          "id": "ph.c.misc.doubling.syn",
+          "value": "fonologia: consonantismo: miscellanea: radoppiamento: fonosint. dopo da (da llato)"
         },
         {
-          "id": "prn.att",
-          "value": "edizioni a stampa: segni di attenzione"
+          "id": "mr",
+          "value": "morfologia"
         },
         {
-          "id": "prn.att.underline",
-          "value": "edizioni a stampa: segni di attenzione: testo sottolineato"
+          "id": "mr.verb",
+          "value": "morfologia: verbi"
         },
         {
-          "id": "prn.att.manicula",
-          "value": "edizioni a stampa: segni di attenzione: presenza di maniculae/nota bene"
+          "id": "mr.verb.ending",
+          "value": "morfologia: verbi: desinenze"
         },
         {
-          "id": "prn.corr",
-          "value": "edizioni a stampa: correzioni del postillatore"
+          "id": "mr.verb.ending.ee",
+          "value": "morfologia: verbi: desinenze: essere 3sg=ee"
         },
         {
-          "id": "prn.corr.expunged",
-          "value": "edizioni a stampa: correzioni del postillatore: testo espunto"
+          "id": "mr.verb.ending.feci",
+          "value": "morfologia: verbi: desinenze: 3sg -i (feci=fece)"
         },
         {
-          "id": "prn.corr.strike",
-          "value": "edizioni a stampa: correzioni del postillatore: testo biffato/barrato"
+          "id": "mr.verb.ending.teneti",
+          "value": "morfologia: verbi: desinenze: 2pl -ati/-eti/-iti (andati=andate, teneti=tenete, veniti=venite)"
         },
         {
-          "id": "prn.corr.deleted",
-          "value": "edizioni a stampa: correzioni del postillatore: testo cancellato"
+          "id": "mr.verb.tense",
+          "value": "morfologia: verbi: tempi"
         },
         {
-          "id": "prn.corr.rasura",
-          "value": "edizioni a stampa: correzioni del postillatore: rasura"
+          "id": "mr.verb.tense.fo",
+          "value": "morfologia: verbi: tempi: pf. essere fo=fu"
         },
         {
-          "id": "prn.corr.inserted",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato"
+          "id": "mr.verb.tense.feciono",
+          "value": "morfologia: verbi: tempi: pf.forte + cond./cong. impf. in -ero > -ono/-oro (feciono/fecioro=fecero, facessono/facessoro=facessero)"
         },
         {
-          "id": "prn.corr.inserted.verse",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: sul verso"
+          "id": "mr.verb.mood",
+          "value": "morfologia: verbi: modi"
         },
         {
-          "id": "prn.corr.inserted.interlinear",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in interlinea"
+          "id": "mr.verb.mood.semo",
+          "value": "morfologia: verbi: modi: ind.pres.-emo I classe (semo)"
         },
         {
-          "id": "prn.corr.inserted.marginal",
-          "value": "edizioni a stampa: correzioni del postillatore: testo integrato: in margine"
+          "id": "mr.verb.mood.voria",
+          "value": "morfologia: verbi: modi: cond. -ia/-ave (voria/vorave=vorrebbe)"
         },
         {
-          "id": "prn.var",
-          "value": "edizioni a stampa: varianti e lezioni alternative"
+          "id": "mr.verb.mood.bevando",
+          "value": "morfologia: verbi: modi: ger. indifferenziato -ando (bevando=bevendo)"
         },
         {
-          "id": "prn.var.word",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in corrispondenza del parola"
+          "id": "mr.noun",
+          "value": "morfologia: nomi"
         },
         {
-          "id": "prn.var.margin",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di varianti in margine"
+          "id": "mr.noun.porti",
+          "value": "morfologia: nomi: fem.pl.I decl. -i (le porti=le porte)"
         },
         {
-          "id": "prn.var.hint",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative"
+          "id": "mr.noun.mistieri",
+          "value": "morfologia: nomi: suff.sost. -ieri per -iere (mistieri)"
         },
         {
-          "id": "prn.var.hint.al",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: del tipo “al.” (=alias/aliter)"
+          "id": "mr.pron",
+          "value": "morfologia: pronomi"
         },
         {
-          "id": "prn.var.hint.other",
-          "value": "edizioni a stampa: varianti e lezioni alternative: presenza di indicazioni di varianti o letture alternative: di altro tipo"
+          "id": "mr.pron.tou",
+          "value": "morfologia: pronomi: poss.m. tou=tuo, sou=suo"
         },
         {
-          "id": "prn.other",
-          "value": "edizioni a stampa: altri segni con valenza testuale"
+          "id": "mr.pron.toa",
+          "value": "morfologia: pronomi: poss.f. toa=toa, soa=sua"
         },
         {
-          "id": "prn.other.caption",
-          "value": "edizioni a stampa: altri segni con valenza testuale: didascalie"
+          "id": "mr.pron.a-mi",
+          "value": "morfologia: pronomi: pers.non-sogg. a mi, a ti"
         },
         {
-          "id": "prn.other.instruction",
-          "value": "edizioni a stampa: altri segni con valenza testuale: istruzioni al miniatore"
+          "id": "mr.art",
+          "value": "morfologia: articoli"
         },
         {
-          "id": "prn.other.link",
-          "value": "edizioni a stampa: altri segni con valenza testuale: elementi di raccordo fra testo e immagini"
+          "id": "mr.art.lu",
+          "value": "morfologia: articoli: m. lu"
+        },
+        {
+          "id": "mr.prep",
+          "value": "morfologia: preposizioni"
+        },
+        {
+          "id": "mr.prep.in-del",
+          "value": "morfologia: preposizioni: art. in del / in nel"
+        },
+        {
+          "id": "mr.prep.dil",
+          "value": "morfologia: preposizioni: art. dil / di la"
+        },
+        {
+          "id": "mr.adv",
+          "value": "morfologia: avverbi"
+        },
+        {
+          "id": "mr.adv.mentre",
+          "value": "morfologia: avverbi: -mentre"
+        },
+        {
+          "id": "mr.adv.di-po",
+          "value": "morfologia: avverbi: tempo di po / de po = dop(p)o"
+        },
+        {
+          "id": "mr.adv.pio",
+          "value": "morfologia: avverbi: piò per più"
+        },
+        {
+          "id": "mr.epenthesis",
+          "value": "morfologia: epitesi"
+        },
+        {
+          "id": "mr.epenthesis.fue",
+          "value": "morfologia: epitesi: -e (fue=fu, piùe=più)"
+        },
+        {
+          "id": "mr.epenthesis.mei",
+          "value": "morfologia: epitesi: -i (mei=me)"
+        },
+        {
+          "id": "mr.epenthesis.none",
+          "value": "morfologia: epitesi: -ne (none=no, ène=è)"
         }
       ]
     }
@@ -6584,7 +6997,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": [ "zeus" ],
+      "users": ["zeus"],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -6593,14 +7006,14 @@
         "id": "seed.it.vedph.categories:bio",
         "options": {
           "maxCategoriesPerItem": 1,
-          "categories": [ "author", "librarian", "commentator" ]
+          "categories": ["author", "librarian", "commentator"]
         }
       },
       {
         "id": "seed.it.vedph.categories:ctx",
         "options": {
           "maxCategoriesPerItem": 1,
-          "categories": [ "if.selva", "if.porta-ignavi", "if.acheronte" ]
+          "categories": ["if.selva", "if.porta-ignavi", "if.acheronte"]
         }
       },
       {
@@ -6620,16 +7033,16 @@
       {
         "id": "seed.it.vedph.codicology.bindings",
         "options": {
-          "tags": [ "current", "former", "none" ],
-          "coverMaterials": [ "skin", "parchment", "velvet", "paper" ],
-          "boardMaterials": [ "wood", "card", "other" ]
+          "tags": ["current", "former", "none"],
+          "coverMaterials": ["skin", "parchment", "velvet", "paper"],
+          "boardMaterials": ["wood", "card", "other"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.contents",
         "options": {
-          "annotationTypes": [ "rubric", "preface", "dedication" ],
-          "contentStates": [ "headless", "crippled", "gaps", "excerpts" ]
+          "annotationTypes": ["rubric", "preface", "dedication"],
+          "contentStates": ["headless", "crippled", "gaps", "excerpts"]
         }
       },
       {
@@ -6651,7 +7064,7 @@
             "par.blank",
             "par.sketch"
           ],
-          "colors": [ "blue", "red", "green" ],
+          "colors": ["blue", "red", "green"],
           "elementTypes": [
             "ill",
             "orn",
@@ -6664,7 +7077,7 @@
             "par",
             "wsp"
           ],
-          "elementGildings": [ "leaf", "powder" ],
+          "elementGildings": ["leaf", "powder"],
           "elementPositions": [
             "ill.full-page",
             "ill.interpol",
@@ -6680,7 +7093,7 @@
             "orn.-",
             "par.-"
           ],
-          "elementTechniques": [ "watercolor", "gouache", "ink" ],
+          "elementTechniques": ["watercolor", "gouache", "ink"],
           "elementTypologies": [
             "ill.miniature",
             "ill.drawing",
@@ -6691,55 +7104,55 @@
             "par.run-heads",
             "par.rubrication"
           ],
-          "elementTools": [ "pen", "brush" ],
-          "artistTypes": [ "illuminator", "workshop" ]
+          "elementTools": ["pen", "brush"],
+          "artistTypes": ["illuminator", "workshop"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.edits",
         "options": {
-          "types": [ "text", "notes", "comment", "correction" ],
-          "techniques": [ "ink", "lapis" ],
-          "languages": [ "en", "fr", "de", "grc", "la" ],
-          "colors": [ "black", "brown", "gray", "red" ]
+          "types": ["text", "notes", "comment", "correction"],
+          "techniques": ["ink", "lapis"],
+          "languages": ["en", "fr", "de", "grc", "la"],
+          "colors": ["black", "brown", "gray", "red"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.hands",
         "options": {
-          "signTypes": [ "letter", "punct", "abbr", "nex", "ligature" ],
-          "scripts": [ "got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb" ],
-          "typologies": [ "text", "note", "comment", "correction", "attention" ],
-          "colors": [ "black", "brown", "gray", "red" ],
-          "languages": [ "en", "fr", "de", "grc", "la" ]
+          "signTypes": ["letter", "punct", "abbr", "nex", "ligature"],
+          "scripts": ["got", "sgt", "mic", "mea", "cur", "crh", "ant", "cpb"],
+          "typologies": ["text", "note", "comment", "correction", "attention"],
+          "colors": ["black", "brown", "gray", "red"],
+          "languages": ["en", "fr", "de", "grc", "la"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.layouts",
         "options": {
-          "rulingTechniques": [ "drypoint", "mine", "ink", "folding" ]
+          "rulingTechniques": ["drypoint", "mine", "ink", "folding"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.material-dsc",
         "options": {
-          "materials": [ "parchment", "paper", "mix" ],
-          "states": [ "s1", "s2", "s3" ]
+          "materials": ["parchment", "paper", "mix"],
+          "states": ["s1", "s2", "s3"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.sheet-labels",
         "options": {
-          "system": [ "arabic", "roman", "mix" ],
-          "techniques": [ "ink", "lapis", "mechanic" ],
-          "positions": [ "mse", "msc", "msi", "mie", "mic" ],
-          "colors": [ "black", "brown", "gray", "red" ]
+          "system": ["arabic", "roman", "mix"],
+          "techniques": ["ink", "lapis", "mechanic"],
+          "positions": ["mse", "msc", "msi", "mie", "mic"],
+          "colors": ["black", "brown", "gray", "red"]
         }
       },
       {
         "id": "seed.it.vedph.codicology.shelfmarks",
         "options": {
-          "cities": [ "Roma" ],
+          "cities": ["Roma"],
           "libraries": [
             "biblioteca-apostolica-vaticana",
             "biblioteca-nazionale-centrale",
@@ -6753,7 +7166,7 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "en", "it" ]
+          "languages": ["en", "it"]
         }
       },
       {
@@ -6842,7 +7255,7 @@
           ]
         },
         "it.vedph.categories": {
-          "thesauriIds": [ "categories" ]
+          "thesauriIds": ["categories"]
         },
         "it.vedph.chronotopes": {
           "thesauriIds": [
@@ -6866,7 +7279,7 @@
           ]
         },
         "it.vedph.decorated-counts": {
-          "thesauriIds": [ "decorated-count-ids", "decorated-count-tags" ]
+          "thesauriIds": ["decorated-count-ids", "decorated-count-tags"]
         },
         "it.vedph.district-location": {
           "thesauriIds": [
@@ -6875,7 +7288,7 @@
           ]
         },
         "it.vedph.doc-references": {
-          "thesauriIds": [ "doc-reference-types", "doc-reference-tags" ]
+          "thesauriIds": ["doc-reference-types", "doc-reference-tags"]
         },
         "it.vedph.external-ids": {
           "thesauriIds": [
@@ -6887,10 +7300,10 @@
           ]
         },
         "it.vedph.flags": {
-          "thesauriIds": [ "flags" ]
+          "thesauriIds": ["flags"]
         },
         "it.vedph.historical-date": {
-          "thesauriIds": [ "doc-reference-types", "doc-reference-tags" ]
+          "thesauriIds": ["doc-reference-types", "doc-reference-tags"]
         },
         "it.vedph.historical-events": {
           "thesauriIds": [
@@ -6907,13 +7320,13 @@
           ]
         },
         "it.vedph.index-keywords": {
-          "thesauriIds": [ "languages", "keyword-indexes", "keyword-tags" ]
+          "thesauriIds": ["languages", "keyword-indexes", "keyword-tags"]
         },
         "it.vedph.keywords": {
-          "thesauriIds": [ "languages" ]
+          "thesauriIds": ["languages"]
         },
         "it.vedph.metadata": {
-          "thesauriIds": [ "metadata-names", "metadata-types" ]
+          "thesauriIds": ["metadata-names", "metadata-types"]
         },
         "it.vedph.names": {
           "thesauriIds": [
@@ -6926,7 +7339,7 @@
           ]
         },
         "it.vedph.note": {
-          "thesauriIds": [ "note-tags" ]
+          "thesauriIds": ["note-tags"]
         },
         "it.vedph.physical-measurements": {
           "thesauriIds": [
@@ -7109,7 +7522,7 @@
           ]
         },
         "it.vedph.ndp.text-passages": {
-          "thesauriIds": [ "text-passage-tags", "text-passage-features" ]
+          "thesauriIds": ["text-passage-tags", "text-passage-features"]
         },
         "it.vedph.ndp.notable-word-forms": {
           "thesauriIds": [
