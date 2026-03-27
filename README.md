@@ -29,7 +29,6 @@ The list of facets is given here with their conventional groupings used in the e
 > All items have a metadata part where the metadatum named `eid` can be used to provide a human-friendly identifier for the item as a whole, to be used when looking up items in internal linking. This is an opt-in mechanism: like in TEI you add an `xml:id` attribute to those elements you want to reference from another part of the document, here you add an `eid` to those items you want to link from another item's part.
 
 - **manuscript**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -52,14 +51,12 @@ The list of facets is given here with their conventional groupings used in the e
     - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
     - [text passages](https://github.com/vedph/cadmus-ndp/blob/master/docs/text-passages.md) (NDP)
-    - [notable word forms](https://github.com/vedph/cadmus-ndp/blob/master/docs/notable-word-forms.md) (NDP)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md) (mostly used for Zotero bibliography)
 
 - **fragment**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [shelfmarks](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-shelfmarks.md) (COD)
@@ -71,8 +68,9 @@ The list of facets is given here with their conventional groupings used in the e
   - _material_
     - [support](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-support-part.md) (FRA)
     - [rulings](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-rulings-part.md) (FRA)
-    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md):`sig` (FRA) 🚩
-    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md) (FRA)
+    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md):`catch` (FRA) 🚩 for catchwords
+    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md):`sig` (FRA) 🚩 for signatures
+    - [labels](https://github.com/vedph/cadmus-ndp-frac/blob/master/docs/cod-fr-quire-labels-part.md) (FRA) for quires
     - [decorated counts](https://github.com/vedph/cadmus-general/blob/master/docs/decorated-counts.md):`fr` 🚩
     - [measurements](https://github.com/vedph/cadmus-general/blob/master/docs/physical-measurements.md):`fr` 🚩
     - [preservation states](https://github.com/vedph/cadmus-general/blob/master/docs/physical-states.md)
@@ -84,14 +82,12 @@ The list of facets is given here with their conventional groupings used in the e
     - [hands](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-hands.md) (COD) 🔗 `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD) 🔗 `person`
     - [text passages](https://github.com/vedph/cadmus-ndp/blob/master/docs/text-passages.md) (NDP)
-    - [notable word forms](https://github.com/vedph/cadmus-ndp/blob/master/docs/notable-word-forms.md) (NDP)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - references
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **print edition**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (this can include also authors and editors) 🔗 `person`
@@ -112,7 +108,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **print instance**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `print edition` (+group)
@@ -131,14 +126,12 @@ The list of facets is given here with their conventional groupings used in the e
     - [decorations](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-decorations.md) (COD) 🔗 `iconography`, `person`
     - [edits](https://github.com/vedph/cadmus-codicology/blob/master/docs/cod-edits.md) (COD)
     - [text passages](https://github.com/vedph/cadmus-ndp/blob/master/docs/text-passages.md) (NDP)
-    - [notable word forms](https://github.com/vedph/cadmus-ndp/blob/master/docs/notable-word-forms.md) (NDP)
   - _editorial_
     - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md)
   - _references_
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **drawings project**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `person`
@@ -159,7 +152,6 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **drawing item**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) (also for authors) 🔗 `drawings project` (+group) 🔗 `person`
@@ -182,14 +174,13 @@ The list of facets is given here with their conventional groupings used in the e
     - [references](https://github.com/vedph/cadmus-general/blob/master/docs/doc-references.md)
 
 - **iconography**
-
   - _identity_
     - [metadata](https://github.com/vedph/cadmus-general/blob/master/docs/metadata.md)
   - _relations_
     - [links](https://github.com/vedph/cadmus-general/blob/master/docs/pin-links.md) 🔗 `iconography`
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ict` 🚩 (iconographic topics = IDP categorie)
-    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`isd` 🚩 (subject details = IDP rapporti con la tradizione dantesca)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ics` 🚩 (iconographic subjects = IDP soggetti)
+    - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md):`isd` 🚩 (subject details = IDP rapporti con la tradizione dantesca)
     - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md):`ctx` 🚩 (luoghi danteschi)
   - _content_
     - [flags](https://github.com/vedph/cadmus-general/blob/master/docs/flags.md):`ico` 🚩 (storie seconde, altro)
@@ -264,7 +255,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | measurements                         |            | fr       |                | pri         |              |                    |             |        |
 | metadata                             | X          | X        | X              | X           | X            | X                  | X           | X      |
 | names                                |            |          |                |             |              |                    |             | X      |
-| notable forms                        | X          | X        |                | X           |              |                    |             |        |
+| notable text passages (NDP)          | X          | X        | X              | X           |              |                    |             |        |
 | note                                 | X hist     | X hist   | X hist inc col | X hist      | X hist       | X hist isd ift msc | X exe ptx   | X hist |
 | preservation states                  | X          | X        |                | X           | X            | X                  |             |        |
 | references                           | X          | X        | X              | X           | X            | X                  | X           | X      |
@@ -287,7 +278,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 Reference authority lists:
 
 - generic:
-  - MOL authority list from Excel files to be imported.
+  - MOL authority list from Excel files.
 - art:
   - [The Dictionary of Art](https://www.kubikat.org/discovery/fulldisplay?docid=alma990004394102009152&context=L&vid=49MPG_KUBIKAT:VU1&lang=de&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,the%20dictionary%20of%20art&offset=0)
   - [Dizionario Biografico degli Italiani](https://www.kubikat.org/discovery/fulldisplay?docid=alma990016857162009152&context=L&vid=49MPG_KUBIKAT:VU1&lang=de&search_scope=MyInstitution&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,dizionario%20biografico%20italiani&offset=0) - [digital](https://www.treccani.it/biografico/)

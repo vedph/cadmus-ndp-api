@@ -153,20 +153,12 @@
           "sortKey": "18"
         },
         {
-          "typeId": "it.vedph.ndp.notable-word-forms",
-          "name": "notable forms",
-          "description": "List of notable word forms.",
-          "colorKey": "5DB94D",
-          "groupKey": "content",
-          "sortKey": "19"
-        },
-        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "20"
+          "sortKey": "19"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -174,7 +166,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "21"
+          "sortKey": "20"
         }
       ]
     },
@@ -359,20 +351,12 @@
           "sortKey": "21"
         },
         {
-          "typeId": "it.vedph.ndp.notable-word-forms",
-          "name": "notable forms",
-          "description": "List of notable word forms.",
-          "colorKey": "5DB94D",
-          "groupKey": "content",
-          "sortKey": "22"
-        },
-        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "23"
+          "sortKey": "22"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -380,7 +364,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "24"
+          "sortKey": "23"
         }
       ]
     },
@@ -624,20 +608,12 @@
           "sortKey": "14"
         },
         {
-          "typeId": "it.vedph.ndp.notable-word-forms",
-          "name": "notable forms",
-          "description": "List of notable word forms.",
-          "colorKey": "5DB94D",
-          "groupKey": "content",
-          "sortKey": "15"
-        },
-        {
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A generic text note'.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
-          "sortKey": "16"
+          "sortKey": "15"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -645,7 +621,7 @@
           "description": "Documental references.",
           "colorKey": "BEF0AA",
           "groupKey": "references",
-          "sortKey": "17"
+          "sortKey": "16"
         }
       ]
     },
@@ -1158,6 +1134,18 @@
           "value": "text categories"
         },
         {
+          "id": "it.vedph.chronotopes",
+          "value": "chronotopes"
+        },
+        {
+          "id": "it.vedph.chronotopes:prn",
+          "value": "print date/place"
+        },
+        {
+          "id": "it.vedph.chronotopes:pub",
+          "value": "publication date/place"
+        },
+        {
           "id": "it.vedph.codicology.bindings",
           "value": "bindings"
         },
@@ -1198,18 +1186,6 @@
           "value": "watermarks"
         },
         {
-          "id": "it.vedph.chronotopes",
-          "value": "chronotopes"
-        },
-        {
-          "id": "it.vedph.chronotopes:prn",
-          "value": "print date/place"
-        },
-        {
-          "id": "it.vedph.chronotopes:pub",
-          "value": "publication date/place"
-        },
-        {
           "id": "it.vedph.decorated-counts",
           "value": "counts"
         },
@@ -1242,26 +1218,6 @@
           "value": "names"
         },
         {
-          "id": "it.vedph.ndp.drawing-tech",
-          "value": "techniques"
-        },
-        {
-          "id": "it.vedph.ndp.notable-word-forms",
-          "value": "notable forms"
-        },
-        {
-          "id": "it.vedph.ndp.print-fig-plan",
-          "value": "fig.plan"
-        },
-        {
-          "id": "it.vedph.ndp.print-fig-plan-impl",
-          "value": "fig.plan impl."
-        },
-        {
-          "id": "it.vedph.ndp.print-fonts",
-          "value": "fonts"
-        },
-        {
           "id": "it.vedph.ndp.cod-fr-layout",
           "value": "layout"
         },
@@ -1284,6 +1240,22 @@
         {
           "id": "it.vedph.ndp.cod-fr-support",
           "value": "support"
+        },
+        {
+          "id": "it.vedph.ndp.drawing-tech",
+          "value": "techniques"
+        },
+        {
+          "id": "it.vedph.ndp.print-fig-plan",
+          "value": "fig.plan"
+        },
+        {
+          "id": "it.vedph.ndp.print-fig-plan-impl",
+          "value": "fig.plan impl."
+        },
+        {
+          "id": "it.vedph.ndp.print-fonts",
+          "value": "fonts"
         },
         {
           "id": "it.vedph.ndp.text-passages",
@@ -5622,14 +5594,6 @@
           "value": "toponimo"
         }
       ]
-    },
-    {
-      "id": "notable-word-forms-languages@en",
-      "targetId": "cod-edit-languages"
-    },
-    {
-      "id": "notable-word-forms-op-tags@en",
-      "targetId": "notable-word-forms-tags"
     },
     {
       "id": "notable-word-forms-tags@en",

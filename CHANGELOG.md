@@ -1,5 +1,7 @@
 ﻿# Change Log
 
+- 2026-03-27: removed legacy notable word forms from profile (now we use notable text passages).
+
 ## 2.0.10
 
 - 2026-03-22:
