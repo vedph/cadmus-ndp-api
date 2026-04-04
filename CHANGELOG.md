@@ -1,5 +1,8 @@
 ﻿# Change Log
 
+- 2026-04-04:
+  - merged graphical text features thesaurus (from notable word forms, in turn from categories:txt) into the new text-passage-features thesaurus, which now includes all features related to text passages (not only graphical ones). This affected facets `manuscript`, `fragment`, `print-edition` and `print-instance`.
+  - updated packages.
 - 2026-03-27: removed legacy notable word forms from profile (now we use notable text passages).
 - 2026-03-26: updated model-types thesaurus.
 

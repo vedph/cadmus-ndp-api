@@ -232,7 +232,7 @@ As you can see, almost half of the models come from the generic domain, and almo
 | part                                 | manuscript | fragment | print ed.      | print inst. | drawing prj. | drawing itm.       | iconography | person |
 | ------------------------------------ | ---------- | -------- | -------------- | ----------- | ------------ | ------------------ | ----------- | ------ |
 | bindings (COD)                       | X          |          |                | X           | drp          |                    |             |        |
-| categories                           | txt        | txt      | txt            | txt         |              |                    | ict ics ctx | bio    |
+| categories                           |            |          |                |             |              |                    | ict ics ctx | bio    |
 | chronotopes                          | X          | X        | prn pub        |             | X            | X                  |             |        |
 | comment                              |            |          |                |             | X            |                    | X           |        |
 | contents (COD)                       | X          | X        |                |             |              |                    |             |        |
