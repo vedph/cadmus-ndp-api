@@ -155,7 +155,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "19"
@@ -353,7 +353,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "22"
@@ -470,7 +470,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "12"
@@ -610,7 +610,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "15"
@@ -718,7 +718,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "12"
@@ -841,7 +841,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "13"
@@ -970,7 +970,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "13"
@@ -1045,7 +1045,7 @@
         {
           "typeId": "it.vedph.note",
           "name": "note",
-          "description": "A generic text note'.",
+          "description": "A generic text note.",
           "colorKey": "B0A0F8",
           "groupKey": "editorial",
           "sortKey": "07"
