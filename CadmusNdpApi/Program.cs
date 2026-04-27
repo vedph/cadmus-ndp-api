@@ -7,11 +7,8 @@ using Cadmus.Core;
 using Cadmus.Core.Config;
 using Cadmus.Seed;
 using CadmusNdpApi.Services;
-using Fusi.Api.Auth.Models;
-using Fusi.Api.Auth.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.HttpOverrides;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,7 +22,6 @@ using Serilog.Events;
 using System;
 using System.Diagnostics;
 using System.IO;
-using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CadmusNdpApi;
@@ -74,55 +70,6 @@ public static class Program
                     Source = Path.Combine(path, "mufi.db")
                 });
         });
-    }
-
-    /// <summary>
-    /// Configures the services.
-    /// </summary>
-    /// <param name="services">The services.</param>
-    public static void ConfigureServices(IServiceCollection services,
-        IConfiguration config, IHostEnvironment hostEnvironment)
-    {
-        // configuration
-        services.AddSingleton(_ => config);
-        ServiceConfigurator.ConfigureOptionsServices(services, config);
-
-        // security
-        ServiceConfigurator.ConfigureCorsServices(services, config);
-        ServiceConfigurator.ConfigureRateLimiterService(services, config, hostEnvironment);
-        ServiceConfigurator.ConfigureAuthServices(services, config);
-
-        // proxy
-        services.AddHttpClient();
-        services.AddResponseCaching();
-
-        // API controllers
-        services.AddControllers();
-        // camel-case JSON in response
-        services.AddMvc()
-            // https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-2.2&tabs=visual-studio#jsonnet-support
-            .AddJsonOptions(options =>
-            {
-                options.JsonSerializerOptions.PropertyNamingPolicy =
-                    JsonNamingPolicy.CamelCase;
-            });
-
-        // framework services
-        // IMemoryCache: https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory
-        services.AddMemoryCache();
-
-        // user repository service
-        services.AddScoped<IUserRepository<NamedUser>,
-            UserRepository<NamedUser, IdentityRole>>();
-
-        // messaging
-        ServiceConfigurator.ConfigureMessagingServices(services);
-
-        // logging
-        ServiceConfigurator.ConfigureLogging(services);
-
-        // app services
-        ConfigureAppServices(services, config);
     }
 
     /// <summary>

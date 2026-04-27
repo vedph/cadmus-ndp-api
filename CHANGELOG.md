@@ -1,5 +1,9 @@
 ﻿# Change Log
 
+- 2026-04-27:
+  - updated packages.
+  - removed MongoDB Serilog sink.
+  - added settings for `it.vedph.ndp.text-passages`.
 - 2026-04-15: updated facets.
 - 2026-04-04:
   - merged graphical text features thesaurus (from notable word forms, in turn from categories:txt) into the new text-passage-features thesaurus, which now includes all features related to text passages (not only graphical ones). This affected facets `manuscript`, `fragment`, `print-edition` and `print-instance`.
