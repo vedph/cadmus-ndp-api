@@ -1,5 +1,8 @@
 ﻿# Change Log
 
+## 2.0.11
+
+- 2026-04-28: updated packages.
 - 2026-04-27:
   - updated packages.
   - removed MongoDB Serilog sink.
